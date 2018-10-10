@@ -49,6 +49,7 @@ import { ProductCardLayoutComponent } from './layouts/product-card/productCardLa
 import { ProductDetailsImageLayoutComponent } from './layouts/product-details-image/productDetailsImageLayout';
 import { ProductFilterLayoutComponent } from './layouts/product-filter/productFilterLayout';
 import { ProductGridLayoutComponent } from './layouts/product-grid/productGridLayout';
+import { ProductInfiniteGridLayoutComponent } from './layouts/product-infinite-grid/productInfiniteGridLayout';
 import { RegistrationLayoutComponent } from './layouts/registration/registrationLayout';
 import { SharedFormattedTextLayoutComponent } from './layouts/shared-formatted-text/sharedFormattedTextLayout';
 import { SharedTextLayoutComponent } from './layouts/shared-text/sharedTextLayout';
@@ -74,7 +75,6 @@ import { TitleLayoutComponent } from './layouts/title/titleLayout';
 import { TwoColumnsLeftFilterLayoutComponent } from './layouts/two-columns-left-filter/twoColumnsLeftFilterLayout';
 import { TwoColumnsLeftFilterWithTabLayoutComponent } from './layouts/two-columns-left-filter-with-tab/twoColumnsLeftFilterWithTabLayout';
 import { WishlistLayoutComponent } from './layouts/wishlist/wishlistLayout';
-import { WishlistCardLayoutComponent } from './layouts/wishlist/wishlist-card-layout/wishlist-card-layout';
 
 export const LAYOUTS = [
   AddressBookLayoutComponent,
@@ -125,6 +125,7 @@ export const LAYOUTS = [
   ProductDetailsImageLayoutComponent,
   ProductFilterLayoutComponent,
   ProductGridLayoutComponent,
+  ProductInfiniteGridLayoutComponent,
   RegistrationLayoutComponent,
   SharedFormattedTextLayoutComponent,
   SharedTextLayoutComponent,
@@ -149,6 +150,5 @@ export const LAYOUTS = [
   TitleLayoutComponent,
   TwoColumnsLeftFilterLayoutComponent,
   TwoColumnsLeftFilterWithTabLayoutComponent,
-  WishlistLayoutComponent,
-  WishlistCardLayoutComponent
+  WishlistLayoutComponent
 ];

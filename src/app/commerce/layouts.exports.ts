@@ -3,6 +3,24 @@
  *
  * This file is meant to be used if the layouts are to be exported from a layouts module.
  */
+export { AbstractCommerceProductPageComponent } from './components/commerce-product-page/abstractCommerceProductPageComponent';
+export { AbstractCompanyPageComponent } from './components/company-page/abstractCompanyPageComponent';
+export { AbstractFooterComponent } from './components/footer/abstractFooterComponent';
+export { AbstractHeroComponent } from './components/hero/abstractHeroComponent';
+export { AbstractOrderConfirmationMessageComponent } from './components/order-confirmation-message/abstractOrderConfirmationMessageComponent';
+export { AbstractPhysicalStoreComponent } from './components/physical-store/abstractPhysicalStoreComponent';
+export { AbstractPrivacyPolicyComponent } from './components/privacy-policy/abstractPrivacyPolicyComponent';
+export { AbstractProductGridWithContentComponent } from './components/product-grid-with-content/abstractProductGridWithContentComponent';
+export { AbstractProductListComponent } from './components/product-list/abstractProductListComponent';
+export { AbstractPromotionComponent } from './components/promotion/abstractPromotionComponent';
+export { AbstractRegistrationComponent } from './components/registration/abstractRegistrationComponent';
+export { AbstractSearchResultsComponent } from './components/search-results/abstractSearchResultsComponent';
+export { AbstractSharedFormattedTextComponent } from './components/shared-formatted-text/abstractSharedFormattedTextComponent';
+export { AbstractSharedTextComponent } from './components/shared-text/abstractSharedTextComponent';
+export { AbstractSlideComponent } from './components/slide/abstractSlideComponent';
+export { AbstractSlideshowComponent } from './components/slideshow/abstractSlideshowComponent';
+export { AbstractTimelessIconsPageComponent } from './components/timeless-icons-page/abstractTimelessIconsPageComponent';
+export { AbstractTitleComponent } from './components/title/abstractTitleComponent';
 export { AddressBookLayoutComponent } from './layouts/address-book/addressBookLayout';
 export { ArticleBodyImageComponent } from './layouts/article-body-image/article-body-image.component';
 export { BreadcrumbLayoutComponent } from './layouts/breadcrumb/breadcrumbLayout';
@@ -48,9 +66,12 @@ export { PhysicalStoreLayoutComponent } from './layouts/physical-store/physicalS
 export { PrivacyPolicyLayoutComponent } from './layouts/privacy-policy/privacyPolicyLayout';
 export { PrivacyPolicyModalLayoutComponent } from './layouts/privacy-policy-modal/privacyPolicyModalLayout';
 export { ProductCardLayoutComponent } from './layouts/product-card/productCardLayout';
+export { ProductComponent } from './components/generic/product/product.component';
 export { ProductDetailsImageLayoutComponent } from './layouts/product-details-image/productDetailsImageLayout';
 export { ProductFilterLayoutComponent } from './layouts/product-filter/productFilterLayout';
+export { ProductGridComponent } from './components/generic/product-grid/product-grid.component';
 export { ProductGridLayoutComponent } from './layouts/product-grid/productGridLayout';
+export { ProductInfiniteGridLayoutComponent } from './layouts/product-infinite-grid/productInfiniteGridLayout';
 export { RegistrationLayoutComponent } from './layouts/registration/registrationLayout';
 export { SharedFormattedTextLayoutComponent } from './layouts/shared-formatted-text/sharedFormattedTextLayout';
 export { SharedTextLayoutComponent } from './layouts/shared-text/sharedTextLayout';
@@ -75,5 +96,25 @@ export { TimelessIconsPageLayoutComponent } from './layouts/timeless-icons-page/
 export { TitleLayoutComponent } from './layouts/title/titleLayout';
 export { TwoColumnsLeftFilterLayoutComponent } from './layouts/two-columns-left-filter/twoColumnsLeftFilterLayout';
 export { TwoColumnsLeftFilterWithTabLayoutComponent } from './layouts/two-columns-left-filter-with-tab/twoColumnsLeftFilterWithTabLayout';
+export { TypeCommerceProductPageComponent } from './components/commerce-product-page/typeCommerceProductPageComponent';
+export { TypeCompanyPageComponent } from './components/company-page/typeCompanyPageComponent';
+export { TypeDesignIdeasPageComponent } from './components/design-ideas-page/typeDesignIdeasPageComponent';
+export { TypeDesignPageComponent } from './components/design-page/typeDesignPageComponent';
+export { TypeFooterComponent } from './components/footer/typeFooterComponent';
+export { TypeHeroComponent } from './components/hero/typeHeroComponent';
+export { TypeOrderConfirmationMessageComponent } from './components/order-confirmation-message/typeOrderConfirmationMessageComponent';
+export { TypePhysicalStoreComponent } from './components/physical-store/typePhysicalStoreComponent';
+export { TypePrivacyPolicyComponent } from './components/privacy-policy/typePrivacyPolicyComponent';
+export { TypeProductGridWithContentComponent } from './components/product-grid-with-content/typeProductGridWithContentComponent';
+export { TypeProductListComponent } from './components/product-list/typeProductListComponent';
+export { TypePromotionComponent } from './components/promotion/typePromotionComponent';
+export { TypeRegistrationComponent } from './components/registration/typeRegistrationComponent';
+export { TypeSearchResultsComponent } from './components/search-results/typeSearchResultsComponent';
+export { TypeSharedFormattedTextComponent } from './components/shared-formatted-text/typeSharedFormattedTextComponent';
+export { TypeSharedTextComponent } from './components/shared-text/typeSharedTextComponent';
+export { TypeSlideComponent } from './components/slide/typeSlideComponent';
+export { TypeSlideshowComponent } from './components/slideshow/typeSlideshowComponent';
+export { TypeSustainabilityPageComponent } from './components/sustainability-page/typeSustainabilityPageComponent';
+export { TypeTimelessIconsPageComponent } from './components/timeless-icons-page/typeTimelessIconsPageComponent';
+export { TypeTitleComponent } from './components/title/typeTitleComponent';
 export { WishlistLayoutComponent } from './layouts/wishlist/wishlistLayout';
-export { WishlistCardLayoutComponent } from './layouts/wishlist/wishlist-card-layout/wishlist-card-layout'
