@@ -1,0 +1,107 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "project": {
+        "name": "prod-stockholm"
+    },
+    "apps": [
+        {
+            "root": "src",
+            "outDir": "dist/assets",
+            "assets": [
+                "mocks",
+                "locales",
+                "delivery",
+                "favicon.ico",
+                "serverConfig.json",
+                "serverConfig.json.template",
+                "servicesConfig.json",
+                { "glob": "**/*", "input": "ui-extension", "output": "dxauth"},
+                { "glob": "*", "input": "../images", "output": "images"}
+            ],
+            "index": "index.html",
+            "main": "main.ts",
+            "polyfills": "polyfills.ts",
+            "test": "test.ts",
+            "tsconfig": "tsconfig.app.json",
+            "testTsconfig": "tsconfig.spec.json",
+            "prefix": "app",
+            "styles": [
+                "styles.css"
+            ],
+            "scripts": [
+                "../node_modules/jquery/dist/jquery.min.js"
+            ],
+            "environmentSource": "environments/environment.ts",
+            "environments": {
+                "dev": "environments/environment.ts",
+                "prod": "environments/environment.prod.ts"
+            }
+        }
+    ],
+    "e2e": {
+        "protractor": {
+            "config": "./protractor.conf.js"
+        }
+    },
+    "lint": [
+        {
+            "project": "src/tsconfig.app.json",
+            "exclude": "**/node_modules/**"
+        },
+        {
+            "project": "src/tsconfig.spec.json",
+            "exclude": "**/node_modules/**"
+        },
+        {
+            "project": "e2e/tsconfig.e2e.json",
+            "exclude": "**/node_modules/**"
+        }
+    ],
+    "test": {
+        "karma": {
+            "config": "./karma.conf.js"
+        },
+        "codeCoverage": {
+            "exclude": [
+                "src/app/commerce/services/rest/**",
+                "src/app/commerce/services/*.ts",
+                "src/app/common/configService/**",
+                "src/app/common/*.ts",
+                "src/app/commerce/services/componentTransaction/cart.transaction.service.ts",
+                "src/app/commerce/components/**",
+                "src/app/components/**",
+                "src/app/common/**",
+                "src/app/commerce/common/**.ts",
+                "src/app/commerce/directives/**",
+                "src/app/commerce/util/**",
+                "src/app/commerce/layouts/collection-card/**",
+                "src/app/commerce/layouts/company-page/**",
+                "src/app/commerce/layouts/small/**",
+                "src/app/commerce/layouts/sustainability-*/**",
+                "src/app/commerce/layouts/my-account-*/**",
+                "src/app/commerce/layouts/job-event/**",
+                "src/app/commerce/layouts/large/**",
+                "src/app/commerce/layouts/contact-*/**",
+                "src/app/commerce/layouts/text-*/**",
+                "src/app/commerce/layouts/medium/**",
+                "src/app/commerce/layouts/design-*/**",
+                "src/app/commerce/layouts/product-details-image/**",
+                "src/app/commerce/layouts/commerce-category-page/**",
+                "src/app/commerce/layouts/two-columns-left-filter-with-tab/**",
+                "src/app/commerce/layouts/slideshow/**",
+                "src/app/commerce/layouts/personal-information/**",
+                "src/app/commerce/layouts/content-*/**",
+                "src/app/commerce/layouts/address-book/**",
+                "src/app/commerce/layouts/checkout/**",
+                "src/app/commerce/services/componentTransaction/account.transaction.service.ts"
+            ]
+        }
+    },
+    "defaults": {
+        "styleExt": "css",
+        "component": {},
+        "serve": {
+            "proxyConfig": "src/proxy.config.js"
+        }
+    }
+}

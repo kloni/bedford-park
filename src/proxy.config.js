@@ -22,8 +22,10 @@
  */
 const DOMAIN_NAME = 'my12.digitalexperience.ibm.com';
 const CONTENT_HUB_ID = 'f65c109a-b965-43a3-b102-ea161ba72a26';
-const IDC_SEARCH_HOST = 'https://localhost:3738';
-const IDC_TRANSACTION_HOST = 'https://localhost:5443';
+const IDC_SEARCH_HOST = 'https://aar128.watsoncommerce.ibm.com';
+//'https://localhost:3738';
+const IDC_TRANSACTION_HOST = 'https://aar128.watsoncommerce.ibm.com';
+//'https://localhost:5443';
 const DEV_HOST = 'http://localhost:4200';
 
 const PROXY_CONFIG = {

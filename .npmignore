@@ -1,0 +1,9 @@
+#list of files excluded to published package
+#ignore test output and wch stuff
+coverage/**
+wchtools-*.log*
+src/wchLayouts/**
+UT_report/**
+*.log
+#ignore Mac generated file
+.DS_Store
