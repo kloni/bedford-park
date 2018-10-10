@@ -52,10 +52,10 @@
     "@angular/core": "^5.2.0",
     "@angular/forms": "^5.2.0",
     "@angular/http": "^5.2.0",
+    "@angular/language-service": "^5.2.10",
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
-    "@angular/language-service": "^5.2.10",
     "@ngx-translate/core": "^9.1.1",
     "@ngx-translate/http-loader": "^2.0.0",
     "@types/foundation": "^5.5.30",
@@ -90,6 +90,7 @@
     "json-loader": "^0.5.4",
     "minifier": "~0.8.1",
     "ng2-logger": "^2.0.35",
+    "ngx-infinite-scroll": "^6.0.1",
     "node-sass": "4.7.2",
     "protractor-pretty-html-reporter": "0.0.16",
     "rxjs": "^5.5.10",
@@ -102,8 +103,8 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "2.7.2",
-    "zone.js": "^0.8.19",
-    "utf8-byte-length": "^1.0.4"
+    "utf8-byte-length": "^1.0.4",
+    "zone.js": "^0.8.19"
   },
   "devDependencies": {
     "archiver": "^2.1.1",
