@@ -118,3 +118,4 @@ export { TypeSustainabilityPageComponent } from './components/sustainability-pag
 export { TypeTimelessIconsPageComponent } from './components/timeless-icons-page/typeTimelessIconsPageComponent';
 export { TypeTitleComponent } from './components/title/typeTitleComponent';
 export { WishlistLayoutComponent } from './layouts/wishlist/wishlistLayout';
+export { WishlistCardLayoutComponent } from './layouts/wishlist/wishlist-card-layout/wishlist-card-layout';
