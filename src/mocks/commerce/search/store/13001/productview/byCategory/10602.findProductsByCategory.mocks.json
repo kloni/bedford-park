@@ -1,0 +1,1545 @@
+{
+    "metaData": {
+        "price": "1"
+    },
+    "breadCrumbTrailEntryView": [
+        {
+            "label": "Living Room"
+        },
+        {
+            "label": "Furniture"
+        }
+    ],
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14618",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair1_a1_350.jpg",
+            "name": "Wooden Angled Chair",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "800.0",
+                    "maximumValue": {
+                        "value": "800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "749.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "169.99",
+                    "maximumValue": {
+                        "value": "749.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14622",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair2_a1_350.jpg",
+            "name": "Flared Accent Chair",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "600.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "600.0",
+                    "maximumValue": {
+                        "value": "600.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "549.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "549.99",
+                    "maximumValue": {
+                        "value": "579.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14627",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair3_a1_350.jpg",
+            "name": "Supreme Rocoz Vintage Sofa Chair",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "700.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "700.0",
+                    "maximumValue": {
+                        "value": "700.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "639.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "629.99",
+                    "maximumValue": {
+                        "value": "659.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14633",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_350.jpg",
+            "name": "Stonehenge UltraCozy Single Sofa",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "800.0",
+                    "maximumValue": {
+                        "value": "800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "749.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "749.99",
+                    "maximumValue": {
+                        "value": "749.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14638",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair5_a1_350.jpg",
+            "name": "StyleHome InOffice Single Sofa",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "1000.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "1000.0",
+                    "maximumValue": {
+                        "value": "1000.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "899.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "899.99",
+                    "maximumValue": {
+                        "value": "899.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14644",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair6_a1_350.jpg",
+            "name": "Stonehenge Modern Steelet Single Sofa",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "500.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "500.0",
+                    "maximumValue": {
+                        "value": "500.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "499.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "499.99",
+                    "maximumValue": {
+                        "value": "499.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14649",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch1_a1_350.jpg",
+            "name": "StyleHome Modern Plain Single Large Sofa",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "800.0",
+                    "maximumValue": {
+                        "value": "800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "749.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "749.99",
+                    "maximumValue": {
+                        "value": "749.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14658",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch2_a1_350.jpg",
+            "name": "StyleHome InOffice Double Sofa",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "600.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "600.0",
+                    "maximumValue": {
+                        "value": "600.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "549.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "549.99",
+                    "maximumValue": {
+                        "value": "589.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14669",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch3_a1_350.jpg",
+            "name": "Theatre Sofa",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "700.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "700.0",
+                    "maximumValue": {
+                        "value": "700.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "639.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "629.99",
+                    "maximumValue": {
+                        "value": "659.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14674",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch4_a1_350.jpg",
+            "name": "Plump Leather Sofa",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "800.0",
+                    "maximumValue": {
+                        "value": "800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "749.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "749.99",
+                    "maximumValue": {
+                        "value": "749.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14683",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch5_a1_350.jpg",
+            "name": "Vintage Leather Sofa",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "800.0",
+                    "maximumValue": {
+                        "value": "800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "749.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "749.99",
+                    "maximumValue": {
+                        "value": "749.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14692",
+            "partNumber": "LR-FNTR-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_350.jpg",
+            "name": "Casual Sofa",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "600.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "600.0",
+                    "maximumValue": {
+                        "value": "600.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "549.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "549.99",
+                    "maximumValue": {
+                        "value": "589.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": "0",
+    "recordSetTotal": 28,
+    "facetView": [
+        {
+            "value": "price_USD",
+            "name": "OfferPrice_USD",
+            "entry": [
+                {
+                    "count": 0,
+                    "label": "({* 100} 100)",
+                    "value": "price_USD%3A%28%7B*+100%7D+100%29",
+                    "extendedData": {
+                        "uniqueId": "1121141059910195858368584012342324948481253249484841"
+                    }
+                },
+                {
+                    "count": 4,
+                    "label": "({100 200} 200)",
+                    "value": "price_USD%3A%28%7B100+200%7D+200%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123494848325048481253250484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({200 300} 300)",
+                    "value": "price_USD%3A%28%7B200+300%7D+300%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123504848325148481253251484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({300 400} 400)",
+                    "value": "price_USD%3A%28%7B300+400%7D+400%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123514848325248481253252484841"
+                    }
+                },
+                {
+                    "count": 1,
+                    "label": "({400 500} 500)",
+                    "value": "price_USD%3A%28%7B400+500%7D+500%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123524848325348481253253484841"
+                    }
+                },
+                {
+                    "count": 23,
+                    "label": "({500 *})",
+                    "value": "price_USD%3A%28%7B500+*%7D%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123534848324212541"
+                    }
+                }
+            ]
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "label": "Home Design",
+                    "value": "mfName_ntk_cs%3A%22Home+Design%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "-1002721111091013268101115105103110"
+                    }
+                },
+                {
+                    "label": "Moderno",
+                    "value": "mfName_ntk_cs%3A%22Moderno%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "-100277111100101114110111"
+                    }
+                },
+                {
+                    "label": "Nordic",
+                    "value": "mfName_ntk_cs%3A%22Nordic%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "-10027811111410010599"
+                    }
+                },
+                {
+                    "label": "Stockholm",
+                    "value": "mfName_ntk_cs%3A%22Stockholm%22",
+                    "count": "9",
+                    "extendedData": {
+                        "uniqueId": "-10028311611199107104111108109"
+                    }
+                },
+                {
+                    "label": "Stonehenge",
+                    "value": "mfName_ntk_cs%3A%22Stonehenge%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-100283116111110101104101110103101"
+                    }
+                },
+                {
+                    "label": "Style Home",
+                    "value": "mfName_ntk_cs%3A%22Style+Home%22",
+                    "count": "10",
+                    "extendedData": {
+                        "uniqueId": "-1002831161211081013272111109101"
+                    }
+                }
+            ],
+            "name": "ManufacturerName",
+            "extendedData": {
+                "allowMultipleValueSelection": "true",
+                "maximumValuesToDisplay": "6",
+                "groupId": "0",
+                "allValuesReturned": false,
+                "fname": "Brand",
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "mfName_ntk_cs",
+                "displayable": "1",
+                "facet_id": "-1000",
+                "srchattr_id": "-1002",
+                "zero_display": "0",
+                "selection": "1",
+                "group_id": "0",
+                "displaySequence": "0.0",
+                "storeent_id": "0",
+                "sortorder": "1",
+                "max_display": "6",
+                "fdesc": "The manufacturer",
+                "srchattridentifier": "_cat.ManufacturerName"
+            }
+        },
+        {
+            "value": "ads_f10101_ntk_cs",
+            "entry": [
+                {
+                    "label": "Grey",
+                    "value": "ads_f10101_ntk_cs%3A%22Grey%22",
+                    "count": "11",
+                    "extendedData": {
+                        "uniqueId": "1010171114101121",
+                        "sequence": "3.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png"
+                },
+                {
+                    "label": "Dark Grey",
+                    "value": "ads_f10101_ntk_cs%3A%22Dark+Grey%22",
+                    "count": "9",
+                    "extendedData": {
+                        "uniqueId": "1010168971141073271114101121",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png"
+                },
+                {
+                    "label": "Blue",
+                    "value": "ads_f10101_ntk_cs%3A%22Blue%22",
+                    "count": "8",
+                    "extendedData": {
+                        "uniqueId": "1010166108117101",
+                        "sequence": "9.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png"
+                },
+                {
+                    "label": "Brown",
+                    "value": "ads_f10101_ntk_cs%3A%22Brown%22",
+                    "count": "8",
+                    "extendedData": {
+                        "uniqueId": "1010166114111119110",
+                        "sequence": "2.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png"
+                },
+                {
+                    "label": "Light Grey",
+                    "value": "ads_f10101_ntk_cs%3A%22Light+Grey%22",
+                    "count": "7",
+                    "extendedData": {
+                        "uniqueId": "10101761051031041163271114101121",
+                        "sequence": "6.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png"
+                },
+                {
+                    "label": "Crimson",
+                    "value": "ads_f10101_ntk_cs%3A%22Crimson%22",
+                    "count": "5",
+                    "extendedData": {
+                        "uniqueId": "1010167114105109115111110",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png"
+                },
+                {
+                    "label": "Purple",
+                    "value": "ads_f10101_ntk_cs%3A%22Purple%22",
+                    "count": "5",
+                    "extendedData": {
+                        "uniqueId": "1010180117114112108101",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_purple.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_purple.png"
+                },
+                {
+                    "label": "Coffee",
+                    "value": "ads_f10101_ntk_cs%3A%22Coffee%22",
+                    "count": "4",
+                    "extendedData": {
+                        "uniqueId": "1010167111102102101101",
+                        "sequence": "9.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_coffee.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_coffee.png"
+                },
+                {
+                    "label": "Airforce",
+                    "value": "ads_f10101_ntk_cs%3A%22Airforce%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "101016510511410211111499101",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_airforce.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_airforce.png"
+                },
+                {
+                    "label": "Tan",
+                    "value": "ads_f10101_ntk_cs%3A%22Tan%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "101018497110",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png"
+                },
+                {
+                    "label": "Toffee",
+                    "value": "ads_f10101_ntk_cs%3A%22Toffee%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "1010184111102102101101",
+                        "sequence": "8.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png"
+                },
+                {
+                    "label": "Blonde",
+                    "value": "ads_f10101_ntk_cs%3A%22Blonde%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010166108111110100101",
+                        "sequence": "5.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png"
+                },
+                {
+                    "label": "Cedar",
+                    "value": "ads_f10101_ntk_cs%3A%22Cedar%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "101016710110097114",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_cedar.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_cedar.png"
+                },
+                {
+                    "label": "Seaweed",
+                    "value": "ads_f10101_ntk_cs%3A%22Seaweed%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "101018310197119101101100",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png"
+                },
+                {
+                    "label": "Standin",
+                    "value": "ads_f10101_ntk_cs%3A%22Standin%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "101018311697110100105110",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_standin.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_standin.png"
+                },
+                {
+                    "label": "Apple",
+                    "value": "ads_f10101_ntk_cs%3A%22Apple%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010165112112108101",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_apple.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_apple.png"
+                },
+                {
+                    "label": "Chrome",
+                    "value": "ads_f10101_ntk_cs%3A%22Chrome%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010167104114111109101",
+                        "sequence": "1.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png"
+                },
+                {
+                    "label": "Cream",
+                    "value": "ads_f10101_ntk_cs%3A%22Cream%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101016711410197109",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_cream.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_cream.png"
+                },
+                {
+                    "label": "Denim",
+                    "value": "ads_f10101_ntk_cs%3A%22Denim%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010168101110105109",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_denim.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_denim.png"
+                },
+                {
+                    "label": "Sky",
+                    "value": "ads_f10101_ntk_cs%3A%22Sky%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010183107121",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_sky.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_sky.png"
+                }
+            ],
+            "name": "Color",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": false,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10101_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10101",
+                "attrname": "Color",
+                "srchattr_id": "10101",
+                "attrdesc": "Color",
+                "attr_id": "7000000000000000651",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Color",
+                "srchattridentifier": "_cat.Color"
+            }
+        },
+        {
+            "value": "ads_f10106_ntk_cs",
+            "entry": [
+                {
+                    "label": "24\"x40\"x30\"",
+                    "value": "ads_f10106_ntk_cs%3A%2224%5C%22x40%5C%22x30%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106505234120524834120514834"
+                    }
+                },
+                {
+                    "label": "30\"x24\"x24\"",
+                    "value": "ads_f10106_ntk_cs%3A%2230%5C%22x24%5C%22x24%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106514834120505234120505234"
+                    }
+                },
+                {
+                    "label": "30\"x40\"x35\"",
+                    "value": "ads_f10106_ntk_cs%3A%2230%5C%22x40%5C%22x35%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106514834120524834120515334"
+                    }
+                },
+                {
+                    "label": "40\"x36\"x36\"",
+                    "value": "ads_f10106_ntk_cs%3A%2240%5C%22x36%5C%22x36%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106524834120515434120515434"
+                    }
+                },
+                {
+                    "label": "56\"x24\"x24\"",
+                    "value": "ads_f10106_ntk_cs%3A%2256%5C%22x24%5C%22x24%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106535434120505234120505234"
+                    }
+                }
+            ],
+            "name": "Product Dimensions",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10106_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10106",
+                "attrname": "Product Dimensions",
+                "srchattr_id": "10106",
+                "attrdesc": "Product Dimensions",
+                "attr_id": "7000000000000000660",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ProductDimensions",
+                "srchattridentifier": "_cat.ProductDimensions"
+            }
+        },
+        {
+            "value": "ads_f10102_ntk_cs",
+            "entry": [
+                {
+                    "label": "48\"x6\"x48\"",
+                    "value": "ads_f10102_ntk_cs%3A%2248%5C%22x6%5C%22x48%5C%22%22",
+                    "count": "16",
+                    "extendedData": {
+                        "uniqueId": "101025256341205434120525634",
+                        "sequence": "1.0",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    }
+                },
+                {
+                    "label": "52\"x6\"x52\"",
+                    "value": "ads_f10102_ntk_cs%3A%2252%5C%22x6%5C%22x52%5C%22%22",
+                    "count": "16",
+                    "extendedData": {
+                        "uniqueId": "101025350341205434120535034",
+                        "sequence": "2.0",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    }
+                }
+            ],
+            "name": "Size",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10102_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10102",
+                "attrname": "Size",
+                "srchattr_id": "10102",
+                "attrdesc": "Size",
+                "attr_id": "7000000000000000652",
+                "zero_display": "0",
+                "attrsequence": "2.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "2.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Size",
+                "srchattridentifier": "_cat.Size"
+            }
+        },
+        {
+            "value": "ads_f10107_ntk_cs",
+            "entry": [
+                {
+                    "label": "30 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2230+lbs%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010751483210898115"
+                    }
+                },
+                {
+                    "label": "150 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%22150+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101074953483210898115"
+                    }
+                },
+                {
+                    "label": "23 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2223+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010750513210898115"
+                    }
+                },
+                {
+                    "label": "45 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2245+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010752533210898115"
+                    }
+                }
+            ],
+            "name": "Item Weight",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10107_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10107",
+                "attrname": "Item Weight",
+                "srchattr_id": "10107",
+                "attrdesc": "Item Weight",
+                "attr_id": "7000000000000000661",
+                "zero_display": "0",
+                "attrsequence": "2.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "2.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ItemWeight",
+                "srchattridentifier": "_cat.ItemWeight"
+            }
+        },
+        {
+            "value": "ads_f10103_ntk_cs",
+            "entry": [
+                {
+                    "label": "Polyester, Cotton, Steel",
+                    "value": "ads_f10103_ntk_cs%3A%22Polyester%2C+Cotton%2C+Steel%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010380111108121101115116101114443267111116116111110443283116101101108"
+                    }
+                },
+                {
+                    "label": "Polyester, Cotton, Wood",
+                    "value": "ads_f10103_ntk_cs%3A%22Polyester%2C+Cotton%2C+Wood%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010380111108121101115116101114443267111116116111110443287111111100"
+                    }
+                },
+                {
+                    "label": "Microfibre, Cotton, Wood",
+                    "value": "ads_f10103_ntk_cs%3A%22Microfibre%2C+Cotton%2C+Wood%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10103771059911411110210598114101443267111116116111110443287111111100"
+                    }
+                }
+            ],
+            "name": "Material",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10103_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10103",
+                "attrname": "Material",
+                "srchattr_id": "10103",
+                "attrdesc": "Material",
+                "attr_id": "7000000000000000653",
+                "zero_display": "0",
+                "attrsequence": "3.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "3.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Materials",
+                "srchattridentifier": "_cat.Materials"
+            }
+        },
+        {
+            "value": "ads_f10105_ntk_cs",
+            "entry": [
+                {
+                    "label": "Solid",
+                    "value": "ads_f10105_ntk_cs%3A%22Solid%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "1010583111108105100"
+                    }
+                },
+                {
+                    "label": "Textured",
+                    "value": "ads_f10105_ntk_cs%3A%22Textured%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010584101120116117114101100"
+                    }
+                }
+            ],
+            "name": "Pattern",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10105_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10105",
+                "attrname": "Pattern",
+                "srchattr_id": "10105",
+                "attrdesc": "Pattern",
+                "attr_id": "7000000000000000662",
+                "zero_display": "0",
+                "attrsequence": "4.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "4.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Pattern",
+                "srchattridentifier": "_cat.Pattern"
+            }
+        }
+    ]
+}

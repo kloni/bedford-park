@@ -1,0 +1,10 @@
+<div class="grid-x hide-for-small-only">
+  <div class="promo-small-container">
+    <a class="promo-small" (click)="navigateToLink()">
+    <img [src]="imageUrl" wchEditable="backgroundImage" [alt]="callToActionLink.linkText" [title]="callToActionLink['linkDescription']">
+      <div class="promo-small-message">
+        <p class="promo-text-small"  wchEditable="promotionText" [innerHTML]="promotionText"></p>
+      </div>
+    </a>
+  </div>
+</div>

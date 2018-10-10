@@ -1,0 +1,214 @@
+{
+    "suggestionView": [
+        {
+            "entry": [
+                {
+                    "value": "10601",
+                    "fullPath": "Living Room",
+                    "fullPathCategoryIds": "10601",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/dep_livingroom.jpg",
+                    "name": "Living Room",
+                    "shortDescription": "Bring your living space together with comfort and style"
+                },
+                {
+                    "value": "10602",
+                    "fullPath": "Living Room > Furniture",
+                    "fullPathCategoryIds": "10601 > 10602",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/furniture.jpg",
+                    "name": "Furniture",
+                    "shortDescription": "Beautiful chairs, couches and tables that fit any decor"
+                },
+                {
+                    "value": "10603",
+                    "fullPath": "Living Room > Lighting",
+                    "fullPathCategoryIds": "10601 > 10603",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/livingroom-lighting.jpg",
+                    "name": "Lighting",
+                    "shortDescription": "Illuminate your living room with a variety of pendant lights and chandeliers"
+                },
+                {
+                    "value": "10604",
+                    "fullPath": "Living Room > Decoration",
+                    "fullPathCategoryIds": "10601 > 10604",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/decoration.jpg",
+                    "name": "Decoration",
+                    "shortDescription": "Versatile pieces to accent all your surfaces and walls"
+                },
+                {
+                    "value": "10605",
+                    "fullPath": "Dining Room",
+                    "fullPathCategoryIds": "10605",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/dep_diningroom.jpg",
+                    "name": "Dining Room",
+                    "shortDescription": "Entertain your guests with dining room furniture and decor that fits any space"
+                },
+                {
+                    "value": "10606",
+                    "fullPath": "Dining Room > Tables",
+                    "fullPathCategoryIds": "10605 > 10606",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/tables.jpg",
+                    "name": "Tables",
+                    "shortDescription": "Find the perfect dining table for serving your guests in comfort and style"
+                },
+                {
+                    "value": "10607",
+                    "fullPath": "Dining Room > Chairs",
+                    "fullPathCategoryIds": "10605 > 10607",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/chairs.jpg",
+                    "name": "Chairs",
+                    "shortDescription": "Sturdy seating that matches any dining room decor"
+                },
+                {
+                    "value": "10608",
+                    "fullPath": "Dining Room > Buffets",
+                    "fullPathCategoryIds": "10605 > 10608",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/buffets.jpg",
+                    "name": "Buffets",
+                    "shortDescription": "Add fully-functional drawer, cabinet, and counter space to any dining room in style"
+                },
+                {
+                    "value": "10609",
+                    "fullPath": "Bath",
+                    "fullPathCategoryIds": "10609",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/dep_bathroom.jpg",
+                    "name": "Bath",
+                    "shortDescription": "Modernize your bath space with a variety of vanity fixtures and lighting options"
+                },
+                {
+                    "value": "10610",
+                    "fullPath": "Bath > Lighting",
+                    "fullPathCategoryIds": "10609 > 10610",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/lighting.jpg",
+                    "name": "Lighting",
+                    "shortDescription": "Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom"
+                },
+                {
+                    "value": "10611",
+                    "fullPath": "Bath > Fixtures",
+                    "fullPathCategoryIds": "10609 > 10611",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/fixtures.jpg",
+                    "name": "Fixtures",
+                    "shortDescription": "Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space"
+                },
+                {
+                    "value": "10612",
+                    "fullPath": "Bath > Accessories",
+                    "fullPathCategoryIds": "10609 > 10612",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/accessories.jpg",
+                    "name": "Accessories",
+                    "shortDescription": "Accent your bath with stylish accessories and makeup mirrors"
+                },
+                {
+                    "value": "10613",
+                    "fullPath": "Bedroom",
+                    "fullPathCategoryIds": "10613",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/dep_bedroom.jpg",
+                    "name": "Bedroom",
+                    "shortDescription": "Furnish your bedrooms in style and make them your own"
+                },
+                {
+                    "value": "10614",
+                    "fullPath": "Bedroom > Beds",
+                    "fullPathCategoryIds": "10613 > 10614",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/beds.jpg",
+                    "name": "Beds",
+                    "shortDescription": "Functional and space-saving beds to extend any sleeping space"
+                },
+                {
+                    "value": "10615",
+                    "fullPath": "Bedroom > Dressers",
+                    "fullPathCategoryIds": "10613 > 10615",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/dressers.jpg",
+                    "name": "Dressers",
+                    "shortDescription": "Highly-functional dressers that maximize both storage space and function"
+                },
+                {
+                    "value": "10616",
+                    "fullPath": "Kitchen",
+                    "fullPathCategoryIds": "10616",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/dep_kitchen.jpg",
+                    "name": "Kitchen",
+                    "shortDescription": "Create a kitchen that suits your needs and fits your lifestyle"
+                },
+                {
+                    "value": "10617",
+                    "fullPath": "Kitchen > Cabinets",
+                    "fullPathCategoryIds": "10616 > 10617",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/cabinets.jpg",
+                    "name": "Cabinets",
+                    "shortDescription": "Versatile cabinetry and shelving give your kitchen storage space in style"
+                },
+                {
+                    "value": "10618",
+                    "fullPath": "Kitchen > Countertops",
+                    "fullPathCategoryIds": "10616 > 10618",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/countertops.jpg",
+                    "name": "Countertops",
+                    "shortDescription": "Heat, scratch, stain, and water resistant countertops for every kitchen"
+                }
+            ],
+            "categorySeparator": " > ",
+            "identifier": "Category"
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "name": "Bender Home Fashions",
+                    "value": "mfName_ntk_cs%3A%22Bender+Home+Fashions%22",
+                    "count": "20"
+                },
+                {
+                    "name": "Home Design",
+                    "value": "mfName_ntk_cs%3A%22Home+Design%22",
+                    "count": "7"
+                },
+                {
+                    "name": "Kerry's Glass",
+                    "value": "mfName_ntk_cs%3A%22Kerry%27s+Glass%22",
+                    "count": "10"
+                },
+                {
+                    "name": "Moderno",
+                    "value": "mfName_ntk_cs%3A%22Moderno%22",
+                    "count": "39"
+                },
+                {
+                    "name": "Nordic",
+                    "value": "mfName_ntk_cs%3A%22Nordic%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Rugs America",
+                    "value": "mfName_ntk_cs%3A%22Rugs+America%22",
+                    "count": "9"
+                },
+                {
+                    "name": "Sleepy Head",
+                    "value": "mfName_ntk_cs%3A%22Sleepy+Head%22",
+                    "count": "6"
+                },
+                {
+                    "name": "Stockholm",
+                    "value": "mfName_ntk_cs%3A%22Stockholm%22",
+                    "count": "87"
+                },
+                {
+                    "name": "Stonehenge",
+                    "value": "mfName_ntk_cs%3A%22Stonehenge%22",
+                    "count": "22"
+                },
+                {
+                    "name": "Style Home",
+                    "value": "mfName_ntk_cs%3A%22Style+Home%22",
+                    "count": "93"
+                }
+            ],
+            "name": "ManufacturerName",
+            "identifier": "Brand"
+        }
+    ],
+    "resourceHandler": {
+        "resourceName": "sitecontent"
+    }
+}

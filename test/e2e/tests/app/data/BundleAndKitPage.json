@@ -1,0 +1,27 @@
+{ 
+    "test01" : {
+        "productName": "Nordic Sofa Set",
+        "kitIncludedProductNames": ["Nordic Sofa", "Nordic Loveseat"],
+        "kitIncludedProductSkus": ["LR-FUCH-0004-0001", "LR-FUCH-0005-0001"]
+    },
+    "test02" : {
+        "productName": "Nordic Sofa Set",
+        "kitIncludedProduct": "Nordic Sofa"
+    },
+    "test03" : {
+        "productName": "Nordic Sofa Set",
+        "productQuantity": 1
+    },
+    "test04" : {
+        
+    },
+    "test05" : {
+        
+    },
+    "test06" : {
+        
+    },
+    "test07" : {
+        
+    }
+}

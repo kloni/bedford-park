@@ -1,0 +1,37 @@
+<div id="sessionError_div_1_modal" class="large reveal animated fadeIn" data-reveal>
+    <div id="sessionError_div_2_{{id}}" class="grid-container grid-container-padded">
+        <form id="sessionError_form_3_{{id}}" class="grid-x grid-margin-x" name="signInForm" #signInForm="ngForm" [ngClass]="{'show-invalid-input': signInForm.submitted}" (ngSubmit)="signInForm.form.valid && login()" #signInForm="ngForm">
+            <div id="sessionError_div_4_{{id}}" class="small-12 cell ">
+                <h2 id="sessionError_h2_5_{{id}}" translate>{{ sessionErrorTitle }}</h2>
+                <hr>
+                <p id="sessionError_p_6_{{id}}" translate>{{ sessionErrorMsg }}</p>
+                <button id="sessionError_button_7_{{id}}" class="close-button" data-close aria-label="Close reveal" type="button"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div id="sessionError_div_8_{{id}}" *ngIf="signInForm.submitted && loginErrorMsg" class="medium-12 cell">
+                <div id="sessionError_div_9_{{id}}" class="callout alert" translate data-closable>
+                    <span id="sessionError_span_10_{{id}}" translate>{{ loginErrorMsg }}</span>
+                    <button id="sessionError_button_11_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearErrorMsg()" data-close>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+            <div id="sessionError_div_12_{{id}}" class="small-12 medium-6 cell ">
+                <label id="sessionError_label_13_{{id}}" translate>SessionError.Email
+                    <input type="email" placeholder="name@domain.com" id="sessionError_input_14_{{id}}" name="username" [(ngModel)]="user.username" #username="ngModel"
+                        commerce-maxlength=256 email required />
+                </label>
+            </div>
+            <div id="sessionError_div_15_{{id}}" class="small-12 medium-6 cell ">
+                <label id="sessionError_label_16_{{id}}" translate>SessionError.Password
+                    <input type="password" id="sessionError_input_17_{{id}}" name="password" [(ngModel)]="user.password" #password="ngModel" required />
+                </label>
+            </div>
+            <div id="sessionError_div_18_{{id}}" class="small-12 medium-6 cell "><br>
+                <button id="sessionError_button_19_{{id}}" type="button" class="button button-light expanded" data-close translate>SessionError.CancelButton</button>
+            </div>
+            <div id="sessionError_div_20_{{id}}" class="small-12 medium-6 cell "><br>
+                <button class="button button-dark expanded" id="sessionError_21_{{id}}" type="submit" translate>SessionError.SubmitButton</button>
+            </div>
+        </form>
+    </div>
+</div>

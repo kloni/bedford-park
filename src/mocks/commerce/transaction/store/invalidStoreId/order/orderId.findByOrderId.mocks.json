@@ -1,0 +1,1 @@
+{"errors":[{"errorKey":"ERR_INVALID_INTEGER","errorParameters":"[storeId, invalid]","errorMessage":"CWXFR0226E: Parameter \"storeId\" is expected to contain a valid integer. Invalid input detected : \"invalid\".","errorCode":"CWXFR0226E"}]}

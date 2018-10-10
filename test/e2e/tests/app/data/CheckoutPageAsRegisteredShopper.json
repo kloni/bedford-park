@@ -1,0 +1,110 @@
+{
+    "promotions" : {
+        "promotionCode": "REGISTER7",
+        "promotionCodePercent" : 0.07,
+        "promotionOver200AmountOff" : 25.00,
+        "furniture20PercentOff" : 0.20,
+        "allOrders10PercentOff" : 0.10
+    },
+    "shippingType": [
+        {
+            "shippingName": "US - Regular Delivery",
+            "shippingBase": 5.94,
+            "shippingAddItem": 0.99,
+            "promotionFlatShipping" : 5.00
+        },
+        {
+            "shippingName": "US - Overnight Delivery",
+            "shippingBase": 22.94,
+            "shippingAddItem": 2.99
+        },
+        {
+            "shippingName": "US - 2-Day Express Delivery",
+            "shippingBase": 14.94,
+            "shippingAddItem": 1.99
+        }
+    ],
+    "errorMessages": {
+        "invalidPromotionCode": "The promotion code you have entered is not valid. Verify the code and try again."
+    },
+    "user01": {
+        "login": "checkreg@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "addressBook" : [
+            {
+                "firstName" : "defaultcheckoutfirst",
+                "lastName" : "defaultcheckoutlast",
+                "address" : "Central Park checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "stateShort" : "NY",
+                "zipCode" : "10001"
+            },
+            {
+                "nickName" : "TexasAddress",
+                "firstName" : "texascheckoutfirst",
+                "lastName" : "texascheckoutlast",
+                "email" : "TexasAddress@test.com",
+                "address" : "dallas street address checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "Dallas checkout",
+                "state" : "Texas",
+                "stateShort" : "TX",
+                "zipCode" : "75001"
+            },
+            {
+                "nickName" : "OntarioAddress",
+                "firstName" : "Ontariocheckoutfirst",
+                "lastName" : "Ontariocheckoutlast",
+                "email" : "OntarioAddress@test.com",
+                "address" : "Toronto street address checkout",
+                "country" : "Canada",
+                "countryShort" : "CA",
+                "city" : "Toronto checkout",
+                "state" : "Ontario",
+                "stateShort" : "ON",
+                "zipCode" : "M2N0H6"
+            }
+        ]
+    },
+    "test01": {
+        "user": "user01",
+        "subtotal" : 1099.99,
+        "discountTotal" : 250.94,
+        "shippingCost" : 5.94,
+        "total" : 854.99,
+        "shippingName": "US - Regular Delivery"
+    },
+    "test02": {
+        "user": "user01",
+        "subtotal" : 35.00,
+        "discountTotal" : 3.39,
+        "total" : 37.55,
+        "shippingCharge" : 5.94,
+        "shippingName": "US - Regular Delivery",
+        "promotionCode": "REGISTER7"
+    },
+    "test03": {
+        "shippingName": "US - Overnight Delivery",
+        "subtotal" : 1999.99,
+        "discountTotal" : 5.00,
+        "total" : 2017.93,
+        "shippingCharge" : 22.94
+    },
+    "test04": {
+        "user" : "user01",
+        "shippingName": "US - 2-Day Express Delivery",
+        "discountTotal" : 576.99,
+        "total" : 2203.88,
+        "shippingCharge" : 20.91
+    },
+    "test05": {},
+    "test06": {},
+    "test07": {}
+}

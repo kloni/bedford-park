@@ -1,0 +1,364 @@
+{
+    "recordSetCount": 1,
+    "metaData": {
+        "price": "1"
+    },
+    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/BR-LGHT-0002?langId=-1",
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14851",
+            "uniqueID": "14851",
+            "partNumber": "BR-LGHT-0002",
+            "singleSKUCatalogEntryID": "14852",
+            "shortDescription": "A semi-flush light fixture that creates unique textured visuals through its jeweled bulb holders.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "Add some style to your bath by using this ceiling-mounted light fixture that features 3 lamp holders, surrounded by jeweled drops.  The infinity shape of the light mount shows off a luxurious, modern look that is suitable for modern bath settings.",
+            "name": "Infinity globe ceiling light",
+            "parentCatalogGroupID": [
+                "11251_10610",
+                "11301_10610"
+            ],
+            "manufacturer": "Bender Home Fashions",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "250.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "250.0",
+                    "maximumValue": {
+                        "value": "250.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "239.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "239.99",
+                    "maximumValue": {
+                        "value": "239.99"
+                    }
+                }
+            ],
+            "numberOfSKUs": 1,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14852",
+                    "uniqueID": "14852",
+                    "partNumber": "BR-LGHT-0002-0001",
+                    "shortDescription": "A semi-flush light fixture that creates unique textured visuals through its jeweled bulb holders.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Infinity globe ceiling light",
+                    "parentCatalogGroupID": [
+                        "11251_10610",
+                        "11301_10610"
+                    ],
+                    "manufacturer": "Bender Home Fashions",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "250.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "239.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "chrome",
+                                    "sequence": "1.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                                    "value": "Chrome",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                                    "uniqueID": "7000000000000003301"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "BR-LGHT-0002-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14852",
+                            "usage": "images_main_fullimage",
+                            "name": "BR-LGHT-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54688,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-LGHT-0002-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14852",
+                            "usage": "images_main_thumbnail",
+                            "name": "BR-LGHT-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54688,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-LGHT-0002-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14852",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BR-LGHT-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54688,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-LGHT-0002-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14852",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BR-LGHT-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54688,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-LGHT-0002-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14852",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BR-LGHT-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54688,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-LGHT-0002-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14852",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BR-LGHT-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54688,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a2_100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "28x13x13",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "28\"x13\"x23\"",
+                            "uniqueID": "7000000000000003379"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "chrome",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                            "value": "Chrome",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                            "uniqueID": "7000000000000003301"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_glass",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Glass",
+                            "uniqueID": "7000000000000003330"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfBulbs",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "3bulbs",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "3",
+                            "uniqueID": "7000000000000003410"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Light Bulbs",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000663"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "BR-LGHT-0002_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14851",
+                    "usage": "images_main_thumbnail",
+                    "name": "BR-LGHT-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54610,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-LGHT-0002_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14851",
+                    "usage": "images_main_fullimage",
+                    "name": "BR-LGHT-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54610,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-LGHT-0002_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14851",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BR-LGHT-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54610,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-LGHT-0002_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14851",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BR-LGHT-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54610,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-LGHT-0002_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14851",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BR-LGHT-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54610,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a2_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-LGHT-0002_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14851",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BR-LGHT-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54610,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/lighting/bathlight2_a2_600.jpg"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": 0,
+    "resourceName": "productview",
+    "recordSetTotal": 1,
+    "recordSetTotalMatches": 1,
+    "recordSetComplete": "true"
+}

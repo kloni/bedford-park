@@ -1,0 +1,193 @@
+{
+    "catalogEntryView": [
+        {
+            "partNumber": "LR-FUCH-0003",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/furniture3_a1_600.png",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/furniture3_a1_600.png",
+            "storeID": "12901",
+            "name": "Soft Vintage Armchair",
+            "parentCatalogGroupID": [
+                "11251_10602",
+                "11301_10602"
+            ],
+            "manufacturer": "Style Home",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "700.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "700.0",
+                    "maximumValue": {
+                        "value": "700.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "639.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "629.99",
+                    "maximumValue": {
+                        "value": "659.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "40x36x36",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "40\"x36\"x36\"",
+                            "uniqueID": "7000000000000003376"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "warmbrown",
+                            "sequence": "4.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_warmbrown.png",
+                            "value": "Warm Brown",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_warmbrown.png",
+                            "uniqueID": "7000000000000003304"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "45lbs",
+                            "sequence": "4.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "45 lbs",
+                            "uniqueID": "7000000000000003396"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "48x6x48",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "value": "48\"x6\"x48\"",
+                            "uniqueID": "7000000000000003324"
+                        },
+                        {
+                            "identifier": "52x6x52",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "value": "52\"x6\"x52\"",
+                            "uniqueID": "7000000000000003325"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "microfibre-cotton-wood",
+                            "sequence": "11.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Microfibre, Cotton, Wood",
+                            "uniqueID": "7000000000000003338"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Textured",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Textured",
+                            "uniqueID": "7000000000000003404"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        }
+    ]
+}

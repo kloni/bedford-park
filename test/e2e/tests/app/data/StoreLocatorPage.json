@@ -1,0 +1,63 @@
+{
+    "css": {
+        "active": [
+            "border-left",
+            "2px solid rgb(48, 48, 48)"
+        ],
+        "inactive": [
+            "border-left",
+            "0px none rgb(48, 48, 48)"
+        ],
+        "scrollX": [
+            "overflow-x",
+            "hidden"
+        ],
+        "scrollY" : [
+            "overflow-y",
+            "scroll"
+        ]
+    },
+    "test01": {
+        "searchLocation" : "Miami",
+        "searchResults": "3 results found within 50 km for Miami",
+        "store1Info" : "1. Miami Mall\n2700 Tamiami Trail\nMiami, Florida 33130 USA\n372-973-8724\nOpen today until 9PM",
+        "store1PopUp" : "1. Miami Mall\nOpen today until 9PM\n2700 Tamiami Trail\nMiami, Florida 33130 USA\n372-973-8724\nHours:\nMon-Fri: 10am - 9pm\nSat: 9am - 7pm\nSun: 11am - 6pm\nDirections\nServices:\nCafeteria, Click and Collect, Kitchen services, Financing, Assembly services"
+    },
+    "test02": {
+        "searchLocation" : "Ottawa",
+        "searchResults": "0 result found within 50 km for Ottawa"
+    },
+    "test03": {
+        "searchLocation" : ["M", "i", "a", "m", "i"],
+        "searchResultsText": "3 results found within 50 km for Miami, FL, USA",
+        "expectedLocations": ["Miami, FL, USA","Miami Beach, FL, USA","Miamisburg, OH, USA","Miami Gardens, FL, USA", "Miami Beach, Georgina, ON, Canada"],
+        "selectLocation" : "Miami, FL, USA",
+        "storeInfo" : ["1. Miami Mall\n2700 Tamiami Trail\nMiami, Florida 33130 USA\n372-973-8724\nOpen today until 9PM", "2. Miami Center\n4 Phoenetia Ave\nMiami, Florida 33134 USA\n482-876-1732\nOpen today until 9PM", "3. Miami Square\n5 NE 191st St\nMiami, Florida 33179 USA\n876-974-2618\nOpen today until 9PM"]
+    },
+    "test04": {
+        "searchLocation" : "Markham, Ontario",
+        "searchResults": "16 results found within 50 km for Markham, Ontario",
+        "filteredResults" : "8 results found within 50 km for Markham, Ontario",
+        "selectFilterIndex" : 3,
+        "filteredLocation1Index" : 1,
+        "filteredStoreInfo" : "2. Markville Mall\n8000 McCowan Rd\nMarkham, Ontario L3P 3J3 Canada\n905-416-6666\nOpen today until 9PM"
+    },
+    "test07":{
+        "searchLocation" : "Miami",
+        "expectedPhoneNumberLink1": "tel:372-973-8724",
+        "expectedPhoneNumberLink2": "tel:372-973-8724",
+        "expectedGoogleLink": "https://www.google.com/maps/dir/?",
+        "expectedDestination": "2700%20Tamiami%20Trail%20Miami,%20Florida%2033130%20USA",
+        "store1Info" : "1. Miami Mall\n2700 Tamiami Trail\nMiami, Florida 33130 USA\n372-973-8724\nOpen today until 9PM",
+        "store1PopUp" : "1. Miami Mall\nOpen today until 9PM\n2700 Tamiami Trail\nMiami, Florida 33130 USA\n372-973-8724\nHours:\nMon-Fri: 10am - 9pm\nSat: 9am - 7pm\nSun: 11am - 6pm\nDirections\nServices:\nCafeteria, Click and Collect, Kitchen services, Financing, Assembly services"
+    },
+    "test08": {
+        "clearSearchLocation" : "Ottawa",
+        "clearSearchResults": "0 result found within 50 km for Ottawa",
+        "searchLocation" : "Markham, Ontario",
+        "searchResults": "16 results found within 50 km for Markham, Ontario",
+        "storeIndex" : 15,
+        "storeInfo" : "16. City Centre Plaza\n100 City Centre Drive\nMississauga, Ontario L5B 2C9 Canada\n905-134-5467\nOpen today until 9PM",
+        "storeInfoFromPopUp" : "16. City Centre Plaza\nOpen today until 9PM\n100 City Centre Drive\nMississauga, Ontario L5B 2C9 Canada\n905-134-5467\nHours:\nMon-Fri: 10am - 9pm\nSat: 9am - 7pm\nSun: 11am - 6pm\nDirections\nServices:\nCafeteria, Click and Collect, Kitchen services, Financing, Assembly services"
+    }
+}

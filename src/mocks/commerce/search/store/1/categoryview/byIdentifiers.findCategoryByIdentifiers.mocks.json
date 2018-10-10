@@ -1,0 +1,46 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Apparel",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/dep_diningroom.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/dep_diningroom.jpg",
+            "storeID": "11501",
+            "name": "Apparel",
+            "resourceId": "https://stockholm9.torolab.ibm.com:3738/search/resources/store/11/categoryview/byId/10505",
+            "uniqueID": "10505",
+            "parentCatalogGroupID": [
+                "11001_-1",
+                "11501_-1"
+            ],
+            "childCatalogGroupID": [
+                "11001_10506",
+                "11001_10507",
+                "11001_10508",
+                "11501_10506",
+                "11501_10507",
+                "11501_10508"
+            ],
+            "shortDescription": "Entertain your guests with dining room furniture and decor that fits any space"
+        },
+        {
+            "identifier": "Furniture",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/dep_kitchen.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/dep_kitchen.jpg",
+            "storeID": "11501",
+            "name": "Furniture",
+            "resourceId": "https://stockholm9.torolab.ibm.com:3738/search/resources/store/11/categoryview/byId/10516",
+            "uniqueID": "10516",
+            "parentCatalogGroupID": [
+                "11001_-1",
+                "11501_-1"
+            ],
+            "childCatalogGroupID": [
+                "11001_10517",
+                "11001_10518",
+                "11501_10517",
+                "11501_10518"
+            ],
+            "shortDescription": "Create a kitchen that suits your needs and fits your lifestyle"
+        }
+    ]
+}

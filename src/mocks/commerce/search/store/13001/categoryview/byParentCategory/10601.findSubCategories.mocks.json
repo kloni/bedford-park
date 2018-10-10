@@ -1,0 +1,55 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "LivingRoomFurniture",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/furniture.jpg",
+            "storeID": "12901",
+            "name": "Furniture",
+            "sequence": [
+                "11251_10601_1.00000",
+                "11301_10601_1.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10602",
+            "uniqueID": "10602",
+            "parentCatalogGroupID": [
+                "11251_10601",
+                "11301_10601"
+            ],
+            "shortDescription": "Beautiful chairs, couches and tables that fit any decor"
+        },
+        {
+            "identifier": "LivingRoomLighthing",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/livingroom-lighting.jpg",
+            "storeID": "12901",
+            "name": "Lighting",
+            "sequence": [
+                "11251_10601_2.00000",
+                "11301_10601_2.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10603",
+            "uniqueID": "10603",
+            "parentCatalogGroupID": [
+                "11251_10601",
+                "11301_10601"
+            ],
+            "shortDescription": "Illuminate your living room with a variety of pendant lights and chandeliers"
+        },
+        {
+            "identifier": "Decoration",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/decoration.jpg",
+            "storeID": "12901",
+            "name": "Decoration",
+            "sequence": [
+                "11251_10601_3.00000",
+                "11301_10601_3.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10604",
+            "uniqueID": "10604",
+            "parentCatalogGroupID": [
+                "11251_10601",
+                "11301_10601"
+            ],
+            "shortDescription": "Versatile pieces to accent all your surfaces and walls"
+        }
+    ]
+}

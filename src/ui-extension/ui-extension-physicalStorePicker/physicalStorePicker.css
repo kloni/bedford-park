@@ -1,0 +1,153 @@
+.dropdown-wrapper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.dropdown-wrapper ul {
+    padding: 0;
+}
+
+.dropdown-wrapper * {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.dropdown-btn {
+    position: absolute;
+    line-height: 20px;
+    color: #000;
+    right: 0;
+    top: 0px;
+    width: 35px;
+    background:transparent;
+    border: 1px solid #000;
+    padding: 5px 9px;
+    font-size: 16px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.suggestions {
+    max-height: 200px;
+    overflow: overlay;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    z-index: 100;
+    background: white;
+    border: none;
+    -webkit-box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.31);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+}
+
+.no-bullet {
+    list-style-type: none;
+    width: 100%;
+}
+
+.no-bullet * {
+    margin-bottom: 0px;
+}
+
+.physical-store-input {
+    border-color: #777677;
+    border-width: 1px;
+    line-height: 28px;
+    width: 100%;
+    padding: 0 0 0 10px;
+}
+
+.suggestion-item {
+    padding: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.suggestion-item:hover {
+     background-color:#eef4fe;
+}
+
+.section-title {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/*Global*/
+body {
+    font-family: "Helvetica Neue Roman for IBM", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #595859;
+    background-color: #fff;
+    padding: 10px 0 10px 0;
+    margin-right: 1px;
+}
+
+/*Tags*/
+.category-list {
+    padding-top: 10px;
+}
+.tag-component {
+    margin-right: 10px;
+    display: inline-block;
+}
+.single-tag {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #2d74da;
+    font-size: 14px;
+    padding: 0 50px 0 10px;
+    color: #2d74da;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    max-width: 200px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+.tag-text {
+    white-space: pre;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.tag-remove-icon {
+    background-color: transparent;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    margin: 0;
+    padding: 0;
+    border: 1px none #2d74da;
+    font-size: 0;
+}
+.tag-remove-icon:focus {
+    top:4px;
+    right: 9px;
+    border-style: dashed;
+}
+.single-tag svg {
+    display: block;
+    fill: #2d74da;
+    width: 20px;
+    height: 20px;
+}
+.without-remove-btn {
+    padding-right: 10px;
+}
+.element-responsive-width{
+	width:680px
+}
+
+@media (max-width:694px){
+    .element-responsive-width{
+        width: 400px;
+    }
+}
+
+@media (max-width:403px){
+    .element-responsive-width{
+        width: 100%;
+    }
+}

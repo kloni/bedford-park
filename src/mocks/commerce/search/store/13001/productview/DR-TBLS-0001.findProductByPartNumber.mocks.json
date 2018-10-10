@@ -1,0 +1,324 @@
+{
+    "recordSetCount": 1,
+    "metaData": {
+        "price": "1"
+    },
+    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/DR-TBLS-0001?langId=-1",
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14825",
+            "uniqueID": "14825",
+            "partNumber": "DR-TBLS-0001",
+            "singleSKUCatalogEntryID": "14826",
+            "shortDescription": "A cozy dining table that is perfect for afternoon luncheons. It fits in with any home's decor with its natural styling, while comfortably seating 4.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "With its versatile and subtle styling, this dining room table makes the most out of your living space.  Its table top features durable and easy-to-clean tempered glass, and its stylish angled legs draws attention to its cozy features. Seats 4.",
+            "name": "Luncheon Table",
+            "parentCatalogGroupID": [
+                "11251_10606",
+                "11301_10606"
+            ],
+            "manufacturer": "Moderno",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "1200.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "1200.0",
+                    "maximumValue": {
+                        "value": "1200.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "999.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "999.99",
+                    "maximumValue": {
+                        "value": "999.99"
+                    }
+                }
+            ],
+            "numberOfSKUs": 1,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14826",
+                    "uniqueID": "14826",
+                    "partNumber": "DR-TBLS-0001-0001",
+                    "shortDescription": "A cozy dining table that is perfect for afternoon luncheons. It fits in with any home's decor with its natural styling, while comfortably seating 4.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Luncheon Table",
+                    "parentCatalogGroupID": [
+                        "11251_10606",
+                        "11301_10606"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "1200.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "999.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "blonde",
+                                    "sequence": "5.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                                    "value": "Blonde",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                                    "uniqueID": "7000000000000003305"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "DR-TBLS-0001-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14826",
+                            "usage": "images_main_thumbnail",
+                            "name": "DR-TBLS-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54732,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-TBLS-0001-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14826",
+                            "usage": "images_main_fullimage",
+                            "name": "DR-TBLS-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54732,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-TBLS-0001-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14826",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-TBLS-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54732,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-TBLS-0001-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14826",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-TBLS-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54732,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_600.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "40x36x36",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "40\"x36\"x36\"",
+                            "uniqueID": "7000000000000003376"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "blonde",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                            "value": "Blonde",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                            "uniqueID": "7000000000000003305"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "90lbs",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "90 lbs",
+                            "uniqueID": "7000000000000003401"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-glass",
+                            "sequence": "16.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Glass",
+                            "uniqueID": "7000000000000003343"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfSeats",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "4seats",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "4",
+                            "uniqueID": "7000000000000003413"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Seating",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000664"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "DR-TBLS-0001_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14825",
+                    "usage": "images_main_thumbnail",
+                    "name": "DR-TBLS-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54625,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-TBLS-0001_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14825",
+                    "usage": "images_main_fullimage",
+                    "name": "DR-TBLS-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54625,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-TBLS-0001_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14825",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "DR-TBLS-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54625,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-TBLS-0001_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14825",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "DR-TBLS-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54625,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_600.jpg"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": 0,
+    "resourceName": "productview",
+    "recordSetTotal": 1,
+    "recordSetTotalMatches": 1,
+    "recordSetComplete": "true"
+}

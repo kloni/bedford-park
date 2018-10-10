@@ -1,0 +1,49 @@
+<div class="wch-responsive-menu ">
+	<div class="grid-container grid-container-padded">
+		<div class="header grid-x">
+			<div class="nav-and-branding">
+				<nav>
+					<!-- Hamburger menu to show Megamenu. -->
+					<button id="hamburger_menu_button_{{id}}" (click)="toggleMobileNav()">
+						<svg-icon class="menu-hamburger" src="images/menu-hamburger.svg"></svg-icon>
+					</button>
+				</nav>
+
+				<div class="branding"  [@bannerLogo]="bannerLogoState">
+
+					<!-- Logo -->
+					<a routerLink="/">
+						<h1 *ngIf="isImageURLAvailable(LOGO)" class="logo" [style.background-image]="'url(' + getURL(LOGO) + ')'"></h1>
+					</a>
+				</div>
+			</div>
+
+			<div class="header-tools">
+				<!-- Search form -->
+				<app-search-box (onfocus)="setSearchFocus($event)" (onSearch)="closeMobileNav()"></app-search-box>
+				<!-- Sign in and account access -->
+				<a id="signin_link_{{id}}" *ngIf="!isLoggedIn" routerLink="sign-in" class="tool-button hide-for-small-only">
+					<span translate>Sign in</span>
+				</a>
+				<a id="myaccount_link_{{id}}" *ngIf="isLoggedIn" href routerLink="my-account" class="tool-button tool-button-user-account show-for-medium">
+					<span class="show-for-sr">My account</span>
+                </a>
+                <a id="myaccount_link_{{id}}" href routerLink="my-account" class="tool-button tool-button-user-account show-for-small-only">
+					<span class="show-for-sr">My account</span>
+				</a>
+				<!-- Store locator -->
+				<a id="store_locator_{{id}}" href routerLink="store-locator" class="tool-button tool-button-store-locator">
+                    <span class="show-for-sr">Store locator</span>
+                    <span id="store_locator_preferred_store_{{id}}" class="show-for-medium preferred-store" *ngIf="preferredStoreName">{{ preferredStoreName }}</span>
+				</a>
+				<!-- Cart -->
+				<a href routerLink="cart" id="cart_link_{{id}}" [attr.data-cart-length]="cartLength" class="tool-button tool-button-cart" [class.wch-show-badge]="cartLength > 0">
+				</a>
+			</div>
+		</div>
+	</div>
+	<nav class="menu-container"  [class.open]="mobileNavToggle">
+		<wch-mega-menu theme="light" menutitle="Products" [maxLevel]="2" (onMenuItemSelected)="toggleMobileNav()" [pages]="productPages" [dynamicPages]="dynamicCategoryPages"></wch-mega-menu>
+        <wch-mega-menu theme="dark"  [maxLevel]="2" (onMenuItemSelected)="toggleMobileNav()" [pages]="rc?.context?.site.pages"></wch-mega-menu>
+	</nav>
+</div>

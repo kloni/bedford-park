@@ -1,0 +1,23 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": ["node"]
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts",
+    "mocks/**",
+    "wchLayouts/**/*.ts",
+    "app/commerce/common/common.test.module.ts"
+  ],
+  "include": [
+    "../node_modules/foundation-sites/dist/js/foundation.d.ts",
+    "../node_modules/angular2-logger/app/core/level.ts",
+    "../node_modules/angular2-logger/app/core/logger.ts",
+    "../node_modules/angular2-logger/app/core/providers.ts",
+    "**/*.ts"
+  ]
+}

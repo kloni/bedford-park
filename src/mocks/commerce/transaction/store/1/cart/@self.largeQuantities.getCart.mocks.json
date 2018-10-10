@@ -1,0 +1,1 @@
+{"errors":[{"errorKey":"_ERR_THRESHOLD_SHOPPING_CART_QUANTITY","errorParameters":"10000,10011.0,AuroraWMDRS-001","errorMessage":"The maximum quantity for \"AuroraWMDRS-001\" in the shopping cart is 10,000 and you have specified 10,011. Specify a lower quantity.","errorCode":"_ERR_THRESHOLD_SHOPPING_CART_QUANTITY"}]}

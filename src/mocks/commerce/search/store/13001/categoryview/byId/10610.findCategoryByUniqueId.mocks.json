@@ -1,0 +1,18 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "BathLighthing",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/lighting.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/lighting.jpg",
+            "storeID": "12901",
+            "name": "Lighting",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10610",
+            "uniqueID": "10610",
+            "parentCatalogGroupID": [
+                "11251_10609",
+                "11301_10609"
+            ],
+            "shortDescription": "Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+
+$dark-colors: (
+		bg: #6c6c6c,
+		bg-secondary: #6c6c6c,
+		border-color: #d1d1d1,
+		color: #fff,
+		arrow-color: #fff
+);
+
+
+.dark {
+	// each item in color map
+	@each $k, $v in $dark-colors {
+		--color-#{$k}: $v;
+	}
+}
+

@@ -1,0 +1,11 @@
+{
+    "address" : {
+		"default": "Default:",
+		"address": "Address",
+		"email": "Email",
+		"phone": "Phone",
+		"edit": "Edit",
+		"remove": "Remove",
+		"setDefault": "Set as Default"
+	}
+}

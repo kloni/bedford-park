@@ -1,0 +1,743 @@
+{
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": false,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14870",
+            "uniqueID": "14870",
+            "partNumber": "BD-DRSS-0003",
+            "shortDescription": "A modern chest of drawer with 6 split width drawer made of Maple wood.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "This is a simple elegant design chest of drawer from Style Home made from Maple wood. If you want something that is not expensive but will last for a long time, this is the perfect chest of drawer.",
+            "name": "Style Home Intree Chest of Drawers",
+            "parentCatalogGroupID": [
+                "11251_10615",
+                "11301_10615"
+            ],
+            "manufacturer": "Style Home",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "800.0",
+                    "maximumValue": {
+                        "value": "800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "679.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "679.99",
+                    "maximumValue": {
+                        "value": "699.99"
+                    }
+                }
+            ],
+            "numberOfSKUs": 4,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14871",
+                    "uniqueID": "14871",
+                    "partNumber": "BD-DRSS-0003-0001",
+                    "shortDescription": "A modern chest of drawer with 6 split width drawer made of Maple wood.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Style Home Intree Chest of Drawers",
+                    "parentCatalogGroupID": [
+                        "11251_10615",
+                        "11301_10615"
+                    ],
+                    "manufacturer": "Style Home",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "679.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "blonde",
+                                    "sequence": "5.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                                    "value": "Blonde",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                                    "uniqueID": "7000000000000003305"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14871",
+                            "usage": "images_main_thumbnail",
+                            "name": "BD-DRSS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54700,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14871",
+                            "usage": "images_main_fullimage",
+                            "name": "BD-DRSS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54700,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14871",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-DRSS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54700,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14871",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-DRSS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54700,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14871",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-DRSS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54700,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14871",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-DRSS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54700,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a2_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14872",
+                    "uniqueID": "14872",
+                    "partNumber": "BD-DRSS-0003-0002",
+                    "shortDescription": "A modern chest of drawer with 6 split width drawer made of Maple wood.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_b1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_b1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Style Home Intree Chest of Drawers",
+                    "parentCatalogGroupID": [
+                        "11251_10615",
+                        "11301_10615"
+                    ],
+                    "manufacturer": "Style Home",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "679.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "lightgrey",
+                                    "sequence": "6.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                                    "value": "Light Grey",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                                    "uniqueID": "7000000000000003306"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0002_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14872",
+                            "usage": "images_main_thumbnail",
+                            "name": "BD-DRSS-0003-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54701,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_b1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0002_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14872",
+                            "usage": "images_main_fullimage",
+                            "name": "BD-DRSS-0003-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54701,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0002_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14872",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-DRSS-0003-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54701,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_b1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0002_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14872",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-DRSS-0003-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54701,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0002_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14872",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-DRSS-0003-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54701,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_b2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0002_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14872",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-DRSS-0003-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54701,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_b2_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14873",
+                    "uniqueID": "14873",
+                    "partNumber": "BD-DRSS-0003-0003",
+                    "shortDescription": "A modern chest of drawer with 6 split width drawer made of Maple wood.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_c1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_c1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Style Home Intree Chest of Drawers",
+                    "parentCatalogGroupID": [
+                        "11251_10615",
+                        "11301_10615"
+                    ],
+                    "manufacturer": "Style Home",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "699.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "toffee",
+                                    "sequence": "8.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                    "value": "Toffee",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                    "uniqueID": "7000000000000003308"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0003_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14873",
+                            "usage": "images_main_fullimage",
+                            "name": "BD-DRSS-0003-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54702,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0003_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14873",
+                            "usage": "images_main_thumbnail",
+                            "name": "BD-DRSS-0003-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54702,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_c1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0003_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14873",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-DRSS-0003-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54702,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0003_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14873",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-DRSS-0003-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54702,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_c1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0003_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14873",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-DRSS-0003-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54702,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_c2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0003_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14873",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-DRSS-0003-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54702,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_c2_100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14874",
+                    "uniqueID": "14874",
+                    "partNumber": "BD-DRSS-0003-0004",
+                    "shortDescription": "A modern chest of drawer with 6 split width drawer made of Maple wood.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_d1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_d1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Style Home Intree Chest of Drawers",
+                    "parentCatalogGroupID": [
+                        "11251_10615",
+                        "11301_10615"
+                    ],
+                    "manufacturer": "Style Home",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "699.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "brown",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "value": "Brown",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "uniqueID": "7000000000000003302"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0004_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14874",
+                            "usage": "images_main_fullimage",
+                            "name": "BD-DRSS-0003-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54703,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_d1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0004_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14874",
+                            "usage": "images_main_thumbnail",
+                            "name": "BD-DRSS-0003-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54703,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_d1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0004_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14874",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-DRSS-0003-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54703,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_d1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0004_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14874",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-DRSS-0003-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54703,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_d1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0004_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14874",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-DRSS-0003-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54703,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_d2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-DRSS-0003-0004_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14874",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-DRSS-0003-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54703,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_d2_100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "simple",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Simple",
+                            "uniqueID": "7000000000000003359"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "brown",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "value": "Brown",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "uniqueID": "7000000000000003302"
+                        },
+                        {
+                            "identifier": "blonde",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                            "value": "Blonde",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                            "uniqueID": "7000000000000003305"
+                        },
+                        {
+                            "identifier": "lightgrey",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                            "value": "Light Grey",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                            "uniqueID": "7000000000000003306"
+                        },
+                        {
+                            "identifier": "toffee",
+                            "sequence": "8.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                            "value": "Toffee",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                            "uniqueID": "7000000000000003308"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "smooth",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Smooth",
+                            "uniqueID": "7000000000000003368"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "self_assembly",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Self-assembly",
+                            "uniqueID": "7000000000000003370"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "maple",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Maple",
+                            "uniqueID": "7000000000000003336"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "BD-DRSS-0003_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14870",
+                    "usage": "images_main_thumbnail",
+                    "name": "BD-DRSS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54617,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-DRSS-0003_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14870",
+                    "usage": "images_main_fullimage",
+                    "name": "BD-DRSS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54617,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-DRSS-0003_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14870",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BD-DRSS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54617,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-DRSS-0003_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14870",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BD-DRSS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54617,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-DRSS-0003_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14870",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BD-DRSS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54617,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a2_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-DRSS-0003_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14870",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BD-DRSS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54617,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/dressers/beddress3_a2_600.jpg"
+                }
+            ]
+        }
+    ]
+}

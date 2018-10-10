@@ -1,0 +1,5 @@
+<div id="contentByTag">
+    <wch-contentquery [query]="query" #q>
+        <app-gallery [renderingContexts]="q.onRenderingContexts | async | itemSort:sortField:sortOrderStr:maxItemsToDisplay" [twoColGrid]="true"></app-gallery>
+    </wch-contentquery>
+</div>

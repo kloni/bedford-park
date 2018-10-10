@@ -1,0 +1,31 @@
+<ul class="accordion grid-x" id="{{accordion}}" data-allow-all-closed="true" data-multi-expand="true" data-accordion>
+  <li class="accordion-item small-12 medium-6" data-accordion-item>
+    <a class="accordion-title order-comment-link text-content" translate>ordercomment.title</a>
+
+    <div class="accordion-content" data-tab-content>
+      <form #orderCommentForm="ngForm" (ngSubmit)="prepareSubmit()">
+        <div class="grid-x grid-margin-x">
+          <input class="cell" type="text" name="orderComment" [(ngModel)]="comment" #orderComment="ngModel" placeholder="Enter order comment here"><br>
+          <div class="small-12 medium-3 cell ">
+            <button type="button" class="medium-4 small-12 button button-light expanded" (click)="cancel()" data-close translate>ordercomment.cancel</button>
+          </div>
+          <div class="small-12 medium-3 cell ">
+              <button class="medium-4 small-12 button button-dark expanded" type="submit" translate>ordercomment.submit</button>
+          </div>
+        </div>
+      </form>
+      <hr>
+      <div>
+        <ul class="no-bullet order-comment-display">
+          <li class="grid-y list-item" *ngFor="let comment of commentDisplay">
+            <span class="small-12 cell bold">[ {{comment.commentDetails.lastupdate | date : 'short'}} - by {{comment.serviceRepDetails.address.firstName}} {{comment.serviceRepDetails.address.lastName}} ]</span>
+            <span class="small-12 cell">{{comment.commentDetails.comment}}</span>
+          </li>
+        </ul>
+        <pagination-layout-component class="grid-x grid-margin-x" *ngIf="commentCount > pageSize" (goPage)="goToPage($event)" (goNext)="onNext()"
+            (goPrev)="onPrev()" [pagesToShow]="5" [pageNumber]="pageNumber" [pageSize]="pageSize" [total]="commentCount">
+        </pagination-layout-component>
+      </div>
+    </div>
+  </li>
+</ul>

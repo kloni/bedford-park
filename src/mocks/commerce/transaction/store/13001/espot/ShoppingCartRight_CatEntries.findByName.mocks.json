@@ -1,0 +1,168 @@
+{
+    "MarketingSpotData": [
+        {
+            "/marketingSpotIdentifier": {
+                "marketingSpotIdentifier": "12351",
+                "eSpotName": "ShoppingCartRight_CatEntries"
+            },
+            "nextTimeLimit": "-1",
+            "marketingSpotIdentifier": "12351",
+            "behavior": "0",
+            "eSpotName": "ShoppingCartRight_CatEntries",
+            "baseMarketingSpotActivityData": [
+                {
+                    "baseMarketingSpotActivityName": "Modern Armchair",
+                    "productId": "14758",
+                    "description": [
+                        {
+                            "longDescription": "Give your living room a bold new look with the modern and comfortable blue armchair. The armchair features a compact design, comfortable oversized pillow, easy to clean polyester fabric, and button tufts along the lower backrest. The armchair's modern styling is complemented with durable light brown wooden legs. No assembly required.",
+                            "language": "-1",
+                            "shortDescription": "A compact modern armchair that offers comfortable and sleek styling to accent your home's living room.",
+                            "productName": "Modern Armchair"
+                        }
+                    ],
+                    "listPriceCurrency": "USD",
+                    "activityFormat": "web",
+                    "standardPrice": "749.99",
+                    "ownerID": "7333333333333336885",
+                    "activityIdentifierName": "Shopping cart featured products",
+                    "baseMarketingSpotActivityID": "14758",
+                    "baseMarketingSpotDataType": "CatalogEntry",
+                    "productPartNumber": "LR-FUCH-0001",
+                    "activityIdentifierID": "10651",
+                    "standardPriceCurrency": "USD",
+                    "contractPrice": [
+                        {
+                            "minorVersionNumber": "0",
+                            "contractPrice": "749.99",
+                            "origin": "6",
+                            "name": "Stockholm0410 - Stockholm0410",
+                            "contractID": "4000000000000001004",
+                            "currency": "USD",
+                            "ownerID": "7333333333333336985",
+                            "minimumQuantity": "1.0",
+                            "majorVersionNumber": "1"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "stringValue": "Stockholm0410CAS",
+                            "name": "rootDirectory"
+                        }
+                    ],
+                    "catalogEntryTypeCode": "ProductBean",
+                    "activityPriority": "1",
+                    "properties": [
+                        {
+                            "baseMarketingValue": "Recommend a product to a customer that satisfies the chosen target conditions.",
+                            "baseMarketingKey": "mktActivityDescription"
+                        }
+                    ],
+                    "listPrice": "800.00"
+                },
+                {
+                    "baseMarketingSpotActivityName": "Soft Vintage Armchair",
+                    "productId": "14764",
+                    "description": [
+                        {
+                            "longDescription": "Make your living room extra comfortable with the soft vintage armchair. The armchair features wide armrests, a removable seat pillow, soft microfiber fabric, and dark brown wooden accents. The armchair's lounging styling is complemented with durable dark brown wooden legs that match its accents. No assembly required.",
+                            "language": "-1",
+                            "shortDescription": "A warm and cozy armchair that offers superior comfort and lounge room styling to accent your home's living room.",
+                            "productName": "Soft Vintage Armchair"
+                        }
+                    ],
+                    "listPriceCurrency": "USD",
+                    "activityFormat": "web",
+                    "standardPrice": "629.99",
+                    "ownerID": "7333333333333336885",
+                    "activityIdentifierName": "Shopping cart featured products",
+                    "baseMarketingSpotActivityID": "14764",
+                    "baseMarketingSpotDataType": "CatalogEntry",
+                    "productPartNumber": "LR-FUCH-0003",
+                    "activityIdentifierID": "10651",
+                    "standardPriceCurrency": "USD",
+                    "contractPrice": [
+                        {
+                            "minorVersionNumber": "0",
+                            "contractPrice": "629.99",
+                            "origin": "6",
+                            "name": "Stockholm0410 - Stockholm0410",
+                            "contractID": "4000000000000001004",
+                            "currency": "USD",
+                            "ownerID": "7333333333333336985",
+                            "minimumQuantity": "1.0",
+                            "majorVersionNumber": "1"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "stringValue": "Stockholm0410CAS",
+                            "name": "rootDirectory"
+                        }
+                    ],
+                    "catalogEntryTypeCode": "ProductBean",
+                    "activityPriority": "1",
+                    "properties": [
+                        {
+                            "baseMarketingValue": "Recommend a product to a customer that satisfies the chosen target conditions.",
+                            "baseMarketingKey": "mktActivityDescription"
+                        }
+                    ],
+                    "listPrice": "700.00"
+                },
+                {
+                    "baseMarketingSpotActivityName": "Nordic Loveseat",
+                    "productId": "14770",
+                    "description": [
+                        {
+                            "longDescription": "Give your living room an open and modern feel with the Nordic loveseat. The loveseat features a modern simple design, wide armrests, layered cushioning, and easy to clean polyester fabric. The loveseat's modern styling is complemented with wide brushed steel legs. No assembly required.",
+                            "language": "-1",
+                            "shortDescription": "A simple and modern casual loveseat that offers comfort and contemporary styling to accent your home's living room.",
+                            "productName": "Nordic Loveseat"
+                        }
+                    ],
+                    "listPriceCurrency": "USD",
+                    "activityFormat": "web",
+                    "standardPrice": "1999.99",
+                    "ownerID": "7333333333333336885",
+                    "activityIdentifierName": "Shopping cart featured products",
+                    "baseMarketingSpotActivityID": "14770",
+                    "baseMarketingSpotDataType": "CatalogEntry",
+                    "productPartNumber": "LR-FUCH-0005",
+                    "activityIdentifierID": "10651",
+                    "standardPriceCurrency": "USD",
+                    "contractPrice": [
+                        {
+                            "minorVersionNumber": "0",
+                            "contractPrice": "1999.99",
+                            "origin": "6",
+                            "name": "Stockholm0410 - Stockholm0410",
+                            "contractID": "4000000000000001004",
+                            "currency": "USD",
+                            "ownerID": "7333333333333336985",
+                            "minimumQuantity": "1.0",
+                            "majorVersionNumber": "1"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "stringValue": "Stockholm0410CAS",
+                            "name": "rootDirectory"
+                        }
+                    ],
+                    "catalogEntryTypeCode": "ProductBean",
+                    "activityPriority": "1",
+                    "properties": [
+                        {
+                            "baseMarketingValue": "Recommend a product to a customer that satisfies the chosen target conditions.",
+                            "baseMarketingKey": "mktActivityDescription"
+                        }
+                    ],
+                    "listPrice": "2500.00"
+                }
+            ]
+        }
+    ],
+    "resourceId": "https://abc123.watsoncommerce.ibm.com:443/wcs/resources/store/13001/espot/ShoppingCartRight_CatEntries?name=ShoppingCartRight_CatEntries",
+    "resourceName": "espot"
+}

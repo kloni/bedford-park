@@ -1,0 +1,1227 @@
+{
+    "recordSetCount": 1,
+    "metaData": {
+        "price": "1"
+    },
+    "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/BCL014_1417?associationType=ACCESSORY&associationType=X-SELL&associationType=REPLACEMENT&associationType=UPSELL&langId=-1",
+    "catalogEntryView": [{
+        "hasSingleSKU": false,
+        "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/13914",
+        "uniqueID": "13914",
+        "subscriptionTypeCode": "NONE",
+        "partNumber": "BCL014_1417",
+        "shortDescription": "White cotton shirt and blue carpenter jeans set",
+        "rating": "1.0",
+        "catalogEntryTypeCode": "BundleBean",
+        "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1417.jpg",
+        "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1417.jpg",
+        "buyable": "true",
+        "storeID": "10501",
+        "longDescription": "White cotton shirt with carpenter-style jeans, a classic outfit for a little boy and suitable for all occasions. The gray and black geometric patterns on the white background make the shirt look elegant and modern. The carpenter-style jeans complete the look",
+        "name": "Casual Yet Classic",
+        "parentCatalogGroupID": ["10001_10019", "10502_10019", "11001_11001"],
+        "manufacturer": "Hermitage Collection, Borsati",
+        "disallowRecurringOrder": "1",
+        "price": [{
+            "usage": "Display",
+            "description": "L",
+            "currency": "USD",
+            "value": "70.0"
+        }, {
+            "usage": "Offer",
+            "description": "I",
+            "currency": "USD",
+            "value": "70.0"
+        }],
+        "attachments": [{
+            "image": "",
+            "identifier": "BCL014_1417_AuroraCatalogEntryImages_main_fullimage",
+            "catentry_id": "13914",
+            "usage": "images_main_fullimage",
+            "name": "BCL014_1417_AuroraCatalogEntryImages",
+            "attachmentAssetID": 19824,
+            "mimeType": "image/jpeg",
+            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1417.jpg"
+        }, {
+            "image": "",
+            "identifier": "BCL014_1417_AuroraCatalogEntryImages_main_thumbnail",
+            "catentry_id": "13914",
+            "usage": "images_main_thumbnail",
+            "name": "BCL014_1417_AuroraCatalogEntryImages",
+            "attachmentAssetID": 19824,
+            "mimeType": "image/jpeg",
+            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1417.jpg"
+        }],
+        "components": [{
+            "buyable": "true",
+            "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12595",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg",
+            "sKUs": [{
+                "hasSingleSKU": false,
+                "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12596",
+                "uniqueID": "12596",
+                "partNumber": "BCL014_141301",
+                "shortDescription": "White striped cotton shirt",
+                "rating": "1.1",
+                "catalogEntryTypeCode": "ItemBean",
+                "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg",
+                "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg",
+                "buyable": "true",
+                "storeID": "10501",
+                "name": "Hermitage White Striped Cotton Shirt",
+                "parentCatalogGroupID": ["10001_10020", "10502_10020", "11001_11001"],
+                "manufacturer": "Hermitage Collection",
+                "price": [{
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0"
+                }, {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "40.0"
+                }],
+                "attributes": [{
+                    "identifier": "BoysTopsColor",
+                    "sequence": ".00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "White",
+                        "sequence": "6.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "White",
+                        "uniqueID": "7000000000000001457"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000065"
+                }, {
+                    "identifier": "BoysTopsSize",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "XS",
+                        "sequence": "1.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "XS",
+                        "uniqueID": "7000000000000001440"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000064"
+                }],
+                "attachments": [{
+                    "image": "",
+                    "identifier": "BCL014_141301_AuroraCatalogEntryImages_main_fullimage",
+                    "catentry_id": "12596",
+                    "usage": "images_main_fullimage",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19527,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg"
+                }, {
+                    "image": "",
+                    "identifier": "BCL014_141301_AuroraCatalogEntryImages_main_thumbnail",
+                    "catentry_id": "12596",
+                    "usage": "images_main_thumbnail",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19527,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg"
+                }]
+            }, {
+                "hasSingleSKU": false,
+                "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12597",
+                "uniqueID": "12597",
+                "partNumber": "BCL014_141302",
+                "shortDescription": "White striped cotton shirt",
+                "rating": "1.1",
+                "catalogEntryTypeCode": "ItemBean",
+                "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg",
+                "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg",
+                "buyable": "true",
+                "storeID": "10501",
+                "name": "Hermitage White Striped Cotton Shirt",
+                "parentCatalogGroupID": ["10001_10020", "10502_10020", "11001_11001"],
+                "manufacturer": "Hermitage Collection",
+                "price": [{
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0"
+                }, {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "40.0"
+                }],
+                "attributes": [{
+                    "identifier": "BoysTopsColor",
+                    "sequence": ".00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "White",
+                        "sequence": "6.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "White",
+                        "uniqueID": "7000000000000001457"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000065"
+                }, {
+                    "identifier": "BoysTopsSize",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "S",
+                        "sequence": "2.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "S",
+                        "uniqueID": "7000000000000001441"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000064"
+                }],
+                "attachments": [{
+                    "image": "",
+                    "identifier": "BCL014_141302_AuroraCatalogEntryImages_main_fullimage",
+                    "catentry_id": "12597",
+                    "usage": "images_main_fullimage",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19538,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg"
+                }, {
+                    "image": "",
+                    "identifier": "BCL014_141302_AuroraCatalogEntryImages_main_thumbnail",
+                    "catentry_id": "12597",
+                    "usage": "images_main_thumbnail",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19538,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg"
+                }]
+            }, {
+                "hasSingleSKU": false,
+                "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12598",
+                "uniqueID": "12598",
+                "partNumber": "BCL014_141303",
+                "shortDescription": "White striped cotton shirt",
+                "rating": "1.1",
+                "catalogEntryTypeCode": "ItemBean",
+                "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg",
+                "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg",
+                "buyable": "true",
+                "storeID": "10501",
+                "name": "Hermitage White Striped Cotton Shirt",
+                "parentCatalogGroupID": ["10001_10020", "10502_10020", "11001_11001"],
+                "manufacturer": "Hermitage Collection",
+                "price": [{
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0"
+                }, {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "40.0"
+                }],
+                "attributes": [{
+                    "identifier": "BoysTopsColor",
+                    "sequence": ".00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "White",
+                        "sequence": "6.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "White",
+                        "uniqueID": "7000000000000001457"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000065"
+                }, {
+                    "identifier": "BoysTopsSize",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "M",
+                        "sequence": "3.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "M",
+                        "uniqueID": "7000000000000001442"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000064"
+                }],
+                "attachments": [{
+                    "image": "",
+                    "identifier": "BCL014_141303_AuroraCatalogEntryImages_main_fullimage",
+                    "catentry_id": "12598",
+                    "usage": "images_main_fullimage",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19549,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg"
+                }, {
+                    "image": "",
+                    "identifier": "BCL014_141303_AuroraCatalogEntryImages_main_thumbnail",
+                    "catentry_id": "12598",
+                    "usage": "images_main_thumbnail",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19549,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg"
+                }]
+            }, {
+                "hasSingleSKU": false,
+                "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12599",
+                "uniqueID": "12599",
+                "partNumber": "BCL014_141304",
+                "shortDescription": "White striped cotton shirt",
+                "rating": "1.1",
+                "catalogEntryTypeCode": "ItemBean",
+                "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg",
+                "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg",
+                "buyable": "true",
+                "storeID": "10501",
+                "name": "Hermitage White Striped Cotton Shirt",
+                "parentCatalogGroupID": ["10001_10020", "10502_10020", "11001_11001"],
+                "manufacturer": "Hermitage Collection",
+                "price": [{
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0"
+                }, {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "40.0"
+                }],
+                "attributes": [{
+                    "identifier": "BoysTopsColor",
+                    "sequence": ".00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "White",
+                        "sequence": "6.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "White",
+                        "uniqueID": "7000000000000001457"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000065"
+                }, {
+                    "identifier": "BoysTopsSize",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "L",
+                        "sequence": "4.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "L",
+                        "uniqueID": "7000000000000001443"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000064"
+                }],
+                "attachments": [{
+                    "image": "",
+                    "identifier": "BCL014_141304_AuroraCatalogEntryImages_main_fullimage",
+                    "catentry_id": "12599",
+                    "usage": "images_main_fullimage",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19560,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg"
+                }, {
+                    "image": "",
+                    "identifier": "BCL014_141304_AuroraCatalogEntryImages_main_thumbnail",
+                    "catentry_id": "12599",
+                    "usage": "images_main_thumbnail",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19560,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg"
+                }]
+            }, {
+                "hasSingleSKU": false,
+                "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12600",
+                "uniqueID": "12600",
+                "partNumber": "BCL014_141305",
+                "shortDescription": "White striped cotton shirt",
+                "rating": "1.1",
+                "catalogEntryTypeCode": "ItemBean",
+                "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg",
+                "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg",
+                "buyable": "true",
+                "storeID": "10501",
+                "name": "Hermitage White Striped Cotton Shirt",
+                "parentCatalogGroupID": ["10001_10020", "10502_10020", "11001_11001"],
+                "manufacturer": "Hermitage Collection",
+                "price": [{
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0"
+                }, {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "40.0"
+                }],
+                "attributes": [{
+                    "identifier": "BoysTopsColor",
+                    "sequence": ".00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "White",
+                        "sequence": "6.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "White",
+                        "uniqueID": "7000000000000001457"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000065"
+                }, {
+                    "identifier": "BoysTopsSize",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "XL",
+                        "sequence": "5.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "XL",
+                        "uniqueID": "7000000000000001444"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000064"
+                }],
+                "attachments": [{
+                    "image": "",
+                    "identifier": "BCL014_141305_AuroraCatalogEntryImages_main_fullimage",
+                    "catentry_id": "12600",
+                    "usage": "images_main_fullimage",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19571,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg"
+                }, {
+                    "image": "",
+                    "identifier": "BCL014_141305_AuroraCatalogEntryImages_main_thumbnail",
+                    "catentry_id": "12600",
+                    "usage": "images_main_thumbnail",
+                    "name": "BCL014_1413_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19571,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg"
+                }]
+            }],
+            "attachments": [{
+                "image": "",
+                "identifier": "BCL014_1413_AuroraCatalogEntryImages_main_fullimage",
+                "catentry_id": "12595",
+                "usage": "images_main_fullimage",
+                "name": "BCL014_1413_AuroraCatalogEntryImages",
+                "attachmentAssetID": 19516,
+                "mimeType": "image/jpeg",
+                "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/646x1000/bcl014_1413.jpg"
+            }, {
+                "image": "",
+                "identifier": "BCL014_1413_AuroraCatalogEntryImages_main_thumbnail",
+                "catentry_id": "12595",
+                "usage": "images_main_thumbnail",
+                "name": "BCL014_1413_AuroraCatalogEntryImages",
+                "attachmentAssetID": 19516,
+                "mimeType": "image/jpeg",
+                "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl014_tops/200x310/bcl014_1413.jpg"
+            }],
+            "quantity": "1.00000",
+            "rating": "1.1",
+            "shortDescription": "White striped cotton shirt",
+            "parentCatalogGroupID": ["10001_10020", "10502_10020", "11001_11001"],
+            "storeID": "10501",
+            "manufacturer": "Hermitage Collection",
+            "numberOfSKUs": 5,
+            "hasSingleSKU": false,
+            "price": [{
+                "minimumValue": {
+                    "value": "40.0"
+                },
+                "usage": "Display",
+                "description": "L",
+                "currency": "USD",
+                "value": "40.0",
+                "maximumValue": {
+                    "value": "40.0"
+                }
+            }, {
+                "minimumValue": {
+                    "value": "40.0"
+                },
+                "usage": "Offer",
+                "description": "I",
+                "currency": "USD",
+                "value": "40.0",
+                "maximumValue": {
+                    "value": "40.0"
+                }
+            }],
+            "name": "Hermitage White Striped Cotton Shirt",
+            "partNumber": "BCL014_1413",
+            "attributes": [{
+                "identifier": "BoysTopsSize",
+                "sequence": ".00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "XS",
+                    "sequence": "1.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "XS",
+                    "uniqueID": "7000000000000001440"
+                }, {
+                    "identifier": "S",
+                    "sequence": "2.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "S",
+                    "uniqueID": "7000000000000001441"
+                }, {
+                    "identifier": "M",
+                    "sequence": "3.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "M",
+                    "uniqueID": "7000000000000001442"
+                }, {
+                    "identifier": "L",
+                    "sequence": "4.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "L",
+                    "uniqueID": "7000000000000001443"
+                }, {
+                    "identifier": "XL",
+                    "sequence": "5.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "XL",
+                    "uniqueID": "7000000000000001444"
+                }],
+                "usage": "Defining",
+                "displayable": true,
+                "name": "Size",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000064"
+            }, {
+                "identifier": "Style",
+                "sequence": ".00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "BCL014_1413",
+                    "sequence": "2.00000",
+                    "unitOfMeasure": "",
+                    "unitID": "",
+                    "value": "Shirt",
+                    "uniqueID": "7000000000000001510"
+                }],
+                "usage": "Descriptive",
+                "displayable": true,
+                "name": "Style",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000010"
+            }, {
+                "identifier": "BoysTopsColor",
+                "sequence": "1.00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "White",
+                    "sequence": "6.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "White",
+                    "uniqueID": "7000000000000001457"
+                }],
+                "usage": "Defining",
+                "displayable": true,
+                "name": "Color",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000065"
+            }, {
+                "identifier": "Material",
+                "sequence": "1.00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "BCL014_1413",
+                    "sequence": "2.00000",
+                    "unitOfMeasure": "",
+                    "unitID": "",
+                    "value": "Cotton",
+                    "uniqueID": "7000000000000001502"
+                }],
+                "usage": "Descriptive",
+                "displayable": true,
+                "name": "Material",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000009"
+            }, {
+                "identifier": "Sleeve Length",
+                "sequence": "3.00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "BCL014_1413",
+                    "sequence": "6.00000",
+                    "unitOfMeasure": "",
+                    "unitID": "",
+                    "value": "Full sleeves",
+                    "uniqueID": "7000000000000001470"
+                }],
+                "usage": "Descriptive",
+                "displayable": true,
+                "name": "Sleeve Length",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000029"
+            }, {
+                "identifier": "Age",
+                "sequence": "4.00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "BCL014_1413",
+                    "sequence": "3.00000",
+                    "unitOfMeasure": "",
+                    "unitID": "",
+                    "value": "2-7",
+                    "uniqueID": "7000000000000001486"
+                }],
+                "usage": "Descriptive",
+                "displayable": true,
+                "name": "Age",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000053"
+            }],
+            "catalogEntryTypeCode": "ProductBean",
+            "uniqueID": "12595"
+        }, {
+            "buyable": "true",
+            "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12400",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg",
+            "sKUs": [{
+                "hasSingleSKU": false,
+                "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12401",
+                "uniqueID": "12401",
+                "partNumber": "BCL015_150301",
+                "shortDescription": "Blue carpenter jeans",
+                "rating": "3.9",
+                "catalogEntryTypeCode": "ItemBean",
+                "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/646x1000/bcl015_1503.jpg",
+                "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg",
+                "buyable": "true",
+                "storeID": "10501",
+                "name": "Borsati Blue Carpenter Jeans",
+                "parentCatalogGroupID": ["10001_10019", "10502_10019", "11001_11001"],
+                "manufacturer": "Borsati",
+                "price": [{
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "30.0"
+                }, {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "30.0"
+                }],
+                "attributes": [{
+                    "identifier": "BoysPantsColor",
+                    "sequence": ".00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "Blue",
+                        "sequence": "1.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "Blue",
+                        "uniqueID": "7000000000000001341"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000060"
+                }, {
+                    "identifier": "BoysPantsSize",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "S",
+                        "sequence": "1.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "S",
+                        "uniqueID": "7000000000000001344"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000061"
+                }],
+                "attachments": [{
+                    "image": "",
+                    "identifier": "BCL015_150301_AuroraCatalogEntryImages_main_fullimage",
+                    "catentry_id": "12401",
+                    "usage": "images_main_fullimage",
+                    "name": "BCL015_1503_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19956,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/646x1000/bcl015_1503.jpg"
+                }, {
+                    "image": "",
+                    "identifier": "BCL015_150301_AuroraCatalogEntryImages_main_thumbnail",
+                    "catentry_id": "12401",
+                    "usage": "images_main_thumbnail",
+                    "name": "BCL015_1503_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19956,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg"
+                }]
+            }, {
+                "hasSingleSKU": false,
+                "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12402",
+                "uniqueID": "12402",
+                "partNumber": "BCL015_150302",
+                "shortDescription": "Blue carpenter jeans",
+                "rating": "3.9",
+                "catalogEntryTypeCode": "ItemBean",
+                "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/646x1000/bcl015_1503.jpg",
+                "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg",
+                "buyable": "true",
+                "storeID": "10501",
+                "name": "Borsati Blue Carpenter Jeans",
+                "parentCatalogGroupID": ["10001_10019", "10502_10019", "11001_11001"],
+                "manufacturer": "Borsati",
+                "price": [{
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "30.0"
+                }, {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "30.0"
+                }],
+                "attributes": [{
+                    "identifier": "BoysPantsColor",
+                    "sequence": ".00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "Blue",
+                        "sequence": "1.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "Blue",
+                        "uniqueID": "7000000000000001341"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000060"
+                }, {
+                    "identifier": "BoysPantsSize",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "M",
+                        "sequence": "2.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "M",
+                        "uniqueID": "7000000000000001345"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000061"
+                }],
+                "attachments": [{
+                    "image": "",
+                    "identifier": "BCL015_150302_AuroraCatalogEntryImages_main_fullimage",
+                    "catentry_id": "12402",
+                    "usage": "images_main_fullimage",
+                    "name": "BCL015_1503_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19967,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/646x1000/bcl015_1503.jpg"
+                }, {
+                    "image": "",
+                    "identifier": "BCL015_150302_AuroraCatalogEntryImages_main_thumbnail",
+                    "catentry_id": "12402",
+                    "usage": "images_main_thumbnail",
+                    "name": "BCL015_1503_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19967,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg"
+                }]
+            }, {
+                "hasSingleSKU": false,
+                "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12403",
+                "uniqueID": "12403",
+                "partNumber": "BCL015_150303",
+                "shortDescription": "Blue carpenter jeans",
+                "rating": "3.9",
+                "catalogEntryTypeCode": "ItemBean",
+                "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/646x1000/bcl015_1503.jpg",
+                "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg",
+                "buyable": "true",
+                "storeID": "10501",
+                "name": "Borsati Blue Carpenter Jeans",
+                "parentCatalogGroupID": ["10001_10019", "10502_10019", "11001_11001"],
+                "manufacturer": "Borsati",
+                "price": [{
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "30.0"
+                }, {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "30.0"
+                }],
+                "attributes": [{
+                    "identifier": "BoysPantsColor",
+                    "sequence": ".00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "Blue",
+                        "sequence": "1.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "Blue",
+                        "uniqueID": "7000000000000001341"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000060"
+                }, {
+                    "identifier": "BoysPantsSize",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "L",
+                        "sequence": "3.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "L",
+                        "uniqueID": "7000000000000001346"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000061"
+                }],
+                "attachments": [{
+                    "image": "",
+                    "identifier": "BCL015_150303_AuroraCatalogEntryImages_main_fullimage",
+                    "catentry_id": "12403",
+                    "usage": "images_main_fullimage",
+                    "name": "BCL015_1503_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19978,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/646x1000/bcl015_1503.jpg"
+                }, {
+                    "image": "",
+                    "identifier": "BCL015_150303_AuroraCatalogEntryImages_main_thumbnail",
+                    "catentry_id": "12403",
+                    "usage": "images_main_thumbnail",
+                    "name": "BCL015_1503_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19978,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg"
+                }]
+            }, {
+                "hasSingleSKU": false,
+                "resourceId": "https://aas129.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12404",
+                "uniqueID": "12404",
+                "partNumber": "BCL015_150304",
+                "shortDescription": "Blue carpenter jeans",
+                "rating": "3.9",
+                "catalogEntryTypeCode": "ItemBean",
+                "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/646x1000/bcl015_1503.jpg",
+                "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg",
+                "buyable": "true",
+                "storeID": "10501",
+                "name": "Borsati Blue Carpenter Jeans",
+                "parentCatalogGroupID": ["10001_10019", "10502_10019", "11001_11001"],
+                "manufacturer": "Borsati",
+                "price": [{
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "30.0"
+                }, {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "30.0"
+                }],
+                "attributes": [{
+                    "identifier": "BoysPantsColor",
+                    "sequence": ".00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "Blue",
+                        "sequence": "1.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "Blue",
+                        "uniqueID": "7000000000000001341"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000060"
+                }, {
+                    "identifier": "BoysPantsSize",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [{
+                        "identifier": "XL",
+                        "sequence": "4.00000",
+                        "unitOfMeasure": "one",
+                        "unitID": "C62",
+                        "value": "XL",
+                        "uniqueID": "7000000000000001347"
+                    }],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000061"
+                }],
+                "attachments": [{
+                    "image": "",
+                    "identifier": "BCL015_150304_AuroraCatalogEntryImages_main_fullimage",
+                    "catentry_id": "12404",
+                    "usage": "images_main_fullimage",
+                    "name": "BCL015_1503_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19989,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/646x1000/bcl015_1503.jpg"
+                }, {
+                    "image": "",
+                    "identifier": "BCL015_150304_AuroraCatalogEntryImages_main_thumbnail",
+                    "catentry_id": "12404",
+                    "usage": "images_main_thumbnail",
+                    "name": "BCL015_1503_AuroraCatalogEntryImages",
+                    "attachmentAssetID": 19989,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg"
+                }]
+            }],
+            "attachments": [{
+                "image": "",
+                "identifier": "BCL015_1503_AuroraCatalogEntryImages_main_fullimage",
+                "catentry_id": "12400",
+                "usage": "images_main_fullimage",
+                "name": "BCL015_1503_AuroraCatalogEntryImages",
+                "attachmentAssetID": 19945,
+                "mimeType": "image/jpeg",
+                "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/646x1000/bcl015_1503.jpg"
+            }, {
+                "image": "",
+                "identifier": "BCL015_1503_AuroraCatalogEntryImages_main_thumbnail",
+                "catentry_id": "12400",
+                "usage": "images_main_thumbnail",
+                "name": "BCL015_1503_AuroraCatalogEntryImages",
+                "attachmentAssetID": 19945,
+                "mimeType": "image/jpeg",
+                "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/bcl015_pants/200x310/bcl015_1503.jpg"
+            }],
+            "quantity": "1.00000",
+            "rating": "3.9",
+            "shortDescription": "Blue carpenter jeans",
+            "parentCatalogGroupID": ["10001_10019", "10502_10019", "11001_11001"],
+            "storeID": "10501",
+            "manufacturer": "Borsati",
+            "numberOfSKUs": 4,
+            "hasSingleSKU": false,
+            "price": [{
+                "minimumValue": {
+                    "value": "30.0"
+                },
+                "usage": "Display",
+                "description": "L",
+                "currency": "USD",
+                "value": "30.0",
+                "maximumValue": {
+                    "value": "30.0"
+                }
+            }, {
+                "minimumValue": {
+                    "value": "30.0"
+                },
+                "usage": "Offer",
+                "description": "I",
+                "currency": "USD",
+                "value": "30.0",
+                "maximumValue": {
+                    "value": "30.0"
+                }
+            }],
+            "name": "Borsati Blue Carpenter Jeans",
+            "partNumber": "BCL015_1503",
+            "attributes": [{
+                "identifier": "BoysPantsSize",
+                "sequence": ".00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "S",
+                    "sequence": "1.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "S",
+                    "uniqueID": "7000000000000001344"
+                }, {
+                    "identifier": "M",
+                    "sequence": "2.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "M",
+                    "uniqueID": "7000000000000001345"
+                }, {
+                    "identifier": "L",
+                    "sequence": "3.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "L",
+                    "uniqueID": "7000000000000001346"
+                }, {
+                    "identifier": "XL",
+                    "sequence": "4.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "XL",
+                    "uniqueID": "7000000000000001347"
+                }],
+                "usage": "Defining",
+                "displayable": true,
+                "name": "Size",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000061"
+            }, {
+                "identifier": "Style",
+                "sequence": ".00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "BCL015_1503",
+                    "sequence": "1.00000",
+                    "unitOfMeasure": "",
+                    "unitID": "",
+                    "value": "Denim jeans",
+                    "uniqueID": "7000000000000001370"
+                }],
+                "usage": "Descriptive",
+                "displayable": true,
+                "name": "Style",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000010"
+            }, {
+                "identifier": "BoysPantsColor",
+                "sequence": "1.00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "Blue",
+                    "sequence": "1.00000",
+                    "unitOfMeasure": "one",
+                    "unitID": "C62",
+                    "value": "Blue",
+                    "uniqueID": "7000000000000001341"
+                }],
+                "usage": "Defining",
+                "displayable": true,
+                "name": "Color",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000060"
+            }, {
+                "identifier": "Material",
+                "sequence": "1.00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "BCL015_1503",
+                    "sequence": "1.00000",
+                    "unitOfMeasure": "",
+                    "unitID": "",
+                    "value": "Denim",
+                    "uniqueID": "7000000000000001360"
+                }],
+                "usage": "Descriptive",
+                "displayable": true,
+                "name": "Material",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000009"
+            }, {
+                "identifier": "Occasion",
+                "sequence": "2.00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "BCL015_1503",
+                    "sequence": "1.00000",
+                    "unitOfMeasure": "",
+                    "unitID": "",
+                    "value": "Casual",
+                    "uniqueID": "7000000000000001380"
+                }],
+                "usage": "Descriptive",
+                "displayable": true,
+                "name": "Occasion",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000011"
+            }, {
+                "identifier": "Age",
+                "sequence": "4.00000",
+                "storeDisplay": false,
+                "values": [{
+                    "identifier": "BCL015_1503",
+                    "sequence": "2.00000",
+                    "unitOfMeasure": "",
+                    "unitID": "",
+                    "value": "2-7",
+                    "uniqueID": "7000000000000001352"
+                }],
+                "usage": "Descriptive",
+                "displayable": true,
+                "name": "Age",
+                "facetable": false,
+                "associatedKeyword": "-",
+                "comparable": true,
+                "searchable": false,
+                "uniqueID": "7000000000000000053"
+            }],
+            "catalogEntryTypeCode": "ProductBean",
+            "uniqueID": "12400"
+        }]
+    }],
+    "recordSetStartNumber": 0,
+    "resourceName": "productview",
+    "recordSetTotal": 1,
+    "recordSetTotalMatches": 1,
+    "recordSetComplete": "true"
+}

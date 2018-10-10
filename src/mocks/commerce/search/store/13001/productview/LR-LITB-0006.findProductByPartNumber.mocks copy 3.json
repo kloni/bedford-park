@@ -1,0 +1,394 @@
+{
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14783",
+            "uniqueID": "14783",
+            "partNumber": "LR-LITB-0006",
+            "singleSKUCatalogEntryID": "14784",
+            "shortDescription": "A raindrop style chandelier that surrounds your room in full, elegant bright white light.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "Brighten up your large living spaces in style with this ceiling-mounted raindrop chandelier. It features 7 lamp holders to create bright, even lighting throughout your living space.  Included are 5 built-in bright white LED bulbs to  maintain its slim profile.",
+            "name": "Raindrop Chandelier",
+            "parentCatalogGroupID": [
+                "11251_10603",
+                "11301_10603"
+            ],
+            "manufacturer": "Stockholm",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "1800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "1800.0",
+                    "maximumValue": {
+                        "value": "1800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "1749.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "1749.0",
+                    "maximumValue": {
+                        "value": "1749.0"
+                    }
+                }
+            ],
+            "numberOfSKUs": 1,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14784",
+                    "uniqueID": "14784",
+                    "partNumber": "LR-LITB-0006-0001",
+                    "shortDescription": "A raindrop style chandelier that surrounds your room in full, elegant bright white light.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Raindrop Chandelier",
+                    "parentCatalogGroupID": [
+                        "11251_10603",
+                        "11301_10603"
+                    ],
+                    "manufacturer": "Stockholm",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "1800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "1749.0"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "chrome",
+                                    "sequence": "1.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                                    "value": "Chrome",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                                    "uniqueID": "7000000000000003301"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0006-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14784",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-LITB-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54895,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0006-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14784",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-LITB-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54895,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0006-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14784",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-LITB-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54895,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0006-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14784",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-LITB-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54895,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0006-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14784",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-LITB-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54895,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0006-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14784",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-LITB-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54895,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0006-0001_CatalogEntryImages_angle3_fullimage",
+                            "catentry_id": "14784",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-LITB-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54895,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a3_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0006-0001_CatalogEntryImages_angle3_thumbnail",
+                            "catentry_id": "14784",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-LITB-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54895,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a3_100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "chrome",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                            "value": "Chrome",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                            "uniqueID": "7000000000000003301"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_glass",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Glass",
+                            "uniqueID": "7000000000000003330"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfBulbs",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "5bulbs",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "5",
+                            "uniqueID": "7000000000000003411"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Light Bulbs",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000663"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "LR-LITB-0006_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14783",
+                    "usage": "images_main_fullimage",
+                    "name": "LR-LITB-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54676,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-LITB-0006_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14783",
+                    "usage": "images_main_thumbnail",
+                    "name": "LR-LITB-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54676,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-LITB-0006_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14783",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-LITB-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54676,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-LITB-0006_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14783",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-LITB-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54676,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-LITB-0006_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14783",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-LITB-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54676,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a2_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-LITB-0006_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14783",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-LITB-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54676,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a2_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-LITB-0006_CatalogEntryImages_angle3_fullimage",
+                    "catentry_id": "14783",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-LITB-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54676,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a3_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-LITB-0006_CatalogEntryImages_angle3_thumbnail",
+                    "catentry_id": "14783",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-LITB-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54676,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a3_100.jpg"
+                }
+            ]
+        }
+    ]
+}

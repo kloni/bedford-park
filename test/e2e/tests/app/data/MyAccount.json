@@ -1,0 +1,81 @@
+{ 
+    "css": {
+        "textField": {
+            "valid": [
+                "border-left",
+                "1px solid rgb(202, 202, 202)"
+            ],
+            "invalid": [
+                "border-left",
+                "5px solid rgb(204, 75, 55)"
+            ]
+        }
+    },
+    "register" : {
+        "logonId": "test2selfserv4@gmail.com",
+        "password": "diet4coke",
+        "firstName": "test2selfserv",
+        "lastName": "lastName"
+    },
+    "commonLogin" : {
+        "logonId": "test2selfserv4@gmail.com",
+        "logonPassword": "diet4coke"
+    }
+    ,
+    "test1": {
+        "firstName": "test2selfserv-modified",
+        "lastName": "lastName-modified",
+        "email": "test2selfservUpdated@gmail.com",
+        "phone": "905-666-7777",
+        "currency": "Euro",
+        "gender": "Female",
+        "birthYear": "1985",
+        "birthMonth": "8",
+        "birthDay": "25",
+
+        "updateMsg": "Update Successful",
+
+
+        "expectedHeadingName": "test2selfserv-modified lastName-modified",
+        "expectedEmail": "test2selfservUpdated@gmail.com",
+        "expectedPhone": "905-666-7777",
+        "expectedCurrency": "Euro",
+
+        "expectedYear": "1985",
+        "expectedMonth": "8",
+        "expectedDay": "25",
+
+        "cleanUpFirstName": "test2selfserv",
+        "cleanUpLastName": "lastName",
+        "cleanUpEmail": "test2selfserv@gmail.com",
+        "cleanUpPhone": "905-123-5678",
+        "cleanUpCurrency": "US Dollar",
+        "cleanUpGender": "Male",
+        "cleanUpBirthYear": "1980",
+        "cleanUpBirthMonth": "6",
+        "cleanUpBirthDay": "11"
+    },
+    "test2": {
+        "currentPw": "diet4coke",
+        "newPw": "diet4coke2"
+    },
+    "test4": {
+        "blankInput": "     ",
+        "firstName": "test2selfserv",
+        "lastName": "lastname",
+        "email": "test2selfserv@gmail.com",
+        "phone": "111-222-3333",
+        "currency":"Euro",
+        "invalidInput": "~!@#$%^&*()_+`1234567890-=[]{}|;",
+        "badPw1": "qwer",
+        "badPw2": "qwerw",
+        "errorMsg2" : "The password you entered is incorrect. Type your current password in the Current Password field and try again.",
+        "invalidCurrentPw":"qwer",
+        "currentPw":"diet4coke",
+        "newPw1":"diet5coke",
+        "newPw2":"diet5coke"
+
+    }
+}
+
+

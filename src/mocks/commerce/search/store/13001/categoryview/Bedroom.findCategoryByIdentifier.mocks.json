@@ -1,0 +1,24 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Bedroom",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/dep_bedroom.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/dep_bedroom.jpg",
+            "storeID": "12901",
+            "name": "Bedroom",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10613",
+            "uniqueID": "10613",
+            "parentCatalogGroupID": [
+                "11251_-1",
+                "11301_-1"
+            ],
+            "childCatalogGroupID": [
+                "11251_10614",
+                "11251_10615",
+                "11301_10614",
+                "11301_10615"
+            ],
+            "shortDescription": "Furnish your bedrooms in style and make them your own"
+        }
+    ]
+}

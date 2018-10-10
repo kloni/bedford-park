@@ -1,0 +1,18 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Countertops",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/countertops.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/countertops.jpg",
+            "storeID": "12901",
+            "name": "Countertops",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10618",
+            "uniqueID": "10618",
+            "parentCatalogGroupID": [
+                "11251_10616",
+                "11301_10616"
+            ],
+            "shortDescription": "Heat, scratch, stain, and water resistant countertops for every kitchen"
+        }
+    ]
+}

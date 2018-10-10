@@ -1,0 +1,10 @@
+{
+    "order-promotion" : {
+		"haveAPromotionCode": "Have a promotion code?",
+		"promoCode": "Promo Code",
+		"removePromo": "Remove {{value}}",
+		"apply": "Apply",
+		"promotCodeLabel": "Enter your promo code if you have one",
+		"promotCodeErrorFallback": "The promotion code you have entered could not be processed."
+	}
+}

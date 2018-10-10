@@ -1,0 +1,286 @@
+{
+  "recordSetCount": 2,
+  "metaData": {
+    "price": "1"
+  },
+  "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/1/productview/byIds?id=12772&id=12796&id=11773&id=10876&id=11290&id=11957&id=12337",
+  "catalogEntryView": [
+    {
+      "hasSingleSKU": false,
+      "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12773",
+      "uniqueID": "12773",
+      "partNumber": "HVT038_380301",
+      "shortDescription": "Boost your immune system.",
+      "catalogEntryTypeCode": "ItemBean",
+      "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/hvt038_vitamins/646x1000/hvt038_3803.jpg",
+      "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/hvt038_vitamins/200x310/hvt038_3803.jpg",
+      "buyable": "true",
+      "storeID": "10501",
+      "name": "Cod Liver Oil Caps",
+      "parentCatalogEntryID": "12772",
+      "parentCatalogGroupID": [
+        "10001_10032",
+        "10502_10032"
+      ],
+      "manufacturer": "Healthy Boost",
+      "price": [
+        {
+          "usage": "Display",
+          "description": "L",
+          "currency": "CAD",
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ],
+      "attributes": [
+        {
+          "identifier": "VitaminsCategory",
+          "sequence": ".00000",
+          "storeDisplay": false,
+          "values": [
+            {
+              "identifier": "Health booster",
+              "sequence": "2.00000",
+              "unitOfMeasure": "one",
+              "unitID": "C62",
+              "value": "Health booster",
+              "uniqueID": "7000000000000001847"
+            }
+          ],
+          "usage": "Defining",
+          "displayable": true,
+          "name": "Category",
+          "facetable": false,
+          "comparable": true,
+          "searchable": false,
+          "uniqueID": "7000000000000000107"
+        },
+        {
+          "identifier": "VitaminsType",
+          "sequence": "1.00000",
+          "storeDisplay": false,
+          "values": [
+            {
+              "identifier": "Capsule",
+              "sequence": "2.00000",
+              "unitOfMeasure": "one",
+              "unitID": "C62",
+              "value": "Capsule",
+              "uniqueID": "7000000000000001850"
+            }
+          ],
+          "usage": "Defining",
+          "displayable": true,
+          "name": "Type",
+          "facetable": false,
+          "comparable": true,
+          "searchable": false,
+          "uniqueID": "7000000000000000108"
+        }
+      ],
+      "attachments": [
+        {
+          "image": "",
+          "identifier": "HVT038_380301_AuroraCatalogEntryImages_main_fullimage",
+          "catentry_id": "12773",
+          "usage": "images_main_fullimage",
+          "name": "HVT038_3803_AuroraCatalogEntryImages",
+          "attachmentAssetID": 37435,
+          "mimeType": "image/jpeg",
+          "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/hvt038_vitamins/646x1000/hvt038_3803.jpg"
+        },
+        {
+          "image": "",
+          "identifier": "HVT038_380301_AuroraCatalogEntryImages_main_thumbnail",
+          "catentry_id": "12773",
+          "usage": "images_main_thumbnail",
+          "name": "HVT038_3803_AuroraCatalogEntryImages",
+          "attachmentAssetID": 37435,
+          "mimeType": "image/jpeg",
+          "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/hvt038_vitamins/200x310/hvt038_3803.jpg"
+        }
+      ]
+    },
+    {
+      "hasSingleSKU": true,
+      "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/1/productview/byId/12772",
+      "uniqueID": "12772",
+      "partNumber": "HVT038_3803",
+      "singleSKUCatalogEntryID": "12773",
+      "shortDescription": "Boost your immune system.",
+      "catalogEntryTypeCode": "ProductBean",
+      "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/hvt038_vitamins/646x1000/hvt038_3803.jpg",
+      "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/hvt038_vitamins/200x310/hvt038_3803.jpg",
+      "buyable": "true",
+      "storeID": "10501",
+      "longDescription": "Essential for a healthy immune system, Cod Liver oil is high in Vitamin A and D3. Eases symptoms of rheumatoid arthritis while supporting cardiovascular health. Bottle contains 120 capsules.",
+      "name": "Cod Liver Oil Caps",
+      "parentCatalogEntryID": "12772",
+      "parentCatalogGroupID": [
+        "10001_10032",
+        "10502_10032"
+      ],
+      "manufacturer": "Healthy Boost",
+      "price": [
+        {
+          "usage": "Display",
+          "description": "L",
+          "currency": "CAD",
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ],
+      "numberOfSKUs": 1,
+      "sKUs": [
+      ],
+      "attributes": [
+        {
+          "identifier": "Packaging",
+          "sequence": ".00000",
+          "storeDisplay": false,
+          "values": [
+            {
+              "identifier": "HVT038_3803",
+              "sequence": "2.00000",
+              "unitOfMeasure": "",
+              "unitID": "",
+              "value": "Plastic",
+              "uniqueID": "7000000000000001872"
+            }
+          ],
+          "usage": "Descriptive",
+          "displayable": true,
+          "name": "Packaging",
+          "facetable": false,
+          "associatedKeyword": "-",
+          "comparable": false,
+          "searchable": false,
+          "uniqueID": "7000000000000000109"
+        },
+        {
+          "identifier": "VitaminsType",
+          "sequence": ".00000",
+          "storeDisplay": false,
+          "values": [
+            {
+              "identifier": "Capsule",
+              "sequence": "2.00000",
+              "unitOfMeasure": "one",
+              "unitID": "C62",
+              "value": "Capsule",
+              "uniqueID": "7000000000000001850"
+            }
+          ],
+          "usage": "Defining",
+          "displayable": true,
+          "name": "Type",
+          "facetable": false,
+          "associatedKeyword": "-",
+          "comparable": true,
+          "searchable": false,
+          "uniqueID": "7000000000000000108"
+        },
+        {
+          "identifier": "VitaminsCategory",
+          "sequence": "1.00000",
+          "storeDisplay": false,
+          "values": [
+            {
+              "identifier": "Health booster",
+              "sequence": "2.00000",
+              "unitOfMeasure": "one",
+              "unitID": "C62",
+              "value": "Health booster",
+              "uniqueID": "7000000000000001847"
+            }
+          ],
+          "usage": "Defining",
+          "displayable": true,
+          "name": "Category",
+          "facetable": false,
+          "associatedKeyword": "-",
+          "comparable": true,
+          "searchable": false,
+          "uniqueID": "7000000000000000107"
+        },
+        {
+          "identifier": "Type",
+          "sequence": "2.00000",
+          "storeDisplay": false,
+          "values": [
+            {
+              "identifier": "HVT038_3803",
+              "sequence": "2.00000",
+              "unitOfMeasure": "",
+              "unitID": "",
+              "value": "Capsule",
+              "uniqueID": "7000000000000001863"
+            }
+          ],
+          "usage": "Descriptive",
+          "displayable": true,
+          "name": "Type",
+          "facetable": false,
+          "associatedKeyword": "-",
+          "comparable": false,
+          "searchable": false,
+          "uniqueID": "7000000000000000099"
+        },
+        {
+          "identifier": "Category",
+          "sequence": "3.00000",
+          "storeDisplay": false,
+          "values": [
+            {
+              "identifier": "HVT038_3803",
+              "sequence": "2.00000",
+              "unitOfMeasure": "",
+              "unitID": "",
+              "value": "Health booster",
+              "uniqueID": "7000000000000001859"
+            }
+          ],
+          "usage": "Descriptive",
+          "displayable": true,
+          "name": "Category",
+          "facetable": false,
+          "associatedKeyword": "-",
+          "comparable": false,
+          "searchable": false,
+          "uniqueID": "7000000000000000098"
+        }
+      ],
+      "attachments": [
+        {
+          "image": "",
+          "identifier": "HVT038_3803_AuroraCatalogEntryImages_main_fullimage",
+          "catentry_id": "12772",
+          "usage": "images_main_fullimage",
+          "name": "HVT038_3803_AuroraCatalogEntryImages",
+          "attachmentAssetID": 37424,
+          "mimeType": "image/jpeg",
+          "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/hvt038_vitamins/646x1000/hvt038_3803.jpg"
+        },
+        {
+          "image": "",
+          "identifier": "HVT038_3803_AuroraCatalogEntryImages_main_thumbnail",
+          "catentry_id": "12772",
+          "usage": "images_main_thumbnail",
+          "name": "HVT038_3803_AuroraCatalogEntryImages",
+          "attachmentAssetID": 37424,
+          "mimeType": "image/jpeg",
+          "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/hvt038_vitamins/200x310/hvt038_3803.jpg"
+        }
+      ]
+    }
+  ],
+  "recordSetStartNumber": 0,
+  "resourceName": "productview",
+  "recordSetTotal": 2,
+  "recordSetTotalMatches": 2,
+  "recordSetComplete": "true"
+}

@@ -1,0 +1,72 @@
+/*******************************************************************************
+ * checkoutLayout.ts
+ *
+ * Copyright IBM Corp. 2018
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ ******************************************************************************/
+
+import {
+    LayoutComponent
+} from 'ibm-wch-sdk-ng';
+import {
+    Component,
+    OnInit,
+    ViewChild,
+    ViewContainerRef,
+    ViewEncapsulation
+} from '@angular/core';
+import {TypeCheckoutComponent} from './../../components/checkout/typeCheckoutComponent';
+import {DynamicComponentLoader} from '../../../dynamic-component-loader/dynamic-component-loader.service';
+import {StorefrontUtils} from '../../common/storefrontUtils.service';
+import { CheckoutDynamicComponent } from 'app/commerce/dynamic/checkout/checkout.dynamic.component';
+
+/*
+ * @name checkoutLayout
+ * @id checkoutLayout
+ */
+@LayoutComponent({
+    selector: 'checkout'
+})
+@Component({
+    selector: 'app-checkout-layout-component',
+    templateUrl: './checkoutLayout.html',
+    encapsulation: ViewEncapsulation.None
+})
+export class CheckoutLayoutComponent extends TypeCheckoutComponent implements OnInit {
+
+    @ViewChild('outlet', {read: ViewContainerRef}) outlet: ViewContainerRef;
+
+    constructor(private loader: DynamicComponentLoader) {
+        super();
+    }
+
+    ngOnInit() {
+        const currentUser = StorefrontUtils.getCurrentUser();
+        if (currentUser && currentUser.WCTrustedToken && currentUser.WCToken) {
+            currentUser.isGoingToCheckout = false;
+            StorefrontUtils.saveCurrentUser(currentUser);
+        }
+        this.loader.getComponentFactory<CheckoutDynamicComponent>('checkout').subscribe((cf) => {
+                const ref = this.outlet.createComponent(cf);
+                ref.changeDetectorRef.detectChanges();
+                ref.instance.title = this.title;
+                ref.instance.creditCardImage = this.creditCardImage;
+                ref.instance.enablePromotionCode = this.enablePromotionCode;
+                this.onAvailableServices.subscribe(r=>ref.instance.catSubj.next(r));
+            },
+            (error) => {
+                console.warn(error);
+            });
+    }
+}

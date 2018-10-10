@@ -1,0 +1,30 @@
+{
+    "SignIn" : {
+        "Title": "Sign In / Register",
+        "ReturningCustomer": "Returning Customer",
+        "Email": "Email",
+        "Password": "Password",
+        "SubmitButton": "Sign In",
+        "ForgotPasswordButton": "Forgot Password?",
+        "SignOutButton": "Sign Out",
+        "ContinueAsGuest": "Checkout as guest",
+        "Or": "or"
+    },
+    "ForgotPassword" : {
+        "Title": "Forgot Password",
+        "EnterSignInInfo": "Enter your email address below and we will send you an email with a link to reset your password.",
+        "Email": "Email",
+        "SubmitButton": "Submit",
+        "or": "OR",
+        "enterValidation": "Enter validation code"
+    },
+    "vCode": {
+        "title": "Reset Password",
+        "enterCode": "Enter validation code and new password with confirmation below.",
+        "code": "Validation Code",
+        "newPass": "New Password",
+        "cnfPass": "Confirm Password",
+        "submit": "Submit",
+        "email": "Email"
+    }
+}

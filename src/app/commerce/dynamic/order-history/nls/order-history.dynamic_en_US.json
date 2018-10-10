@@ -1,0 +1,15 @@
+{
+    "OrderHistory" : {
+        "NoOrder": "No orders were found.",
+        "Ordered": "Ordered",
+        "Status": "Status",
+        "Order": "Order",
+        "Total": "Total",
+        "oneItem": "<b>{{value}}</b> item",
+        "items": "<b>{{value}}</b> items",
+        "OrderDetails": "ORDER DETAILS",
+        "SKU":"SKU",
+        "Quantity": "Quantity",        
+        "VATincl": "VAT incl."
+     }
+}

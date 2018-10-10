@@ -1,0 +1,193 @@
+{
+    "catalogEntryView": [
+        {
+            "partNumber": "LR-FUCH-0005",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/furniture5_a1_600.png",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/furniture5_a1_600.png",
+            "storeID": "12901",
+            "name": "Nordic Loveseat",
+            "parentCatalogGroupID": [
+                "11251_10602",
+                "11301_10602"
+            ],
+            "manufacturer": "Home Design",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "2500.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "2500.0",
+                    "maximumValue": {
+                        "value": "2500.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "1999.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "1999.99",
+                    "maximumValue": {
+                        "value": "1999.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "56x24x24",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "56\"x24\"x24\"",
+                            "uniqueID": "7000000000000003378"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "grey",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                            "value": "Grey",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                            "uniqueID": "7000000000000003303"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "150lbs",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "150 lbs",
+                            "uniqueID": "7000000000000003397"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "48x6x48",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "value": "48\"x6\"x48\"",
+                            "uniqueID": "7000000000000003324"
+                        },
+                        {
+                            "identifier": "52x6x52",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "value": "52\"x6\"x52\"",
+                            "uniqueID": "7000000000000003325"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "polyester-cotton-steel",
+                            "sequence": "12.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Polyester, Cotton, Steel",
+                            "uniqueID": "7000000000000003339"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Solid",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Solid",
+                            "uniqueID": "7000000000000003405"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        }
+    ]
+}

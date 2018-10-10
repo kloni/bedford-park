@@ -1,0 +1,139 @@
+<!-- Component: nav and header -->
+<!-- Begin layout-->
+<!-- Sign In -->
+<h4 id="signin_h4_5_{{id}}" translate>SignIn.ReturningCustomer</h4>
+<div *ngIf="loginErrorMsg" class="alert callout" role="alert" id="signin_div_6_{{id}}" translate>{{loginErrorMsg}}
+</div>
+<form name="signInForm" #signInForm="ngForm" [ngClass]="{'show-invalid-input': signInForm.submitted}" (ngSubmit)="signInForm.form.valid && login()" id="signin_form_7_{{id}}">
+  <fieldset [disabled]="disableForm" class="clean-fieldset">
+  <label id="signin_label_8_{{id}}" translate>SignIn.Email
+    <input type="email" placeholder="name@domain.com" id="signin_input_9_{{id}}" name="username" [(ngModel)]="user.username"
+      #username="ngModel" commerce-maxlength=256 email required />
+  </label>
+  <label id="signin_label_10_{{id}}" translate>SignIn.Password
+    <input type="password" placeholder="" id="signin_input_11_{{id}}" name="password" [(ngModel)]="user.password" #password="ngModel"
+      required />
+    <div id="signin_div_12_{{id}}" class="forgot-password text-right">
+      <a id="signin_a_13_{{id}}" (click)="openForgotPassword()" translate>ForgotPassword.Title</a>
+    </div>
+  </label>
+  <br>
+  <button [disabled]="disableForm" class="button button-dark expanded" id="signin_button_14_{{id}}" type="submit" translate>
+    SignIn.SubmitButton
+  </button>
+  </fieldset>
+</form>
+<ng-container *ngIf="showContinueAsGuest">
+  <p id="signin_p_18_{{id}}" class="guest-checkout text-center" translate>SignIn.Or</p>
+  <button class="button button-dark expanded" id="signin_button_18_{{id}}" (click)="continueAsGuest()" translate>
+    SignIn.ContinueAsGuest
+  </button>
+</ng-container>
+
+<!-- Forgot Password Popup-->
+<div class="large reveal animated fadeIn" id="{{forgotPasswordModalId}}" data-reveal>
+  <div class="grid-container grid-container-padded" id="signin_div_17_{{id}}">
+    <form name="forgotPasswordForm" #forgotPasswordForm="ngForm" [ngClass]="{'show-invalid-input': forgotPasswordForm.submitted}"
+      (ngSubmit)="forgotPasswordForm.valid && resetPassword()" id="forgotPassword_form_{{id}}">
+      <div class="grid-x grid-margin-x " id="signin_div_18_{{id}}">
+        <div class="small-12 cell" id="signin_div_19_{{id}}">
+          <h2 id="signin_div_20_{{id}}" translate>ForgotPassword.Title</h2>
+          <p id="signin_p_21_{{id}}" translate>ForgotPassword.EnterSignInInfo</p>
+          <hr>
+          <button id="signin_button_22_{{id}}" class="close-button" data-close aria-label="Close reveal" type="button">
+            <span id="signin_span_23_{{id}}" aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="small-12 medium-12 cell " id="signin_div_24_{{id}}">
+          <div *ngIf="accountLockErrorMsg" class="alert callout" role="alert" id="signin_div_32_{{id}}" translate>{{accountLockErrorMsg}}</div>
+          <div id="signin_div_25_{{id}}" *ngIf="resetPasswordErrorMsg" class="alert callout" role="alert" translate>{{resetPasswordErrorMsg}}</div>
+        </div>
+        <div class="small-12 medium-6 cell " id="signin_div_26_{{id}}">
+          <label id="signin_label_27_{{id}}" translate>ForgotPassword.Email
+            <input id="signin_input_28_{{id}}" type="text" name="resetid" #resetid="ngModel" placeholder="" [(ngModel)]="user.resetLogonId"
+              commerce-maxlength=256 email />
+          </label>
+        </div>
+        <div class="small-12 medium-6 cell align-bottom" id="signin_div_29_{{id}}">
+          <p id="signin_div_30_{{id}}">
+            <br>
+            <button id="signin_div_31_{{id}}" class="button button-dark expanded" type="submit" translate>
+              ForgotPassword.SubmitButton
+            </button>
+          </p>
+        </div>
+
+        <div class="cell align-bottom text-center" id="signin_forgotPassOr_{{id}}">
+          <p id="signin_forgotPassOrText_{{id}}" translate>ForgotPassword.or</p>
+        </div>
+
+        <div class="cell align-bottom text-center" id="signin_forgotPassEnterValidation_{{id}}">
+          <p id="signin_forgotPassEnterValidationText_{{id}}">
+            <button id="signin_forgotPassEnterValidationButton_{{id}}" class="button button-dark expanded" (click)="enterValidationCodeDirectly()" translate>
+              ForgotPassword.enterValidation
+            </button>
+          </p>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- Forgot Password Popup End -->
+
+<!-- Validation Code Entry Popup -->
+<div class="large reveal animated fadeIn" id="{{vCodeModalId}}" data-reveal>
+  <div class="grid-container grid-container-padded" id="vCode_container_{{id}}">
+    <form name="vCodeForm" #vCodeForm="ngForm" [ngClass]="{'show-invalid-input': vCodeForm.submitted}" (ngSubmit)="vCodeForm.valid && validatePasswordChange()"
+      id="vCodeForm_{{id}}">
+      <div class="grid-x grid-margin-x " id="vCodeForm_grid_{{id}}">
+
+        <div class="small-12 cell" id="vCode_title_{{id}}">
+          <h2 id="vCode_title_h2_{{id}}" translate>vCode.title</h2>
+          <p id="vCode_title_p_{{id}}" translate>vCode.enterCode</p>
+          <hr>
+          <button id="vCode_modalClose_button_{{id}}" class="close-button" data-close aria-label="Close reveal" type="button">
+            <span id="vCode_modalClose_span_{{id}}" aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="small-12 cell" id="vCode_error_{{id}}">
+          <div id="vCode_error_msg_{{id}}" *ngIf="vCodeErrMsg" class="alert callout" role="alert" translate>{{vCodeErrMsg}}</div>
+        </div>
+
+        <div *ngIf="reset.direct" class="small-12 cell" id="vCode_email_{{id}}">
+          <label id="vCode_email_label_{{id}}" translate>vCode.email
+            <input id="vCode_email_input_{{id}}" type="text" name="validationLogon" [(ngModel)]="reset.logonId"/>
+          </label>
+        </div>
+
+        <div class="small-12 cell" id="vCode_code_{{id}}">
+          <label id="vCode_code_label_{{id}}" translate>vCode.code
+            <input id="vCode_code_input_{{id}}" type="text" name="validationCode" #validationCode="ngModel" [(ngModel)]="reset.vCode"
+            />
+          </label>
+        </div>
+
+        <div class="small-12 cell" id="vCode_newPass_{{id}}">
+          <label id="vCode_newPass_label_{{id}}" translate>vCode.newPass
+            <input id="vCode_newPass_input_{{id}}" type="password" name="newPass" #newPass="ngModel" [(ngModel)]="reset.newPass" />
+          </label>
+        </div>
+
+        <div class="small-12 cell" id="vCode_cnfPass_{{id}}">
+          <label id="vCode_cnfPass_label_{{id}}" translate>vCode.cnfPass
+            <input id="vCode_cnfPass_input_{{id}}" type="password" name="cnfPass" #cnfPass="ngModel" [(ngModel)]="reset.cnfPass" />
+          </label>
+        </div>
+
+        <div class="small-12 cell align-bottom" id="vCode_submit_{{id}}">
+          <p id="vCode_submit_p_{{id}}">
+            <br>
+            <button id="vCode_submit_button_{{id}}" class="button button-dark expanded" type="submit" translate>vCode.submit</button>
+          </p>
+        </div>
+
+      </div>
+    </form>
+  </div>
+</div>
+<!-- Validation Code Entry Popup End -->

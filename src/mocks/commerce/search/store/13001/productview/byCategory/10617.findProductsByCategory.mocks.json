@@ -1,0 +1,1434 @@
+{
+    "metaData": {
+        "price": "1"
+    },
+    "breadCrumbTrailEntryView": [
+        {
+            "label": "Kitchen"
+        },
+        {
+            "label": "Cabinets"
+        }
+    ],
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14879",
+            "partNumber": "KI-CBNT-0005",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/cabinets/cabinet1_a1_350.jpg",
+            "name": "Dark Brown Wood-grained Cabinet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "140.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "140.0",
+                    "maximumValue": {
+                        "value": "140.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "135.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "135.0",
+                    "maximumValue": {
+                        "value": "135.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-metal",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Metal",
+                            "uniqueID": "7000000000000003346"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Wood-grained",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood-grained",
+                            "uniqueID": "7000000000000003406"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14881",
+            "partNumber": "KI-CBNT-0005",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/cabinets/cabinet2_a1_350.jpg",
+            "name": "Cherry Wood-grained Cabinet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "120.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "120.0",
+                    "maximumValue": {
+                        "value": "120.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "100.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "100.0",
+                    "maximumValue": {
+                        "value": "100.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-metal",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Metal",
+                            "uniqueID": "7000000000000003346"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Wood-grained",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood-grained",
+                            "uniqueID": "7000000000000003406"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14883",
+            "partNumber": "KI-CBNT-0005",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/cabinets/cabinet3_a1_350.jpg",
+            "name": "Brown Wood-grained Cabinet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "55.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "55.0",
+                    "maximumValue": {
+                        "value": "55.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "45.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "45.0",
+                    "maximumValue": {
+                        "value": "45.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-metal",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Metal",
+                            "uniqueID": "7000000000000003346"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Wood-grained",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood-grained",
+                            "uniqueID": "7000000000000003406"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14885",
+            "partNumber": "KI-CBNT-0005",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/cabinets/cabinet4_a1_350.jpg",
+            "name": "Natural Wood-grained Cabinet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "40.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0",
+                    "maximumValue": {
+                        "value": "40.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "35.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "35.0",
+                    "maximumValue": {
+                        "value": "35.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-metal",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Metal",
+                            "uniqueID": "7000000000000003346"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Wood-grained",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood-grained",
+                            "uniqueID": "7000000000000003406"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14887",
+            "partNumber": "KI-CBNT-0005",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/cabinets/cabinet5_a1_350.jpg",
+            "name": "Grey Solid Cabinet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "80.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "80.0",
+                    "maximumValue": {
+                        "value": "80.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "60.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "60.0",
+                    "maximumValue": {
+                        "value": "60.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-metal-laminate",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Metal, Laminate",
+                            "uniqueID": "7000000000000003347"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Solid",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Solid",
+                            "uniqueID": "7000000000000003405"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14889",
+            "partNumber": "KI-CBNT-0005",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/cabinets/cabinet6_a1_350.jpg",
+            "name": "Black Solid Cabinet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "140.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "140.0",
+                    "maximumValue": {
+                        "value": "140.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "135.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "135.0",
+                    "maximumValue": {
+                        "value": "135.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-metal-laminate",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Metal, Laminate",
+                            "uniqueID": "7000000000000003347"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Solid",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Solid",
+                            "uniqueID": "7000000000000003405"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14891",
+            "partNumber": "KI-CBNT-0005",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/cabinets/cabinet7_a1_350.jpg",
+            "name": "Brown Solid Cabinet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "180.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "180.0",
+                    "maximumValue": {
+                        "value": "180.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "160.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "160.0",
+                    "maximumValue": {
+                        "value": "160.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-metal-laminate",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Metal, Laminate",
+                            "uniqueID": "7000000000000003347"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Solid",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Solid",
+                            "uniqueID": "7000000000000003405"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": "0",
+    "recordSetTotal": 7,
+    "facetView": [
+        {
+            "value": "price_USD",
+            "name": "OfferPrice_USD",
+            "entry": [
+                {
+                    "count": 4,
+                    "label": "({* 100} 100)",
+                    "value": "price_USD%3A%28%7B*+100%7D+100%29",
+                    "extendedData": {
+                        "uniqueId": "1121141059910195858368584012342324948481253249484841"
+                    }
+                },
+                {
+                    "count": 3,
+                    "label": "({100 200} 200)",
+                    "value": "price_USD%3A%28%7B100+200%7D+200%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123494848325048481253250484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({200 300} 300)",
+                    "value": "price_USD%3A%28%7B200+300%7D+300%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123504848325148481253251484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({300 400} 400)",
+                    "value": "price_USD%3A%28%7B300+400%7D+400%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123514848325248481253252484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({400 500} 500)",
+                    "value": "price_USD%3A%28%7B400+500%7D+500%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123524848325348481253253484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({500 *})",
+                    "value": "price_USD%3A%28%7B500+*%7D%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123534848324212541"
+                    }
+                }
+            ]
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "label": "Bender Home Fashions",
+                    "value": "mfName_ntk_cs%3A%22Bender+Home+Fashions%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "-1002661011101001011143272111109101327097115104105111110115"
+                    }
+                },
+                {
+                    "label": "Moderno",
+                    "value": "mfName_ntk_cs%3A%22Moderno%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "-100277111100101114110111"
+                    }
+                },
+                {
+                    "label": "Stockholm",
+                    "value": "mfName_ntk_cs%3A%22Stockholm%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "-10028311611199107104111108109"
+                    }
+                }
+            ],
+            "name": "ManufacturerName",
+            "extendedData": {
+                "allowMultipleValueSelection": "true",
+                "maximumValuesToDisplay": "6",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "fname": "Brand",
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "mfName_ntk_cs",
+                "displayable": "1",
+                "facet_id": "-1000",
+                "srchattr_id": "-1002",
+                "zero_display": "0",
+                "selection": "1",
+                "group_id": "0",
+                "displaySequence": "0.0",
+                "storeent_id": "0",
+                "sortorder": "1",
+                "max_display": "6",
+                "fdesc": "The manufacturer",
+                "srchattridentifier": "_cat.ManufacturerName"
+            }
+        },
+        {
+            "value": "ads_f10101_ntk_cs",
+            "entry": [
+                {
+                    "label": "Blonde",
+                    "value": "ads_f10101_ntk_cs%3A%22Blonde%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010166108111110100101",
+                        "sequence": "5.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png"
+                },
+                {
+                    "label": "Brown",
+                    "value": "ads_f10101_ntk_cs%3A%22Brown%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010166114111119110",
+                        "sequence": "2.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png"
+                },
+                {
+                    "label": "Chrome",
+                    "value": "ads_f10101_ntk_cs%3A%22Chrome%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010167104114111109101",
+                        "sequence": "1.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png"
+                },
+                {
+                    "label": "Coffee",
+                    "value": "ads_f10101_ntk_cs%3A%22Coffee%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010167111102102101101",
+                        "sequence": "9.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_coffee.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_coffee.png"
+                },
+                {
+                    "label": "Dark Grey",
+                    "value": "ads_f10101_ntk_cs%3A%22Dark+Grey%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010168971141073271114101121",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png"
+                },
+                {
+                    "label": "Standin",
+                    "value": "ads_f10101_ntk_cs%3A%22Standin%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101018311697110100105110",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_standin.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_standin.png"
+                },
+                {
+                    "label": "Toffee",
+                    "value": "ads_f10101_ntk_cs%3A%22Toffee%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010184111102102101101",
+                        "sequence": "8.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png"
+                }
+            ],
+            "name": "Color",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10101_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10101",
+                "attrname": "Color",
+                "srchattr_id": "10101",
+                "attrdesc": "Color",
+                "attr_id": "7000000000000000651",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Color",
+                "srchattridentifier": "_cat.Color"
+            }
+        },
+        {
+            "value": "ads_f10106_ntk_cs",
+            "entry": [
+                {
+                    "label": "16\"x28\"x14\"",
+                    "value": "ads_f10106_ntk_cs%3A%2216%5C%22x28%5C%22x14%5C%22%22",
+                    "count": "7",
+                    "extendedData": {
+                        "uniqueId": "10106495434120505634120495234"
+                    }
+                }
+            ],
+            "name": "Product Dimensions",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10106_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10106",
+                "attrname": "Product Dimensions",
+                "srchattr_id": "10106",
+                "attrdesc": "Product Dimensions",
+                "attr_id": "7000000000000000660",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ProductDimensions",
+                "srchattridentifier": "_cat.ProductDimensions"
+            }
+        },
+        {
+            "value": "ads_f10107_ntk_cs",
+            "entry": [
+                {
+                    "label": "15 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2215+lbs%22",
+                    "count": "7",
+                    "extendedData": {
+                        "uniqueId": "1010749533210898115"
+                    }
+                }
+            ],
+            "name": "Item Weight",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10107_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10107",
+                "attrname": "Item Weight",
+                "srchattr_id": "10107",
+                "attrdesc": "Item Weight",
+                "attr_id": "7000000000000000661",
+                "zero_display": "0",
+                "attrsequence": "2.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "2.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ItemWeight",
+                "srchattridentifier": "_cat.ItemWeight"
+            }
+        },
+        {
+            "value": "ads_f10103_ntk_cs",
+            "entry": [
+                {
+                    "label": "Wood, Metal",
+                    "value": "ads_f10103_ntk_cs%3A%22Wood%2C+Metal%22",
+                    "count": "4",
+                    "extendedData": {
+                        "uniqueId": "101038711111110044327710111697108"
+                    }
+                },
+                {
+                    "label": "Wood, Metal, Laminate",
+                    "value": "ads_f10103_ntk_cs%3A%22Wood%2C+Metal%2C+Laminate%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "1010387111111100443277101116971084432769710910511097116101"
+                    }
+                }
+            ],
+            "name": "Material",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10103_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10103",
+                "attrname": "Material",
+                "srchattr_id": "10103",
+                "attrdesc": "Material",
+                "attr_id": "7000000000000000653",
+                "zero_display": "0",
+                "attrsequence": "3.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "3.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Materials",
+                "srchattridentifier": "_cat.Materials"
+            }
+        },
+        {
+            "value": "ads_f10105_ntk_cs",
+            "entry": [
+                {
+                    "label": "Wood-grained",
+                    "value": "ads_f10105_ntk_cs%3A%22Wood-grained%22",
+                    "count": "4",
+                    "extendedData": {
+                        "uniqueId": "10105871111111004510311497105110101100"
+                    }
+                },
+                {
+                    "label": "Solid",
+                    "value": "ads_f10105_ntk_cs%3A%22Solid%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "1010583111108105100"
+                    }
+                }
+            ],
+            "name": "Pattern",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10105_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10105",
+                "attrname": "Pattern",
+                "srchattr_id": "10105",
+                "attrdesc": "Pattern",
+                "attr_id": "7000000000000000662",
+                "zero_display": "0",
+                "attrsequence": "4.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "4.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Pattern",
+                "srchattridentifier": "_cat.Pattern"
+            }
+        }
+    ]
+}

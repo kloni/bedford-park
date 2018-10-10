@@ -1,0 +1,18 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "DiningTables",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/tables.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/tables.jpg",
+            "storeID": "12901",
+            "name": "Tables",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10606",
+            "uniqueID": "10606",
+            "parentCatalogGroupID": [
+                "11251_10605",
+                "11301_10605"
+            ],
+            "shortDescription": "Find the perfect dining table for serving your guests in comfort and style"
+        }
+    ]
+}

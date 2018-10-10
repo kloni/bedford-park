@@ -1,0 +1,26 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Bath",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/dep_bathroom.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/dep_bathroom.jpg",
+            "storeID": "12901",
+            "name": "Bath",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10609",
+            "uniqueID": "10609",
+            "parentCatalogGroupID": [
+                "11251_-1",
+                "11301_-1"
+            ],
+            "childCatalogGroupID": [
+                "11251_10610",
+                "11251_10611",
+                "11251_10612",
+                "11301_10610",
+                "11301_10611",
+                "11301_10612"
+            ],
+            "shortDescription": "Modernize your bath space with a variety of vanity fixtures and lighting options"
+        }
+    ]
+}

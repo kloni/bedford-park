@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" storeType="angular">
+<head>
+	<script type="text/javascript">
+        var baseUrl = '/';
+        var securePrefix =null; //= 'checkout';
+        var possibleTenant = '';
+		var baseUrlSegments = document.location.pathname.split('/');
+		if (baseUrlSegments[1] === securePrefix){
+		    baseUrl = baseUrl + securePrefix ;
+		    possibleTenant = baseUrlSegments[2];
+		    baseUrl = baseUrl + (possibleTenant && possibleTenant.search(/\w{8}\-\w{4}\-\w{4}\-\w{4}\-\w{12}/) === 0 ? '/' + possibleTenant + '/' : '/');
+        }
+        else {
+            possibleTenant = baseUrlSegments[1];
+            if (possibleTenant.search(/\w{8}\-\w{4}\-\w{4}\-\w{4}\-\w{12}/) === 0) {
+                baseUrl = baseUrl + possibleTenant + '/';
+            }
+        }
+		console.warn('index.html: possible tenant is %o and base url is %o', possibleTenant, baseUrl);
+		document.write('<base href="' + baseUrl + '">');
+	</script>
+
+    <meta charset="utf-8">
+    <title>Stockholm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+	<app>loading...</app>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+	WebFont.load({
+		google: {
+			families: ['Vidaloka', 'Roboto']
+		}
+	});
+	</script>
+    <script> // environmentCI
+        var ciIsLoaded = false; // CI script and style are suppose to be loaded once
+        var mainListenerAdd = false; // Main listener is supposed to be added once
+        var newPageReady = false; // Send 'ready' message to CI when it's new page
+        var globalPageContext;
+        var isAngularapp = true;
+
+        function loadCIAssets(jsUrl, cssUrl, callback) {
+            var script = document.createElement("script")
+            script.type = "text/javascript";
+
+            if (script.readyState) {
+                script.onreadystatechange = function () {
+                    if (script.readyState == "loaded" || script.readyState == "complete") {
+                        script.onreadystatechange = null;
+                        callback();
+                    }
+                };
+            } else {
+                script.onload = function () {
+                    callback();
+                };
+            }
+
+            script.src = jsUrl;
+
+            var css = document.createElement("link");
+            css.rel = "stylesheet";
+            css.type = "text/css";
+            css.href = cssUrl;
+
+            document.getElementsByTagName("head")[0].appendChild(script);
+            document.getElementsByTagName("head")[0].appendChild(css);
+            ciIsLoaded = true;
+        };
+
+        function ciHandshake(pageContext) {
+            globalPageContext = pageContext;
+            newPageReady = false;
+            // listen for events ...
+            if (!mainListenerAdd) {
+                mainListenerAdd = true;
+                window.addEventListener("message", function _func(event) {
+                    var data;
+
+                    try {
+                        // parse that event's event.data to json
+                        data = JSON.parse(event.data);
+
+                        // if the data (i.e. the event) is a "ping": check if event origin is CI. if it is, send a POST back
+                        if (data.cmd && data.cmd == "ping"){
+                            event.source.postMessage(JSON.stringify({cmd:'connect'}), event.origin);
+                        };
+
+                        // if the data is a "connect_resp": load CI assets using the data and (... ), then stop listening
+                        if (data.cmd && data.cmd == "connect_resp"){
+                            if (!ciIsLoaded) {
+                                loadCIAssets(event.origin + data.jsPath, event.origin + data.cssPath, function() {
+                                    event.stopImmediatePropagation();
+                                    window.addEventListener("message", receive, false);
+
+                                    event.source.postMessage(JSON.stringify({
+                                        cmd: 'ready',
+                                        pagecontext: this.globalPageContext,
+                                        isAngularapp: this.isAngularapp
+                                    }), event.origin);
+                                });
+                            }
+                            else if (!newPageReady) {
+                                newPageReady = true;
+                                event.source.postMessage(JSON.stringify({
+                                    cmd: 'ready',
+                                    pagecontext: this.globalPageContext,
+                                    isAngularapp: this.isAngularapp
+                                }), event.origin);
+                            }
+                        };
+
+                    } catch {
+                        console.log("Invalid message.");
+                    }
+                })
+            }
+        }
+    </script>
+</body>
+</html>

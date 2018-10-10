@@ -1,0 +1,63 @@
+{
+    "css":{
+        "attr":"outline",
+        "value":"solid 1px red"
+    },  
+    "test01":{
+
+    },
+
+    "test02":{
+        "filters": ["Stockholm", "30\"x24\"x24\""],
+        "expectedProducts": [
+            "Nordic Sofa"
+        ],
+        "expectedFilters": [
+           "Home Design", "Moderno","Nordic", "Stockholm","Stonehenge", "Style Home"
+        ]
+    }
+    ,
+    "test03":
+    {
+        "invalidPrice": ".",
+        "minPrice" : "1",
+        "maxPrice": "1000",
+        "expectedFilter": "$1.00 - $1,000.00",
+        "expectedProducts": ["","Soft Plush Sofa", "Nordic Sofa"]
+    },
+    "test04":
+    {
+        "brandFilter": "Stockholm",
+        "color": "Grey",
+        "expectedProducts": [
+            ["Supreme Rocoz Vintage Sofa Chair", "StyleHome InOffice Single Sofa", "StyleHome Modern Plain Single Large Sofa", "StyleHome InOffice Double Sofa", "Theatre Sofa", "Vintage Leather Sofa","Casual Sofa","Floating Sofa","Supreme LoungeStyle Double Sofa", "Nordic Sofa", "Nordic Loveseat"]
+        ],
+        "expectedNumberOfProducts":["11"]
+    },
+    "test05":
+    {   "brandFilter": "Stockholm",
+        "expectedFilters": [
+            "Home Design","Moderno","Nordic", "Stockholm","Stonehenge", "Style Home"
+        ]
+    },
+    "test06":{
+        "expectedProducts": [
+            ["Wooden Angled Chair", "Flared Accent Chair", "Supreme Rocoz Vintage Sofa Chair", "Stonehenge UltraCozy Single Sofa", "StyleHome InOffice Single Sofa", "Stonehenge Modern Steelet Single Sofa","StyleHome Modern Plain Single Large Sofa", "StyleHome InOffice Double Sofa","Theatre Sofa", "Plump Leather Sofa", "Vintage Leather Sofa", "Casual Sofa"],
+            ["Soft Plush Sofa", "StyleHome UltraCozy Large Sofa", "Floating Sofa", "Supreme LoungeStyle Double Sofa", "StyleHome Modern Rimmed 3 Piece Sofa Set", "Abstract Wooden Coffee Table","Abstract Wooden Coffee Table", "Abstract Glass Coffee Table", "Pub-style Coffee Table", "Modern Armchair", "Casual Armchair", "Soft Vintage Armchair" ],
+            ["Nordic Sofa","Nordic Loveseat","Nordic Style","Nordic Sofa Set"]
+        ]
+        
+    },
+    "test07":{
+        "expectedProduct": "Soft Plush Sofa"
+        
+    },
+    "test09":{
+        "minPrice":"1",
+        "maxPrice":"1.5",
+        "noResultsText": "No results were found for the filter selected.",
+        "noResultsHeading": "Sorry, no results found."
+    } 
+
+    
+}

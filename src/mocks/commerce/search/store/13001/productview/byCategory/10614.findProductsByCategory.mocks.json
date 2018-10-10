@@ -1,0 +1,767 @@
+{
+    "metaData": {
+        "price": "1"
+    },
+    "breadCrumbTrailEntryView": [
+        {
+            "label": "Bedroom"
+        },
+        {
+            "label": "Beds"
+        }
+    ],
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14853",
+            "partNumber": "BD-BEDS-0003",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed1_a1_350.jpg",
+            "name": "Twin Bunk Bed",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "650.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "650.0",
+                    "maximumValue": {
+                        "value": "650.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "559.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "559.99",
+                    "maximumValue": {
+                        "value": "559.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "81x45x63",
+                            "sequence": "13.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "81\"x45\"x63\"",
+                            "uniqueID": "7000000000000003386"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "130lbs",
+                            "sequence": "8.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "130 lbs",
+                            "uniqueID": "7000000000000003400"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood",
+                            "sequence": "12.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood",
+                            "uniqueID": "7000000000000003351"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14855",
+            "partNumber": "BD-BEDS-0003",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed2_a1_350.jpg",
+            "name": "Sleepy Head Elegant Queen Bed",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "1500.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "1500.0",
+                    "maximumValue": {
+                        "value": "1500.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "1249.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "1249.99",
+                    "maximumValue": {
+                        "value": "1249.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "elegant",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Elegant",
+                            "uniqueID": "7000000000000003354"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "smooth",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Smooth",
+                            "uniqueID": "7000000000000003368"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "self_assembly",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Self-assembly",
+                            "uniqueID": "7000000000000003370"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "hardwood",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Hard wood",
+                            "uniqueID": "7000000000000003333"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14857",
+            "partNumber": "BD-BEDS-0003",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_350.jpg",
+            "name": "Sleepy Head Storytime Double Bed",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "999.99"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "999.99",
+                    "maximumValue": {
+                        "value": "999.99"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "945.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "945.0",
+                    "maximumValue": {
+                        "value": "945.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "kids_bed",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Kids bed",
+                            "uniqueID": "7000000000000003355"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "smooth",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Smooth",
+                            "uniqueID": "7000000000000003368"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "self_assembly",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Self-assembly",
+                            "uniqueID": "7000000000000003370"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "hardwood",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Hard wood",
+                            "uniqueID": "7000000000000003333"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14859",
+            "partNumber": "BD-BEDS-0003",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed4_a1_350.jpg",
+            "name": "Sleepy Head Low Key Double Bed",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "1800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "1800.0",
+                    "maximumValue": {
+                        "value": "1800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "1499.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "1499.99",
+                    "maximumValue": {
+                        "value": "1499.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "low_bed",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Low bed",
+                            "uniqueID": "7000000000000003356"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "smooth",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Smooth",
+                            "uniqueID": "7000000000000003368"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "self_assembly",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Self-assembly",
+                            "uniqueID": "7000000000000003370"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "hardwood",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Hard wood",
+                            "uniqueID": "7000000000000003333"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": "0",
+    "recordSetTotal": 4,
+    "facetView": [
+        {
+            "value": "price_USD",
+            "name": "OfferPrice_USD",
+            "entry": [
+                {
+                    "count": 0,
+                    "label": "({* 100} 100)",
+                    "value": "price_USD%3A%28%7B*+100%7D+100%29",
+                    "extendedData": {
+                        "uniqueId": "1121141059910195858368584012342324948481253249484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({100 200} 200)",
+                    "value": "price_USD%3A%28%7B100+200%7D+200%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123494848325048481253250484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({200 300} 300)",
+                    "value": "price_USD%3A%28%7B200+300%7D+300%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123504848325148481253251484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({300 400} 400)",
+                    "value": "price_USD%3A%28%7B300+400%7D+400%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123514848325248481253252484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({400 500} 500)",
+                    "value": "price_USD%3A%28%7B400+500%7D+500%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123524848325348481253253484841"
+                    }
+                },
+                {
+                    "count": 4,
+                    "label": "({500 *})",
+                    "value": "price_USD%3A%28%7B500+*%7D%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123534848324212541"
+                    }
+                }
+            ]
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "label": "Bender Home Fashions",
+                    "value": "mfName_ntk_cs%3A%22Bender+Home+Fashions%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-1002661011101001011143272111109101327097115104105111110115"
+                    }
+                },
+                {
+                    "label": "Sleepy Head",
+                    "value": "mfName_ntk_cs%3A%22Sleepy+Head%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "-100283108101101112121327210197100"
+                    }
+                }
+            ],
+            "name": "ManufacturerName",
+            "extendedData": {
+                "allowMultipleValueSelection": "true",
+                "maximumValuesToDisplay": "6",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "fname": "Brand",
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "mfName_ntk_cs",
+                "displayable": "1",
+                "facet_id": "-1000",
+                "srchattr_id": "-1002",
+                "zero_display": "0",
+                "selection": "1",
+                "group_id": "0",
+                "displaySequence": "0.0",
+                "storeent_id": "0",
+                "sortorder": "1",
+                "max_display": "6",
+                "fdesc": "The manufacturer",
+                "srchattridentifier": "_cat.ManufacturerName"
+            }
+        },
+        {
+            "value": "ads_f10106_ntk_cs",
+            "entry": [
+                {
+                    "label": "81\"x45\"x63\"",
+                    "value": "ads_f10106_ntk_cs%3A%2281%5C%22x45%5C%22x63%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106564934120525334120545134"
+                    }
+                }
+            ],
+            "name": "Product Dimensions",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10106_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10106",
+                "attrname": "Product Dimensions",
+                "srchattr_id": "10106",
+                "attrdesc": "Product Dimensions",
+                "attr_id": "7000000000000000660",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ProductDimensions",
+                "srchattridentifier": "_cat.ProductDimensions"
+            }
+        },
+        {
+            "value": "ads_f10107_ntk_cs",
+            "entry": [
+                {
+                    "label": "130 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%22130+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101074951483210898115"
+                    }
+                }
+            ],
+            "name": "Item Weight",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10107_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10107",
+                "attrname": "Item Weight",
+                "srchattr_id": "10107",
+                "attrdesc": "Item Weight",
+                "attr_id": "7000000000000000661",
+                "zero_display": "0",
+                "attrsequence": "2.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "2.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ItemWeight",
+                "srchattridentifier": "_cat.ItemWeight"
+            }
+        },
+        {
+            "value": "ads_f10103_ntk_cs",
+            "entry": [
+                {
+                    "label": "Hard wood",
+                    "value": "ads_f10103_ntk_cs%3A%22Hard+wood%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "10103729711410032119111111100"
+                    }
+                },
+                {
+                    "label": "Wood",
+                    "value": "ads_f10103_ntk_cs%3A%22Wood%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010387111111100"
+                    }
+                }
+            ],
+            "name": "Material",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10103_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10103",
+                "attrname": "Material",
+                "srchattr_id": "10103",
+                "attrdesc": "Material",
+                "attr_id": "7000000000000000653",
+                "zero_display": "0",
+                "attrsequence": "3.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "3.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Materials",
+                "srchattridentifier": "_cat.Materials"
+            }
+        },
+        {
+            "value": "ads_f10104_ntk_cs",
+            "entry": [
+                {
+                    "label": "Elegant",
+                    "value": "ads_f10104_ntk_cs%3A%22Elegant%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101046910810110397110116"
+                    }
+                },
+                {
+                    "label": "Kids bed",
+                    "value": "ads_f10104_ntk_cs%3A%22Kids+bed%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10104751051001153298101100"
+                    }
+                },
+                {
+                    "label": "Low bed",
+                    "value": "ads_f10104_ntk_cs%3A%22Low+bed%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10104761111193298101100"
+                    }
+                }
+            ],
+            "name": "Style",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10104_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10104",
+                "attrname": "Style",
+                "srchattr_id": "10104",
+                "attrdesc": "Style",
+                "attr_id": "7000000000000000654",
+                "zero_display": "0",
+                "attrsequence": "4.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "4.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Style",
+                "srchattridentifier": "_cat.Style"
+            }
+        }
+    ]
+}

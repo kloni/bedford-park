@@ -1,0 +1,51 @@
+.pagination {
+  margin-top: 2rem;
+}
+
+.pagination button {
+  display: inline;
+}
+
+
+.pagination .active {
+  padding: 0.1875rem 0.625rem;
+  background: #1779ba;
+  color: #fefefe;
+  cursor: default;
+}
+
+.pagination .disabled {
+  color: #303030 !important;
+  opacity: 0.35;
+}
+
+.pagination-previous.disabled::before,
+.pagination-next.disabled::after {
+  content: none !important;
+  opacity: 0.35;
+}
+
+.pagination-previous,
+.pagination-next {
+  height: 1em;
+  padding-right: 0.625em;
+  padding-top: 0px;
+  width: auto;
+}
+
+.pagination-previous {
+  padding-left: 1.375em;
+  background: url('../../../../../../images/arrow-left.svg') left no-repeat;
+}
+.pagination-previous:hover {
+  background: url('../../../../../../images/arrow-left.svg') left no-repeat;
+}
+
+.pagination-next {
+  padding-right: 1.375em;
+  background: url('../../../../../../images/arrow-right.svg') right no-repeat;
+}
+.pagination-next:hover {
+  background: url('../../../../../../images/arrow-right.svg') right no-repeat;
+}
+

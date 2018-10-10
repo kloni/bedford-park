@@ -1,0 +1,18 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Accessories",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/accessories.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/accessories.jpg",
+            "storeID": "12901",
+            "name": "Accessories",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10612",
+            "uniqueID": "10612",
+            "parentCatalogGroupID": [
+                "11251_10609",
+                "11301_10609"
+            ],
+            "shortDescription": "Accent your bath with stylish accessories and makeup mirrors"
+        }
+    ]
+}

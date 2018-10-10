@@ -1,0 +1,13 @@
+{ 
+    "test01" : {
+        "categoryA1" : ["Furniture", 28],
+        "department": "Living Room",
+        "category" : "Furniture"
+    },
+    "test02" : {
+        "categoryA1" : ["Furniture", 28],
+        "department": "Living Room",
+        "category" : "Furniture",
+        "product":"Wooden Angled Chair"
+    }
+}

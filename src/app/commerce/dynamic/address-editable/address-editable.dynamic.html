@@ -1,0 +1,113 @@
+<div id="addressEditable_{{id}}" class="large reveal animated fadeIn" data-reveal>
+
+  <form *ngIf="_addr" id="addressEditableForm_{{id}}" (ngSubmit)="f.form.valid && performSave()" name="addressEditableForm_{{id}}"
+    [ngClass]="{'show-invalid-input': f.submitted}" #f="ngForm">
+    <div class="grid-container grid-container-padded">
+      <div class="grid-x grid-margin-x">
+        <div class="small-12 cell">
+          <h2 id="addressEditable_title_{{id}}">
+            <ng-container *ngIf="_addr.newAddr; else elseBlock">{{'addressEditable.addAddress'|translate}}</ng-container>
+            <ng-template #elseBlock>{{'addressEditable.editAddress'|translate}}</ng-template>
+          </h2>
+          <hr>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div *ngIf="_addr.newAddr" class="small-12 medium-6 cell">
+          <label id="addressEditable_labelNickName_{{id}}">{{'addressEditable.nickName'|translate}}
+            <input id="addressEditable_inputNickName_{{id}}" type="text" placeholder="Address Nickname" name="nickName" [(ngModel)]="_addr.nickName"
+              maxlength="254" #nickName="ngModel" commerce-identifier required/>
+          </label>
+        </div>
+        <div *ngIf="_addr.newAddr" class="small-12 medium-6 cell"></div>
+        <div class="small-12 medium-6 cell">
+          <label id="addressEditable_labelFirstName_{{id}}">{{'addressEditable.firstName'|translate}}
+            <input id="addressEditable_inputFirstName_{{id}}" type="text" placeholder="First Name" name="firstName" [(ngModel)]="_addr.firstName"
+              maxlength="128" #firstName="ngModel" commerce-nonwhitespace required/>
+          </label>
+        </div>
+        <div class="small-12 medium-6 cell">
+          <label id="addressEditable_labelLastName_{{id}}">{{'addressEditable.lastName'|translate}}
+            <input id="addressEditable_inputLastName_{{id}}" type="text" placeholder="Last Name" name="lastName" [(ngModel)]="_addr.lastName"
+              maxlength="128" #lastName="ngModel" commerce-nonwhitespace required/>
+          </label>
+        </div>
+        <div *ngIf="!_addr.regAddr" class="small-12 medium-6 cell">
+          <label id="addressEditable_labelEmail_{{id}}">{{'addressEditable.email'|translate}}
+            <input id="addressEditable_inputEmail_{{id}}" type="text" placeholder="name@domain.com" name="email" [(ngModel)]="_addr.email1"
+              maxlength="256" #email1="ngModel" email required/>
+          </label>
+        </div>
+        <div class="small-12 medium-6 cell">
+          <label id="addressEditable_labelPhone_{{id}}">{{'addressEditable.phone'|translate}}
+            <input id="addressEditable_inputPhone_{{id}}" type="text" placeholder="(123) 456-7890" name="phone1" [(ngModel)]="_addr.phone1"
+              #phone1="ngModel" commerce-phonenumber />
+          </label>
+        </div>
+        <div *ngIf="!_addr.regAddr" class="small-12 medium-6 cell"></div>
+        <div class="medium-12 cell">
+          <label id="addressEditable_labelLine1_{{id}}">{{'addressEditable.addressLine1'|translate}}
+            <input id="addressEditable_inputLine1_{{id}}" type="text" placeholder="123 Street Name" name="addressLine1" [(ngModel)]="_addr.addressLine[0]"
+              maxlength="100" #address1="ngModel" commerce-nonwhitespace required/>
+          </label>
+        </div>
+        <div class="medium-12 cell">
+          <label id="addressEditable_labelLine2_{{id}}">{{'addressEditable.addressLine2'|translate}}
+            <input id="addressEditable_inputLine2_{{id}}" type="text" placeholder="Suite 123" name="addressLine2" [(ngModel)]="_addr.addressLine[1]"
+              maxlength="50" #address2="ngModel" commerce-nonwhitespace/>
+          </label>
+        </div>
+        <div class="medium-6 cell">
+          <label id="addressEditable_labelShipTo_{{id}}">{{'addressEditable.shipTo'|translate}}
+            <select id="addressEditable_inputShipTo_{{id}}" [(ngModel)]="_addr.country" name="country" (change)="adjustStateProv()" required>
+              <option *ngFor="let country of countries" [value]="country.code">{{country.displayName}}</option>
+            </select>
+          </label>
+        </div>
+        <div class="medium-6 cell">
+          <label id="addressEditable_labelCity_{{id}}">{{'addressEditable.city'|translate}}
+            <input id="addressEditable_inputCity_{{id}}" type="text" placeholder="New York" name="city" [(ngModel)]="_addr.city" maxlength="128"
+              #city="ngModel" commerce-nonwhitespace required/>
+          </label>
+        </div>
+        <div class="medium-6 cell">
+          <label id="addressEditable_labelState_{{id}}">{{'addressEditable.state'|translate}}
+            <select id="addressEditable_inputState_{{id}}" *ngIf="cDescs&&cDescs[_addr.country]&&cDescs[_addr.country].states.length>0"
+              name="state" [(ngModel)]="_addr.state" required>
+              <option *ngFor="let state of cDescs[_addr.country].states" [value]="state.code">{{state.displayName}}</option>
+            </select>
+            <input id="addressEditable_inputState_{{id}}" type="text" *ngIf="!cDescs||!cDescs[_addr.country]||cDescs[_addr.country].states.length==0"
+              placeholder="New York" name="state" [(ngModel)]="_addr.state" maxlength="128" #state="ngModel" commerce-nonwhitespace
+              required/>
+          </label>
+        </div>
+        <div class="medium-6 cell">
+          <label id="addressEditable_labelZip_{{id}}">{{'addressEditable.zipPostal'|translate}}
+            <input id="addressEditable_inputZip_{{id}}" type="text" placeholder="12345" name="zipCode" [(ngModel)]="_addr.zipCode" maxlength="40"
+              #zipCode="ngModel" commerce-postalcode-northamerica required/>
+          </label>
+        </div>
+        <div class="small-12 medium-6 cell">
+          <br>
+          <button id="addressEditable_buttonCancel_{{id}}" type="button" [disabled]="saveProcessing" class="button button-light expanded"
+            data-close translate>addressEditable.cancel</button>
+        </div>
+        <div class="small-12 medium-6 cell">
+          <br>
+          <button id="addressEditable_buttonSaveChanges_{{id}}" type="submit" [disabled]="saveProcessing" class="button button-dark expanded"
+            translate>addressEditable.saveChanges</button>
+        </div>
+        <div *ngIf="saveErrorMsg" class="medium-12 cell">
+          <div class="callout alert" translate data-closable>
+            <span id="addressEditable_errorMsgSpan_{{id}}">{{saveErrorMsg}}</span>
+            <button id="addressEditable_buttonCloseAlert_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearError()"
+              data-close>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

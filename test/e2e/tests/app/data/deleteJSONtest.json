@@ -1,0 +1,23 @@
+
+
+"$&": {
+    "sku": "$&",
+    "priceList": 0.0,
+    "priceOffering": 0.0,
+    "attributes": {}
+},
+
+"": {
+    "categoryName": "",
+    "": {
+        "subCategoryName": "",
+        "": {
+            "productInfo": {
+                "name": "",
+                "productCode": "",
+                "shortDescription": "",
+                "longDescription": ""
+            },
+        }
+    }
+}

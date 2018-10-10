@@ -1,0 +1,1113 @@
+{
+    "numFound": 16,
+    "documents": [
+       {
+          "document": {
+             "id": "f94208aa-f79e-465b-9d03-ef5704800006",
+             "rev": "11-05336a3d576ff7e3232b3d8f21e4e2a6",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Markville Mall",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:22.059Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:22.059Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:22.059Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "latitude": 43.868412,
+                   "longitude": -79.28809
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793",
+                      "33fb5b97-3aef-48f6-a1c8-8275cdc77b09",
+                      "023cfa1f-6f82-4816-aa6c-d2ab3ba0c615"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services",
+                      "Physical store services type/Financing",
+                      "Physical store services type/Assembly services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Markville Mall"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "905-416-6666"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>8000 McCowan Rd<br />\nMarkham, Ontario L3P 3J3 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "328bddb0-8ead-4d53-988a-df9f34bb6450",
+             "rev": "11-5c4ea474baa36e12fa18a71d97916313",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Alton Towers Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:25.647Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:25.647Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:25.647Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.27616,
+                   "latitude": 43.82533
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793",
+                      "33fb5b97-3aef-48f6-a1c8-8275cdc77b09",
+                      "023cfa1f-6f82-4816-aa6c-d2ab3ba0c615"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Kitchen services",
+                      "Physical store services type/Financing",
+                      "Physical store services type/Assembly services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Alton Towers Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-326-8647"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>250 Alton Towers Circle<br />\nToronto, Ontario M1V 3Z4 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "28970817-4936-402c-8aab-45c13db374db",
+             "rev": "11-4535f6480f706f3ffe43576f11b7c7fe",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Markham Centre",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:25.178Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:25.178Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:25.178Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.332,
+                   "latitude": 43.846
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Markham Centre"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "905-413-5555"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>8200 Warden Ave<br />Markham, Ontario L6G 1C7 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "27cf461d-22ec-4a3a-9ce7-c8ecb9414686",
+             "rev": "11-58b08a7c97074c237768278375700056",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Warden Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:22.724Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:22.724Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:22.724Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.338295,
+                   "latitude": 43.848663
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793",
+                      "33fb5b97-3aef-48f6-a1c8-8275cdc77b09",
+                      "023cfa1f-6f82-4816-aa6c-d2ab3ba0c615"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services",
+                      "Physical store services type/Financing",
+                      "Physical store services type/Assembly services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Warden Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "905-326-8647"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>8250 Warden Ave<br />\nMarkham, Ontario L6G 1C7 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "f6d43026-6ca0-49d4-a139-a26d1341f801",
+             "rev": "11-7ae44aa3b1803317226ed9c8b5faba83",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Borough Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:30.444Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:30.444Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:30.444Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.255,
+                   "latitude": 43.775
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Borough Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-134-5467"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>300 Borough Drive<br />Toronto, Ontario M1P 4P5 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "83605cca-f8ff-463b-bf79-654443d0e140",
+             "rev": "11-482e221216c4b22fab0a1738f9c97686",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Yorkdale Centre",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:28.232Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:28.232Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:28.232Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.42,
+                   "latitude": 43.752
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Yorkdale Centre"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "905-411-1278"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>3401 Dufferin Street<br />North York, Ontario M2N 1A1 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "0053992e-b550-4725-b514-105653660e0f",
+             "rev": "11-8d4ed87f56d13d073ac2c3a8e7eda457",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Danforth Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:23.011Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:23.011Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:23.011Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.359,
+                   "latitude": 43.676
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Danforth Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-974-0636"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>69 Danforth Ave<br />Toronto, Ontario M4K 3Y3 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "94b4bb8a-9d6d-4898-ada7-4aa593c0050d",
+             "rev": "11-0fdee376c733b15f655191d3066b0a7f",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Bloor Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:28.205Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:28.205Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:28.205Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.387,
+                   "latitude": 43.67
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "33fb5b97-3aef-48f6-a1c8-8275cdc77b09",
+                      "023cfa1f-6f82-4816-aa6c-d2ab3ba0c615"
+                   ],
+                   "categories": [
+                      "Physical store services type/Financing",
+                      "Physical store services type/Assembly services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Bloor Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-896-3824"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>5 Bloor ST W<br />Toronto, Ontario M4W 3G9 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "b11f201f-c271-453d-a257-2f5f85144bce",
+             "rev": "11-850b3c88a20d23d73b0e080528bcf648",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Eaton Centre",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:28.921Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:28.921Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:28.921Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.381,
+                   "latitude": 43.656
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Eaton Centre"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-446-6660"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>1 Dundas St W<br />Toronto, Ontario M5G 1Z3 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "c1140e4f-6162-4998-b87c-e998158566c4",
+             "rev": "11-a4ed4d56e08cecc8440be0370a6177c1",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Bathurst Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:29.287Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:29.287Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:29.287Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.411,
+                   "latitude": 43.664
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Bathurst Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-768-3265"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>781 Bathurst St<br />Toronto, Ontario M6G 1B4 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "734a3891-46dc-4992-a13e-2e81a03b3a2f",
+             "rev": "11-9d561ad57da0ed9fe88cd7ef77eac13f",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Bay Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:26.794Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:26.794Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:26.794Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.379,
+                   "latitude": 43.647
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "023cfa1f-6f82-4816-aa6c-d2ab3ba0c615"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Assembly services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Bay Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-287-6451"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>180 Bay ST<br />Toronto, Ontario M5J 2W3 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "acf4f3b2-aac8-4b57-95bf-19869bb7de34",
+             "rev": "11-2ab3af83d4e2e25a5d39fb6cc4e10008",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "University Avenue",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:28.959Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:28.959Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:28.959Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.386,
+                   "latitude": 43.649
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "University Avenue"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-222-3333"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>222 University Ave<br />Toronto, Ontario M5H 4B8 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "773e8021-ab67-4920-84eb-fc7aab8b6aca",
+             "rev": "11-5fce02dac1b23e4643e01e381d9b49ac",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Keele Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:27.359Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:27.359Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:27.359Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.464,
+                   "latitude": 43.664
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793",
+                      "33fb5b97-3aef-48f6-a1c8-8275cdc77b09",
+                      "023cfa1f-6f82-4816-aa6c-d2ab3ba0c615"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services",
+                      "Physical store services type/Financing",
+                      "Physical store services type/Assembly services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Keele Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-678-4325"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>333 Keele St<br />Toronto, Ontario M6P 2K7 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "167b7f0d-664e-47e4-9ac0-67133408c5d0",
+             "rev": "11-973cbd6062a18a316badb6e6ac70d8a7",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Sherway Gardens",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:24.155Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:24.155Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:24.155Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.554,
+                   "latitude": 43.673
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793",
+                      "33fb5b97-3aef-48f6-a1c8-8275cdc77b09",
+                      "023cfa1f-6f82-4816-aa6c-d2ab3ba0c615"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services",
+                      "Physical store services type/Financing",
+                      "Physical store services type/Assembly services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Sherway Gardens"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "905-456-7658"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>25 West Mall<br />Etobicoke, Ontario M9B 5Z9 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "72c95243-61c4-4cf3-9930-482cdd699a8f",
+             "rev": "11-6ea7b2f8687717b33bde80800623a307",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "Islington Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:26.787Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:26.787Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:26.787Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.505,
+                   "latitude": 43.6
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793",
+                      "33fb5b97-3aef-48f6-a1c8-8275cdc77b09",
+                      "023cfa1f-6f82-4816-aa6c-d2ab3ba0c615"
+                   ],
+                   "categories": [
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services",
+                      "Physical store services type/Financing",
+                      "Physical store services type/Assembly services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "Islington Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "416-986-0547"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>126 Islington Ave<br />Toronto, Ontario M8V 4B9 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       },
+       {
+          "document": {
+             "id": "9276f29b-5a97-4f31-a7f7-0b28cce9997f",
+             "rev": "11-83218b1fddeaf1824477a6fc4bb884b2",
+             "kind": [],
+             "classification": "content",
+             "typeId": "com.ibm.commerce.store.angular-types.physical-store",
+             "type": "Physical store",
+             "name": "City Centre Plaza",
+             "description": "",
+             "tags": [],
+             "status": "ready",
+             "created": "2018-07-30T20:51:28.199Z",
+             "creatorId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "lastModified": "2018-07-30T20:51:28.199Z",
+             "lastModifierId": "2d4dfa25-efdc-45d3-a067-bd3ed75ccecb",
+             "systemModified": "2018-07-30T20:51:28.199Z",
+             "elements": {
+                "coordinates": {
+                   "elementType": "location",
+                   "longitude": -79.643,
+                   "latitude": 43.588
+                },
+                "services": {
+                   "elementType": "category",
+                   "categoryIds": [
+                      "0b36c8de-63ea-47c9-8a61-0d2859e5ff25",
+                      "6be6ef31-ba28-4937-ae2b-a86ecfca58a1",
+                      "6d7f8d33-3220-49f0-821a-aeae5bd7d793",
+                      "33fb5b97-3aef-48f6-a1c8-8275cdc77b09",
+                      "023cfa1f-6f82-4816-aa6c-d2ab3ba0c615"
+                   ],
+                   "categories": [
+                      "Physical store services type/Cafeteria",
+                      "Physical store services type/Click and Collect",
+                      "Physical store services type/Kitchen services",
+                      "Physical store services type/Financing",
+                      "Physical store services type/Assembly services"
+                   ]
+                },
+                "name": {
+                   "elementType": "text",
+                   "value": "City Centre Plaza"
+                },
+                "phoneNumber": {
+                   "elementType": "text",
+                   "value": "905-134-5467"
+                },
+                "identifier": {
+                   "elementType": "text",
+                   "value": "Stockholm"
+                },
+                "hours": {
+                   "elementType": "formattedtext",
+                   "value": "<p>Mon-Fri: 10am - 9pm<br />\nSat: 9am - 7pm<br />\nSun: 11am - 6pm<\/p>\n"
+                },
+                "address": {
+                   "elementType": "formattedtext",
+                   "value": "<p>100 City Centre Drive<br />\nMississauga, Ontario L5B 2C9 Canada<\/p>\n"
+                }
+             },
+             "keywords": [],
+             "selectedLayouts": [
+                {
+                   "layout": {
+                      "id": "physical-store-layout"
+                   }
+                }
+             ],
+             "locale": "en"
+          }
+       }
+    ]
+ }

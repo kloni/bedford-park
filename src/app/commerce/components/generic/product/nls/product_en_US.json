@@ -1,0 +1,11 @@
+{
+    "product" : {
+      "shopNow": "Shop Now",
+      "pricePending": "Price pending",
+      "viewDetails": "View Details",
+      "addToCart": "ADD TO CART",
+      "quantity": "Quantity",
+      "VATincl": "VAT incl.",
+      "storeLocatorModal": "Store Locator"
+    }
+}

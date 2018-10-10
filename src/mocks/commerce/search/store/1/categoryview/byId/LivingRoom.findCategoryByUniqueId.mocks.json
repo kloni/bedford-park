@@ -1,0 +1,26 @@
+{  
+   "catalogGroupView":[  
+      {  
+         "identifier":"LivingRoom",
+         "fullImage":"https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/dep_livingroom.jpg",
+         "thumbnail":"https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/dep_livingroom.jpg",
+         "storeID":"12901",
+         "name":"Living Room",
+         "resourceId":"https://preview-abj146.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10601",
+         "uniqueID":"10601",
+         "parentCatalogGroupID":[  
+            "11251_-1",
+            "11301_-1"
+         ],
+         "childCatalogGroupID":[  
+            "11251_10602",
+            "11251_10603",
+            "11251_10604",
+            "11301_10602",
+            "11301_10603",
+            "11301_10604"
+         ],
+         "shortDescription":"Bring your living space together with comfort and style"
+      }
+   ]
+}

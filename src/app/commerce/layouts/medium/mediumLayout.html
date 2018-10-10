@@ -1,0 +1,7 @@
+<div class="promo-medium">
+  <a (click)="navigateToLink()">
+    <img class="show-for-medium" [src]="imageUrl" wchEditable="backgroundImage" [alt]="callToActionLink.linkText" [title]="callToActionLink['linkDescription']?callToActionLink['linkDescription']:callToActionLink.linkText">
+    <div class="promo-medium-message show-for-medium" wchEditable="promotionText" [innerHTML]="promotionText"></div>
+    <div class="promo-medium-message show-for-small-only" wchEditable="promotionText" [innerHTML]="promotionText"></div>
+  </a>
+</div>

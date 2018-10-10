@@ -1,0 +1,22 @@
+<h2 *ngIf="heading" wchEditable="heading">{{heading}}</h2>
+<div [id]="rContext.id" class="feature-card grid-container grid-container-padded animated fadeInUp">
+	<div *ngIf="!image.url" class="grid-x grid-margin-x">
+		<div class="feature-copy-content small-12 large-6 cell feature-copy">
+			<h2 wchEditable="featureHeadline" *ngIf="isHeaderSet()">{{onFeatureHeadline | async}}</h2>
+			<div wchEditable="descriptionOfFeature" class="text-content" [innerHTML]="onDescriptionOfFeature | async | formattedText:html"></div>
+			<a wchEditable="readMoreLink" *ngIf="isButtonLinkSet()" class="button" [routerLink]="(onReadMoreLink | async).linkURL">{{(onReadMoreLink | async).linkText}}</a>
+		</div>
+	</div>
+	<div *ngIf="image.url"  class="grid-x grid-margin-x">
+    <div class="small-12 large-6 cell feature-image">
+      <img wchEditable="image" [src]="getImageUrl()" [alt]="(onImage | async).altText" [title]="(onImage | async).altText">
+    </div>
+    <div class="small-12 large-6 cell feature-copy">
+      <div class="feature-copy-content">
+        <h2 wchEditable="featureHeadline" *ngIf="isHeaderSet()">{{onFeatureHeadline | async}}</h2>
+        <div wchEditable="descriptionOfFeature" class="text-content" [innerHTML]="onDescriptionOfFeature | async | formattedText:html"></div>
+        <a wchEditable="readMoreLink" *ngIf="isButtonLinkSet()" class="button" [routerLink]="(onReadMoreLink | async).linkURL">{{(onReadMoreLink | async).linkText}}</a>
+      </div>
+    </div>
+	</div>
+</div>

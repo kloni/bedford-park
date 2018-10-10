@@ -1,0 +1,29 @@
+{
+    "test01": {
+        "breadcrumb0": "Apparel",
+        "breadcrumb1": "Women",
+        "breadCrumb2": "Dresses",
+        "childCategory0": "Girls",
+        "childCategory1": "Boys",
+        "childCategory2": "Women",
+        "childCategory3": "Men",
+        "womenChildCategory0": "Dresses",
+        "womenChildCategory1": "Blouses",
+        "womenChildCategory2": "Sweaters",
+        "womenChildCategory3": "Skirts", 
+        "womenChildCategory4": "Pants",
+        "womenChildCategory5": "Shoes",
+        "womenChildCategory6": "Handbags",
+        "womenChildCategory7": "Accessories"
+    },
+    "test02": {
+        "breadcrumb0": "Apparel",
+        "breadcrumb1": "Women",
+        "breadCrumb2": "Dresses",
+        "expectedPage": "All Apparel"
+    },
+    "test03": {
+        "breadcrumb0": "Home & Furnishing",
+        "breadcrumb1": "Lighting"
+    }
+}

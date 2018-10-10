@@ -1,0 +1,26 @@
+{
+    "errorMsg": "Sorry, we couldn't find what you are looking for.",
+    "register": {
+        "logonId": "mscpars@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "AddressBook" : 
+            {
+                "firstName" : "defaultcheckoutfirst",
+                "lastName" : "defaultcheckoutlast",
+                "address" : "Central Park checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "stateShort" : "NY",
+                "zipCode" : "10001"
+            }
+    },
+    "shopper": {
+        "logonId": "nathan.sinnat@gmail.com",
+        "logonPassword": "Shopper01"
+    }
+}

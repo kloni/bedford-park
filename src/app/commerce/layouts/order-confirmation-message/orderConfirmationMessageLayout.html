@@ -1,0 +1,15 @@
+<div id="orderconfirmation_div_{{id}}" class="grid-container grid-container-padded animated fadeInUp text-center">
+    <h4 id="orderconfirmation_ordermsg_{{id}}" wchEditable="gratitudeMessage">{{ gratitudeMessage }}</h4>
+    <p id="orderconfirmation_ordernumbermsg_{{id}}" wchEditable="orderNumberLabel">{{ orderNumberLabel }}{{confirmedOrderId}}</p>
+    <br>
+    <p id="orderconfirmation_emailLabel_{{id}}" wchEditable="confirmationEmailLabel">{{ confirmationEmailLabel }}</p>
+    <br>
+    <img id="orderconfirmation_checkmarkimg_{{id}}" wchEditable="confirmationImage" class="orderconfirmation__img__confirmationimg"
+        *ngIf="imageAvailable" [src]="renderingContext.context.hub.deliveryUrl.origin + confirmationImage?.url" [alt]="confirmationImage?.altText"
+        [title]="confirmationImage?.asset?.fileName">
+    <br>
+    <br>
+    <br>
+    <div id="orderconfirmation_msgoftheday_{{id}}" class="orderconfirmation__div__msgoftheday" *ngIf="messageOfTheDay" id="orderconfirmation_productdesc_{{id}}"
+        wchEditable="messageOfTheDay" [innerHTML]="messageOfTheDay"></div>
+</div>

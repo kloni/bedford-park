@@ -1,0 +1,121 @@
+{
+    "totalShippingCharge": "0.00000",
+    "resourceId": "https://abc123.watsoncommerce.ibm.com:443/wcs/resources/store/13001/cart/@self?sortOrderItemBy=orderItemID",
+    "orderId": "3188793779",
+    "lastUpdateDate": "2018-04-18T14:36:19.697Z",
+    "channel": {
+        "channelIdentifer": {
+            "channelName": "Telesales",
+            "uniqueID": "-4"
+        },
+        "userData": null,
+        "description": {
+            "language": "-1",
+            "value": "Used when operations performed by a telesales representative."
+        }
+    },
+    "orderStatus": "P",
+    "x_isPurchaseOrderNumberRequired": "false",
+    "totalShippingChargeCurrency": "USD",
+    "grandTotalCurrency": "USD",
+    "buyerId": "5050",
+    "recordSetCount": "1",
+    "x_isPersonalAddressesAllowedForShipping": "true",
+    "storeNameIdentifier": "Stockholm0410",
+    "totalProductPriceCurrency": "USD",
+    "totalProductPrice": "569.99000",
+    "locked": "false",
+    "recordSetComplete": "true",
+    "totalAdjustmentCurrency": "USD",
+    "totalSalesTaxCurrency": "USD",
+    "totalSalesTax": "0.00000",
+    "grandTotal": "544.99000",
+    "orderItem": [
+        {
+            "unitUom": "C62",
+            "shippingChargeCurrency": "USD",
+            "lastUpdateDate": "2018-04-18T14:36:19.706Z",
+            "expectedShipDate": "2018-04-18T14:49:16.267Z",
+            "description": "Mail",
+            "language": "-1",
+            "availableDate": "2018-04-18T14:36:19.764Z",
+            "salesTax": "0.00000",
+            "xitem_isPersonalAddressesAllowedForShipping": "true",
+            "correlationGroup": "25094",
+            "usableShippingChargePolicy": [
+                {
+                    "name": "StandardShippingChargeBySeller",
+                    "type": "ShippingCharge",
+                    "uniqueID": "-7001"
+                }
+            ],
+            "shippingTax": "0.00000",
+            "orderItemStatus": "P",
+            "offerID": "4000000000000001249",
+            "currency": "USD",
+            "shippingCharge": "0.00000",
+            "orderItemPrice": "569.99000",
+            "shipModeLanguage": "-1",
+            "createDate": "2018-04-18T14:36:19.693Z",
+            "unitPrice": "569.99000",
+            "salesTaxCurrency": "USD",
+            "quantity": "1.0",
+            "shipModeCode": "Mail",
+            "productId": "14625",
+            "shipModeDescription": "Mail",
+            "orderItemId": "25094",
+            "fulfillmentCenterId": "715840134",
+            "fulfillmentCenterName": "Stockholm0410",
+            "shipModeId": "715840284",
+            "isExpedited": "false",
+            "orderItemFulfillmentStatus": "Unreleased",
+            "shippingTaxCurrency": "USD",
+            "carrier": "Mail",
+            "UOM": "C62",
+            "freeGift": "false",
+            "unitQuantity": "1.0",
+            "contractId": "4000000000000001004",
+            "adjustment": [
+                {
+                    "amount": "-25.00000",
+                    "code": "Save $25 on all orders over $200 USD",
+                    "displayLevel": "Order",
+                    "usage": "Discount",
+                    "descriptionLanguage": "-1",
+                    "description": "Save $25 on all orders over $200 USD",
+                    "language": "-1",
+                    "currency": "USD"
+                }
+            ],
+            "partNumber": "LR-FNTR-0002-0003",
+            "totalAdjustment": {
+                "currency": "USD",
+                "value": "-25.00000"
+            },
+            "orderItemInventoryStatus": "Available"
+        }
+    ],
+    "storeUniqueID": "13001",
+    "recordSetStartNumber": "0",
+    "resourceName": "cart",
+    "recordSetTotal": "1",
+    "shipAsComplete": "true",
+    "x_trackingIds": "",
+    "totalShippingTax": "0.00000",
+    "totalShippingTaxCurrency": "USD",
+    "prepareIndicator": "false",
+    "adjustment": [
+        {
+            "amount": "-25.00000",
+            "code": "Save $25 on all orders over $200 USD",
+            "displayLevel": "Order",
+            "usage": "Discount",
+            "xadju_calUsageId": "-1",
+            "descriptionLanguage": "-1",
+            "description": "Save $25 on all orders over $200 USD",
+            "language": "-1",
+            "currency": "USD"
+        }
+    ],
+    "totalAdjustment": "-25.00000"
+}

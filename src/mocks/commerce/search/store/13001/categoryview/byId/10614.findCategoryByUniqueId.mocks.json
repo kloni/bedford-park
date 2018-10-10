@@ -1,0 +1,18 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Beds",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/beds.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/beds.jpg",
+            "storeID": "12901",
+            "name": "Beds",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10614",
+            "uniqueID": "10614",
+            "parentCatalogGroupID": [
+                "11251_10613",
+                "11301_10613"
+            ],
+            "shortDescription": "Functional and space-saving beds to extend any sleeping space"
+        }
+    ]
+}

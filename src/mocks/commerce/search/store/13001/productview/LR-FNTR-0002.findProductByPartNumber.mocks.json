@@ -1,0 +1,59 @@
+{
+    "catalogEntryView": [
+        {
+            "partNumber": "LR-FNTR-0002-0003",
+            "shortDescription": "A unique, modern armchair that offers flared styling on one side to accent your home's living room and decor.",
+            "catalogEntryTypeCode": "ItemBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair2_c1_600.jpg",
+            "parentCatalogEntryID": "14622",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair2_c1_350.jpg",
+            "storeID": "12901",
+            "name": "Flared Accent Chair",
+            "parentCatalogGroupID": [
+                "11251_10602",
+                "11301_10602"
+            ],
+            "manufacturer": "Stockholm",
+            "price": [
+                {
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "600.0"
+                },
+                {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "569.99"
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.30000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "puple",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png",
+                            "value": "Tan",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png",
+                            "uniqueID": "7000000000000003317"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                }
+            ]
+        }
+    ]
+}

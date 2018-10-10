@@ -1,0 +1,32 @@
+@import '../../../theme_settings.scss';
+
+.account-address-card-container {
+    margin-bottom: 5px;
+}
+.account-address-card-container .address-header-default {
+    background-color: $header-bg-color;
+    padding:15px 15px 1px;
+}
+.account-address-card-container .address-header {
+    border-bottom:solid 1px $border-color;
+    padding:15px 15px 1px;
+}
+.account-address-card-container .address-body {
+    padding:15px 15px 1px;
+}
+
+.address-options{
+    margin-top:1.5rem;
+    a{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+        @media screen and (min-width: 40em) and (max-width: 63.9375em){
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+    }
+}
+.address-options>a:first-child{
+    margin-left: 0px;
+}

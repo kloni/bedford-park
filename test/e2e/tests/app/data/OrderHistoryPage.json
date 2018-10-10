@@ -1,0 +1,89 @@
+{
+    "register": {
+        "logonId": "mscpars@test.com",
+        "noOrderLogin": "mscpars_noorder@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "AddressBook" :
+            {
+                "firstName" : "defaultcheckoutfirst",
+                "lastName" : "defaultcheckoutlast",
+                "address" : "Central Park checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "stateShort" : "NY",
+                "zipCode" : "10001",
+                "phone": "3334441111"
+            }
+    },
+    "user01": {
+        "login": "mscpars@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "AddressBook" : [
+            {
+                "firstName" : "defaultcheckoutfirst",
+                "lastName" : "defaultcheckoutlast",
+                "address" : "Central Park checkout",
+                "shipTo" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "stateShort" : "NY",
+                "zipCode" : "10001"
+            }
+        ]
+    },
+    "user02": {
+        "login": "mscpars_noorder@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "addressBook" : [
+            {
+                "firstName" : "defaultcheckoutfirst",
+                "lastName" : "defaultcheckoutlast",
+                "address" : "Central Park checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "stateShort" : "NY",
+                "zipCode" : "10001"
+            }
+        ]
+    },
+    "checkout": {
+        "product": 1
+    },
+    "checkout2": {
+        "product": 1,
+        "product2": 2,
+        "product3": 3
+    },
+    "checkout3": {
+        "product": 3
+    },
+
+    "test01": {
+        "orderStatus": "Status: Order received and ready for processing",
+        "orderQuantity": 1,
+        "orderTotal": 19.4,
+        "orderItemQuantity": 1
+    },
+    "test02": {},
+    "test03": {},
+    "test04": {},
+    "test05": {},
+    "test06": {
+        "noOrderMsg": "No orders were found."
+    },
+    "test07": {}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Info Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Info-Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Information-icon-(blue30)---20px">
+            <g id="Page-1">
+                <path d="M10,0 C4.5,0 0,4.5 0,10 C0,15.5 4.5,20 10,20 C15.5,20 20,15.5 20,10 C20,4.5 15.5,0 10,0" id="Fill-1" fill="#79A6F6"></path>
+                <polygon id="Fill-3" fill="#343334" points="11.4285714 8.57142857 7.85714286 8.57142857 7.85714286 10 9.28571429 10 9.28571429 14.2857143 7.85714286 14.2857143 7.85714286 15.7142857 12.8571429 15.7142857 12.8571429 14.2857143 11.4285714 14.2857143"></polygon>
+                <path d="M10,4.28571429 C10.7892857,4.28571429 11.4285714,4.925 11.4285714,5.71428571 C11.4285714,6.50357143 10.7892857,7.14285714 10,7.14285714 C9.21071429,7.14285714 8.57142857,6.50357143 8.57142857,5.71428571 C8.57142857,4.925 9.21071429,4.28571429 10,4.28571429" id="Fill-5" fill="#343334"></path>
+            </g>
+        </g>
+    </g>
+</svg>

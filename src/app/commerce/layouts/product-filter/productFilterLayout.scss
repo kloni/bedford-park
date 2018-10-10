@@ -1,0 +1,135 @@
+@import '../../../theme_settings.scss';
+
+.product-filters {
+    background-color: $product-filter-background;
+    &>ul{
+        border-top: 1px solid $border-color;
+        &:last-child{
+            border-bottom: 1px solid $border-color;
+        }
+    }
+    .accordion-item{
+        &:not(:last-child){
+            border-bottom: 1px solid $border-color;
+        }
+    }
+    .checkbox-selection{
+        input{
+            margin-top:0.3rem;
+        }
+        label{
+            margin-right:0.5rem;
+        }
+    }
+}
+
+.price-filter {
+    input{
+        margin: 0;
+    }
+    background-color: $price-filter-background;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    &>.cell{
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+}
+
+.hide-for-small-only {
+    .product-filters .is-active .accordion-content {
+        display: block;
+    }
+}
+
+.product-filters {
+    a {
+        color:#000;
+    }
+
+    .accordion-title {
+        font-size:1em;
+        padding:20px 0px 15px;
+        width:100%;
+        border:none !important;
+        text-transform:uppercase;
+    }
+
+    .accordion-title:hover {
+        background-color:transparent;
+    }
+
+    .accordion-content {
+        border:none;
+        padding:0rem;
+    }
+
+    .more-actions{
+        display: flex;
+        align-items: center;
+
+        @include go-link();
+    }
+
+    .price-go {
+        background: black;
+        color: white;
+        margin: 0;
+        width: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 11px 10px 10px;
+        margin-top: 1px;
+        border: none;
+    }
+
+    .image-swatch {
+        margin-right: 6px;
+        margin-bottom: 6px;
+
+        .selected {
+            outline: solid 1px $filter-active-border-color;
+            outline-offset: 2px;
+        }
+    }
+
+}
+
+#search-results {
+    .tabs-container {
+        border-bottom: solid 1px #dadada;
+    }
+
+    .search-results-label {
+        padding-top:12px;
+    }
+
+    .tabs-panel {
+        border:0px none;
+        padding:0rem;
+        padding-top:20px;
+    }
+
+    .tabs-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+
+    .tabs, .tabs-content {
+        border:none;
+    }
+
+    .tabs-title a {
+        font-size:1.25em;
+        color:#303030;
+        min-width:200px;
+    
+    }
+    .tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
+        background: none;
+        border-bottom: solid 4px $page-tab-border-color;
+    }
+}

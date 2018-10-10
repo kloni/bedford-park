@@ -1,0 +1,85 @@
+{ 
+    "css": {
+        "textField": {
+            "valid": [
+                "border-left",
+                "1px solid rgb(202, 202, 202)"
+            ],
+            "invalid": [
+                "border-left",
+                "5px solid rgb(204, 75, 55)"
+            ]
+        }
+    },
+    "register": {
+        "loginId": "mscpars@test.com",
+        "loginId2": "mscpars2@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "firstName2": "checkOutFirst2",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "AddressBook" : 
+            {
+                "firstName" : "defaultcheckoutfirst",
+                "firstName2" : "defaultcheckoutfirst2",
+                "lastName" : "defaultcheckoutlast",
+                "address" : "Central Park checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "stateShort" : "NY",
+                "zipCode" : "10001",
+                "phone": "3334441111"
+            }
+    },
+    "test01" : {
+        "login": "mscpars@test.com",
+        "password": "Ibm4ever!",
+        "expectedEmail":"mscpars@test.com"
+    },
+    "test02" : {
+        "login": "mscpars@test.com",
+        "password": "Ibm4ever!"
+    },
+    "test03" : {
+        "login": "mscpars@test.com",
+        "password": "Ibm4ever!",
+        "expectedProductName": "Plump Leather Sofa",
+        "heading":"defaultcheckoutfirst defaultcheckoutlast"
+    },
+    "test04" : {
+        "login": "mscpars@test.com",
+        "login2": "mscpars2@test.com",
+        "password": "Ibm4ever!",
+        "heading":"checkOutFirst2 checkOutLast"
+
+    },
+    "test05" : {
+        "login": "mscpars@test.com",
+        "password": "Ibm4ever!",
+        "AddressBook" : 
+            {
+                "nickName" : "test05",
+                "firstName" : "defaultcheckoutfirst",
+                "lastName" : "defaultcheckoutlast",
+                "email" : "test05@email.com",
+                "address" : "Central Park checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "zipCode" : "10001",
+                "phone":"111-222-3333"
+            }
+    },
+    "test06" : {
+        "login": "mscpars@test.com",
+        "password": "Ibm4ever!"
+    },
+    "test07" : {
+        "login": "mscpars@test.com",
+        "password": "Ibm4ever!"
+    }
+}

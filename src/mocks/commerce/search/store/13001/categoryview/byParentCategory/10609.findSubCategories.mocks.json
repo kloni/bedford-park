@@ -1,0 +1,55 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "BathLighthing",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/lighting.jpg",
+            "storeID": "12901",
+            "name": "Lighting",
+            "sequence": [
+                "11251_10609_1.00000",
+                "11301_10609_1.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10610",
+            "uniqueID": "10610",
+            "parentCatalogGroupID": [
+                "11251_10609",
+                "11301_10609"
+            ],
+            "shortDescription": "Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom"
+        },
+        {
+            "identifier": "Fixtures",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/fixtures.jpg",
+            "storeID": "12901",
+            "name": "Fixtures",
+            "sequence": [
+                "11251_10609_2.00000",
+                "11301_10609_2.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10611",
+            "uniqueID": "10611",
+            "parentCatalogGroupID": [
+                "11251_10609",
+                "11301_10609"
+            ],
+            "shortDescription": "Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space"
+        },
+        {
+            "identifier": "Accessories",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/accessories.jpg",
+            "storeID": "12901",
+            "name": "Accessories",
+            "sequence": [
+                "11251_10609_3.00000",
+                "11301_10609_3.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10612",
+            "uniqueID": "10612",
+            "parentCatalogGroupID": [
+                "11251_10609",
+                "11301_10609"
+            ],
+            "shortDescription": "Accent your bath with stylish accessories and makeup mirrors"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+<div [id]="rContext.id">
+  <hr>
+  <h5 *ngIf="heading" wchEditable="heading" > {{(onHeading | async)}} </h5>
+  <div *ngIf="body" wchEditable="body" [innerHTML]="(onBody | async) | formattedText:'html' "></div>
+  <a *ngIf="link && !userouterLink" wchEditable="link" [title]="(onLink | async)['linkDescription']" class="button" target="_blank" [href]="(onLink | async).linkURL" >{{(onLink | async).linkText}}</a>
+  <a *ngIf="link && userouterLink" wchEditable="link" [title]="(onLink | async)['linkDescription']" class="button" [routerLink]="(onLink | async).linkURL" >{{(onLink | async).linkText}}</a>
+</div>

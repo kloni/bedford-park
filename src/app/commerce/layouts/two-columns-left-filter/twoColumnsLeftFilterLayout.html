@@ -1,0 +1,27 @@
+<!-- just render the components in the 'content' column one by cone -->
+<div id="{{renderingContext.id}}" class="grid-container section">
+    <div *ngIf="topContentSection">
+        <div class="grid-x grid-margin-x" *ngFor="let item of onTopContentSection | async; trackBy: trackByComponentId">
+            <wch-contentref [renderingContext]="item">
+            </wch-contentref>
+        </div>
+    </div>
+    <div *ngIf="leftNavigationSection || rightContentSection" class="bottom-sections-container grid-x grid-margin-x">
+        <div *ngIf="leftNavigationSection" class="small-12 medium-4 large-3 cell">
+            <div class="grid-x grid-margin-x">
+                <div class="small-12 medium-12 large-12 cell" *ngFor="let item of onLeftNavigationSection | async; trackBy: trackByComponentId">
+                    <wch-contentref [renderingContext]="item">
+                    </wch-contentref>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="rightContentSection" class="small-12 medium-8 large-9 cell">
+            <div class="grid-x grid-margin-x">
+                <div class="small-12 medium-12 large-12 cell" *ngFor="let item of onRightContentSection | async; trackBy: trackByComponentId">
+                    <wch-contentref [renderingContext]="item">
+                    </wch-contentref>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,284 @@
+<!-- Begin layout-->
+<div id="personalinfo_div_1_{{id}}" class="personal-info">
+    <h2 id="personalinfo_h2_2_{{id}}" wchEditable="title">{{ title }}</h2>
+
+    <div id="personalinfo_div_3_{{id}}" *ngIf="updateSuccess || updateErrorMsg" class="medium-12 cell">
+      <div *ngIf="updateSuccess" id="personalinfo_div_4_{{id}}" class="callout success fadeOut" translate data-closable>
+        <span id="personalinfo_span_5_{{id}}" translate>PersonalInformation.UpdateSuccessful</span>
+        <button id="personalinfo_button_6_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearSuccessMsg()"
+          data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div *ngIf="updateErrorMsg" id="personalinfo_div_4_{{id}}" class="callout alert fadeOut" translate data-closable>
+        <span id="personalinfo_span_5_{{id}}" translate>{{ updateErrorMsg }}</span>
+        <button id="personalinfo_button_6_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearErrorMsg()"
+          data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="personalinfo_div_7_{{id}}" class="grid-x grid-margin-x animated fadeInUp">
+      <div id="personalinfo_div_8_{{id}}" class="small-12 cell">
+        <br>
+        <h4 class="box-bottom-border" id="personalinfo_h4_9_{{id}}">
+          <span *ngIf="csr.isCSR&&csr.actingAs" id="personalInfoActingAsLabel_{{id}}" translate>PersonalInformation.actingAs</span>
+          {{ user.disp||('PersonalInformation.guestUser'|translate) }}
+          <button *ngIf="csr.isCSR&&csr.actingAs" id="personalinfo_stopActingButton_{{id}}" type="button" class="button button-dark expanded stop-acting-button" (click)="stopActing()" translate>
+            PersonalInformation.stopActing
+          </button>
+        </h4>
+        <br>
+      </div>
+
+      <!-- regular user (including csr) or acting as a registered user -->
+      <ng-container *ngIf="!csr.isCSR||!csr.actingAs||csr.actingAs.userName">
+        <div id="personalinfo_div_10_{{id}}" class="small-12 medium-3 cell personalinfo-container">
+          <p id="personalinfo_p_11_{{id}}" class="bold" translate>PersonalInformation.AccountInformation:</p>
+          <p id="personalinfo_p_12_{{id}}">
+            <span id="personalinfo_span_13_{{id}}" *ngIf="user.selectedEmail">
+              {{ user.selectedEmail }}
+            </span>
+            <span id="personalinfo_span_14_{{id}}" *ngIf="user.selectedPhone">
+              <br> {{ user.selectedPhone }}
+            </span>
+            <span id="personalinfo_span_15_{{id}}" *ngIf="user.selectedCurrency">
+              <br> {{ user.selectedCurrency }}
+            </span>
+          </p>
+          <p id="personalinfo_p_16_{{id}}">
+            <a id="personalinfo_a_17_{{id}}" class="bold" (click)="openPIDialog()" translate>PersonalInformation.Edit</a>
+          </p>
+        </div>
+        <div *ngIf="!csr.actingAs" id="personalinfo_div_18_{{id}}" class="small-12 medium-3 cell personalinfo-container">
+          <p id="personalinfo_p_19_{{id}}" class="bold" translate>PersonalInformation.Password:</p>
+          <p id="personalinfo_p_20_{{id}}">********</p>
+          <p id="personalinfo_p_21_{{id}}">
+            <a id="personalinfo_a_22_{{id}}" class="bold" (click)="openCPDialog()" translate>PersonalInformation.ChangePassword</a>
+          </p>
+        </div>
+
+        <div id="personalinfo_div_70_{{id}}" *ngIf="!csr.isCSR||!csr.actingAs" class="small-12 cell top-spacer">
+            <button id="personalinfo_button_71_{{id}}" type="button" class="button button-dark expanded" (click)="logout()" translate>PersonalInformation.SignOutButton</button>
+        </div>
+
+        <div *ngIf="csr.actingAs" id="personalinfo_resetPassAsCSR_{{id}}" class="small-12 cell personalinfo-container top-spacer">
+          <button id="personalinfo_resetPassAsCSRButton_{{id}}" type="button" class="button button-dark expanded button-white" (click)="openCPDialog()" translate>PersonalInformation.resetPass</button>
+          <button id="personalinfo_disableUserButton_{{id}}" type="button" class="button button-dark button-next expanded" [class.button-white]="user.accountStatus==STATUS.enabled" (click)="adjustUser()" translate>{{(user.accountStatus==STATUS.enabled?'PersonalInformation.disableUser':'PersonalInformation.enableUser')}}</button>
+        </div>
+      </ng-container>
+
+      <!-- acting as a guest user -->
+      <div *ngIf="csr.isCSR&&csr.actingAs&&!csr.actingAs.userName" id="personalinfo_registerGuest_{{id}}" class="small-12 cell personalinfo-container">
+          <button id="personalinfo_registerThisGuestButton_{{id}}" type="button" class="button button-dark expanded" (click)="registerGuest()" translate>PersonalInformation.register</button>
+      </div>
+    </div>
+
+    <!-- Popup Personal Information-->
+    <div id="personalinfo_div_23_{{id}}" class="large reveal animated fadeIn" data-reveal>
+      <div id="personalinfo_div_24_{{id}}" class="grid-container grid-container-padded">
+        <form id="personalinfo_form_25_{{id}} personalInfoForm" class="grid-x grid-margin-x " [ngClass]="{'show-invalid-input': personalInfoForm.submitted}"
+          name="personalInfoForm" (ngSubmit)="personalInfoForm.form.valid && updatePersonalInfo()" #personalInfoForm="ngForm">
+          <div id="personalinfo_div_26_{{id}}" class="small-12 cell ">
+            <h2 id="personalinfo_h2_27_{{id}}" translate>PersonalInformation.EditAccountInformation</h2>
+            <hr>
+            <button id="personalinfo_button_28_{{id}}" class="close-button" data-close aria-label="Close reveal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div id="personalinfo_div_29_{{id}}" *ngIf="personalInfoForm.submitted && updateErrorMsg" class="medium-12 cell">
+            <div id="personalinfo_div_30_{{id}}" class="callout alert" translate data-closable>
+              <span id="personalinfo_span_31_{{id}}" translate>{{ updateErrorMsg }}</span>
+              <button id="personalinfo_button_32_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearErrorMsg()"
+                data-close>
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+          <div id="personalinfo_div_33_{{id}}" class="small-12 medium-6 cell ">
+            <label id="personalinfo_label_34_{{id}}" translate>PersonalInformation.FirstName
+              <input id="personalinfo_input_35_{{id}}" type="text" name="firstName" [(ngModel)]="user.firstName" #firstName="ngModel" commerce-maxlength=128
+              commerce-nonwhitespace required />
+            </label>
+          </div>
+          <div id="personalinfo_div_36_{{id}}" class="small-12 medium-6 cell ">
+            <label id="personalinfo_label_37_{{id}}" translate>PersonalInformation.LastName
+              <input id="personalinfo_input_38_{{id}}" type="text" name="lastName" [(ngModel)]="user.lastName" #lastName="ngModel" commerce-maxlength=128
+              commerce-nonwhitespace required />
+            </label>
+          </div>
+          <div id="personalinfo_div_39_{{id}}" class="small-12 medium-6 cell ">
+            <label id="personalinfo_label_40_{{id}}" translate>PersonalInformation.Email
+              <input id="personalinfo_input_41_{{id}}" type="email" name="email1" [(ngModel)]="user.email1" #email1="ngModel" commerce-maxlength=256
+                email required />
+            </label>
+          </div>
+          <div id="personalinfo_div_42_{{id}}" class="small-12 medium-6 cell ">
+            <label id="personalinfo_label_43_{{id}}" translate>PersonalInformation.PhoneNumber
+              <input id="personalinfo_input_44_{{id}}" type="text" name="phone1" [(ngModel)]="user.phone1" #phone1="ngModel" commerce-maxlength=32
+                commerce-phonenumber />
+            </label>
+          </div>
+          <div id="personalinfo_div_45_{{id}}" class="small-12 medium-6 cell ">
+            <label id="personalinfo_label_46_{{id}}" translate>PersonalInformation.PreferredCurrency
+              <select id="personalinfo_select_47_{{id}}" name="prefCurrList" [(ngModel)]="user.preferredCurrency" #preferredCurrency="ngModel"
+                required>
+                <option id="personalinfo_option_48_{{id}}" *ngFor="let prefCurr of currencies" [value]="prefCurr.additionalValue[0].value">{{ prefCurr.primaryValue.value }}</option>
+              </select>
+            </label>
+          </div>
+          <fieldset id="personalinfo_fieldset_50_{{id}}" *ngIf="marketingTrackingEnabled" class="small-12 cell">
+            <legend translate><strong translate>Registration.MarketingConsentSectionHeading</strong></legend>
+            <div id="personalinfo_div_50_{{id}}" class="grid-x grid-padding-x switch small switch-align">
+              <input class="switch-input" type="checkbox" id="personalinfo_input_50_{{id}}" name="marketingTrackingConsent" (change)="updateMarketingTrackingConsent()" [(ngModel)]="user.marketingTrackingConsentBoolean" #marketingTrackingConsent="ngModel"
+                     checked />
+              <label id="personalinfo_label_501_{{id}}" class="shrink switch-paddle" for="personalinfo_input_50_{{id}}">
+                <span aria-hidden="true" class="switch-active switch-yes" [translate]="'PrivacyPolicyModal.yesLabel'"></span>
+                <span aria-hidden="true" class="switch-inactive" [translate]="'PrivacyPolicyModal.noLabel'"></span>
+              </label>
+              <label class="auto cell yes-no-label" id="personalinfo_label_50_{{id}}" for="personalinfo_input_50_{{id}}" translate>Registration.MarketingTrackingConsent</label>
+            </div>
+          </fieldset>
+          <fieldset id="personalinfo_fieldset_51_{{id}}" *ngIf="daConsentEnabled" class="small-12 cell ">
+            <legend translate><strong translate>Registration.AnalyticsConsentSectionHeading</strong></legend>
+            <div id="personalinfo_div_51_{{id}}" class="grid-x grid-padding-x switch small switch-align">
+              <input class="switch-input" type="checkbox" id="personalinfo_input_51_{{id}}" name="digitalAnalytics" (change)="updateAnalyticsConsent()" [(ngModel)]="user.digitalAnalytics" #digitalAnalytics="ngModel"
+                   checked />
+              <label id="personalinfo_label_511_{{id}}" class="shrink switch-paddle" for="personalinfo_input_51_{{id}}">
+                <span aria-hidden="true" class="switch-active switch-yes" [translate]="'PrivacyPolicyModal.yesLabel'"></span>
+                <span aria-hidden="true" class="switch-inactive" [translate]="'PrivacyPolicyModal.noLabel'"></span>
+              </label>
+              <label class="auto cell yes-no-label" id="personalinfo_label_51_{{id}}" for="personalinfo_input_51_{{id}}" translate>Registration.DigitalAnalyticsConsent</label>
+            </div>
+            <div id="personalinfo_div_52_{{id}}" class="grid-x grid-padding-x switch small switch-align">
+              <input class="switch-input" type="checkbox" id="personalinfo_input_52_{{id}}" name="digitalAnalyticsAnonymous" (change)="updateAnalyticsConsent()" [(ngModel)]="user.digitalAnalyticsAnonymous" #digitalAnalyticsAnonymous="ngModel"
+                   checked [disabled]="!user.digitalAnalytics"/>
+              <label id="personalinfo_label_521_{{id}}" class="shrink switch-paddle" for="personalinfo_input_52_{{id}}">
+                <span aria-hidden="true" class="switch-active switch-yes" [translate]="'PrivacyPolicyModal.yesLabel'"></span>
+                <span aria-hidden="true" class="switch-inactive" [translate]="'PrivacyPolicyModal.noLabel'"></span>
+              </label>
+              <label class="auto cell yes-no-label" id="personalinfo_label_52_{{id}}" for="personalinfo_input_52_{{id}}" translate>Registration.DigitalAnalyticsAnonymous</label>
+            </div>
+          </fieldset>
+          <!-- <div class="large-12 cell margin-bottom-1"></div> -->
+          <div id="personalinfo_div_49_{{id}}" class="small-12 medium-6 cell ">
+                <label id="personalinfo_label_50_{{id}}" translate>PersonalInformation.Gender
+                    <select id="personalinfo_select_51_{{id}}" name="genderList" [(ngModel)]="user.gender" #gender="ngModel" [ngClass]='{"is-invalid-input": gender.invalid && (gender.touched || gender.dirty)}' required >
+                        <option id="personalinfo_option_52_{{id}}" value="Unspecified" selected translate>PersonalInformation.SelectGender</option>
+                        <option id="personalinfo_option_53_{{id}}" *ngFor="let gender of genderList" [value]="gender.name">{{ gender.name }}</option>
+                    </select>
+                </label>
+            </div>
+            <div id="personalinfo_div_54_{{id}}" class="small-12 medium-6 cell ">
+                <label id="personalinfo_label_55_{{id}}" translate>PersonalInformation.BirthYear
+                    <select id="personalinfo_select_56_{{id}}" name="birthYear" [(ngModel)]="user.birthYear" #birthYear="ngModel" [ngClass]='{"is-invalid-input": (birthYear.invalid && (birthYear.touched || birthYear.dirty)) || updateErrorMsg=="PersonalInformation.DateOfBirthEmpty"}' required >
+                        <option id="personalinfo_option_57_{{id}}" value="0" selected translate>PersonalInformation.SelectYear</option>
+                        <option id="personalinfo_option_58_{{id}}" *ngFor="let birthYear of birthYears" [value]="birthYear">{{ birthYear }}</option>
+                    </select>
+                </label>
+            </div>
+            <div id="personalinfo_div_59_{{id}}" class="small-12 medium-6 cell ">
+                <label id="personalinfo_label_60_{{id}}" translate>PersonalInformation.BirthMonth
+                    <select id="personalinfo_select_61_{{id}}" name="birthMonth" [(ngModel)]="user.birthMonth" #birthMonth="ngModel" [ngClass]='{"is-invalid-input": (birthMonth.invalid && (birthMonth.touched || birthMonth.dirty)) || updateErrorMsg=="PersonalInformation.DateOfBirthEmpty"}' required >
+                        <option id="personalinfo_option_62_{{id}}" value="0" selected translate>PersonalInformation.SelectMonth</option>
+                        <option id="personalinfo_option_63_{{id}}" *ngFor="let birthMonth of birthMonths" [value]="birthMonth">{{ birthMonth }}</option>
+                    </select>
+                </label>
+            </div>
+            <div id="personalinfo_div_64_{{id}}" class="small-12 medium-6 cell ">
+                <label id="personalinfo_label_65_{{id}}" translate>PersonalInformation.BirthDate
+                    <select id="personalinfo_select_66_{{id}}" name="birthDate" [(ngModel)]="user.birthDate" #birthDate="ngModel" [ngClass]='{"is-invalid-input": (birthDate.invalid && (birthDate.touched || birthDate.dirty)) || updateErrorMsg=="PersonalInformation.DateOfBirthEmpty"}' required >
+                        <option id="personalinfo_option_67_{{id}}" value="0" selected translate>PersonalInformation.SelectDate</option>
+                        <option id="personalinfo_option_68_{{id}}" *ngFor="let birthDate of birthDates" [value]="birthDate">{{ birthDate }}</option>
+                    </select>
+                </label>
+            </div>
+          <div id="personalinfo_div_69_{{id}}" class="small-12 medium-6 cell ">
+
+          </div>
+          <div id="personalinfo_div_701_{{id}}" class="small-12 medium-6 cell ">
+            <br>
+            <button id="personalinfo_button_711_{{id}}" type="button" class="button button-light expanded" data-close translate>PersonalInformation.Cancel</button>
+          </div>
+          <div id="personalinfo_div_72_{{id}}" class="small-12 medium-6 cell ">
+            <br>
+            <button id="personalinfo_button_73_{{id}}" type="submit" class="button button-dark expanded" translate>PersonalInformation.SaveChanges</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Popup Personal Information End -->
+
+    <!-- Popup Change Password -->
+    <div id="personalinfo_div_74_{{id}}" class="large reveal animated fadeIn" data-reveal>
+      <div id="personalinfo_div_75_{{id}}" class="grid-container grid-container-padded">
+        <form id="personalinfo_form_76_{{id}}" class="grid-x grid-margin-x " name="chgPassForm" [ngClass]="{'show-invalid-input': chgPassForm.submitted}"
+          (ngSubmit)="chgPassForm.form.valid && changePassword()" #chgPassForm="ngForm">
+          <div id="personalinfo_div_77_{{id}}" class="small-12 cell ">
+            <h2 *ngIf="!csr.actingAs" id="personalinfo_h2_78_{{id}}" translate>PersonalInformation.ChangePassword</h2>
+            <h2 *ngIf="csr.actingAs" id="personalinfo_h2_78_{{id}}" translate>PersonalInformation.resetPass</h2>
+            <hr>
+            <button id="personalinfo_button_79_{{id}}" class="close-button" data-close aria-label="Close reveal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div id="personalinfo_div_80_{{id}}" *ngIf="chgPassForm.submitted && updateErrorMsg" class="medium-12 cell">
+            <div id="personalinfo_div_81_{{id}}" class="callout alert" translate data-closable>
+              <span id="personalinfo_span_82_{{id}}" translate>{{ updateErrorMsg }}</span>
+              <button id="personalinfo_button_83_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearErrorMsg()"
+                data-close>
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+
+          <ng-container *ngIf="!csr.actingAs">
+            <div id="personalinfo_div_84_{{id}}" class="small-12 medium-6 cell ">
+              <label id="personalinfo_label_85_{{id}}" translate>PersonalInformation.CurrentPassword
+                <input id="personalinfo_input_86_{{id}}" type="password" name="curPass" [(ngModel)]="user.curPass" #curPass="ngModel" required
+                />
+              </label>
+            </div>
+            <div id="personalinfo_div_87_{{id}}" class="small-12 medium-6 cell ">
+            </div>
+            <div id="personalinfo_div_88_{{id}}" class="small-12 medium-6 cell ">
+              <label id="personalinfo_label_89_{{id}}" translate>PersonalInformation.NewPassword
+                <input id="personalinfo_input_90_{{id}}" type="password" name="newPass" [(ngModel)]="user.newPass" #newPass="ngModel" commerce-validateEqual="cnfPass"
+                  required />
+              </label>
+            </div>
+            <div id="personalinfo_div_91_{{id}}" class="small-12 medium-6 cell ">
+              <label id="personalinfo_label_92_{{id}}" translate>PersonalInformation.ConfirmPassword
+                <input id="personalinfo_input_93_{{id}}" type="password" name="cnfPass" [(ngModel)]="user.cnfPass" #cnfPass="ngModel" commerce-validateEqual="newPass"
+                  required />
+              </label>
+            </div>
+            <div id="personalinfo_div_94_{{id}}" class="small-12 medium-6 cell ">
+              <br>
+              <button id="personalinfo_button_95_{{id}}" type="button" class="button button-light expanded" data-close translate>PersonalInformation.Cancel</button>
+            </div>
+            <div id="personalinfo_div_96_{{id}}" class="small-12 medium-6 cell ">
+              <br>
+              <button id="personalinfo_button_97_{{id}}" type="submit" class="button button-dark expanded" translate>PersonalInformation.SaveChanges</button>
+            </div>
+          </ng-container>
+
+          <ng-container *ngIf="csr.actingAs">
+              <div id="personalinfo_resetUserSure_{{id}}" class="cell">
+                  <p id="personalinfo_resetUserSure_{{id}}" translate>PersonalInformation.resetSure</p>
+              </div>
+              <div id="personalinfo_restUserPassNo_{{id}}" class="small-12 medium-6 cell">
+                  <button id="personalinfo_restUserPassNoButton_{{id}}" type="button" class="button button-light expanded" data-close translate>PersonalInformation.resetNo</button>
+              </div>
+              <div id="personalinfo_restUserPassYes_{{id}}" class="small-12 medium-6 cell">
+                  <button id="personalinfo_restUserPassYesButton_{{id}}" type="submit" class="button button-dark expanded" translate>PersonalInformation.resetYes</button>
+              </div>
+          </ng-container>
+        </form>
+      </div>
+    </div>
+    <!-- Popup Change Password End -->
+
+  </div>
+  <div class="small-12 cell"><hr></div>

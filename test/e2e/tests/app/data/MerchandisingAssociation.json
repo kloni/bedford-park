@@ -1,0 +1,88 @@
+{
+    "products": [
+        {
+            "productName": "Luigi Valenti Sleeveless Sundress",
+            "productSKU": "AuroraWMDRS-2801",
+            "productPrice": 50.00,
+            "testProductIndex": 0,
+            "imageName": "wcl000_0022_a_blue.jpg"
+        },
+        {
+            "productName": "Hermitage Pencil Cocktail Dress",
+            "productSKU": "AuroraWMDRS-2301",
+            "productPrice": 100.00,
+            "testProductIndex": 1,
+            "imageName": "wcl000_0020_a_black.jpg"
+        },
+        {
+            "productName": "Gusso Sleeveless Sequined Dress",
+            "productSKU": "AuroraWMDRS-2501",
+            "productPrice": 100.00,
+            "testProductIndex": 2,
+            "imageName": "wcl000_0033_a_blue.jpg"
+        },
+        {
+            "productName": "Gusso Casual Sweater Dress",
+            "productSKU": "AuroraWMDRS-2701",
+            "productPrice": 50.00,
+            "testProductIndex": 3,
+            "imageName": "wcl000_0019_a_blue.jpg"
+        },
+        {
+            "productName": "Hermitage Empire Waist Evening Gown",
+            "productSKU": "AuroraWMDRS-2401",
+            "productPrice": 250.00,
+            "testProductIndex": 4,
+            "imageName": "wcl000_0027_a_beige.jpg"
+        },
+        {
+            "productName": "Albini A-line Cotton Dress",
+            "productSKU": "AuroraWMDRS-9",
+            "productPrice": 50.00,
+            "testProductIndex": 5,
+            "imageName": "wcl000_0005_a_blue.jpg"
+        },
+        {
+            "productName": "Luigi Valenti Sleeveless Slip Dress",
+            "productSKU": "AuroraWMDRS-8",
+            "productPrice": 50.00,
+            "testProductIndex": 6,
+            "imageName": "wcl000_0030_a_brown.jpg"
+        },
+        {
+            "productName": "Versatil Short Sleeved Wrap Dress",
+            "productSKU": "AuroraWMDRS-12",
+            "productPrice": 100.00,
+            "testProductIndex": 7,
+            "imageName": "wcl000_0014_a_brown.jpg"
+        },
+        {
+            "productName": "Gusso Casual Strapless Dress",
+            "productSKU": "AuroraWMDRS-10",
+            "productPrice": 50.00,
+            "testProductIndex": 8,
+            "imageName": "wcl000_0010_a_black.jpg"
+        },
+        {
+            "productName": "Versatil Strapless Sundress",
+            "productSKU": "AuroraWMDRS-11",
+            "productPrice": 40.00,
+            "testProductIndex": 9,
+            "imageName": "wcl000_0031_a_blue.jpg"
+        }
+
+    ],
+    "test01": {
+        "products": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            4
+        ]
+    },
+    "test02": {
+        "product": 0
+    }
+}

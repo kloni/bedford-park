@@ -1,0 +1,8 @@
+<h2 id="curatedCategoryList_h2_1_{{id}}" wchEditable="title" *ngIf="title">{{title}}</h2>
+<div class="grid-container full">
+    <div class="grid-x grid-margin-x">
+        <div id="curatedCategoryList_div_2_{{id}}" class="small-12 medium-6 cell category-recommendation" *ngFor="let list of lists">
+            <wch-contentref [layoutMode]="constants.SUMMARY" [renderingContext]="list"></wch-contentref>
+        </div>
+    </div>
+</div>

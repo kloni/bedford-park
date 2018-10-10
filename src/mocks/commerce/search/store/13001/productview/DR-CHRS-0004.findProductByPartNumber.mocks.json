@@ -1,0 +1,613 @@
+{
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": false,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14821",
+            "uniqueID": "14821",
+            "partNumber": "DR-CHRS-0004",
+            "shortDescription": "A dining chair with foam sit and back rest.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "Dining chair from StyleHome made for utmost comfort. Foam covered with fabric on back rest and the sit, this looks great and feels great in around any dining table.",
+            "name": "StyleHome Comfy Dining chair",
+            "parentCatalogGroupID": [
+                "11251_10607",
+                "11301_10607"
+            ],
+            "manufacturer": "Stonehenge",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "225.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "225.0",
+                    "maximumValue": {
+                        "value": "225.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "225.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "225.0",
+                    "maximumValue": {
+                        "value": "225.0"
+                    }
+                }
+            ],
+            "numberOfSKUs": 3,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14822",
+                    "uniqueID": "14822",
+                    "partNumber": "DR-CHRS-0004-0001",
+                    "shortDescription": "A dining chair with foam sit and back rest.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "StyleHome Comfy Dining chair",
+                    "parentCatalogGroupID": [
+                        "11251_10607",
+                        "11301_10607"
+                    ],
+                    "manufacturer": "Stonehenge",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "225.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "225.0"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "lightgrey",
+                                    "sequence": "6.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                                    "value": "Light Grey",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                                    "uniqueID": "7000000000000003306"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14822",
+                            "usage": "images_main_thumbnail",
+                            "name": "DR-CHRS-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54729,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14822",
+                            "usage": "images_main_fullimage",
+                            "name": "DR-CHRS-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54729,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14822",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-CHRS-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54729,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14822",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-CHRS-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54729,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14822",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-CHRS-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54729,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14822",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-CHRS-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54729,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a2_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14823",
+                    "uniqueID": "14823",
+                    "partNumber": "DR-CHRS-0004-0002",
+                    "shortDescription": "A dining chair with foam sit and back rest.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_b1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_b1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "StyleHome Comfy Dining chair",
+                    "parentCatalogGroupID": [
+                        "11251_10607",
+                        "11301_10607"
+                    ],
+                    "manufacturer": "Stonehenge",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "225.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "225.0"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "brown",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "value": "Brown",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "uniqueID": "7000000000000003302"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0002_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14823",
+                            "usage": "images_main_fullimage",
+                            "name": "DR-CHRS-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54730,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0002_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14823",
+                            "usage": "images_main_thumbnail",
+                            "name": "DR-CHRS-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54730,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_b1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0002_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14823",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-CHRS-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54730,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0002_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14823",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-CHRS-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54730,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_b1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0002_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14823",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-CHRS-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54730,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_b2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0002_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14823",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-CHRS-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54730,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_b2_100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14824",
+                    "uniqueID": "14824",
+                    "partNumber": "DR-CHRS-0004-0003",
+                    "shortDescription": "A dining chair with foam sit and back rest.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_c1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_c1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "StyleHome Comfy Dining chair",
+                    "parentCatalogGroupID": [
+                        "11251_10607",
+                        "11301_10607"
+                    ],
+                    "manufacturer": "Stonehenge",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "225.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "225.0"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "blue",
+                                    "sequence": "9.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                    "value": "Blue",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                    "uniqueID": "7000000000000003311"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0003_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14824",
+                            "usage": "images_main_fullimage",
+                            "name": "DR-CHRS-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54731,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0003_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14824",
+                            "usage": "images_main_thumbnail",
+                            "name": "DR-CHRS-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54731,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_c1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0003_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14824",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-CHRS-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54731,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0003_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14824",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-CHRS-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54731,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_c1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0003_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14824",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-CHRS-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54731,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_c2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-CHRS-0004-0003_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14824",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-CHRS-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54731,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_c2_100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "contemporary",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Contemporary",
+                            "uniqueID": "7000000000000003358"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "brown",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "value": "Brown",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "uniqueID": "7000000000000003302"
+                        },
+                        {
+                            "identifier": "lightgrey",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                            "value": "Light Grey",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                            "uniqueID": "7000000000000003306"
+                        },
+                        {
+                            "identifier": "blue",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                            "value": "Blue",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                            "uniqueID": "7000000000000003311"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "smooth",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Smooth",
+                            "uniqueID": "7000000000000003368"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "prebuilt",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Pre-built",
+                            "uniqueID": "7000000000000003371"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "fabric-wood",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Fabric and Wood",
+                            "uniqueID": "7000000000000003345"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "DR-CHRS-0004_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14821",
+                    "usage": "images_main_thumbnail",
+                    "name": "DR-CHRS-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54624,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-CHRS-0004_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14821",
+                    "usage": "images_main_fullimage",
+                    "name": "DR-CHRS-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54624,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-CHRS-0004_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14821",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "DR-CHRS-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54624,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-CHRS-0004_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14821",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "DR-CHRS-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54624,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-CHRS-0004_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14821",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "DR-CHRS-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54624,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a2_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-CHRS-0004_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14821",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "DR-CHRS-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54624,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a2_600.jpg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "catalogEntryView": [
+        {
+            "partNumber": "LR-FNTR-CO-0006-0004",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_350.jpg",
+            "name": "Casual Sofa",
+            "price": [
+                {
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "600.0"
+                },
+                {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "579.99"
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "blue",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                            "value": "Blue",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                            "uniqueID": "7000000000000003311"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "48x6x48",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "value": "48\"x6\"x48\"",
+                            "uniqueID": "7000000000000003324"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                }
+            ]
+        }
+    ]
+}

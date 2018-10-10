@@ -1,0 +1,29 @@
+<!-- just render the components in the 'content' column one by cone -->
+<div class="grid-container">
+  <div *ngIf="topMarketingSection" class="grid-x grid-margin-x">
+    <div class="section cell">
+      <div class="grid-container full">
+        <div class="grid-x grid-margin-x">
+          <wch-contentref [renderingContext]="topMarketingSection">
+          </wch-contentref>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="commercedatasection" class="grid-x grid-margin-x">
+    <div class="section cell" *ngFor="let item of onCommercedatasection | async; trackBy: trackByComponentId">
+      <div class="grid-container full">
+        <wch-contentref [renderingContext]="item">
+        </wch-contentref>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="bottomMarketingSection" class="grid-x grid-margin-x">
+    <div class="section cell" *ngFor="let v of bottomMarketingSection">
+      <div class="grid-container full">
+        <wch-contentref [renderingContext]="v">
+        </wch-contentref>
+      </div>
+    </div>
+  </div>
+</div>

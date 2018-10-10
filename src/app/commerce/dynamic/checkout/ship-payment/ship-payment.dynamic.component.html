@@ -1,0 +1,113 @@
+<div id="{{componentName}}_div_1_{{id}}" class="grid-container full">
+    <div id="{{componentName}}_div_2_{{id}}" class="grid-x grid-margin-x">
+        <div id="{{componentName}}_div_1_{{id}}" class="large-12 medium-12 small-12 cell">
+            <p id="{{componentName}}_p_1_{{id}}" class="bold cell" >
+                <span *ngIf="!bopisOptionUpdate || !bopisOptionUpdate.storeId" translate>ship-payment.shipPaymentMethod</span>
+                <span *ngIf="bopisOptionUpdate?.storeId" translate>ship-payment.paymentMethod</span>
+                <a id="{{componentName}}_guest_{{addressType}}_a_61_{{id}}" href="#" id="editAddress" class="bold" [translate]="'checkout-address.edit'"
+                (click)="edit($event)" *ngIf="shipPaymentUpdate == null"></a>
+            </p>
+            <hr id="hrLine" style="display:none">
+        </div>
+    </div>
+    <div id="{{shipPaymentDivId}}" class="grid-x grid-margin-x" style="display: none">
+        <div id="{{componentName}}_div_3_{{id}}" class="large-6 medium-6 small-12 cell" *ngIf="!!selectedPaymentMethod && (!bopisOptionUpdate || !bopisOptionUpdate.storeId)">
+            <select id="{{componentName}}_select_1_{{id}}" id="{{componentName}}_{{section}}_select_1_{{id}}" name="shipmethod" [(ngModel)]="selectedShipMethod" *ngIf="!!usableShippingMethods" (change)="onShippingPaymentChange()" [disabled]="shipPaymentUpdate == false">
+                <ng-container *ngFor="let method of usableShippingMethods">
+                    <option [ngValue]="method" [selected]="method == selectedShipMethod" translate [translateParams]="{value: method.shippingCharge | number:'.2-2', description: method.description}">ship-payment.shippingMethodWithCharge.{{method.shippingChargeCurrency}}</option>
+                </ng-container>
+            </select>
+        </div>
+        <div id="{{componentName}}_div_payment_option_{{id}}" class="large-12 medium-12 small-12 cell" *ngIf="bopisOptionUpdate?.storeId">
+            <div>
+                <input type="radio" id="payWithCreditCardOption" name="option" [(ngModel)]="paymentSelection" value="payWithCreditCardOption" (change)="onPaymentSelectionChange($event)" checked />
+                <label for="payWithCreditCardOption">{{'ship-payment.payWithCreditCardOption' | translate }}</label>
+            </div>
+            <div>
+                <input type="radio" id="payInStoreOption" name="option" [(ngModel)]="paymentSelection" value="payInStoreOption" (change)="onPaymentSelectionChange($event)" />
+                <label for="payInStoreOption">{{'ship-payment.payInStoreOption' | translate }}</label>
+            </div>
+        </div>
+        <ng-container *ngIf="showCreditCardPayment">
+            <div id="{{componentName}}_div_4_{{id}}" class="grid-container full cell">
+                <div id="{{componentName}}_div_5_{{id}}" class="grid-x grid-margin-x">
+                    <div id="{{componentName}}_div_6_{{id}}" class="cell small-12 medium-6 large-6">
+                        <label class="cell">Card Number
+                            <input type="text" placeholder="12345678901">
+                        </label>
+                        <img style="width: 200px" [src]="imageSrcContext + creditCardImage.url" *ngIf="creditCardImage" [alt]="creditCardImage.altText" [title]="creditCardImage.asset.fileName" class="checkout-cards cell">
+                    </div>
+                </div>
+            </div>
+            <div id="{{componentName}}_div_7_{{id}}" class="grid-container full cell">
+                <div class="grid-x grid-margin-x">
+                    <div class="small-12 medium-3 large-3 cell">
+                        <label> Expiration:
+                        <select>
+                            <option value="">01 Jan</option>
+                            <option value="">02 Feb</option>
+                            <option value="">03 Mar</option>
+                            <option value="">04 Apr</option>
+                            <option value="">05 May</option>
+                            <option value="">06 Jun</option>
+                            <option value="">07 Jul</option>
+                            <option value="">08 Aug</option>
+                            <option value="">09 Sep</option>
+                            <option value="">10 Oct</option>
+                            <option value="">11 Nov</option>
+                            <option value="">12 Dec</option>
+                        </select>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_div_8_{{id}}" class="small-12 medium-3 large-3 cell">
+                        <label> Expiration:
+                        <select>
+                            <option value="">2018</option>
+                            <option value="">2019</option>
+                            <option value="">2020</option>
+                            <option value="">2021</option>
+                            <option value="">2022</option>
+                            <option value="">2023</option>
+                            <option value="">2024</option>
+                            <option value="">2025</option>
+                            <option value="">2026</option>
+                            <option value="">2027</option>
+                            <option value="">2028</option>
+                            <option value="">2029</option>
+                        </select>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_div_9_{{id}}" class="small-12 medium-3 large-3 cell">
+                        <label>CVV
+                            <input type="text" placeholder="123">
+                        </label><br>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+        <div id="{{componentName}}_div_payment_option_{{id}}" class="large-6 medium-6 small-12 cell">
+            <commerce-order-promotion [isCheckout]="true" *ngIf="enablePromotionCode"></commerce-order-promotion>
+        </div>
+        <div id="{{componentName}}_div_placeholder_{{id}}" class="large-6 medium-6 small-12 cell">
+        </div>
+        <div id="{{componentName}}_div_10_{{id}}" class="large-6 medium-6 small-12 cell" *ngIf="!!selectedPaymentMethod && !!shipPaymentUpdate">
+            <br>
+            <button id="{{componentName}}_button_1_{{id}}" class="button button-dark expanded" (click)="onShippingPaymentSave()" translate>ship-payment.saveAndContinue</button>
+        </div>
+    </div>
+    <div id="{{componentName}}_div_11_{{id}}" class="grid-x grid-margin-x" *ngIf="shipPaymentUpdate == null">
+        <div class="cell small-12" *ngIf="!bopisOptionUpdate?.storeId">
+            <p translate [translateParams]="{value: selectedShipMethod.shippingCharge | number:'.2-2', description: selectedShipMethod.description}">ship-payment.shippingMethodWithCharge.{{selectedShipMethod.shippingChargeCurrency}}</p>
+        </div>
+        <br>
+        <div id="{{componentName}}_div_13_{{id}}" class="small-12 cell">
+            <ng-container *ngIf="!bopisOptionUpdate?.storeId || (bopisOptionUpdate?.storeId && paymentSelection === _payWithCreditCardOption)">
+                <div id="{{componentName}}_div_14_{{id}}" class="mockCardImage">
+                    <img style="width: 200px" [src]="imageSrcContext + creditCardImage.url" *ngIf="creditCardImage" [alt]="creditCardImage.altText" [title]="creditCardImage.asset.fileName" class="checkout-cards cell">
+                </div>
+                <div id="{{componentName}}_div_15_{{id}}" class="mockCardNumber" [translate]="'ship-payment.mockcardinfo'"></div>
+            </ng-container>
+            <div *ngIf="bopisOptionUpdate?.storeId && paymentSelection === _payInStoreOption" translate>ship-payment.payInStoreOption</div>
+        </div>
+    </div>
+</div>

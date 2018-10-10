@@ -1,0 +1,26 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "DiningRoom",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/dep_diningroom.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/dep_diningroom.jpg",
+            "storeID": "12901",
+            "name": "Dining Room",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10605",
+            "uniqueID": "10605",
+            "parentCatalogGroupID": [
+                "11251_-1",
+                "11301_-1"
+            ],
+            "childCatalogGroupID": [
+                "11251_10606",
+                "11251_10607",
+                "11251_10608",
+                "11301_10606",
+                "11301_10607",
+                "11301_10608"
+            ],
+            "shortDescription": "Entertain your guests with dining room furniture and decor that fits any space"
+        }
+    ]
+}

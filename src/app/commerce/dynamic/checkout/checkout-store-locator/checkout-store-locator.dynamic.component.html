@@ -1,0 +1,56 @@
+<div>
+    <p class="checkout-store-locator-label">
+        {{'Checkout-store-locator.BOPIS' | translate }}
+        <a class="bold" (click)="edit()" *ngIf="bopisSelectionSaved">| {{'Checkout-store-locator.Edit' | translate }}</a>
+    </p>
+    <div *ngIf="!bopisSelectionSaved">
+        <div>
+            <input type="radio" id="onlineOption" name="option" [(ngModel)]="bopisSelection" value="onlineOption" (change)="onSelectionChange($event)" checked />
+            <label for="onlineOption">{{'Checkout-store-locator.ShopOnline' | translate }}</label>
+        </div>
+        <div>
+            <input type="radio" id="pickUpOption" name="option" [(ngModel)]="bopisSelection" value="pickUpOption" (change)="onSelectionChange($event)" />
+            <label for="pickUpOption">{{'Checkout-store-locator.PickUpInStore' | translate }}</label>
+        </div>
+        <div class="select-store-container" *ngIf="showPickUpStore">
+            <div id="selected_store_address_{{id}}" class="selected-store" *ngIf="selectedPhysicalStore">
+                <span><b>{{selectedPhysicalStore.storeName}}</b></span>
+                <span [innerHTML]="selectedPhysicalStore.storeAddress"></span>
+                <span>{{selectedPhysicalStore.storePhoneNumber}}</span>
+            </div>
+            <a id="select_store_a_1_{{id}}" (click)="openStoreLocatorModal()" >{{'Checkout-store-locator.SelectStore' | translate}}</a>
+        </div>
+        <div class="grid-container full cell">
+            <div class="grid-x grid-margin-x ">
+                <div class="small-12 medium-6 large-6 cell">
+                    <button class="button button-dark expanded" id="{{componentName}}_button_1_{{id}}" (click)="saveAndContinue()">{{'Checkout-store-locator.SaveAndContinue' | translate }}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="bopisSelectionSaved">
+        <div *ngIf="showPickUpStore && selectedPhysicalStore">
+            <span><b>{{'Checkout-store-locator.PickUpInStore' | translate }}</b></span>
+            <div>
+                <span>{{selectedPhysicalStore.storeName}}</span>
+                <span [innerHTML]="selectedPhysicalStore.storeAddress"></span>
+                <span>{{selectedPhysicalStore.storePhoneNumber}}</span>
+            </div>
+        </div>
+        <div *ngIf="!showPickUpStore">
+            <span><b>{{'Checkout-store-locator.ShopOnline' | translate }}</b></span>
+        </div>
+        <hr>
+    </div>
+</div>
+<div id="storeLocator_modal_{{id}}" class="reveal tiny animated fadeIn filter-dialog" aria-label="Store Locator Modal" data-reveal>
+    <div class="filter-header">
+        <h5>{{ 'product.storeLocatorModal'| translate}}</h5>
+        <button id="storeLocator_modal_close_{{id}}" class="close-button" data-close aria-label="Close Store Locator" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="grid-x grid-container grid-container-padded">
+        <app-dynamic-store-locator-layout-component class="store-locator-in-modal" [modalView]="true" [availableServices]="serviceTypes"></app-dynamic-store-locator-layout-component>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{
+    "checkoutLayout": {
+        "checkout": "PLACE ORDER",
+        "empty": "Nothing to checkout, add something to your shopping cart",
+        "checkoutFallback": "Check out fail"
+    }
+}

@@ -1,0 +1,5 @@
+<div [id]="rContext.id" class="list-carousel item-selection">
+	<h2 wchEditable="heading" *ngIf="heading">{{onHeading | async}}</h2>
+	<app-carousel [renderingContexts]="contextList"></app-carousel>
+	<app-view-all [renderingContext]="renderingContext"></app-view-all>
+</div>

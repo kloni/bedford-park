@@ -1,0 +1,247 @@
+<div id="collectionCard_{{id}}" class="grid-x grid-margin-x animated fadeInUp details-product-grid">
+  <div class="hide-for-small-only text-center small-12 ">
+    <div class="cell alert-div ">
+      <span id="product_invalidsku_msg_{{id}}" [hidden]="!invalidSKU" class="alert alert-danger">{{'productDetail.SelectionError' | translate }}</span>
+    </div>
+  </div>
+  <div class="small-6 medium-2 large-2 cell grid-details sku-img-full text-center">
+    <img [src]="currentSelection.sku.fullImage | catImage">
+  </div>
+  <div [ngClass]="{'cell':true,'grid-details':true,'small-6':true,'medium-6':product.availableAttributes.length==0,'large-8':product.availableAttributes.length==0,'medium-3':product.availableAttributes.length>0,'large-4':product.availableAttributes.length>0}">
+    <p>
+      <span id="product_name_{{product.name}}_{{id}}" class="bold">{{product.name}}</span>
+      <br>
+      <span class="light-text" id="product_sku_{{id}}">SKU: {{currentSelection.sku.partNumber}}</span>
+      <br>
+
+      <ng-container *ngFor="let p of currentSelection.sku.price">
+          <ng-container *ngIf="p.usage === 'Offer' && p.value !== ''">
+            <span id="product_price_{{id}}" *ngIf="p.value">{{p.value | currency:p.currency:'symbol':'1.2-2'}}<p *ngIf="VATEnabled" id="product_price_vat_{{id}}" translate>product.VATincl</p></span>
+            <span id="product_price_pending_{{id}}" *ngIf="p.value === null">{{ 'product.pricePending' | translate }}</span>
+          </ng-container>
+      </ng-container>
+      <br>
+      <a (click)="informMarketingOfClick()" id="product_viewDetails_{{id}}" [routerLink]="[product.seoUrl]" translate>product.viewDetails</a>
+      <br>
+    </p>
+    <div class="small-3 cell" *ngIf="currentSelection.availability && currentSelection.availability.length > 0">
+        <div class="inventory-availability" *ngFor="let inventory of currentSelection.availability">
+            <div id="product_availability_store_name_{{id}}" class="store-name">{{inventory.storeName}}</div>
+            <div id="product_availability_inStock_{{id}}" class="inventory-status in-stock" *ngIf="inventory.inventoryStatus; else outOfStock">
+                {{'productDetail.InStock' | translate}}
+            </div>
+            <ng-template #outOfStock>
+                <div id="product_availability_outOfStock_{{id}}" class="store-inventory out-of-stock">
+                    {{'productDetail.OutofStock' | translate}}
+                </div>
+            </ng-template>
+        </div>
+        <a id="product_availability_store_selector_{{id}}" (click)="openStoreLocatorModal()" [innerHTML]="!currentSelection.availability.includes(ONLINE_STORE_KEY) && currentSelection.availability.length>1 ? ('productDetail.ChangeStore' | translate) : ('productDetail.SelectStore' | translate)"></a>
+    </div>
+  </div>
+  <div class="show-for-small-only small-12 text-center" [hidden]="!invalidSKU">
+    <div class="cell alert-div">
+      <span id="product_invalidsku_msg_{{id}}" class="alert alert-danger">{{'productDetail.SelectionError' | translate }}</span>
+    </div>
+  </div>
+  <div class="small-12 medium-4 large-4 cell product-configs" *ngIf="definingAttributes.length==0"></div>
+  <div class="small-12 medium-4 large-4 cell product-configs" *ngIf="definingAttributes.length>0">
+    <div *ngFor="let att of definingAttributes; let i=index" class="product-config">
+      <p>{{att.name}}:</p>
+      <ng-container class="attr-label attrimage" *ngFor="let v of att.values">
+        <button type="button" id="product_{{att.identifier}}_{{v.identifier}}_{{id}}" (click)="onAttributeChange(att,v)"
+          [disabled]="att|pdpAttr:v:i:currentSelection:definingAttributes:availAttrs"
+          [ngClass]="{'color-options':v.image1,
+                      'color-option-selected':v.image1&&currentSelection.selectedAttributes[att.identifier]==v.identifier,
+                      'product-option-size':!v.image1,
+                      'product-option-size-selected':!v.image1&&currentSelection.selectedAttributes[att.identifier]==v.identifier}">
+          <img *ngIf="v.image1" class="swatch-image" [src]="v.image1" [alt]="v.value" id="product_attrImg_{{att.identifier}}_{{v.identifier}}_{{id}}" />
+          <ng-container *ngIf="!v.image1">{{v.value}}</ng-container>
+        </button>
+      </ng-container>
+    </div>
+  </div>
+  <div class="small-12 medium-3 large-2 cell">
+    <p id="product_quantity_txt_{{id}}"><span translate>product.quantity</span>:</p>
+    <div class="input-group input-number-group quantity-control">
+      <div class="input-group-button">
+        <button id="product_quantity_subtract_{{id}}" (click)="currentSelection.quantity=currentSelection.quantity-1" [disabled]="currentSelection.quantity<=1" class="input-number-decrement">-</button>
+      </div>
+      <input class="input-number" type="number" id="product_quantity_input_{{id}}" [(ngModel)]="currentSelection.quantity" min="1" max="1000">
+      <div class="input-group-button">
+        <button id="product_quantity_add_{{id}}" class="input-number-increment" (click)="currentSelection.quantity=currentSelection.quantity+1">+</button>
+      </div>
+    </div>
+    <div class="grid-x grid-margin-x grid-container">
+        <div [ngClass]="{'cell small-6': isSmall, 'fit-parent': !isSmall}">
+            <button id="product_add_to_cart_{{id}}"
+                class="button button-dark expanded"
+                (click)="addToCart()"
+                [disabled]="currentSelection.quantity < 1 || !currentSelection.availability || currentSelection.availability.length == 0"
+                translate>product.addToCart</button>
+        </div>
+        <div [ngClass]="{'inline-block relative fit-parent': !isSmall, 'cell small-6': isSmall}">
+            <button id="product_add_to_wishlist_{{id}}"
+                class="button expanded add-to-wishlist-btn"
+                (click)="!isGuest? openAddToWishListDropdown() : openSignInModal()"
+                [disabled]="currentSelection.quantity < 1">
+                <i id="added_to_cart_check_{{id}}" class="check-icon"></i>
+                <span id="product_add_to_wishlist_text_{{id}}" class="product_add_to_wishlist_text">{{'wishlist.AddToWishList' | translate}}</span>
+                <span id="product_added_to_wishlist_text_{{id}}" class="product_added_to_wishlist_text">{{'wishlist.AddedToWishList' | translate}}</span>
+                <i id="dropdown_down_{{id}}" *ngIf="!isGuest && !isSmall" class="chevron_down"></i>
+                <i id="dropdown_up_{{id}}" *ngIf="!isGuest && !isSmall" class="chevron_up"></i>
+            </button>
+            <ul *ngIf="!isGuest && !isSmall"
+                id="wishList_dropDown_{{id}}"
+                class="no-bullet wishList_dropDown">
+                <ng-container *ngFor="let wishList of wishLists; index as i;">
+                    <li id="wishList_dropDown_li_8_{{id}}_{{i}}" class="wishList-item">
+                        <a id="wishList_dropDown_a_10_{{id}}_{{i}}" (click)="addToWishList(wishList.externalId)" title="{{wishList.name}}">
+                            <ng-container *ngIf="wishList.name !== 'DefaultListName'; else defaultListOption ">
+                                {{ wishList.name }}
+                            </ng-container>
+                            <ng-template #defaultListOption>
+                                {{ 'wishlist.DefaultListName' | translate }}
+                            </ng-template>
+                        </a>
+                    </li>
+                </ng-container>
+                <li class="wishList-item">
+                    <a (click)="showCreateModal()"
+                        class="create_wishlist"
+                        id="wishList_dropDown_createNew_{{id}}"
+                        title="Create new WishList">
+                        <i class="addnew"></i>
+                        {{'wishlist.CreateWishlist' | translate}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Noftication Modal -->
+<div class="alert-modal animated slideInUp" [ngClass]="{'error-modal': this.errMsg}" id="confirmationModal_{{id}}" data-close-on-click="true" data-overlay="false"
+ data-reveal>
+    <div id="confirmModal_cart_{{id}}" class="notification notification-toast notification-toast-common">
+      <div class="notification-message message-container">{{'productDetail.AddedToCartConfirmation' | translate}}.
+        <a (click)="viewCart()">{{'productDetail.ViewCart' | translate}}</a>
+      </div>
+      <button class="close-button confirmation-modal-close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div id="confirmModal_wishlist_{{id}}" class="notification notification-toast notification-toast-common">
+        <div class="notification-message message-container">{{ 'wishlist.AddedToWishListConfirm' | translate}}
+          <a (click)="viewWishList()">{{ 'wishlist.ViewWishList' | translate }}</a>
+        </div>
+        <button class="close-button confirmation-modal-close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="notification notification-toast-error notification-toast-common">
+      <div class="notification-message-error">{{errMsg}}</div>
+      <button class="close-button confirmation-modal-close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div>
+
+<!-- Add to WishList Modal -->
+<div id="{{addToWishListModelId}}{{id}}" class="reveal small animated fadeIn show-for-small-only" aria-label="WishList Modal" data-reveal>
+    <div class="grid-x grid-container grid-container-padded">
+        <ng-container *ngIf="wishLists.length > 0; else elseBlock">
+            <div class="cell wishlist-modal-title">
+                <h2>{{'wishlist.AddToWishList' | translate}}</h2>
+                <hr class="wishlist-hr">
+            </div>
+            <form class="cell" #wishlistForm="ngForm">
+                <ng-container *ngFor="let wishlist of wishLists; let i = index">
+                    <div class="expanded">
+                        <input id="wishlist_name_{{id}}_{{i}}" type="radio" name="wishListId" [value]="wishlist.externalId" [(ngModel)]="selectdWishListExternalId">
+                        <label for="wishlist_name_{{id}}_{{i}}">
+                            <ng-container *ngIf="wishlist.name !== 'DefaultListName'; else defaultListOption2">
+                                {{ wishlist.name }}
+                            </ng-container>
+                            <ng-template #defaultListOption2>
+                                {{ 'wishlist.DefaultListName' | translate }}
+                            </ng-template>
+                        </label>
+                    </div>
+                    <hr class="wishlist-hr">
+                </ng-container>
+                <div class="cell">
+                    <button class="button button-dark expanded"
+                        id="add_to_wishlist_confirm_{{id}}"
+                        (click)="addToWishList(selectdWishListExternalId)"
+                        [disabled]="!wishlistForm.form.valid">{{'wishlist.AddToWishListMobieView' | translate}}</button>
+                </div>
+            </form>
+        </ng-container>
+        <ng-template #elseBlock>{{'wishlist.noWishList' | translate}}</ng-template>
+    </div>
+    <a class="close-button" aria-label="Close WishList" id="createWishList_close_btn_{{id}}" data-close>&#215;</a>
+</div>
+
+<!-- signIn Modal -->
+<div class="reveal grid-margin-x gallery signInModal" id="{{signInModelId}}{{id}}" data-reveal>
+        <div class='signInModal-top' id="signIn_form_div_{{id}}">{{'productDetail.SignInToContinue'| translate}}</div>
+        <form name="signInForm" #signInForm="ngForm" class="medium-8 cell" [ngClass]="{'show-invalid-input': signInForm.submitted}" (ngSubmit)="signInForm.form.valid && login()"
+            id="signin_form_{{id}}">
+
+            <p class='signIn_msg'>{{ 'wishlist.SignInRequiredForWishlist' | translate}}</p>
+            <label for="descriptionName">{{ 'SignIn.Email' | translate }}</label>
+            <input type="email" placeholder="name@domain.com" id="signin_input_9_{{id}}" name="username" [(ngModel)]="user.username"
+                commerce-maxlength=256 email required />
+            <label for="description">{{ 'SignIn.Password' | translate }}</label>
+            <input type="password" placeholder="" id="signin_input_10_{{id}}" name="password" [(ngModel)]="user.password" commerce-maxlength=256
+                required />
+            <button class="button button-dark cell" type="submit">{{ 'SignIn.SubmitButton' | translate }}</button>
+            <p>{{'Registration.DontHaveAnAccount' | translate}}</p>
+            <button class="button cell" (click)="goToRegistrationPage()" type="submit">{{ 'Registration.Register' | translate }}</button>
+        </form>
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<!-- new WishList Modal -->
+<div *ngIf="!isSmall" class="no-padding tiny reveal" id="{{newWishListModalId}}_{{id}}" data-reveal>
+    <div class="new-wishlist-modal-top">
+        {{ 'wishlist.NewWishlist' | translate }}
+        <button class="close-btn-new-wishlist close-button"
+            id="newWishList_close_btn_{{id}}"
+            data-close aria-label="Close modal"
+            type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="grid-container grid-container-padded">
+        <form #newForm="ngForm" (ngSubmit)="newForm.form.valid && wishListCreation(newForm)" class="grid-x grid-margin-x">
+            <div class="cell">
+                <label for="descriptionName">{{ 'wishlist.Name' | translate }}</label>
+                <input type="text" name="descriptionName" id="newWishList_name_input_{{id}}" ngModel commerce-maxlength=32 commerce-nonwhitespace commerce-not-allowed-str='DefaultListName' required>
+            </div>
+            <div class="cell"></div>
+            <div class="large-6 medium-6 small-6 cell">
+                <a class="new-wishlist-form-btn button" id="newWishList_cancel_{{id}}" data-close>{{ 'wishlist.Cancel' | translate }}</a>
+            </div>
+            <div class="large-6 medium-6 small-6 cell">
+                <button class="new-wishlist-form-btn button button-dark" id="newWishList_save_{{id}}" type="submit" [disabled]="!newForm.form.valid">{{ 'wishlist.Save' | translate }}</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Store Locator Modal -->
+<div id="{{storeLocatorModelId}}{{id}}" class="reveal tiny animated fadeIn filter-dialog" aria-label="Store Locator Modal" data-reveal>
+    <div class="filter-header">
+        <h5>{{ 'product.storeLocatorModal'| translate}}</h5>
+        <button class="close-button" data-close aria-label="Close Store Locator" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="grid-x grid-container grid-container-padded">
+        <app-dynamic-store-locator-layout-component class="store-locator-in-modal" [modalView]="true" [availableServices]="serviceTypes"></app-dynamic-store-locator-layout-component>
+    </div>
+</div>

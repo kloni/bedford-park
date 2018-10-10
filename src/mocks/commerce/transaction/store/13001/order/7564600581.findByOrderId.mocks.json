@@ -1,0 +1,305 @@
+{
+    "totalShippingCharge": "0.00000",
+    "orderTypeCode": "ORD",
+    "resourceId": "https://abc123.watsoncommerce.ibm.com:443/wcs/resources/store/13001/order/3251770763",
+    "orderId": "3251770763",
+    "lastUpdateDate": "2018-04-20T01:05:55.468Z",
+    "channel": {
+        "channelIdentifer": {
+            "channelName": "Telesales",
+            "uniqueID": "-4"
+        },
+        "userData": null,
+        "description": {
+            "language": "-1",
+            "value": "Used when operations performed by a telesales representative."
+        }
+    },
+    "orderStatus": "M",
+    "x_isPurchaseOrderNumberRequired": "false",
+    "totalShippingChargeCurrency": "USD",
+    "buyerId": "5088",
+    "grandTotalCurrency": "USD",
+    "buyerDistinguishedName": "uid=testuser@ca.ibm.com,o=default organization,o=root organization",
+    "recordSetCount": "2",
+    "paymentInstruction": [
+        {
+            "piId": "11567",
+            "country": "US",
+            "personTitle": "",
+            "lastName": "user",
+            "zipCode": "12345",
+            "city": "New York",
+            "postalCode": "12345",
+            "phone2": "",
+            "phone2Publish": "true",
+            "phone1Publish": "true",
+            "piDescription": "Cash on delivery",
+            "payMethodId": "COD",
+            "phone1": "1234567890",
+            "xpaym_tokenization": "false",
+            "email2": "",
+            "email1": "testuser@ca.ibm.com",
+            "xpaym_policyId": "3074457345616679470",
+            "fax2": "",
+            "state": "NY",
+            "fax1": "",
+            "piAmount": "689.99000",
+            "billing_address_id": "5319853064",
+            "nickName": "testuser@ca.ibm.com",
+            "addressLine": [
+                "address 1",
+                "",
+                ""
+            ],
+            "piLanguage": "-1",
+            "stateOrProvinceName": "NY",
+            "piStatus": "Success",
+            "firstName": "test",
+            "piCurrency": "USD",
+            "protocolData": [
+                {
+                    "name": "billing_address_id",
+                    "value": "5319853064"
+                },
+                {
+                    "name": "billto_zipcode",
+                    "value": "12345"
+                },
+                {
+                    "name": "billto_address1",
+                    "value": "address 1"
+                },
+                {
+                    "name": "billto_country",
+                    "value": "US"
+                },
+                {
+                    "name": "billto_lastname",
+                    "value": "user"
+                },
+                {
+                    "name": "billto_stateprovince",
+                    "value": "NY"
+                },
+                {
+                    "name": "billto_city",
+                    "value": "New York"
+                },
+                {
+                    "name": "billto_firstname",
+                    "value": "test"
+                },
+                {
+                    "name": "payment_method",
+                    "value": "COD"
+                }
+            ],
+            "middleName": "",
+            "xpaym_punchoutPayment": "false"
+        }
+    ],
+    "x_isPersonalAddressesAllowedForShipping": "true",
+    "storeNameIdentifier": "Stockholm0410",
+    "totalProductPriceCurrency": "USD",
+    "totalProductPrice": "694.99000",
+    "locked": "false",
+    "placedDate": "2018-04-20T01:05:55.440Z",
+    "recordSetComplete": "true",
+    "totalAdjustmentCurrency": "USD",
+    "totalSalesTaxCurrency": "USD",
+    "totalSalesTax": "0.00000",
+    "orderItem": [
+        {
+            "zipCode": "12345",
+            "personTitle": "",
+            "country": "US",
+            "unitUom": "C62",
+            "shippingChargeCurrency": "USD",
+            "lastUpdateDate": "2018-04-20T01:05:55.440Z",
+            "postalCode": "12345",
+            "phone2": "",
+            "availableDate": "2018-04-20T01:05:52.249Z",
+            "phone2Publish": "true",
+            "salesTax": "0.00000",
+            "phone1Publish": "true",
+            "phone1": "1234567890",
+            "addressId": "5319853064",
+            "correlationGroup": "25238",
+            "usableShippingChargePolicy": [
+                {
+                    "name": "StandardShippingChargeBySeller",
+                    "type": "ShippingCharge",
+                    "uniqueID": "-7001"
+                }
+            ],
+            "email2": "",
+            "email1": "testuser@ca.ibm.com",
+            "fax2": "",
+            "shippingCharge": "0.00000",
+            "fax1": "",
+            "state": "NY",
+            "orderItemPrice": "115.00000",
+            "shipModeLanguage": "-1",
+            "unitPrice": "115.00000",
+            "productId": "14751",
+            "shipModeCode": "Mail",
+            "shipModeDescription": "Mail",
+            "nickName": "testuser@ca.ibm.com",
+            "fulfillmentCenterName": "Stockholm0410",
+            "firstName": "test",
+            "adjustment": [
+                {
+                    "amount": "-0.83000",
+                    "code": "Discount for Repeat Customers",
+                    "usage": "Discount",
+                    "description": "Repeat customers save $5.00 USD",
+                    "currency": "USD",
+                    "language": "-1"
+                }
+            ],
+            "totalAdjustment": {
+                "currency": "USD",
+                "value": "-0.83000"
+            },
+            "orderItemInventoryStatus": "Available",
+            "lastName": "user",
+            "city": "New York",
+            "expectedShipDate": "2018-04-20T01:48:31.914Z",
+            "xitem_isPersonalAddressesAllowedForShipping": "true",
+            "shippingTax": "0.00000",
+            "orderItemStatus": "M",
+            "offerID": "4000000000000001501",
+            "currency": "USD",
+            "createDate": "2018-04-20T01:04:56.059Z",
+            "salesTaxCurrency": "USD",
+            "quantity": "1.0",
+            "fulfillmentCenterId": "715840134",
+            "orderItemId": "25238",
+            "shipModeId": "715840284",
+            "orderItemFulfillmentStatus": "Unreleased",
+            "isExpedited": "false",
+            "addressLine": [
+                "address 1",
+                "",
+                ""
+            ],
+            "shippingTaxCurrency": "USD",
+            "stateOrProvinceName": "NY",
+            "carrier": "Mail",
+            "UOM": "C62",
+            "freeGift": "false",
+            "unitQuantity": "1.0",
+            "contractId": "4000000000000001004",
+            "middleName": "",
+            "partNumber": "LR-FNTR-TB-0001-0003"
+        },
+        {
+            "zipCode": "12345",
+            "personTitle": "",
+            "country": "US",
+            "unitUom": "C62",
+            "shippingChargeCurrency": "USD",
+            "lastUpdateDate": "2018-04-20T01:05:55.440Z",
+            "postalCode": "12345",
+            "phone2": "",
+            "availableDate": "2018-04-20T01:05:52.250Z",
+            "phone2Publish": "true",
+            "salesTax": "0.00000",
+            "phone1Publish": "true",
+            "phone1": "1234567890",
+            "addressId": "5319853064",
+            "correlationGroup": "25239",
+            "usableShippingChargePolicy": [
+                {
+                    "name": "StandardShippingChargeBySeller",
+                    "type": "ShippingCharge",
+                    "uniqueID": "-7001"
+                }
+            ],
+            "email2": "",
+            "email1": "testuser@ca.ibm.com",
+            "fax2": "",
+            "shippingCharge": "0.00000",
+            "fax1": "",
+            "state": "NY",
+            "orderItemPrice": "579.99000",
+            "shipModeLanguage": "-1",
+            "unitPrice": "579.99000",
+            "productId": "14696",
+            "shipModeCode": "Mail",
+            "shipModeDescription": "Mail",
+            "nickName": "testuser@ca.ibm.com",
+            "fulfillmentCenterName": "Stockholm0410",
+            "firstName": "test",
+            "adjustment": [
+                {
+                    "amount": "-4.17000",
+                    "code": "Discount for Repeat Customers",
+                    "usage": "Discount",
+                    "description": "Repeat customers save $5.00 USD",
+                    "currency": "USD",
+                    "language": "-1"
+                }
+            ],
+            "totalAdjustment": {
+                "currency": "USD",
+                "value": "-4.17000"
+            },
+            "orderItemInventoryStatus": "Available",
+            "lastName": "user",
+            "city": "New York",
+            "expectedShipDate": "2018-04-20T01:48:31.919Z",
+            "xitem_isPersonalAddressesAllowedForShipping": "true",
+            "shippingTax": "0.00000",
+            "orderItemStatus": "M",
+            "offerID": "4000000000000001391",
+            "currency": "USD",
+            "createDate": "2018-04-20T01:05:08.560Z",
+            "salesTaxCurrency": "USD",
+            "quantity": "1.0",
+            "fulfillmentCenterId": "715840134",
+            "orderItemId": "25239",
+            "shipModeId": "715840284",
+            "orderItemFulfillmentStatus": "Unreleased",
+            "isExpedited": "false",
+            "addressLine": [
+                "address 1",
+                "",
+                ""
+            ],
+            "shippingTaxCurrency": "USD",
+            "stateOrProvinceName": "NY",
+            "carrier": "Mail",
+            "UOM": "C62",
+            "freeGift": "false",
+            "unitQuantity": "1.0",
+            "contractId": "4000000000000001004",
+            "middleName": "",
+            "partNumber": "LR-FNTR-CO-0006-0004"
+        }
+    ],
+    "grandTotal": "689.99000",
+    "storeUniqueID": "13001",
+    "recordSetStartNumber": "0",
+    "resourceName": "order",
+    "recordSetTotal": "2",
+    "shipAsComplete": "true",
+    "x_trackingIds": "",
+    "totalShippingTax": "0.00000",
+    "prepareIndicator": "true",
+    "totalShippingTaxCurrency": "USD",
+    "adjustment": [
+        {
+            "amount": "-5.00000",
+            "code": "Discount for Repeat Customers",
+            "displayLevel": "Order",
+            "usage": "Discount",
+            "descriptionLanguage": "-1",
+            "xadju_calUsageId": "-1",
+            "description": "Repeat customers save $5.00 USD",
+            "currency": "USD"
+        }
+    ],
+    "totalAdjustment": "-5.00000"
+}

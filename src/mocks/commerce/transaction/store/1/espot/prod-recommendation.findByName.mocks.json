@@ -1,0 +1,366 @@
+{
+  "MarketingSpotData": [
+    {
+      "\/marketingSpotIdentifier": {
+        "marketingSpotIdentifier": "10629",
+        "eSpotName": "WomenRow4_CatEntries"
+      },
+      "nextTimeLimit": "-1",
+      "marketingSpotDataTitle": [
+        {
+          "marketingSpotDataTitleId": "10545",
+          "contentFormatName": "Text",
+          "marketingSpotDataTitleActivityID": "0",
+          "MarketingContentDescription": [
+            {
+            }
+          ],
+          "contentClickAction": "None",
+          "marketingContentDescription": [
+            {
+              "marketingText": "On Sale Now",
+              "language": "-1"
+            }
+          ],
+          "marketingSpotDataTitleDataType": "MarketingContent",
+          "contentId": "10545",
+          "marketingSpotDataTitleName": "ApparelESpotDefaultTitle",
+          "contentFormatId": "2",
+          "contentStoreId": "11001",
+          "contentName": "ApparelESpotDefaultTitle"
+        }
+      ],
+      "marketingSpotIdentifier": "10629",
+      "behavior": "0",
+      "eSpotName": "WomenRow4_CatEntries",
+      "baseMarketingSpotActivityData": [
+        {
+          "baseMarketingSpotActivityName": "Luigi Valenti Layered Sundress",
+          "productId": "10034",
+          "description": [
+            {
+              "longDescription": "Simple sundress designed to give a calm and soothing effect. The black net waist tie and layered bottom add a touch of detail to this soft design.",
+              "language": "-1",
+              "shortDescription": "Sleeveless sundress with layered skirt and black net waist tie",
+              "productName": "Luigi Valenti Layered Sundress"
+            }
+          ],
+          "listPriceCurrency": "USD",
+          "activityFormat": "web",
+          "standardPrice": "35.00",
+          "ownerID": "7000000000000001001",
+          "activityIdentifierName": "WomenRow4_CatEntries",
+          "baseMarketingSpotActivityID": "10034",
+          "baseMarketingSpotDataType": "CatalogEntry",
+          "productPartNumber": "AuroraWMDRS-36",
+          "activityIdentifierID": "10096",
+          "standardPriceCurrency": "USD",
+          "contractPrice": [
+            {
+              "minorVersionNumber": "0",
+              "contractPrice": "35.00",
+              "origin": "6",
+              "name": "AuroraESite - AuroraESite",
+              "contractID": "-10005",
+              "currency": "USD",
+              "ownerID": "-5000",
+              "minimumQuantity": "1.0",
+              "majorVersionNumber": "1"
+            }
+          ],
+          "attributes": [
+            {
+              "stringValue": "ExtendedSitesCatalogAssetStore",
+              "name": "rootDirectory"
+            },
+            {
+              "stringValue": "ShoppingArea\/CatalogSection\/CatalogEntrySubsection\/ProductDisplay",
+              "name": "displayTemplate"
+            }
+          ],
+          "catalogEntryTypeCode": "ProductBean",
+          "activityPriority": "1",
+          "properties": [
+            {
+              "baseMarketingValue": "Display catalog entry recommendations on Women category page.",
+              "baseMarketingKey": "mktActivityDescription"
+            }
+          ],
+          "listPrice": "50.00"
+        },
+        {
+          "baseMarketingSpotActivityName": "Albini Casual Knit Strapless Dress",
+          "productId": "10014",
+          "description": [
+            {
+              "longDescription": "Strapless knit summer dress perfect for picnics and life in the city. The polka dots and brown belt add style to simplicity. ",
+              "language": "-1",
+              "shortDescription": "Strapless knit A-line summer dress with polka dots",
+              "productName": "Albini Casual Knit Strapless Dress"
+            }
+          ],
+          "listPriceCurrency": "USD",
+          "activityFormat": "web",
+          "standardPrice": "50.00",
+          "ownerID": "7000000000000001001",
+          "activityIdentifierName": "WomenRow4_CatEntries",
+          "baseMarketingSpotActivityID": "10014",
+          "baseMarketingSpotDataType": "CatalogEntry",
+          "productPartNumber": "AuroraWMDRS-15",
+          "activityIdentifierID": "10096",
+          "standardPriceCurrency": "USD",
+          "contractPrice": [
+            {
+              "minorVersionNumber": "0",
+              "contractPrice": "50.00",
+              "origin": "6",
+              "name": "AuroraESite - AuroraESite",
+              "contractID": "-10005",
+              "currency": "USD",
+              "ownerID": "-5000",
+              "minimumQuantity": "1.0",
+              "majorVersionNumber": "1"
+            }
+          ],
+          "attributes": [
+            {
+              "stringValue": "ExtendedSitesCatalogAssetStore",
+              "name": "rootDirectory"
+            },
+            {
+              "stringValue": "ShoppingArea\/CatalogSection\/CatalogEntrySubsection\/ProductDisplay",
+              "name": "displayTemplate"
+            }
+          ],
+          "catalogEntryTypeCode": "ProductBean",
+          "activityPriority": "1",
+          "properties": [
+            {
+              "baseMarketingValue": "Display catalog entry recommendations on Women category page.",
+              "baseMarketingKey": "mktActivityDescription"
+            }
+          ],
+          "listPrice": "50.00"
+        },
+        {
+          "baseMarketingSpotActivityName": "Luigi Valenti Beige Tote Bag",
+          "productId": "10842",
+          "description": [
+            {
+              "longDescription": "This square-shaped beige tote bag is color-coordinated with contrast brown straps and beading around the bag. For a fancier look, the ends of the straps, adorned with metal clasps, are fastened to black and white patterned leather patches.",
+              "language": "-1",
+              "shortDescription": "Beige tote bag with contrast-colored straps",
+              "productName": "Luigi Valenti Beige Tote Bag"
+            }
+          ],
+          "listPriceCurrency": "USD",
+          "activityFormat": "web",
+          "standardPrice": "70.00",
+          "ownerID": "7000000000000001001",
+          "activityIdentifierName": "WomenRow4_CatEntries",
+          "baseMarketingSpotActivityID": "10842",
+          "baseMarketingSpotDataType": "CatalogEntry",
+          "productPartNumber": "WBG006_0608",
+          "activityIdentifierID": "10096",
+          "standardPriceCurrency": "USD",
+          "contractPrice": [
+            {
+              "minorVersionNumber": "0",
+              "contractPrice": "70.00",
+              "origin": "6",
+              "name": "AuroraESite - AuroraESite",
+              "contractID": "-10005",
+              "currency": "USD",
+              "ownerID": "-5000",
+              "minimumQuantity": "1.0",
+              "majorVersionNumber": "1"
+            }
+          ],
+          "attributes": [
+            {
+              "stringValue": "ExtendedSitesCatalogAssetStore",
+              "name": "rootDirectory"
+            },
+            {
+              "stringValue": "ShoppingArea\/CatalogSection\/CatalogEntrySubsection\/ProductDisplay",
+              "name": "displayTemplate"
+            }
+          ],
+          "catalogEntryTypeCode": "ProductBean",
+          "activityPriority": "1",
+          "properties": [
+            {
+              "baseMarketingValue": "Display catalog entry recommendations on Women category page.",
+              "baseMarketingKey": "mktActivityDescription"
+            }
+          ],
+          "listPrice": "70.00"
+        },
+        {
+          "baseMarketingSpotActivityName": "Synergy Brown Leather Stiletto Pumps",
+          "productId": "10906",
+          "description": [
+            {
+              "longDescription": "Modern and elegant, these stiletto pumps can take over a party. The brown leather detailing adds style to the design and the black platform gives lift to your walk.",
+              "language": "-1",
+              "shortDescription": "Brown stiletto pumps with leather detailing and black platform",
+              "productName": "Synergy Brown Leather Stiletto Pumps"
+            }
+          ],
+          "listPriceCurrency": "USD",
+          "activityFormat": "web",
+          "standardPrice": "110.00",
+          "ownerID": "7000000000000001001",
+          "activityIdentifierName": "WomenRow4_CatEntries",
+          "baseMarketingSpotActivityID": "10906",
+          "baseMarketingSpotDataType": "CatalogEntry",
+          "productPartNumber": "WSH005_0518",
+          "activityIdentifierID": "10096",
+          "standardPriceCurrency": "USD",
+          "contractPrice": [
+            {
+              "minorVersionNumber": "0",
+              "contractPrice": "110.00",
+              "origin": "6",
+              "name": "AuroraESite - AuroraESite",
+              "contractID": "-10005",
+              "currency": "USD",
+              "ownerID": "-5000",
+              "minimumQuantity": "1.0",
+              "majorVersionNumber": "1"
+            }
+          ],
+          "attributes": [
+            {
+              "stringValue": "ExtendedSitesCatalogAssetStore",
+              "name": "rootDirectory"
+            },
+            {
+              "stringValue": "ShoppingArea\/CatalogSection\/CatalogEntrySubsection\/ProductDisplay",
+              "name": "displayTemplate"
+            }
+          ],
+          "catalogEntryTypeCode": "ProductBean",
+          "activityPriority": "1",
+          "properties": [
+            {
+              "baseMarketingValue": "Display catalog entry recommendations on Women category page.",
+              "baseMarketingKey": "mktActivityDescription"
+            }
+          ],
+          "listPrice": "120.00"
+        },
+        {
+          "baseMarketingSpotActivityName": "Emery Silver Open-toe Pumps",
+          "productId": "10898",
+          "description": [
+            {
+              "longDescription": "Elegance oozes out of these pumps as they brighten up your evening. Team it up with a classy dress and the silver fabric detailing and the buckle will do the rest. The soft synthetic lining provides the comfort and the Peep toe design enhances the beauty of your feet.",
+              "language": "-1",
+              "shortDescription": "Silver open-toe pumps with decorative buckle and fabric detailing",
+              "productName": "Emery Silver Open-toe Pumps"
+            }
+          ],
+          "listPriceCurrency": "USD",
+          "activityFormat": "web",
+          "standardPrice": "130.00",
+          "ownerID": "7000000000000001001",
+          "activityIdentifierName": "WomenRow4_CatEntries",
+          "baseMarketingSpotActivityID": "10898",
+          "baseMarketingSpotDataType": "CatalogEntry",
+          "productPartNumber": "WSH005_0514",
+          "activityIdentifierID": "10096",
+          "standardPriceCurrency": "USD",
+          "contractPrice": [
+            {
+              "minorVersionNumber": "0",
+              "contractPrice": "130.00",
+              "origin": "6",
+              "name": "AuroraESite - AuroraESite",
+              "contractID": "-10005",
+              "currency": "USD",
+              "ownerID": "-5000",
+              "minimumQuantity": "1.0",
+              "majorVersionNumber": "1"
+            }
+          ],
+          "attributes": [
+            {
+              "stringValue": "ExtendedSitesCatalogAssetStore",
+              "name": "rootDirectory"
+            },
+            {
+              "stringValue": "ShoppingArea\/CatalogSection\/CatalogEntrySubsection\/ProductDisplay",
+              "name": "displayTemplate"
+            }
+          ],
+          "catalogEntryTypeCode": "ProductBean",
+          "activityPriority": "1",
+          "properties": [
+            {
+              "baseMarketingValue": "Display catalog entry recommendations on Women category page.",
+              "baseMarketingKey": "mktActivityDescription"
+            }
+          ],
+          "listPrice": "150.00"
+        },
+        {
+          "baseMarketingSpotActivityName": "Albini Brown Slim Leather Belt",
+          "productId": "10800",
+          "description": [
+            {
+              "longDescription": "With a smooth texture and finish, this brown slim leather belt is great with your office pants. The downtown chic look displays a professional style. Made of genuine leather, the gilt-edged buckle add a bit of bling.",
+              "language": "-1",
+              "shortDescription": "Brown slim leather belt with a smooth finish",
+              "productName": "Albini Brown Slim Leather Belt"
+            }
+          ],
+          "listPriceCurrency": "USD",
+          "activityFormat": "web",
+          "standardPrice": "30.00",
+          "ownerID": "7000000000000001001",
+          "activityIdentifierName": "WomenRow4_CatEntries",
+          "baseMarketingSpotActivityID": "10800",
+          "baseMarketingSpotDataType": "CatalogEntry",
+          "productPartNumber": "WAC007_0730",
+          "activityIdentifierID": "10096",
+          "standardPriceCurrency": "USD",
+          "contractPrice": [
+            {
+              "minorVersionNumber": "0",
+              "contractPrice": "30.00",
+              "origin": "6",
+              "name": "AuroraESite - AuroraESite",
+              "contractID": "-10005",
+              "currency": "USD",
+              "ownerID": "-5000",
+              "minimumQuantity": "1.0",
+              "majorVersionNumber": "1"
+            }
+          ],
+          "attributes": [
+            {
+              "stringValue": "ExtendedSitesCatalogAssetStore",
+              "name": "rootDirectory"
+            },
+            {
+              "stringValue": "ShoppingArea\/CatalogSection\/CatalogEntrySubsection\/ProductDisplay",
+              "name": "displayTemplate"
+            }
+          ],
+          "catalogEntryTypeCode": "ProductBean",
+          "activityPriority": "1",
+          "properties": [
+            {
+              "baseMarketingValue": "Display catalog entry recommendations on Women category page.",
+              "baseMarketingKey": "mktActivityDescription"
+            }
+          ],
+          "listPrice": "30.00"
+        }
+      ]
+    }
+  ],
+  "resourceId": "https:\/\/aas129.watsoncommerce.ibm.com:443\/wcs\/resources\/store\/1\/espot\/WomenRow4_CatEntries",
+  "resourceName": "espot"
+}

@@ -1,0 +1,12 @@
+.order-comment-link{
+    color:black;
+    text-transform: uppercase;
+}
+
+ul >  .list-item :not(:last-child) :not(span){
+    margin-bottom: 0.5rem;
+}
+
+button{
+    margin-bottom: 0rem;
+}

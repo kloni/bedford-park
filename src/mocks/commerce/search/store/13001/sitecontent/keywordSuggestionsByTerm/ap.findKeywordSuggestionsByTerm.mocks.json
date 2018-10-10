@@ -1,0 +1,25 @@
+{
+    "suggestionView": [
+        {
+            "identifier": "Keyword",
+            "entry": [
+                {
+                    "term": "applique",
+                    "frequency": 36
+                },
+                {
+                    "term": "applique sequined",
+                    "frequency": 36
+                },
+                {
+                    "term": "appearance",
+                    "frequency": 25
+                },
+                {
+                    "term": "appliqued",
+                    "frequency": 22
+                }
+            ]
+        }
+    ]
+}

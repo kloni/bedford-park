@@ -1,0 +1,15 @@
+{
+    "ENVIRONMENT_URL": "http://dxcloud.rtp.raleigh.ibm.com",
+    "TENANT_ID": "e22e8340-16a2-47db-b98e-1435954c7b1a",
+    "SUBSCRIBER_EXTID": "dstaging@isc4sb.com",
+    "SUBSCRIBER_PASSWORD": "P0rtal4u",
+    "SUBSCRIBER_DISPLAYNAME": "Adam",
+    "AUTHENTICATION": "blueid",
+    "SPECS": "dist/out-tsc/test/e2e/tests/sitesui/test.e2e-spec.js",
+    "BROWSER": "chrome",
+    "PROXY_URL": "",
+    "FEATURE_TOGGLES": {
+      "referenceelement" : "off",
+      "updateresourceonassets" : "off"
+    }
+  }

@@ -1,0 +1,229 @@
+<div id="storeLocator_div_1_{{id}}" class="small-12 medium-12 large-6 cell">
+    <h2 id="storeLocator_h2_2_{{id}}" wchEditable="title" class="title">{{ title }}</h2>
+    <br>
+    <div id="storeLocator_div_3_{{id}}" class="grid-x text-center">
+        <div id="storeLocator_div_4_{{id}}" class="small-12 medium-12 large-12">
+            <div id="storeLocator_div_5_{{id}}" class="grid-x search-result-panel-container">
+                <div id="storeLocator_div_6_{{id}}" class="small-12 medium-4 large-3 cell search-result-panel" [ngClass]="{'large-12': modalView, 'height-adjust': modalView}">
+                    <form id="storeLocator_form_7_{{id}}" class="search-form" id="search-map" name="search-map" (ngSubmit)="search()">
+                        <div id="storeLocator_div_8_{{id}}" class="input-group search-input-field">
+                            <input #searchInput id="storeLocator_input_9_{{id}}" type="search"
+                                [(ngModel)]="query"
+                                (keyup.arrowup)="arrowUp($event)"
+                                (keyup.arrowdown)="arrowDown($event)"
+                                (keydown)="keyDown($event)"
+                                (blur)="removeFocus()"
+                                name="queryInput" autocomplete="off">
+                            <button id="storeLocator_button_10_{{id}}" type="submit" class="search-location-button btn btn-primary button"></button>
+                            <div id="storeLocator_div_11_{{id}}" class="search-suggestions" *ngIf="showSuggestion && suggestionView?.length > 0">
+                                <ul id="storeLocator_ul_12_{{id}}" class="no-bullet">
+                                    <ng-container *ngFor="let suggestion of suggestionView; let i = index">
+                                        <li id="storeLocator_li_13_{{i}}_{{id}}" class="suggestion-item" [ngClass]="{'highlight-item': suggestion.highlight}">
+                                            <a id="storeLocator_a_14_{{i}}_{{id}}" (mouseover)="hoverSelect(suggestion)" (click)="triggerSearch(suggestion)" title="{{suggestion.description}}" [innerHTML]="suggestion.displayName"></a>
+                                        </li>
+                                    </ng-container>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="storeLocator_div_15_{{id}}" class="input-group search-input-field location-service-tooltip">
+                        <button id="storeLocator_button_16_{{id}}" class="btn btn-primary button expanded" (click)="setCurrentGeoLocation()" [disabled]="currentLocationLoading || !allowLocationService">
+                            {{'StoreLocator.UseMyLocation' | translate }}
+                        </button>
+                        <span id="storeLocator_span_17_{{id}}" *ngIf="!allowLocationService" class="tooltip-text">
+                            <span id="storeLocator_span_18_{{id}}">{{'StoreLocator.DisabledLocationService' | translate}}</span>
+                        </span>
+                    </div>
+
+                    <div id="storeLocator_div_19_{{id}}" class="input-group search-input-field filter-option" *ngIf="!modalView">
+                        <a id="storeLocator_a_20_{{id}}" (click)="openFilterOptionDialog()">{{'StoreLocator.SelectFilters' | translate }}</a>
+                    </div>
+
+                    <!--accordion-->
+                    <ul class="accordion criteria-accordion" *ngIf="modalView" data-allow-all-closed="true" data-accordion data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" id="filter_accordion">
+                        <li class="accordion-item" data-accordion-item>
+                            <a class="accordion-title search-filter-accordion-title" id="storeLocator_a_22_{{id}}">{{'StoreLocator.SelectFilters' | translate }}</a>
+                            <div class="accordion-content" data-tab-content id="select_filter_pane">
+
+                                <!--filters-->
+                                <div id="storeLocator_form_23_{{id}}" class="grid-x grid-margin-x" name="filterOptionForm">
+                                    <div id="storeLocator_div_24_{{id}}" class="small-12 medium-12 cell distance-dropdown">
+                                        <label id="storeLocator_label_25_{{id}}">{{'StoreLocator.Distance' | translate }}</label>
+                                        <select id="storeLocator_select_26_{{id}}" name="distanceList" [(ngModel)]="selectedDistance" #distanceList="ngModel" required>
+                                            <option id="storeLocator_option_27_{{id}}" *ngFor="let dist of DISTANCE_CHOICES" [value]="dist">{{ dist }} km</option>
+                                        </select>
+                                    </div>
+                                    <div id="storeLocator_div_28_{{id}}" class="small-12 medium-12 cell service-checkbox" *ngIf="serviceTypes && serviceTypes.length > 0">
+                                        <label id="storeLocator_label_29_{{id}}">{{'StoreLocator.Services' | translate }}</label>
+                                        <div id="storeLocator_div_30_{{id}}" class="small-6 medium-12 cell" *ngFor="let service of serviceTypes; let i = index">
+                                            <div id="storeLocator_div_31_{{i}}_{{id}}" class="grid-x checkbox-selection">
+                                                <input id="storeLocator_input_32_{{i}}_{{id}}" type="checkbox" (change)='checkBoxClicked($event)' [checked]="selectedFilteredServiceTypes.indexOf(service) !== -1">
+                                                <label id="storeLocator_label_33_{{i}}_{{id}}" for="storeLocator_input_32_{{i}}_{{id}}">{{ service }}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div id="storeLocator_div_21_{{id}}" class="filter-area" *ngIf="filteredServiceTypes.length > 0">
+                        <p id="storeLocator_p_22_{{id}}">
+                            <span id="storeLocator_span_23_{{id}}" class="num-filter-applied" [innerHTML]="'StoreLocator.FilterApplied' | translate : { numFilter: filteredServiceTypes.length }"></span>
+                            <a id="storeLocator_button_24_{{id}}" class="clear-all" *ngIf="filteredServiceTypes?.length > 1" (click)="clearAllFilterSelection()">{{ 'StoreLocator.ClearAll' | translate }}</a>
+                        </p>
+                        <div id="storeLocator_div_25_{{id}}" class="small-12 medium-12 cell more-actions">
+                            <ng-container *ngFor="let service of filteredServiceTypes; let i = index">
+                                <div id="storeLocator_div_26_{{i}}_{{id}}" class="filter-label">
+                                    <button id="storeLocator_button_27_{{i}}_{{id}}" class="go-link" (click)="removeFilterSelection(service)"></button>
+                                    <span id="storeLocator_span_28_{{i}}_{{id}}">{{ service }}</span>
+                                </div>
+                            </ng-container>
+                        </div>
+                    </div>
+                    <div id="storeLocator_div_29_{{id}}" class="search-term-result" *ngIf="addressSearchTerm">
+                        <span id="storeLocator_span_30_{{id}}" *ngIf="searchResults && !noAddressFound" [innerHTML]="'StoreLocator.SearchResultFound' | translate : { numberOfResult: searchResults.length, result: searchResults.length>1 ? ('StoreLocator.MultipleResults' | translate) : ('StoreLocator.SingularResult' | translate), radius: distance }"></span>
+                        <span id="storeLocator_span_31_{{id}}" *ngIf="(!searchResults || searchResults.length === 0) && noAddressFound" [innerHTML]="'StoreLocator.NoAddressFound' | translate"></span>
+                        <span id="storeLocator_span_32_{{id}}" class="search-term" [innerHTML]="'StoreLocator.SearchTerm' | translate : { searchTerm: addressSearchTerm }"></span>
+                    </div>
+
+                    <!-- tabs - in modals -->
+                    <ul id="storeLocator_ul_43_1_{{id}}" class="tabs" data-tabs data-active-collapse="true" *ngIf="searchResults && searchResults.length > 0 && modalView">
+                        <li id="storeLocator_li_44_{{id}}" class="tabs-title" [ngClass]="{'is-active': listViewTabOpened}">
+                            <button id="storeLocator_button_45_{{id}}" type="button" class="button btn-primary expanded tab-view-button" data-tabs-target="listViewTab" [attr.aria-selected]="listViewTabOpened" (click)="openTab('listViewTab')">{{'StoreLocator.ListView' | translate }}</button>
+                        </li>
+                        <li id="storeLocator_li_46_{{id}}" class="tabs-title" [ngClass]="{'is-active': !listViewTabOpened}">
+                            <button id="storeLocator_button_47_{{id}}" type="button" class="button btn-primary expanded tab-view-button" data-tabs-target="mapViewTab" [attr.aria-selected]="!listViewTabOpened" (click)="openTab('mapViewTab')">{{'StoreLocator.MapView' | translate }}</button>
+                        </li>
+                    </ul>
+
+                    <!-- Desktop version -->
+                    <!-- tabs - in desktop view but only for small resolution -->
+                    <ul id="storeLocator_ul_43_1_{{id}}" class="tabs show-for-small-only" data-tabs data-active-collapse="true" *ngIf="searchResults && searchResults.length > 0 && !modalView">
+                        <li id="storeLocator_li_44_{{id}}" class="tabs-title" [ngClass]="{'is-active': listViewTabOpened}">
+                            <button id="storeLocator_button_45_{{id}}" type="button" class="button btn-primary expanded tab-view-button" data-tabs-target="listViewTab" [attr.aria-selected]="listViewTabOpened" (click)="openTab('listViewTab')">{{'StoreLocator.ListView' | translate }}</button>
+                        </li>
+                        <li id="storeLocator_li_46_{{id}}" class="tabs-title" [ngClass]="{'is-active': !listViewTabOpened}">
+                            <button id="storeLocator_button_47_{{id}}" type="button" class="button btn-primary expanded tab-view-button" data-tabs-target="mapViewTab" [attr.aria-selected]="!listViewTabOpened" (click)="openTab('mapViewTab')">{{'StoreLocator.MapView' | translate }}</button>
+                        </li>
+                    </ul>
+                    <div id="storeLocator_div_33_{{id}}" #listViewTab class="search-result-item-container hide-for-small-only" [ngClass]="{'adjustToFilterTabHeight':modalView}" *ngIf="searchResults && searchResults.length > 0">
+                        <div id="storeLocator_div_49_{{id}}" class="tabs-panel" [ngClass]="{'is-active': listViewTabOpened}">
+                            <div id="storeLocator_div_50_{{id}}" class="search-result-item-container list-view-result" *ngIf="searchResults?.length > 0">
+                                <div #expansionAccordionModal class="accordion" id="{{expansionAccordionModalId}}" [attr.data-accordion]="modalView ? true: null" data-allow-all-closed="true">
+                                    <div #searchResultTarget id="storeLocator_div_51_{{id}}" class="search-result-item accordion-item" data-accordion-item *ngFor="let res of searchResults; let i = index" (click)="selectResultItem(res)" [ngClass]="{'active': selectedResultItem === res.name}">
+                                        <a id="storeLocator_a_52_{{id}}">
+                                            <p id="storeLocator_p_35_{{i}}_{{id}}" class="search-result-name">
+                                                {{ i+1 }}. {{ getElementValue(res, NAME_KEY) }}
+                                                <span class="search-result-preferred-store-icon" *ngIf="isPreferredStore(res)"></span>
+                                                <span id="storeLocator_span_36_{{i}}_{{id}}" class="search-result-preferred-store" *ngIf="isPreferredStore(res)">{{'StoreLocator.MyStore' | translate }}</span>
+                                            </p>
+                                            <span id="storeLocator_span_37_{{i}}_{{id}}" class="search-result-address" [innerHTML]="getElementValue(res, ADDRESS_KEY)"></span>
+                                        </a>
+                                        <p id="storeLocator_p_38_{{i}}_{{id}}" class="search-result-phone">
+                                            <a id="storeLocator_a_39_{{i}}_{{id}}" href="tel:{{ getElementValue(res, PHONE_NUMBER_KEY) }}" >{{ getElementValue(res, PHONE_NUMBER_KEY) }}</a>
+                                        </p>
+                                        <span id="storeLocator_span_40_{{i}}_{{id}}" class="search-result-closing-hours" *ngIf="getElementValue(res, this.HOURS_KEY)" [innerHTML]="getClosingHour(res) ? ('StoreLocator.OpenUntil' | translate : { closingHour: currentClosingHour }) : ('StoreLocator.ClosedToday' | translate)"></span>
+                                        <div id="storeLocator_div_59_{{id}}" class="additional-info-expansion" data-tab-content>
+                                            <p id="storeLocator_p_60_{{id}}" class="search-result-hours-title">{{'StoreLocator.Hours' | translate }}:</p>
+                                            <span id="storeLocator_span_61_{{id}}" class="search-result-hours" [innerHTML]="getElementValue(res, HOURS_KEY)"></span>
+                                            <p id="storeLocator_p_62_{{id}}" class="search-result-directions">
+                                                <a id="storeLocator_a_63_{{id}}" href="{{getDirectionLink(res)}}" target="_blank">{{'StoreLocator.Directions' | translate }}</a>
+                                            </p>
+                                            <p id="storeLocator_p_64_{{id}}" class="search-result-services-title">{{'StoreLocator.Services' | translate }}:</p>
+                                            <p id="storeLocator_p_65_{{id}}" class="search-result-services" [innerHTML]="getInfoContentServices(res)"></p>
+                                        </div>
+                                        <button id="storeLocator_button_41_{{id}}" class="button button-dark expanded search-result-preferred-store-button" *ngIf="!isPreferredStore(res)" (click)="setPreferredStore(res)">
+                                            {{'StoreLocator.SetAsMyStore' | translate }}
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mobile version -->
+                    <div id="storeLocator_div_42_{{id}}" class="show-for-small-only">
+                        <div id="storeLocator_div_48_{{id}}" data-tabs-content="mobile-view-tabs">
+                            <div id="storeLocator_div_49_{{id}}" #listViewTab class="tabs-panel" [ngClass]="{'is-active': listViewTabOpened}">
+                                <div id="storeLocator_div_50_{{id}}" class="search-result-item-container list-view-result" *ngIf="searchResults?.length > 0">
+                                    <div #expansionAccordion class="accordion" id="{{expansionAccordionId}}" data-accordion data-allow-all-closed="true">
+                                        <div #searchResultTarget id="storeLocator_div_51_{{id}}" class="search-result-item accordion-item" data-accordion-item *ngFor="let res of searchResults; let i = index" (click)="selectResultItem(res)" [ngClass]="{'active': selectedResultItem === res.name}">
+                                            <a id="storeLocator_a_52_{{id}}">
+                                                <p id="storeLocator_p_53_{{i}}_{{id}}" class="search-result-name">
+                                                    {{ i+1 }}. {{ getElementValue(res, NAME_KEY) }}
+                                                    <span class="search-result-preferred-store-icon" *ngIf="currentPreferredStore && res.storeId === currentPreferredStore.storeId"></span>
+                                                    <span id="storeLocator_p_54_{{i}}_{{id}}" class="search-result-preferred-store" *ngIf="currentPreferredStore && res.storeId === currentPreferredStore.storeId">{{'StoreLocator.MyStore' | translate }}</span>
+                                                </p>
+                                                <span id="storeLocator_span_55_{{i}}_{{id}}" class="search-result-address" [innerHTML]="getElementValue(res, ADDRESS_KEY)"></span>
+                                            </a>
+                                            <p id="storeLocator_p_56_{{i}}_{{id}}" class="search-result-phone">
+                                                <a id="storeLocator_a_57_{{i}}_{{id}}" href="tel:{{ getElementValue(res, PHONE_NUMBER_KEY) }}" >{{ getElementValue(res, PHONE_NUMBER_KEY) }}</a>
+                                            </p>
+                                            <span id="storeLocator_span_58_{{i}}_{{id}}" class="search-result-closing-hours" *ngIf="getElementValue(res, this.HOURS_KEY)" [innerHTML]="getClosingHour(res) ? ('StoreLocator.OpenUntil' | translate : { closingHour: currentClosingHour }) : ('StoreLocator.ClosedToday' | translate)"></span>
+                                            <div id="storeLocator_div_59_{{id}}" class="additional-info-expansion" data-tab-content>
+                                                <p id="storeLocator_p_60_{{id}}" class="search-result-hours-title">{{'StoreLocator.Hours' | translate }}:</p>
+                                                <span id="storeLocator_span_61_{{id}}" class="search-result-hours" [innerHTML]="getElementValue(res, HOURS_KEY)"></span>
+                                                <p id="storeLocator_p_62_{{id}}" class="search-result-directions">
+                                                    <a id="storeLocator_a_63_{{id}}" href="{{getDirectionLink(res)}}" target="_blank">{{'StoreLocator.Directions' | translate }}</a>
+                                                </p>
+                                                <p id="storeLocator_p_64_{{id}}" class="search-result-services-title">{{'StoreLocator.Services' | translate }}:</p>
+                                                <p id="storeLocator_p_65_{{id}}" class="search-result-services" [innerHTML]="getInfoContentServices(res)"></p>
+                                            </div>
+                                            <button id="storeLocator_button_66_{{id}}" class="button button-dark expanded search-result-preferred-store-button" *ngIf="!(currentPreferredStore && res.storeId === currentPreferredStore.storeId)" (click)="setPreferredStore(res)">
+                                                {{'StoreLocator.SetAsMyStore' | translate }}
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-12 medium-9 cell" [ngClass]="{'mobile-map-view': !listViewTabOpened, 'tabs-panel' : modalView}" #mapViewTab>
+                    <div #gmap class="google-map-locator"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Popup Filter Option -->
+<div id="{{filterModalId}}" class="tiny reveal animated fadeIn filter-dialog" data-reveal>
+    <div id="storeLocator_div_69_{{id}}" class="filter-header">
+        <h5 id="storeLocator_h5_70_{{id}}">{{'StoreLocator.Filter' | translate }}</h5>
+        <button id="storeLocator_button_71_{{id}}" class="close-button" data-close aria-label="Close reveal" type="button">
+            <span id="storeLocator_span_72_{{id}}" aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div id="storeLocator_div_73_{{id}}" class="filter-content">
+        <form id="storeLocator_form_74_{{id}}" class="grid-x grid-margin-x" name="filterOptionForm" (ngSubmit)="updateFilterOption()" #filterOptionForm="ngForm">
+            <div id="storeLocator_div_75_{{id}}" class="small-12 medium-12 cell distance-dropdown">
+                <label id="storeLocator_label_76_{{id}}">{{'StoreLocator.Distance' | translate }}</label>
+                <select id="storeLocator_select_77_{{id}}" name="distanceList" [(ngModel)]="selectedDistance" #distanceList="ngModel" required>
+                    <option id="storeLocator_option_78_{{id}}" *ngFor="let dist of DISTANCE_CHOICES" [value]="dist">{{ dist }} km</option>
+                </select>
+            </div>
+            <div id="storeLocator_div_79_{{id}}" class="small-12 medium-12 cell service-checkbox" *ngIf="serviceTypes && serviceTypes.length > 0">
+                <label id="storeLocator_label_80_{{id}}">{{'StoreLocator.Services' | translate }}</label>
+                <div id="storeLocator_div_81_{{id}}" class="small-6 medium-12 cell" *ngFor="let service of serviceTypes; let i = index">
+                    <div id="storeLocator_div_82_{{i}}_{{id}}" class="grid-x checkbox-selection">
+                        <input id="storeLocator_input_83_{{i}}_{{id}}" type="checkbox" (change)='checkBoxClicked($event)' [checked]="selectedFilteredServiceTypes.indexOf(service) !== -1">
+                        <label id="storeLocator_label_84_{{i}}_{{id}}" for="storeLocator_input_83_{{i}}_{{id}}">{{ service }}</label>
+                    </div>
+                </div>
+            </div>
+            <div id="storeLocator_div_85_{{id}}" class="small-12 medium-12 cell num-filter-selected" *ngIf="selectedFilteredServiceTypes?.length > 0 && !modalView">
+                <p id="storeLocator_div_86_{{id}}" [innerHTML]="'StoreLocator.FilterSelected' | translate : { numFilter: selectedFilteredServiceTypes.length }"></p>
+            </div>
+            <div id="storeLocator_div_87_{{id}}" class="small-12 medium-12 cell filter-buttons">
+                <div id="storeLocator_div_88_{{id}}" class="cancel-button">
+                    <button id="storeLocator_button_89_{{id}}" type="button" class="button btn-primary expanded" data-close>{{'StoreLocator.Cancel' | translate }}</button>
+                </div>
+                <div id="storeLocator_div_90_{{id}}" class="apply-button">
+                    <button id="storeLocator_button_91_{{id}}" type="submit" class="button button-dark expanded">{{'StoreLocator.Apply' | translate }}</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Popup Filter Option End -->

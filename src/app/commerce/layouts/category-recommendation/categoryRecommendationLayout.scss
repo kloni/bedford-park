@@ -1,0 +1,33 @@
+
+@media screen and (min-width: 40em) {
+    .category-recommendation{
+        &:not(:nth-last-child(-n+2)){
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .category-recommendation{
+        &:not(:last-child){
+            margin-bottom: 1.5rem;
+        }
+        &:nth-child(even){
+            /deep/{
+                .category-container{
+                    .image-wrap{
+                        order: 1;
+                    }
+                }
+            }   
+        }
+        /deep/{
+            .category-container{
+                .text-wrap{
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

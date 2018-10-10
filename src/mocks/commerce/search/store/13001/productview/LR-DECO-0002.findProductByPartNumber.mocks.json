@@ -1,0 +1,336 @@
+{
+    "recordSetCount": 1,
+    "metaData": {
+        "price": "1"
+    },
+    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/LR-DECO-0002?langId=-1",
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14603",
+            "uniqueID": "14603",
+            "partNumber": "LR-DECO-0002",
+            "singleSKUCatalogEntryID": "14604",
+            "shortDescription": "A modern wall mirror that can be used to open up your living room space.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "Create the illusion of a farther-reaching living space with this wall mirror, complete with its full length frame. Its dark brown surrounds complement any living room decor. Includes hanging wire. Hang vertically or horizontally, or lean against a wall.",
+            "name": "Framed Mirror",
+            "parentCatalogGroupID": [
+                "11251_10604",
+                "11301_10604"
+            ],
+            "manufacturer": "Bender Home Fashions",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "18.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "18.0",
+                    "maximumValue": {
+                        "value": "18.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "16.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "16.0",
+                    "maximumValue": {
+                        "value": "16.0"
+                    }
+                }
+            ],
+            "numberOfSKUs": 1,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14604",
+                    "uniqueID": "14604",
+                    "partNumber": "LR-DECO-0002-0001",
+                    "shortDescription": "A modern wall mirror that can be used to open up your living room space.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Framed Mirror",
+                    "parentCatalogGroupID": [
+                        "11251_10604",
+                        "11301_10604"
+                    ],
+                    "manufacturer": "Bender Home Fashions",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "18.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "16.0"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0002-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14604",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-DECO-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54748,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0002-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14604",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-DECO-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54748,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0002-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14604",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-DECO-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54748,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0002-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14604",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-DECO-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54748,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0002-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14604",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-DECO-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54748,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0002-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14604",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-DECO-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54748,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a2_600.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "65x40x3",
+                            "sequence": "17.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "65\"x40\"x3\"",
+                            "uniqueID": "7000000000000003390"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "60lbs",
+                            "sequence": "11.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "60 lbs",
+                            "uniqueID": "7000000000000003403"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-glass",
+                            "sequence": "16.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Glass",
+                            "uniqueID": "7000000000000003343"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Shape",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "rectangle",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Rectangle",
+                            "uniqueID": "7000000000000003373"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Shape",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000659"
+                },
+                {
+                    "identifier": "DescriptiveColor",
+                    "sequence": "5.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "darkbrown",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Dark Brown",
+                            "uniqueID": "7000000000000003365"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000655"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "LR-DECO-0002_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14603",
+                    "usage": "images_main_thumbnail",
+                    "name": "LR-DECO-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54641,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-DECO-0002_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14603",
+                    "usage": "images_main_fullimage",
+                    "name": "LR-DECO-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54641,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-DECO-0002_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14603",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-DECO-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54641,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-DECO-0002_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14603",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-DECO-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54641,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-DECO-0002_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14603",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-DECO-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54641,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a2_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-DECO-0002_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14603",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-DECO-0002_CatalogEntryImages",
+                    "attachmentAssetID": 54641,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a2_100.jpg"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": 0,
+    "resourceName": "productview",
+    "recordSetTotal": 1,
+    "recordSetTotalMatches": 1,
+    "recordSetComplete": "true"
+}

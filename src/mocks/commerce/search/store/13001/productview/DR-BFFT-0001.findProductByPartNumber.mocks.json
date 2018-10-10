@@ -1,0 +1,590 @@
+{
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": false,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14794",
+            "uniqueID": "14794",
+            "partNumber": "DR-BFFT-0001",
+            "shortDescription": "A contemporary styled buffet table that is suited towards large living spaces, providing plenty of drawer, cabinet, and counter space.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "Use this highly-functional wooden buffet table's landscape-oriented, low to the floor layout to maximize both storage space and function. This allows for ample space for your dining decor in its drawers and cabinets, and plenty of space for food and beverage on its countertop.",
+            "name": "Landscape Buffet Table",
+            "parentCatalogGroupID": [
+                "11251_10608",
+                "11301_10608"
+            ],
+            "manufacturer": "Stonehenge",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "800.0",
+                    "maximumValue": {
+                        "value": "800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "749.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "749.99",
+                    "maximumValue": {
+                        "value": "749.99"
+                    }
+                }
+            ],
+            "numberOfSKUs": 3,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14795",
+                    "uniqueID": "14795",
+                    "partNumber": "DR-BFFT-0001-0001",
+                    "shortDescription": "A contemporary styled buffet table that is suited towards large living spaces, providing plenty of drawer, cabinet, and counter space.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Landscape Buffet Table",
+                    "parentCatalogGroupID": [
+                        "11251_10608",
+                        "11301_10608"
+                    ],
+                    "manufacturer": "Stonehenge",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "749.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "coffee",
+                                    "sequence": "9.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_coffee.png",
+                                    "value": "Coffee",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_coffee.png",
+                                    "uniqueID": "7000000000000003309"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14795",
+                            "usage": "images_main_thumbnail",
+                            "name": "DR-BFFT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54707,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14795",
+                            "usage": "images_main_fullimage",
+                            "name": "DR-BFFT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54707,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14795",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-BFFT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54707,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14795",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-BFFT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54707,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14795",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-BFFT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54707,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14795",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-BFFT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54707,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a2_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14796",
+                    "uniqueID": "14796",
+                    "partNumber": "DR-BFFT-0001-0002",
+                    "shortDescription": "A contemporary styled buffet table that is suited towards large living spaces, providing plenty of drawer, cabinet, and counter space.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_b1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_b1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Landscape Buffet Table",
+                    "parentCatalogGroupID": [
+                        "11251_10608",
+                        "11301_10608"
+                    ],
+                    "manufacturer": "Stonehenge",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "749.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "honey",
+                                    "sequence": "7.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_honey.png",
+                                    "value": "Honey",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_honey.png",
+                                    "uniqueID": "7000000000000003307"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0002_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14796",
+                            "usage": "images_main_fullimage",
+                            "name": "DR-BFFT-0001-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54708,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0002_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14796",
+                            "usage": "images_main_thumbnail",
+                            "name": "DR-BFFT-0001-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54708,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_b1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0002_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14796",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-BFFT-0001-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54708,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_b1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0002_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14796",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-BFFT-0001-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54708,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0002_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14796",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-BFFT-0001-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54708,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_b2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0002_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14796",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-BFFT-0001-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54708,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_b2_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14797",
+                    "uniqueID": "14797",
+                    "partNumber": "DR-BFFT-0001-0003",
+                    "shortDescription": "A contemporary styled buffet table that is suited towards large living spaces, providing plenty of drawer, cabinet, and counter space.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_c1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_c1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Landscape Buffet Table",
+                    "parentCatalogGroupID": [
+                        "11251_10608",
+                        "11301_10608"
+                    ],
+                    "manufacturer": "Stonehenge",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "749.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "warmbrown",
+                                    "sequence": "4.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_warmbrown.png",
+                                    "value": "Warm Brown",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_warmbrown.png",
+                                    "uniqueID": "7000000000000003304"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0003_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14797",
+                            "usage": "images_main_fullimage",
+                            "name": "DR-BFFT-0001-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54709,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0003_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14797",
+                            "usage": "images_main_thumbnail",
+                            "name": "DR-BFFT-0001-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54709,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_c1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0003_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14797",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-BFFT-0001-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54709,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_c1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0003_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14797",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-BFFT-0001-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54709,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0003_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14797",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "DR-BFFT-0001-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54709,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_c2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "DR-BFFT-0001-0003_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14797",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "DR-BFFT-0001-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54709,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_c2_600.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "84x24x20",
+                            "sequence": "14.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "84\"x24\"x20\"",
+                            "uniqueID": "7000000000000003387"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "warmbrown",
+                            "sequence": "4.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_warmbrown.png",
+                            "value": "Warm Brown",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_warmbrown.png",
+                            "uniqueID": "7000000000000003304"
+                        },
+                        {
+                            "identifier": "honey",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_honey.png",
+                            "value": "Honey",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_honey.png",
+                            "uniqueID": "7000000000000003307"
+                        },
+                        {
+                            "identifier": "coffee",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_coffee.png",
+                            "value": "Coffee",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_coffee.png",
+                            "uniqueID": "7000000000000003309"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "130lbs",
+                            "sequence": "8.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "130 lbs",
+                            "uniqueID": "7000000000000003400"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood",
+                            "sequence": "12.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood",
+                            "uniqueID": "7000000000000003351"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "DR-BFFT-0001_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14794",
+                    "usage": "images_main_fullimage",
+                    "name": "DR-BFFT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54619,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-BFFT-0001_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14794",
+                    "usage": "images_main_thumbnail",
+                    "name": "DR-BFFT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54619,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-BFFT-0001_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14794",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "DR-BFFT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54619,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-BFFT-0001_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14794",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "DR-BFFT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54619,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-BFFT-0001_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14794",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "DR-BFFT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54619,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a2_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "DR-BFFT-0001_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14794",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "DR-BFFT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54619,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/buffets/buffet1_a2_600.jpg"
+                }
+            ]
+        }
+    ]
+}

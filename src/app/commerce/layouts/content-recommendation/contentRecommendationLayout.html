@@ -1,0 +1,9 @@
+<div id="content-recommendation_div_1_{{id}}">
+    <div *ngIf="eSpotRoot" [attr.dataci_toolbar]="eSpotRoot.marketingSpotIdentifier + '_espot'" [attr.dataci_espot]="eSpotRoot.marketingSpotIdentifier + '_' + eSpotRoot.eSpotName.split(' ').join('-spchar1-').split('\'').join('-spchar2-').split('>').join('-spchar3-').split('<').join('-spchar4-').split('&#x22;').join('-spchar5-')">
+    <h3 id="content-recommendation_h3_2_{{id}}" *ngIf="heading" [innerHTML]="heading"></h3>
+    </div>
+            <wch-contentquery [query]="query" #q>
+                <!-- use the local name to access the list -->
+                <wch-contentref (click)="onClick(rc)" *ngFor="let rc of q.onRenderingContexts | async; trackBy: trackByComponentId" [renderingContext]="rc"></wch-contentref>
+            </wch-contentquery>
+</div>

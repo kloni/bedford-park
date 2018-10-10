@@ -1,0 +1,33 @@
+{ 
+    "test01": {
+        "searchTerm": "bender",
+        "productNumResult": 10,
+        "productResultName": "Bender Toothbrush Holder"
+    },
+    "test02": {
+        "searchTerm": "toothbrushh",
+        "suggestedSearchTerm": "toothbrush",
+        "productNumResult": 0,
+        "suggestedProdNumResult": 1,
+        "articleNumResult": 0,
+        "productResultName": "Bender Toothbrush Holder",
+        "prodEmptyResult": "Sorry, your search for \"toothbrushh\" did not return any results. Please try another search.",
+        "articlesEmptyResult": "Searching for toothbrushh doesn't return any good matches.\nTry your search again with a different term or browse our recommendations."
+    },
+    "test03": {
+        "searchTerm": "living",
+        "productNumResult": 44,
+        "articlesNumResult": 3,
+        "articlesResultName": "Modern textures for living spaces"
+    },
+    "test04": {
+        "searchTerm": "living",
+        "productNumResult": 44,
+        "articlesNumResult": 3,
+        "filteredArticlesNumResult": 1,
+        "articlesResultName": ["Maximizing space: Tips from seasoned interior designers", "Clean design with the perfect accessories", "Sanctuary seating in private places"],
+        "articleName": "Clean design with the perfect accessories",
+        "filterByArticleType1": "Bathroom",
+        "filterByArticleType2": "Living Room"
+    }
+}

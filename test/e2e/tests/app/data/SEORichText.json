@@ -1,0 +1,7 @@
+{ 
+    "context":"\"@context\": \"http:\\/\\/schema.org\\/\"",
+    "type":"\"@type\": \"Product\"",
+    "currency":"USD",
+    "inStock":"http://schema.org/InStock",
+    "offer":"Offer"
+}

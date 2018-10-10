@@ -1,0 +1,13 @@
+<div id="myaccountlink_div_1_{{id}}" class="grid-x grid-margin-x account-link">
+    <div id="myaccountlink_div_2_{{id}}" class="small-4 cell account-link-img">
+        <a id="myaccountlink_a_3_{{id}}" routerLink="{{linkUrl.linkURL}}">
+            <img id="myaccountlink_img_4_{{id}}" *ngIf="imgUri" wchEditable="image" [src]="imgUri" [alt]="onName | async" [title]="onName | async">
+        </a>
+    </div>
+    <div id="myaccountlink_div_5_{{id}}" class="small-8 cell account-link-content">
+        <p id="myaccountlink_p_6_{{id}}" class="bold">
+            <a id="myaccountlink_a_7_{{id}}" wchEditable="name" routerLink="{{linkUrl.linkURL}}" translate>{{ name }}</a>
+        </p>
+        <p id="myaccountlink_p_8_{{id}}" class="info" wchEditable="description" translate>{{ description }}</p>
+    </div>
+</div>

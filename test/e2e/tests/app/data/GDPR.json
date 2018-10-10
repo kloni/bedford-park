@@ -1,0 +1,45 @@
+{ 
+    "test01": {
+        "privacyPolicyConsentText": "[The following text is provided as a sample only. Do not use this text within your custom store. Replace this text with the correct content for your store. Your organization is responsible for ensuring that your legal counsel completes any required reviews of your store pages and privacy policy.]",
+        "privacyPolicyConsentText2": "Stockholm is committed to protecting and respecting your privacy. You can visit us without telling us who you are or revealing any information about yourself. When necessary, we collect your personal information to provide our store’s services to you, such as to process your order, correspond with you, and more. Any data that we collect is stored on a secure server.",
+        "privacyPolicyConsentText3" : "Your personal information will never be sold to a third party or used to contact you without your consent.",
+        "privacyPolicyConsentText4": "We may combine any collected information with information that we obtain from other sources to help us improve the accuracy and completeness of the information. We may also use the combined information to help us improve your shopping experience and improve the quality of the services that we provide to you.",
+        "privacyPolicyConsentText5": "You can contact us at any time to request a report of the personal information that we have collected and stored. If you request it, we will erase your personal information or stop using this information to contact you.",
+        "privacyPolicyConsentText6" : "Stockholm uses cookies and other technology on our site for collecting information to complete essential site shopping and checkout operations. By agreeing to our privacy policy and continuing to use our site, you consent to our use of cookies.",
+        
+        "marketingConsentText":"To provide you and other shoppers with more personalized and relevant shopping experiences, Stockholm can track and collect information about how you interact with our site. Our site uses cookies to track and collect this information.",
+        "marketingConsentText2":"The information that is collected is used internally by authorized Stockholm employees for three main purposes: ",
+        "marketingConsentText3":"First, we collect information to determine how to improve our site by seeing which areas, features and products are most popular.",
+        "marketingConsentText4":"Second, we collect information to personalize the site for our customers. For example, in the future, we may recommend products, promotional offers, or other features that we think you may like based on what you have purchased or viewed in the past.",
+        "marketingConsentText5":"Third, we keep track of the domains from which people visit us. We analyze this data for trends and statistics, and then discard the source information.",
+        "marketingConsentText6":"If you grant Stockholm permission to collect information about your shopping activities, you can change your decision at any time by changing your consent choice on your My Account page. If you select to no longer be tracked at any time, any data that we previously collected about your interactions with our site is erased. Your account details, order history, and items added to your shopping cart will not be erased.",
+
+        "DAConsentText":"To improve our site, Stockholm can collect information about how you interact with our site for analysis.",
+        "DAConsentText2":"This information is used by authorized Stockholm employees to identify ways to improve the shopping experience of our site for all shoppers. We can use the resulting analytics to identify and fix bugs, improve site navigation, and for website usage statistics.If you grant Stockholm permission to collect information for analytics use, you can change your decision at any time by changing your consent choice on your My Account page."
+
+    },
+    "test05": {
+        "marketingConsent":"I consent to having my shopping behavior tracked for marketing and promotion use to provide a more personalized shopping experience to myself and other shoppers.",
+        "DAConsentText":"I consent to having my shopping behavior and other data collected for analytics use for identifying ways to provide a better shopping experience for myself and other shoppers. I understand that the collected data can include my name, email, or other personal identifying information.",
+        "anomynousConsentText":"I want any data collected to be anonymous. Do not associate my name, email or any other identifying information with any collected data.",
+        "register": {
+            "logonId": "mscpars@test.com",
+            "noOrderLogin": "mscpars_noorder@test.com",
+            "password": "Ibm4ever!",
+            "firstName": "checkOutFirst",
+            "lastName": "checkOutLast",
+            "phone": "3334441111"
+        }
+    },
+    "test06": {
+        "register": {
+            "logonId": "mscpars2@test.com",
+            "noOrderLogin": "mscpars_noorder@test.com",
+            "password": "Ibm4ever!",
+            "firstName": "checkOutFirst",
+            "lastName": "checkOutLast",
+            "phone": "3334441111"
+        },
+        "alertMsg" : "Update Successful"
+    }
+}

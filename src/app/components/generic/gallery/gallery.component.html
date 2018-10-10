@@ -1,0 +1,5 @@
+<div class="grid-x grid-margin-x gallery" id="gallery_div_1_{{id}}">
+  <div class="medium-4 cell" *ngFor="let item of renderingContexts; let i = index" id="gallery_div_2_{{i}}_{{id}}" [class.small-6]="twoColMobile" [class.medium-6]="twoColGrid">
+    <wch-contentref [layoutMode]="constants.SUMMARY" [renderingContext]="item" id="gallery_wch_3_{{i}}_{{id}}"></wch-contentref>
+  </div>
+</div>

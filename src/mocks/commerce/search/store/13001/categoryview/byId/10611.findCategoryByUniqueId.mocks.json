@@ -1,0 +1,18 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Fixtures",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/fixtures.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/fixtures.jpg",
+            "storeID": "12901",
+            "name": "Fixtures",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10611",
+            "uniqueID": "10611",
+            "parentCatalogGroupID": [
+                "11251_10609",
+                "11301_10609"
+            ],
+            "shortDescription": "Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space"
+        }
+    ]
+}

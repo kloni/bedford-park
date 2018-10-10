@@ -1,0 +1,341 @@
+{
+    "recordSetCount": 1,
+    "metaData": {
+        "price": "1"
+    },
+    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/BR-FIXT-0001?langId=-1",
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14839",
+            "uniqueID": "14839",
+            "partNumber": "BR-FIXT-0001",
+            "singleSKUCatalogEntryID": "14840",
+            "shortDescription": "A contemporary bath faucet that fits in all spaces. Perfect for creating a cozy powder room atmosphere.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "Freshen up in style with this modern chrome bath faucet. It features a durable brass body with a long-reaching spout. Its single-handle design is easy to use, for more controlled water temperature and flow. Single hole mount installation required.",
+            "name": "Single Handle Bath Faucet",
+            "parentCatalogGroupID": [
+                "11251_10611",
+                "11301_10611"
+            ],
+            "manufacturer": "Stockholm",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "40.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0",
+                    "maximumValue": {
+                        "value": "40.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "35.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "35.0",
+                    "maximumValue": {
+                        "value": "35.0"
+                    }
+                }
+            ],
+            "numberOfSKUs": 1,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14840",
+                    "uniqueID": "14840",
+                    "partNumber": "BR-FIXT-0001-0001",
+                    "shortDescription": "A contemporary bath faucet that fits in all spaces. Perfect for creating a cozy powder room atmosphere.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Single Handle Bath Faucet",
+                    "parentCatalogGroupID": [
+                        "11251_10611",
+                        "11301_10611"
+                    ],
+                    "manufacturer": "Stockholm",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "40.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "35.0"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "chrome",
+                                    "sequence": "1.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                                    "value": "Chrome",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                                    "uniqueID": "7000000000000003301"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "BR-FIXT-0001-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14840",
+                            "usage": "images_main_fullimage",
+                            "name": "BR-FIXT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54682,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-FIXT-0001-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14840",
+                            "usage": "images_main_thumbnail",
+                            "name": "BR-FIXT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54682,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-FIXT-0001-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14840",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BR-FIXT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54682,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-FIXT-0001-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14840",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BR-FIXT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54682,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-FIXT-0001-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14840",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BR-FIXT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54682,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-FIXT-0001-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14840",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BR-FIXT-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54682,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a2_600.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "3x8x8",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "3\"x8\"x8\"",
+                            "uniqueID": "7000000000000003383"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "chrome",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                            "value": "Chrome",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                            "uniqueID": "7000000000000003301"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10lbs",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10 lbs",
+                            "uniqueID": "7000000000000003393"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_brass",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Brass",
+                            "uniqueID": "7000000000000003327"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "BR-FIXT-0001_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14839",
+                    "usage": "images_main_fullimage",
+                    "name": "BR-FIXT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54604,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-FIXT-0001_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14839",
+                    "usage": "images_main_thumbnail",
+                    "name": "BR-FIXT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54604,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-FIXT-0001_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14839",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BR-FIXT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54604,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-FIXT-0001_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14839",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BR-FIXT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54604,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-FIXT-0001_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14839",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BR-FIXT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54604,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a2_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-FIXT-0001_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14839",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BR-FIXT-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54604,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a2_600.jpg"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": 0,
+    "resourceName": "productview",
+    "recordSetTotal": 1,
+    "recordSetTotalMatches": 1,
+    "recordSetComplete": "true"
+}

@@ -1,0 +1,44 @@
+{ 
+    "css": {
+        "textField": {
+            "valid": [
+                "border-left",
+                "1px solid rgb(202, 202, 202)"
+            ],
+            "invalid": [
+                "border-left",
+                "5px solid rgb(204, 75, 55)"
+            ]
+        }
+    },
+    "user01" : {
+        "email" : "msl@test.com",
+        "password": "Ibm4ever!",
+        "firstName" : "loginPageFirst",
+        "lastName" : "loginPageLast",
+        "phone" : "2223334444"
+    },
+    "test01" : {
+        "logonId": "msl@test.com",
+        "logonPassword": "Ibm4ever!"
+    },
+    "test02": {
+        "logonId": "msl@test.com",
+        "invalidLogonPassword" : "Ibm4ever",
+        "logonPassword": "Ibm4ever!",
+        "passwordErrorMessage": "Either the logon ID or password entered is incorrect. Enter the information again."
+    },
+    "test03": {
+        "logonId": "msl@test.com",
+        "logonPassword": "Ibm4ever!"
+    },
+    "test04": {
+        "logonId": "msl@test.com",
+        "logonPassword": "Ibm4ever!"
+    },
+    "test05": {
+        "logonId": "msl@test.com",
+        "logonPassword": "Ibm4ever!"
+    }
+
+}

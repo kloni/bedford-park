@@ -1,0 +1,26 @@
+{
+    "css": {
+        "textField": {
+            "valid": [
+                "border-left",
+                "1px solid rgb(202, 202, 202)"
+            ],
+            "invalid": [
+                "border-left",
+                "5px solid rgb(204, 75, 55)"
+            ]
+        }
+    },
+    "user" : {
+        "email" : "msl@test.com",
+        "password": "Ibm4ever!",
+        "firstName" : "loginPageFirst",
+        "lastName" : "loginPageLast",
+        "phone" : "2223334444"
+    },
+    "testWishListName": "testWishList",
+    "invalidUserName": "invalidEmail@www.ca",
+    "invalidUserPw": "qwer",
+    "wishListConfirmationMsg": "Item was added to the wishlist.",
+    "cartConfirmation":"Item was added to the cart."
+}

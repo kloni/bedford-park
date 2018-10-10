@@ -1,0 +1,49 @@
+{
+    "catalogEntryView": [
+        {
+            "partNumber": "LR-FNTR-TB-0001-0003",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable1_c1_350.jpg",
+            "name": "Abstract Wooden Coffee Table",
+            "price": [
+                {
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "120.0"
+                },
+                {
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "115.0"
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "brown",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "value": "Brown",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "uniqueID": "7000000000000003302"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                }
+            ]
+        }
+    ]
+}

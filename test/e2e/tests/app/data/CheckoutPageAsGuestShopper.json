@@ -1,0 +1,225 @@
+{
+    "css": {
+        "textField": {
+            "valid": [
+                "border-left",
+                "1px solid rgb(202, 202, 202)"
+            ],
+            "invalid": [
+                "border-left",
+                "5px solid rgb(204, 75, 55)"
+            ]
+        }
+    },
+    "shippingType": [
+        {
+            "shippingName": "US - Regular Delivery",
+            "shippingBase": 5.94,
+            "shippingAddItem": 0.99,
+            "promotionFlatShipping": 5.00
+        },
+        {
+            "shippingName": "US - Overnight Delivery",
+            "shippingBase": 22.94,
+            "shippingAddItem": 2.99
+        },
+        {
+            "shippingName": "US - 2-Day Express Delivery",
+            "shippingBase": 14.94,
+            "shippingAddItem": 1.99
+        }
+    ],
+    "errorMessages": {
+        "invalidPromotionCode": "The promotion code you have entered is not valid. Verify the code and try again."
+    },
+    "user01": {
+        "login": "mscpag@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "CaliGuestcheckoutfirst",
+        "lastName": "CaliGuestcheckoutlast",
+        "phone": "3334441111",
+        "email": "CaliAddress@test.com",
+        "addressBook": [
+            {
+                "nickName": "CaliAddress",
+                "firstName": "CaliGuestcheckoutfirst",
+                "lastName": "CaliGuestcheckoutlast",
+                "email": "CaliAddress@test.com",
+                "phoneNumber": "3334441111",
+                "addressLine1": "Los Angeles street address checkout",
+                "addressLine2": "Los Angeles street address2 checkout2",
+                "country": "United States",
+                "countryShort": "US",
+                "city": "Los Angeles guest checkout",
+                "state": "California",
+                "stateShort": "CA",
+                "zipCode": "90001"
+            }
+        ]
+    },
+    "user02": {
+        "login": "mscpag@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "addressBook": [
+            {
+                "nickName": "ChicagoAddress",
+                "firstName": "ChicGuestcheckoutfirst",
+                "lastName": "ChicGuestcheckoutlast",
+                "email": "ChicAddress@test.com",
+                "phoneNumber": "3334441111",
+                "addressLine1": "Chicago street address checkout",
+                "addressLine2": "Chicago street address2 checkout2",
+                "country": "United States",
+                "countryShort": "US",
+                "city": "Chicago",
+                "state": "Illinois",
+                "stateShort": "IL",
+                "zipCode": "60007"
+            },
+            {
+                "nickName": "OntarioAddress",
+                "firstName": "Ontariocheckoutfirst",
+                "lastName": "Ontariocheckoutlast",
+                "email": "OntarioAddress@test.com",
+                "phoneNumber": "2225559999",
+                "addressLine1": "Toronto street address checkout",
+                "country": "Canada",
+                "countryShort": "CA",
+                "city": "Toronto",
+                "state": "Ontario",
+                "stateShort": "ON",
+                "zipCode": "M2N0H6"
+            }
+        ]
+    },
+    "user03": {
+        "login": "SeattleAddress@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "SeattleGuestCheckoutfirst03",
+        "lastName": "SeattleGuestCheckoutlast03",
+        "phone": "8887771111",
+        "addressBook": [
+            {
+                "nickName": "SeattleAddress",
+                "firstNameWrong": "SeattleGuestCheckoutfirst",
+                "firstNameAddition": "03",
+                "firstName": "SeattleGuestCheckoutfirst03",
+                "lastNameWrong": "SeattleGuestCheckoutlast",
+                "lastNameAddition": "03",
+                "lastName": "SeattleGuestCheckoutlast03",
+                "emailWrong": "SeattleAddress@test.co",
+                "emailAddition": "m",
+                "email": "SeattleAddress@test.com",
+                "phoneNumber": "8887771111",
+                "phoneNumberWrong": "8881111333",
+                "addressLine1Wrong": "Seattle street address checkout",
+                "addressLine1Addition": "03",
+                "addressLine1": "Seattle street address checkout03",
+                "countryWrong": "Canada",
+                "countryShortWrong": "CA",
+                "country": "United States",
+                "countryShort": "US",
+                "cityWrong": "Seattl",
+                "cityAddition": "e",
+                "city": "Seattle",
+                "state": "Washington",
+                "stateWrong": "Ontario",
+                "stateShortWrong": "ON",
+                "stateShort": "WA",
+                "zipCode": "98103",
+                "zipCodeWrong": "I3M1B3"
+            },
+            {
+                "newAddress": "New Address",
+                "nickName": "BostonAddress",
+                "firstName": "Bostoncheckoutfirst",
+                "lastName": "Bostoncheckoutlast",
+                "email": "BostonAddress@test.com",
+                "phoneNumber": "2225559999",
+                "addressLine1": "Boston street address checkout",
+                "country": "United States",
+                "countryShort": "US",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "stateWrong": "Texas",
+                "stateWrongShort": "TX",
+                "stateShort": "MA",
+                "zipCode": "02203"
+            }
+        ]
+    },
+    "user05": {
+        "addressBook": [
+            {
+                "specialChar": "~!@#$%^&*()_+`1234567890-=[]{}|;"
+            },
+            {
+                "nickName": "ChicagoAddress",
+                "firstName": "ChicGuestcheckoutfirst",
+                "lastName": "ChicGuestcheckoutlast",
+                "email": "ChicAddress@test.com",
+                "phoneNumber": "3334441111",
+                "addressLine1": "Chicago street address checkout",
+                "addressLine2": "Chicago street address2 checkout2",
+                "country": "United States",
+                "countryShort": "US",
+                "city": "Chicago",
+                "state": "Illinois",
+                "stateShort": "IL",
+                "zipCode": "60007"
+            }
+        ]
+    },
+    "test01": {
+        "subtotal1": 2759.96,
+        "discount1": 776.7,
+        "total1": 1992.17,
+        "shippingName1": "US - Regular Delivery",
+        "shippingCost1": 8.91,
+        "subtotal2": 3999.98,
+        "discount2": 401.93,
+        "total2": 3604.98,
+        "shippingName2": "US - Regular Delivery",
+        "shippingCost2": 6.93
+    },
+    "test02": {
+        "user": "user02",
+        "subtotal1": 1099.99,
+        "discount1": 308.94,
+        "total1": 796.99,
+        "shippingName1": "US - Regular Delivery",
+        "shippingCost1": 5.94,
+        "subtotal2": 16.00,
+        "discount2": 2.54,
+        "total2": 19.4,
+        "shippingName2": "US - Regular Delivery",
+        "shippingCost2": 5.94
+    },
+    "test03": {
+        "user": "user03",
+        "subtotal1": 1999.99,
+        "discount1": 200,
+        "total1": 1822.93,
+        "shippingName1": "US - Overnight Delivery",
+        "shippingCost1": 22.94,
+        "subtotal2": 1099.99,
+        "discount2": 308.94,
+        "total2": 796.99,
+        "shippingName2": "US - Regular Delivery",
+        "shippingCost2": 5.94
+    },
+    "test04": {
+        "user" : "user01",
+        "subtotal1": 1099.99,
+        "discount1": 308.00,
+        "total1": 814.93,
+        "shippingName1": "US - Overnight Delivery",
+        "shippingCost1": 22.94
+    },
+    "test05": {},
+    "test06": {},
+    "test07": {}
+}

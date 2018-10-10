@@ -1,0 +1,10 @@
+{
+  "PrivacyPolicyModal": {
+    "digitalAnalyticsConsent": "Accept digital analytics consent switch",
+    "digitalAnalyticsAnonymousConsent": "Use data anonymously for digital analytics",
+    "marketingTrackingConsent": "Accept marketing tracking consent switch", 
+    "errorMessage": "Error on saving privacy policy preference",
+    "yesLabel": "Yes",
+    "noLabel": "No"
+  }
+}

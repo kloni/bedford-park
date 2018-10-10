@@ -1,0 +1,11 @@
+<div id="pagination_div_1_{{id}}" class="pagination grid-x grid-margin-x cell animated fadeInUp" *ngIf="total > 0">
+  <div [hidden]="pagesToShow<=1" id="pagination_div_2_{{id}}" class="numbers medium-12">
+    <button id="pagination_btn_pre_{{id}}" class="pagination-previous" (click)="onPrev()" [disabled]="pageNumber === 1 || loading"
+      [ngClass]="{ 'disabled': pageNumber === 1 || loading }" translate>pagination.Previous</button>
+
+    <button id="pagination_btn_pageNum_{{id}}" class="pageNum" *ngFor="let pageNum of getPages()" (click)="onPage(pageNum)" [ngClass]="{'active': pageNum === pageNumber, 'disabled': loading}">{{ pageNum }}</button>
+
+    <button id="pagination_btn_next_{{id}}" class="pagination-next" (click)="onNext(true)" [disabled]="lastPage() || loading"
+      [ngClass]="{ 'disabled': lastPage() || loading }" translate>pagination.Next</button>
+  </div>
+</div>

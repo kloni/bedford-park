@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://cdn.rawgit.com/angular-translate/bower-angular-translate/2.18.1/angular-translate.js"></script>
+        <script src="https://cdn.rawgit.com/angular-translate/bower-angular-translate-loader-static-files/2.18.1/angular-translate-loader-static-files.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+        <script src="https://dxcloud.rtp.raleigh.ibm.com/auth/ibm-wch-ui-extensions.js"></script>
+        <script src="physicalStorePicker.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="physicalStorePicker.css">
+    </head>
+    <body>
+        <div id="physicalStorePicker_div_1" ng-controller="physicalStorePickerController as ctrl">
+            <!-- Physical Store Picker dropdown -->
+            <div id="physicalStorePicker_div_2" class="physical-store-name-picker">
+                <div id="physicalStorePicker_div_3" class="dropdown-wrapper element-responsive-width" ng-if="!ctrl.isPublished">
+                    <input id="physicalStorePicker_input_4" type="search"
+                        class="physical-store-input"
+                        ng-focus="ctrl.setFocus()"
+                        ng-blur="ctrl.removeFocus()"
+                        ng-model="ctrl.physicalStoreData"/>
+                    <button id="physicalStorePicker_button_5" type="button"
+                        ng-click="ctrl.toggleDropdown()"
+                        ng-class="{ 'glyphicon-menu-down' : !ctrl.showPhysicalStoreDropdown,
+                                    'glyphicon-menu-up': ctrl.showPhysicalStoreDropdown }"
+                        class="dropdown-btn glyphicon action-icon">
+                    </button>
+                    <div id="physicalStorePicker_div_6" class="suggestions element-responsive-width" ng-if="ctrl.showPhysicalStoreDropdown">
+                        <ul id="physicalStorePicker_ul_7" class="no-bullet">
+                            <ng-container ng-repeat="physicalStore in ctrl.physicalStores">
+                                <li id="physicalStorePicker_li_8_{{$index}}" class="suggestion-item" ng-click="ctrl.onSelectPhysicalStore(physicalStore)">{{physicalStore.storeName}}</li>
+                            </ng-container>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Physical Store Picker Result Card -->
+                <div id="physicalStorePicker_div_9" class="dropdown-results">
+                    <div id="physicalStorePicker_div_10" class="tag-component" ng-if="ctrl.selectedPhysicalStore">
+                        <span id="physicalStorePicker_span_11" class="single-tag" ng-class="{'without-remove-btn': ctrl.isPublished}">
+                            <span id="physicalStorePicker_span_12" class="tag-text">{{ctrl.selectedPhysicalStore}}</span>
+                            <button id="physicalStorePicker_button_13" role="button"
+                                class="tag-remove-icon"
+                                ng-click="ctrl.onRemovePhysicalStore(ctrl.selectedPhysicalStore)"
+                                ng-hide="ctrl.isPublished"
+                                aria-label="Remove"
+                                title="Remove">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M18 3.1L16.9 2 10 8.9 3.1 2 2 3.1 8.9 10 2 16.9 3.1 18l6.9-6.9 6.9 6.9 1.1-1.1-6.9-6.9z"/>
+                                </svg>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

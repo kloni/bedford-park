@@ -1,0 +1,828 @@
+{
+    "Bedroom": {
+        "categoryName": "Bedroom",
+        "Dressers": {
+            "subCategoryName": "Dressers",
+            "Style Home Large Ash Wood Chest of Drawers": {
+                "productInfo": {
+                    "name": "Style Home Large Ash Wood Chest of Drawers",
+                    "productCode": "BD-DRSS-0001",
+                    "shortDescription": "Large 4 drawer chest of drawer made of ash wood.",
+                    "longDescription": "Made of dark ash wood, this chest of drawer is as hardy as it looks. 4 large drawers fitted with smooth railed grid for easy opening and closing. Ash wood cannot be easily scratched or cracked, the chest of drawer will keep looking new for ages.",
+                    "descriptiveAttributes": {}
+                },
+                "BD-DRSS-0001-0001": {
+                    "sku": "BD-DRSS-0001-0001",
+                    "priceList": 950.00,
+                    "priceOffering": 900.00,
+                    "attributes": {
+                        "color": "brown"
+                    }
+                },
+                "BD-DRSS-0001-0002": {
+                    "sku": "BD-DRSS-0001-0002",
+                    "priceList": 950.00,
+                    "priceOffering": 900.00,
+                    "attributes": {
+                        "color": "charcoal"
+                    }
+                },
+                "BD-DRSS-0001-0003": {
+                    "sku": "BD-DRSS-0001-0003",
+                    "priceList": 950.00,
+                    "priceOffering": 900.00,
+                    "attributes": {
+                        "color": "wildcherry"
+                    }
+                }
+            },
+            "Stonehenge Clodit Chest of Drawers": {
+                "productInfo": {
+                    "name": "Stonehenge Clodit Chest of Drawers",
+                    "productCode": "BD-DRSS-0002",
+                    "shortDescription": "Medium width chest of drawer with 7 drawers.",
+                    "longDescription": "A simple wood design chest of drawer with 6 split drawers and 1 full width drawer. Peg legs to keep it off the floor and easily move around. The space-saving slide on rails drawers for smooth opening and closing.",
+                    "descriptiveAttributes": {}
+                },
+                "BD-DRSS-0002-0001": {
+                    "sku": "BD-DRSS-0002-0001",
+                    "priceList": 1000.00,
+                    "priceOffering": 999.99,
+                    "attributes": {
+                        "color": "blonde"
+                    }
+                },
+                "BD-DRSS-0002-0002": {
+                    "sku": "BD-DRSS-0002-0002",
+                    "priceList": 1000.00,
+                    "priceOffering": 999.99,
+                    "attributes": {
+                        "color": "walnut"
+                    }
+                },
+                "BD-DRSS-0002-0003": {
+                    "sku": "BD-DRSS-0002-0003",
+                    "priceList": 1000.00,
+                    "priceOffering": 999.99,
+                    "attributes": {
+                        "color": "red mahogany"
+                    }
+                },
+                "BD-DRSS-0002-0004": {
+                    "sku": "BD-DRSS-0002-0004",
+                    "priceList": 1000.00,
+                    "priceOffering": 999.99,
+                    "attributes": {
+                        "color": "grey"
+                    }
+                }
+            },
+            "Style Home Intree Chest of Drawers": {
+                "productInfo": {
+                    "name": "Style Home Intree Chest of Drawers",
+                    "productCode": "BD-DRSS-0003",
+                    "shortDescription": "A modern chest of drawer with 6 split width drawer made of Maple wood.",
+                    "longDescription": "This is a simple elegant design chest of drawer from Style Home made from Maple wood. If you want something that is not expensive but will last for a long time, this is the perfect chest of drawer.",
+                    "descriptiveAttributes": {}
+                },
+                "BD-DRSS-0003-0001": {
+                    "sku": "BD-DRSS-0003-0001",
+                    "priceList": 800.00,
+                    "priceOffering": 679.99,
+                    "imageFull": "beddress3_a1_600.jpg",
+                    "imageThumbnail": "beddress3_a1_350.jpg",
+                    "attributes": {
+                        "color": "blonde"
+                    }
+                },
+                "BD-DRSS-0003-0002": {
+                    "sku": "BD-DRSS-0003-0002",
+                    "priceList": 800.00,
+                    "priceOffering": 679.99,
+                    "imageFull": "beddress3_b1_600.jpg",
+                    "imageThumbnail": "beddress3_b1_350.jpg",
+                    "attributes": {
+                        "color": "light grey"
+                    }
+                },
+                "BD-DRSS-0003-0003": {
+                    "sku": "BD-DRSS-0003-0003",
+                    "priceList": 800.00,
+                    "priceOffering": 699.99,
+                    "imageFull": "beddress3_c1_600.jpg",
+                    "imageThumbnail": "beddress3_c1_350.jpg",
+                    "attributes": {
+                        "color": "toffee"
+                    }
+                },
+                "BD-DRSS-0003-0004": {
+                    "sku": "BD-DRSS-0003-0004",
+                    "priceList": 800.00,
+                    "priceOffering": 699.99,
+                    "imageFull": "beddress3_d1_600.jpg",
+                    "imageThumbnail": "beddress3_d1_350.jpg",
+                    "attributes": {
+                        "color": "brown"
+                    }
+                }
+            },
+            "Stonehenge Large Elegant Wardrobe": {
+                "productInfo": {
+                    "name": "Stonehenge Large Elegant Wardrobe",
+                    "productCode": "BD-DRSS-0004",
+                    "shortDescription": "A very large beautifully designed wardrobe with 2 drawers and 2 compartments.",
+                    "longDescription": "Very large elegant wardrobe that will keep all your clothes and make your room look beautiful. The wardrobe has 2 drawers and 2 hanger compartments and 1 shelf compartment. The striped design makes the wardrobe a piece of art.",
+                    "descriptiveAttributes": {
+                        "Style": {
+                            "name": "Style",
+                            "value": "Compartment"
+                        },
+                        "Finish": {
+                            "name": "Finish",
+                            "value": "Smooth"
+                        },
+                        "Assembly": {
+                            "name": "Assembly",
+                            "value": "Self-assembly"
+                        },
+                        "Material": {
+                            "name": "Material",
+                            "value": "Oak wood"
+                        }
+                    }
+                },
+                "BD-DRSS-0004-0001": {
+                    "sku": "BD-DRSS-0004-0001",
+                    "priceList": 1200.00,
+                    "priceOffering": 1099.99,
+                    "attributes": {
+                        "color": "chestnut"
+                    },
+                    "imageFull":"beddress4_a1_600.jpg"
+                },
+                "BD-DRSS-0004-0002": {
+                    "sku": "BD-DRSS-0004-0002",
+                    "priceList": 1200.00,
+                    "priceOffering": 1099.99,
+                    "attributes": {
+                        "color": "grey"
+                    }
+                },
+                "BD-DRSS-0004-0003": {
+                    "sku": "BD-DRSS-0004-0003",
+                    "priceList": 1200.00,
+                    "priceOffering": 1099.99,
+                    "attributes": {
+                        "color": "capuccino"
+                    }
+                }
+            }
+        }
+    },
+    "Bath": {
+        "categoryName": "Bath",
+        "Lighting": {},
+        "Fixtures": {},
+        "Accessories": {
+            "subCategoryName": "Accessories",
+            "Makeup Mirror": {
+                "productInfo": {
+                    "name": "Makeup Mirror",
+                    "productCode": "BR-ACCE-0001",
+                    "shortDescription": "A compact modern armchair that offers comfortable and sleek styling to accent your home's living room.",
+                    "longDescription": "Give your living room a bold new look with the modern and comfortable blue armchair. The armchair features a compact design, comfortable oversized pillow, easy to clean polyester fabric, and button tufts along the lower backrest. The armchair's modern styling is complemented with durable light brown wooden legs. No assembly required.",
+                    "descriptiveAttributes": {}
+                },
+                "BR-ACCE-0001-0001": {
+                    "sku": "BR-ACCE-0001-0001",
+                    "priceList": 40.00,
+                    "priceOffering": 35.00,
+                    "attributes": {
+                        "Color" : "chrome"
+                    }
+                },
+                "BR-ACCE-0001-0002": {
+                    "sku": "BR-ACCE-0001-0002",
+                    "priceList": 40.00,
+                    "priceOffering": 35.00,
+                    "attributes": {}
+                }
+            },
+            "Bender Toothbrush Holder": {
+                "productInfo": {
+                    "name": "Bender Toothbrush Holder",
+                    "productCode": "BR-ACCE-0002",
+                    "shortDescription": "Modern toothbrush holder that mounts to any wall.",
+                    "longDescription": "Simple and sleek tooth brush holder that suits any bathroom decor. Fashionable so your toothbrushes feel like royalty. Mounts to any wall quickly and easily.",
+                    "descriptiveAttributes": {}
+                },
+                "BR-ACCE-0002-0001": {
+                    "sku": "BR-ACCE-0002-0001",
+                    "priceList": 18.00,
+                    "priceOffering": 16.00,
+                    "attributes": {
+                        "Style": "Mounted",
+                        "Color": "Clear",
+                        "Material": "Glass/Chrome",
+                        "Type": "Modern"
+                    }
+                }
+            },
+            "Kerry\"s Glass Soap Dispenser": {
+                "productInfo": {
+                    "name": "Kerry\"s Glass Soap Dispenser",
+                    "productCode": "BR-ACCE-0003",
+                    "shortDescription": "Classic hand soap dispenser.",
+                    "longDescription": "Wash your hands in style with this classic looking liquid hand soap dispenser. A contemporary design that accents any design. Made with elegant frosted glass and sparkling chrome.",
+                    "descriptiveAttributes": {}
+                },
+                "BR-ACCE-0003-0001": {
+                    "sku": "BR-ACCE-0003-0001",
+                    "priceList": 0.0,
+                    "priceOffering": 30.00,
+                    "attributes": {
+                        "Style": "Bath accessories",
+                        "Color": "White",
+                        "Material": "Glass/Chrome",
+                        "Type": "Contemporary"
+                    }
+                }
+            }
+        }
+    },
+    "LivingRoom": {
+        "categoryName": "Living Room",
+        "LivingRoomFurniture": {
+            "subCategoryName": "Furniture",
+            "Wooden Angled Chair": {
+                "productInfo": {
+                    "name": "Wooden Angled Chair"
+                }
+            },
+            "Modern Armchair": {
+                "productInfo": {
+                    "name": "Modern Armchair",
+                    "productCode": "LR-FUCH-0001",
+                    "shortDescription": "",
+                    "longDescription": "",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FUCH-0001-0001": {
+                    "sku": "LR-FUCH-0001-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "imageFull": "furniture1_a1_600.png",
+                    "attributes": {
+                        "Size": "48\"x6\"x48\"",
+                        "Color": "Blue"
+                    }
+                },
+                "LR-FUCH-0001-0002": {
+                    "sku": "LR-FUCH-0001-0002",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "imageFull": "furniture1_a1_600.png",
+                    "attributes": {
+                        "Size": "52\"x6\"x52\"",
+                        "Color": "Blue"
+                    }
+                }
+            },
+            "Casual Armchair": {
+                "productInfo": {
+                    "name": "Casual Armchair",
+                    "productCode": "LR-FUCH-0002",
+                    "shortDescription": "",
+                    "longDescription": "",
+                    "descriptiveAttributes": {},
+                    "minPrice": "549.99",
+                    "maxPrice" : "579.99"
+                },
+                "LR-FUCH-0002-0001": {
+                    "sku": "LR-FUCH-0002-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 549.99,
+                    "imageFull": "furniture2_a1_600.png",
+                    "attributes": {
+                        "Size": "48\"x6\"x48\"",
+                        "Color": "Cedar"
+                    }
+                },
+                "LR-FUCH-0002-0005": {
+                    "sku": "LR-FUCH-0002-0005",
+                    "priceList": 0.00,
+                    "priceOffering": 579.99,
+                    "imageFull": "furniture2_a1_600.png",
+                    "attributes": {
+                        "Size": "52\"x6\"x52\"",
+                        "Color": "Cedar"
+                    }
+                }
+            },
+            "Soft Vintage Armchair": {
+                "productInfo": {
+                    "name": "Soft Vintage Armchair",
+                    "productCode": "LR-FUCH-0003",
+                    "shortDescription": "",
+                    "longDescription": "",
+                    "descriptiveAttributes": {},
+                    "minPrice": "639.99",
+                    "maxPrice": "659.99"
+                },
+                "LR-FUCH-0003-0001": {
+                    "sku": "LR-FUCH-0003-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 639.99,
+                    "imageFull": "furniture3_a1_600.png",
+                    "attributes": {
+                        "Size": "52\"x6\"x52\"",
+                        "Color": "Brown"
+                    }
+                },
+                "LR-FUCH-0003-0005": {
+                    "sku": "LR-FUCH-0003-0005",
+                    "priceList": 0.00,
+                    "priceOffering": 659.99,
+                    "imageFull": "furniture3_a1_600.png",
+                    "attributes": {
+                        "Size": "52\"x6\"x52\"",
+                        "Color": "Brown"
+                    }
+                }
+            },
+            "Supreme LoungeStyle Double Sofa": {
+                "productInfo": {
+                    "name": "Supreme LoungeStyle Double Sofa"
+                }
+            },
+            "Supreme Rocoz Vintage Sofa Chair": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "Supreme Rocoz Vintage Sofa Chair",
+                    "productCode": "LR-FNTR-0003",
+                    "shortDescription": "Comfortable sofa chair with a double side roller cushion design.",
+                    "longDescription": "Very comfortable sofa chair, so the chairs blends to your weight and leans back to give you the most comfortable possible position to take a short nap, read a novel or just relax.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-0003-0001": {
+                    "sku": "LR-FNTR-0003-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 639.99,
+                    "imageFull": "chair3_a1_600.jpg",
+                    "attributes": {
+                        "Color": "Purple"
+                    }
+                }
+            },
+            "StyleHome InOffice Double Sofa": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "StyleHome InOffice Double Sofa",
+                    "productCode": "LR-FNTR-CO-0002",
+                    "shortDescription": "InOffice sofas are made for the typical office environment.",
+                    "longDescription": "StyleHome presents a sofa that is appropriate for the office and also your home. This is the perfect sofa for the waiting lounge outside the CEO's office or a small living room with minimalist style.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-0003-0001": {
+                    "sku": "LR-FNTR-0003-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 639.99,
+                    "imageFull": "sw_purple.jpg",
+                    "attributes": {
+                        "Color": "Purple"
+                    }
+                }
+            },
+            "Casual Sofa": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "Casual Sofa",
+                    "productCode": "LR-FNTR-CO-0006-0004",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "longDescription": "Modernize your living room space with the casual sofa. The sofa features cool tones, removable seat pillows, easy to clean polyester fabric, and an additional accent pillow along the backrest. The armchair's modern styling is complemented with durable brushed steel legs along its corners and center, for extra support. No assembly required.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-CO-0002-0001": {
+                    "sku": "LR-FNTR-CO-0002-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 549.99,
+                    "imageFull": "sw_apple.jpg",
+                    "attributes": {
+                        "Color": "Apple",
+                        "Size":"48\"x6\"x48\""
+                    }
+                }
+            },
+            "Floating Sofa": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "Floating Sofa",
+                    "productCode": "LR-FNTR-CO-0009",
+                    "shortDescription": "A modern sofa that can be used to open up your living room space.",
+                    "longDescription": "Create the illusion of a farther-reaching living space with this floating sofa. Its integrated arm rests and long chrome legs give off of a tall, floating look that's sure to catch every guest's attention.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-CO-0009-0001": {
+                    "sku": "LR-FNTR-CO-0009-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "imageFull": "couch9_a1_600.jpg",
+                    "attributes": {
+                        "Color": "Cream",
+                        "Size":"48\"x6\"x48\""
+                    }
+                }
+            },
+            "Stonehenge UltraCozy Single Sofa": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "Stonehenge UltraCozy Single Sofa",
+                    "productCode": "LR-FNTR-0004",
+                    "shortDescription": "Very cozy short design single sofa.",
+                    "longDescription": "The sofa has a short back rest but a long width to get lazy while sitting lazy. With a matte fabric finish and a soft center, this is the perfect sofa to indulge someone to get lazy and stay back.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-0004-0001": {
+                    "sku": "LR-FNTR-0004-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "imageFull": "chair4_a1_600.jpg",
+                    "attributes": {
+                        "Color": "Dark Grey"
+                    }
+                }
+            },
+            "Abstract Wooden Coffee Table": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "Abstract Wooden Coffee Table",
+                    "productCode": "LR-FNTR-0004",
+                    "shortDescription": "A contemporary styled coffee table that is suited towards large living rooms, providing plenty of space for refreshments.",
+                    "longDescription": "Use this highly-functional wooden coffee table's ample round surface to serve your guest's favourite coffee, tea, and desserts. Its table top features durable wood, and its stylish angled legs draws attention to its abstract features.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-TB-0001-0003": {
+                    "sku": "LR-FNTR-TB-0001-0003",
+                    "priceList": 0.00,
+                    "priceOffering": 115.00,
+                    "imageFull": "ctable1_a1_600.jpg",
+                    "attributes": {
+                        "Color": "Brown"
+                    }
+                }
+            },
+            "Soft Plush Sofa": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "Soft Plush Sofa",
+                    "productCode": "LR-FNTR-CO-0007",
+                    "shortDescription": "An extra soft, extra plush sofa that comfortably seats you and your guests. Ideal for placing along far-reaching walls or corridors.",
+                    "longDescription": "Add tons of comfortable seating area with this extra comfortable sofa. The sofa features a simple, clean design, wide armrests, rounded cushioning, and easy to clean polyester fabric. The sofa's modern styling sits low to the ground for easy display of your favorite decor on the walls above it. No assembly required.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-CO-0007-0001": {
+                    "sku": "LR-FNTR-CO-0007-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 659.99,
+                    "imageFull": "couch7_a1_600.jpg",
+                    "attributes": {
+                        "Color": "Chrome"
+                    }
+                }
+            },
+            "StyleHome Modern Plain Single Large Sofa": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "StyleHome Modern Plain Single Large Sofa",
+                    "productCode": "LR-FNTR-CO-0001",
+                    "shortDescription": "Sophisticated modern sofa design.",
+                    "longDescription": "This large sofa from StyleHome looks and feels very sophisticated with its plain design and hard memory foam. Its neither soft nor hard so that your guests don't sag in neither feel they are sitting on a counter.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-CO-0001-0001": {
+                    "sku": "LR-FNTR-CO-0001-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "imageFull": "couch1_a1_600.jpg",
+                    "attributes": {
+                        "Color": "Grey"
+                    }
+                }
+            },
+            "Flared Accent Chair": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "Flared Accent Chair",
+                    "productCode": "LR-FNTR-0002",
+                    "shortDescription": "A unique, modern armchair that offers flared styling on one side to accent your home's living room and decor.",
+                    "longDescription": "Give your living room an exciting and different look with the outgoing flared accent chair. The armchair features a compact design, comfortable oversized pillow, easy to clean polyester fabric, and a sloped backrest. The armchair's modern styling is complemented with durable dark brown wooden legs. No assembly required.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-0002-0002": {
+                    "sku": "LR-FNTR-0002-0002",
+                    "priceList": 0.00,
+                    "priceOffering": 569.99,
+                    "imageFull": "chair2_b1_600.jpg",
+                    "attributes": {
+                        "Color": "Tan"
+                    }
+                },
+                "LR-FNTR-0002-0003": {
+                    "sku": "LR-FNTR-0002-0003",
+                    "priceList": 0.00,
+                    "priceOffering": 569.99,
+                    "imageFull": "chair2_c1_600.jpg",
+                    "attributes": {
+                        "Color": "Tan"
+                    }
+                },
+                "LR-FNTR-0002-0001": {
+                    "sku": "LR-FNTR-0002-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 549.99,
+                    "imageFull": "chair2_a1_600.jpg",
+                    "attributes": {
+                        "Color": "Crimson"
+                    }
+                },
+                "LR-FNTR-0002-0004": {
+                    "sku": "LR-FNTR-0002-0004",
+                    "priceList": 0.00,
+                    "priceOffering": 579.99,
+                    "imageFull": "chair2_d1_600.jpg",
+                    "attributes": {
+                        "Color": "Sky"
+                    }
+                }
+
+            },
+            "Plump Leather Sofa": {
+                "subCategoryName": "Furniture",
+                "productInfo": {
+                    "name": "Plump Leather Sofa",
+                    "productCode": "LR-FNTR-CO-0004",
+                    "shortDescription": "A versatile and interesting approach to the modern leather soda, idea for cozy living spaces.",
+                    "longDescription": "Modernize your living space with a space-saving designed sofa that features leather throughout, and integrated armrests that gives it a clean, flowing look. The sofa's modern styling sits low to the ground for the most serious of slouchers. No assembly required.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FNTR-CO-0004-0001": {
+                    "sku": "LR-FNTR-CO-0004-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "imageFull": "couch4_a1_600.jpg",
+                    "attributes": {
+                        "Color": "Coffee",
+                        "Size": "48\"x6\"x48\""
+                    }
+                },
+                "LR-FNTR-CO-0004-0004": {
+                    "sku": "LR-FNTR-CO-0004-0004",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "imageFull": "sw_blue.png",
+                    "attributes": {
+                        "Color": "Blue",
+                        "Size": "48\"x6\"x48\""
+                    }
+                },
+                "LR-FNTR-CO-0004-0002": {
+                    "sku": "LR-FNTR-CO-0004-0002",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "imageFull": "sw_toffee.png",
+                    "attributes": {
+                        "Color": "Toffee",
+                        "Size": "48\"x6\"x48\""
+                    }
+                },
+                "LR-FNTR-CO-0004-0003": {
+                    "sku": "LR-FNTR-CO-0004-0003",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "imageFull": "sw_lightgrey.png",
+                    "attributes": {
+                        "Color": "Lightgrey",
+                        "Size": "48\"x6\"x48\""
+                    }
+                }
+            },
+            "Nordic Sofa": {
+                "productInfo": {
+                    "name": "Nordic Sofa",
+                    "productCode": "LR-FUCH-0004",
+                    "shortDescription": "A simple and modern casual sofa that offers comfort and contemporary styling to accent your home's living room.",
+                    "longDescription": "Give your living room an open and modern feel with the Nordic single sofa. The sofa features a modern simple design, wide armrests, layered cushioning, and easy to clean polyester fabric. The sofa's modern styling is complemented with wide brushed steel legs. No assembly required.",
+                    "descriptiveAttributes": {
+                        "dimensions": {
+                            "name": "Product Dimensions",
+                            "value": "46\"x6\"x48\""
+                        },
+                        "weigth": {
+                            "name": "Item Weigth",
+                            "value": "30 lbs"
+                        },
+                        "material": {
+                            "name": "Materials",
+                            "value": "Polyester, Cotton, Steel"
+                        },
+                        "pattern": {
+                            "name": "Pattern",
+                            "value": "Solid"
+                        }
+                    }
+                },
+                "LR-FUCH-0004-0001": {
+                    "sku": "LR-FUCH-0004-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "slideImages": [
+                    ],
+                    "attributes": {
+                        "Size": "48\"x6\"x48\"",
+                        "Color": "Grey"
+                    }
+                },
+                "LR-FUCH-0004-0005": {
+                    "sku": "LR-FUCH-0004-0005",
+                    "priceList": 0.00,
+                    "priceOffering": 749.99,
+                    "attributes": {
+                        "Size": "52\"x6\"x52\"",
+                        "Color": "Grey"
+                    }
+                }
+            },
+            "Nordic Loveseat": {
+                "productInfo": {
+                    "name": "Nordic Loveseat",
+                    "productCode": "LR-FUCH-0005",
+                    "shortDescription": "A simple and modern casual loveseat that offers comfort and contemporary styling to accent your home's living room.",
+                    "longDescription": "Give your living room an open and modern feel with the Nordic loveseat. The loveseat features a modern simple design, wide armrests, layered cushioning, and easy to clean polyester fabric. The loveseat's modern styling is complemented with wide brushed steel legs. No assembly required.",
+                    "descriptiveAttributes": {
+                        "dimensions": {
+                            "name": "Product Dimensions",
+                            "value": "56\"x24\"x24\""
+                        },
+                        "weigth": {
+                            "name": "Item Weigth",
+                            "value": "Smooth"
+                        },
+                        "material": {
+                            "name": "Materials",
+                            "value": "Polyester, Cotton, Steel"
+                        },
+                        "pattern": {
+                            "name": "Pattern",
+                            "value": "Solid"
+                        }
+                    }
+                },
+                "LR-FUCH-0005-0001": {
+                    "sku": "LR-FUCH-0005-0001",
+                    "priceList": 2500.00,
+                    "priceOffering": 1999.99,
+                    "imageFull" : "furniture5_a1_600.png",
+                    "slideImages": [
+                        "furniture5_a1_600.png",
+                        "furniture5_a2_600.png",
+                        "furniture5_a3_600.png"
+                    ],
+                    "attributes": {
+                        "Size": "48x6x48",
+                        "Color": "grey"
+                    }
+                },
+                "LR-FUCH-0005-0005": {
+                    "sku": "LR-FUCH-0005-0005",
+                    "priceList": 2500.00,
+                    "priceOffering": 1999.99,
+                    "attributes": {
+                        "Size": "52x6x52",
+                        "Color": "grey"
+                    }
+                }
+            },
+            "Nordic Lamp": {
+                "productInfo": {
+                    "name": "Nordic Lamp",
+                    "productCode": "LR-LITB-0008",
+                    "shortDescription": "A modern and sleek lamp that brightens up and accents your home's living room.",
+                    "longDescription": "Light up and modernize your living room decor with the Nordic lamp. The lamp features a chrome base, a high quality lamp shade, and an open design that's easy to keep clean. Some assembly required.",
+                    "descriptiveAttributes": {
+                        "dimensions": {
+                            "name": "Product Dimensions",
+                            "value": "28\"x13\"x23\""
+                        },
+                        "weight": {
+                            "name": "Item Weight",
+                            "value": "10 lbs"
+                        },
+                        "material": {
+                            "name": "Materials",
+                            "value": "Cotton, Steel"
+                        },
+                        "pattern": {
+                            "name": "Pattern",
+                            "value": "Solid"
+                        },
+                        "lamp shade diameter": {
+                            "name": "Lamp shade diameter",
+                            "value": "13"
+                        }
+                        ,
+                        "light bulb type": {
+                            "name": "Light Bulb Type",
+                            "value": "E26"
+                        }
+                        ,
+                        "maximum light bulb wattage": {
+                            "name": "Maximum Light Bulb Wattage",
+                            "value": "0"
+                        }
+                    }
+                },
+                "LR-LITB-0008-0001": {
+                    "sku": "LR-LITB-0008-0001",
+                    "priceList": 0,
+                    "priceOffering": 249.99,
+                    "slideImages": [
+                        "light8_a1_600.png"
+                    ],
+                    "attributes": {
+                        "Color": "Chrome"
+                    }
+                }
+            },
+            "Nordic Style": {
+                "productInfo": {
+                    "name": "Nordic Style",
+                    "productCode": "LR-FUCH-NORDIC-0001",
+                    "shortDescription": "The nordic style arrangement features modern and sleek furniture that brightens up and accents your home's living room.",
+                    "longDescription": "Modernize your living room by using the nordic style arrangement. Nordic style elements include furniture and lighting that contain cool tones and open designs that are sure to inspire every homeowner.",
+                    "descriptiveAttributes": {}
+                }
+            },
+            "Nordic Sofa Set": {
+                "productInfo": {
+                    "name": "Nordic Sofa Set",
+                    "productCode": "LR-FUCH-NORDICSET-0001",
+                    "shortDescription": "A simple and modern sofa set that offers comfort and contemporary styling to accent your home's living room.",
+                    "longDescription": "Give your living room an open and modern feel with the nordic sofa set. Each sofa in the set features a modern simple design, wide armrests, layered cushioning, and easy to clean polyester fabric. The sofa set's modern styling is complemented with wide brushed steel legs. No assembly required.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-FUCH-NORDICSET-0001":{
+                    "imageFull": "furniturekit1_600.png",
+                    "priceOffering": 2099.99
+                }
+            }
+        },
+        "LivingRoomLighting": {
+            "subCategoryName": "Lighting",
+            "Modern Pendant Light": {
+                "productInfo": {
+                    "name": "Modern Pendant Light",
+                    "productCode": "LR-LITB-0001",
+                    "shortDescription": "",
+                    "longDescription": "",
+                    "descriptiveAttributes": {},
+                    "maxPrice": "135.00"
+                },
+                "LR-LITB-0001-0001": {
+                    "sku": "LR-LITB-0001-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 135.00,
+                    "imageFull": "light1_a1_350.jpg",
+                    "attributes": {
+                        "Size": "52\"x6\"x52\"",
+                        "Color": "Grey"
+                    }
+                }
+            },
+            "Nordic Lamp": {
+                "productInfo": {
+                    "name": "Nordic Lamp",
+                    "productCode": "LR-LITB-0008",
+                    "shortDescription": "A modern and sleek lamp that brightens up and accents your home's living room.",
+                    "longDescription": "Light up and modernize your living room decor with the Nordic lamp. The lamp features a chrome base, a high quality lamp shade, and an open design that's easy to keep clean. Some assembly required.",
+                    "descriptiveAttributes": {}
+                },
+                "LR-LITB-0001-0001": {
+                    "sku": "LR-LITB-0008-0001",
+                    "priceList": 0.00,
+                    "priceOffering": 249.99,
+                    "imageFull": "light8_a1_350.jpg",
+                    "attributes": {
+                        "Color": "Chrome"
+                    }
+                }
+            }
+        }
+    },
+    "Decoration": {
+        "subCategoryName": "Decoration",
+        "x": {
+            "productInfo": {},
+            "x": {}
+        }
+    }
+}

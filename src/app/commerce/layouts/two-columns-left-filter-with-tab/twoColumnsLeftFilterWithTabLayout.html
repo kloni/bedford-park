@@ -1,0 +1,135 @@
+<div class="grid-container section animated fadeInUp" id="searchResults_div_1_{{id}}">
+    <!-- Tabs -->
+    <div class="small-12 cell tabs-container" id="searchResults_div_2_{{id}}">
+
+        <ul class="tabs tabs-center" id="{{dynamicIds.searchTab}}" data-tabs="">
+            <li class="tabs-title is-active" (click)="tabClicked($event)" id="searchResults_li_4_{{id}}">
+                <a data-tabs-target="product-tab" aria-selected="true" translate id="searchResults_a_5_{{id}}">
+                    searchResult.productsTabName
+                </a>
+            </li>
+            <li class="tabs-title" (click)="tabClicked($event)" id="searchResults_id_6_{{id}}">
+                <a data-tabs-target="article-tab" translate id="searchResults_a_7_{{id}}">
+                    searchResult.ArticlesTabName
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Tabs ends -->
+
+    <div class="tabs-content" data-tabs-content="" id="searchResults_div_8_{{id}}">
+        <div class="tabs-panel is-active" id="searchResults_div_9_{{id}}">
+            <div class="grid-x grid-margin-x" id="searchResults_div_10_{{id}}">
+                <!-- Product -->
+                <ng-container *ngIf="!articlePanelActive()">
+                    <div class="small-12 medium-4 large-3 cell article-filter-container" id="searchResults_div_11_{{id}}">
+                        <wch-contentref [renderingContext]="filter" id="searchResults_wch_12_{{id}}"></wch-contentref>
+                    </div>
+                    <div class="small-12 medium-8 large-9 cell result-container" id="searchResults_div_13_{{id}}">
+                        <wch-contentref [renderingContext]="productGrid" id="searchResults_wch_14_{{id}}"></wch-contentref>
+                    </div>
+                </ng-container>
+                <!-- Article -->
+                <ng-container *ngIf="articlePanelActive()">
+                    <!-- Filter -->
+                    <div class="small-12 medium-4 large-3 cell article-filter-container" id="searchResults_div_15_{{id}}">
+                        <div class="product-filters" id="searchResults_div_16_{{id}}">
+                            <!-- Desktop only -->
+                            <section class="hide-for-small-only" id="searchResults_section_17_{{id}}">
+                                <p translate id="searchResults_p_18_{{id}}">searchResult.filterBy</p>
+                                <ul [hidden]="numFound === 0 || searchError" class="accordion" data-accordion="" data-multi-expand="true" data-allow-all-closed="true" data-responsive-accordion-tabs="accordion large-accordion" id="{{dynamicIds.accordion}}">
+                                    <li class="accordion-item is-active" data-accordion-item="" id="searchResults_li_20_{{id}}">
+                                        <a class="accordion-title" role="tab" id="searchResults_a_21_{{id}}" translate tabindex="0">searchResult.articleType</a>
+                                        <div class="accordion-content" data-tab-content="" id="searchResults_div_22_{{id}}">
+                                            <ul class="no-bullet" id="searchResults_ul_23_{{id}}">
+                                                <li *ngFor="let pageType of onArticleTypes | async; let i=index;" id="searchResults_li_24_{{i}}_{{id}}">
+                                                    <input class="category-clear-selection" id="{{this.dynamicIds.checkboxPrefix}}{{i}}_{{id}}" type="checkbox" (change)='checkBoxClicked($event)' [checked]='filteredArticleTypes.indexOf(pageType) !== -1'>
+                                                    <label id="searchResults_label_26_{{i}}_{{id}}" for="{{this.dynamicIds.checkboxPrefix}}{{i}}_{{id}}">{{pageType}}</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                            <!-- Desktop ends -->
+                            <!-- Mobile -->
+                            <section class="show-for-small-only" id="searchResults_section_48_{{id}}">
+                                <ul id="{{dynamicIds.filterBy}}"class="accordion" data-accordion data-allow-all-closed="true">
+                                    <li class="accordion-item" data-accordion-item="" id="searchResults_li_49_{{id}}">
+                                        <a class="accordion-title" translate id="searchResults_a_50_{{id}}" tabindex="0">searchResult.filterBy</a>
+                                        <div class="accordion-content" data-tab-content="" id="searchResults_div_51_{{id}}">
+                                            <ul id="{{dynamicIds.accordion}}" class="accordion" data-accordion="" data-multi-expand="true" data-allow-all-closed="true" data-responsive-accordion-tabs="accordion large-accordion">
+                                                <li class="accordion-item is-active" data-accordion-item="" id="searchResults_li_52_{{id}}">
+                                                    <a class="accordion-title" role="tab" id="searchResults_a_53_{{id}}"translate>searchResult.articleType</a>
+                                                    <div class="accordion-content" data-tab-content="" id="searchResults_div_54_{{id}}">
+                                                        <ul class="no-bullet" id="searchResults_ul_55_{{id}}">
+                                                            <li *ngFor="let pageType of articleTypes; let i = index" id="searchResults_li_56_{{i}}_{{id}}">
+                                                                <input class="category-clear-selection" id="{{this.dynamicIds.checkboxPrefix}}{{i}}_{{id}}" type="checkbox" (change)='checkBoxClicked($event)' [checked]='filteredArticleTypes.indexOf(pageType) !== -1'>
+                                                                <label id="searchResults_label_57_{{i}}_{{id}}" for="{{this.dynamicIds.checkboxPrefix}}{{i}}_{{id}}">{{pageType}}</label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                            <!-- Mobile ends -->
+                        </div>
+                    </div>
+                    <!-- Filter ends -->
+                    <!-- Result -->
+                    <div class="small-12 medium-8 large-9 cell result-container" id="searchResults_div_27_{{id}}">
+                        <!-- Main header -->
+                        <div *ngIf="numFound > 0 && !searchError" class="grid-x grid-margin-x" id="searchResults_div_28_{{id}}">
+                            <div *ngIf="!inFlight" class="large-10 medium-9 small-8 cell results" id="searchResults_div_29_{{id}}">
+                                <span *ngIf="numFound === 1" id="searchResults_span_31_{{id}}" [innerHTML]="'searchResult.articleFoundSingle' | translate : { numFound: numFound, keyword: searchTerm }"></span>
+                                <span *ngIf="numFound > 1" id="searchResults_span_33_{{id}}" [innerHTML]="'searchResult.articleFoundPlural' | translate : { numFound: numFound, keyword: searchTerm }"></span>
+                            </div>
+                            <!-- Filtered By -->
+                            <div class="large-10 medium-9 small-8 cell results" *ngIf="filteredArticleTypes.length > 0">
+                                <div class="grid-x grid-margin-x facet-area"  id="productGrid_div_8_{{id}}">
+                                    <div class="small-12 medium-12 cell more-actions" id="productGrid_div_9_{{id}}">
+                                        <span class="facet-title" id="productGrid_span_10_{{id}}">
+                                            {{ 'productGrid.filteredBy' | translate }}
+                                        </span>
+                                        <ng-container *ngFor="let label of filteredArticleTypes; let i = index">
+                                            <div class="filter-label" id="productGrid_div_11_{{i}}_{{id}}">
+                                                <button class="go-link" (click)="removeFilter(label)" id="productGrid_a_12_{{i}}_{{id}}"></button>
+                                                <span id="productGrid_span_13_{{i}}_{{id}}">{{label}}</span>
+                                                <span *ngIf="filteredArticleTypes?.length > 1" class="facet-divider" id="productGrid_span_14_{{i}}_{{id}}">|</span>
+                                            </div>
+                                        </ng-container>
+                                        <button class="clear-all" *ngIf="filteredArticleTypes?.length > 1" (click)="clearAll()" id="productGrid_a_15_{{id}}">{{ 'productGrid.clearAll' | translate }}</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div *ngIf="inFlight" class="large-12 medium-12 small-12"  id="searchResults_div_34_{{id}}">
+                                <div class="loading"  id="searchResults_div_35_{{id}}">searching...</div>
+                            </div>
+                            <div class="small-12 medium-6 cell search-result-item" *ngFor="let item of searchResults; trackBy: trackByComponentId; let i = index" [@itemAnim]  id="searchResults_div_36_{{i}}_{{id}}">
+                                <wch-content [layoutMode]="constants.SUMMARY" [id]="item.contentId"></wch-content>
+                            </div>
+                        </div>
+                        <div *ngIf="numFound === 0 || searchError" class="grid-x grid-margin-x" id="searchResults_div_38_{{id}}">
+                            <div class="medium-12 cell"  id="searchResults_div_39_{{id}}">
+                                <div *ngIf="!inFlight" class="results" id="searchResults_div_40_{{id}}">
+                                    <p [innerHTML]="'searchResult.noMatch' | translate : { keyword: searchTerm }" id="searchResults_p_41_{{id}}"></p>
+                                </div>
+                                <div *ngIf="inFlight" class="large-12 medium-12 small-12"  id="searchResults_p_42_{{id}}">
+                                    <div class="loading" id="searchResults_p_43_{{id}}">searching...</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Loading -->
+                        <div id="searchResults_div_32_{{id}}" #loadIcon> 
+                            <div *ngIf="moreToLoad() && searchTerm && !inFlight && !searchError" class="loading"  id="searchResults_div_47_{{id}}"></div>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>

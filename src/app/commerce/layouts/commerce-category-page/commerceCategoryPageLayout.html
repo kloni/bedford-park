@@ -1,0 +1,19 @@
+<!-- just render the components in the 'content' column one by cone -->
+<div id="{{rContext.id}}" class="wch-page layout-container section grid-container full">
+	<div *ngIf="hero" class="grid-x">
+		<div class="cell">
+			<div *ngFor="let item of onHero | async; trackBy: trackByComponentId">
+					<wch-contentref [renderingContext]="item">
+					</wch-contentref>
+			</div>
+		</div>
+	</div>
+	<div *ngIf="contentSection" class="grid-x grid-margin-x">
+		<div class="section cell" *ngFor="let item of onContentSection | async; trackBy: trackByComponentId">
+			<div class="grid-container">
+				<wch-contentref [renderingContext]="item">
+				</wch-contentref>
+			</div>
+		</div>
+	</div>
+</div>

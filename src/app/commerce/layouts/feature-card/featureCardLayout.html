@@ -1,0 +1,31 @@
+<div id="featureCard_{{id}}" class="grid-container full animated fadeInUp">
+    <div id="featureCard_orienter_{{id}}" class="grid-x grid-margin-x" [class.feature-img-right]="LAYOUT_IMAGE_RIGHT==(onLayoutMode|async)" [class.feature-img-left]="LAYOUT_IMAGE_RIGHT!=(onLayoutMode|async)">
+        <div id="featureCard_describer_{{id}}" class="cell small-12 medium-12 large-6 product-description">
+            <h2 id="featureCard_name_{{id}}">{{product.name}}</h2>
+            <ng-container *ngFor="let p of product.price">
+                <p class="feature-price" *ngIf="p.usage === 'Offer' && p.value !== ''">
+                    <span id="featureCard_price_{{id}}">
+                        <ng-container *ngIf="p.minimumValue && p.maximumValue && p.minimumValue.value !== p.maximumValue.value; else elseBlock">{{p.minimumValue.value | currency:p.currency:'symbol':'1.2-2'}} - {{p.maximumValue.value | currency:p.currency:'symbol':'1.2-2'}}<span *ngIf="VATEnabled" id="featureCard_price_vat_{{id}}" translate> product.VATincl</span></ng-container>
+                        <ng-template #elseBlock>{{p.value | currency:p.currency:'symbol':'1.2-2'}}<span *ngIf="VATEnabled" id="featureCard_price_vat_{{id}}" translate>product.VATincl</span></ng-template>
+                    </span>
+                    <span id="featureCard_price_1_{{id}}" *ngIf="p.value === null">{{ 'product.pricePending' | translate }}</span>
+                </p>
+            </ng-container>
+
+            <div id="featureCard_optionsContainer_{{id}}" class="feature-product-options">
+                <ng-container *ngFor="let att of product.availableAttributes">
+                    <div [id]="'featureCard_defnAttrContainer_'+att.identifier+'_'+id" *ngIf="att.usage === 'Defining' && att.values[0].image1" class="color-options">
+                        <ng-container *ngFor="let val of att.values">
+                            <img [id]="'featureCard_defnAttrImage_'+att.identifier+'_'+val.identifier+'_'+id" [src]="val.image1" class="product-swatch-small"/>
+                        </ng-container>
+                    </div>
+                </ng-container>
+            </div>
+            <p id="featureCard_description_{{id}}" class="text-content short-description">{{product.shortDescription}}</p>
+            <a id="featureCard_textRouter_{{id}}" (click)="onClick()" [routerLink]="[product.seoUrl]" class="button" translate>product.shopNow</a>
+        </div>
+        <div id="featureCard_imageContainer_{{id}}" class="cell small-12 medium-12 large-6 product-full-image">
+            <a id="featureCard_imageRouter_{{id}}" (click)="onClick()" [routerLink]="[product.seoUrl]"><img id="featureCard_fullImage_{{id}}" [src]="currentSelection.sku.fullImage | catImage"></a>
+        </div>
+    </div>
+</div>

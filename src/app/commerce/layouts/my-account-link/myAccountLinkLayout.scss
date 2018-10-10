@@ -1,0 +1,26 @@
+@import '../../../theme_settings.scss';
+
+$order-header-bg-color: #{map-get($default-palette,  grey12)};
+
+.account-link {
+    border:solid 1px $border-color;
+    border-radius: 15px;
+    margin: 20px 0px 0px;
+    height:100%;
+}
+.account-link-img {
+    opacity: .5;
+    display:flex;
+    align-items: center;
+    
+}
+.account-link-content{
+    margin-top: 1rem; 
+
+    .info{
+        padding-right:15px;
+        font-size:14px;
+        line-height:1.3;
+    }
+    
+} 

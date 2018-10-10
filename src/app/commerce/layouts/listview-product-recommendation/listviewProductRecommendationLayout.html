@@ -1,0 +1,4 @@
+<div class="product-recommendation-container">
+    <h2 class="listview-heading" *ngIf="showTitle&&title" wchEditable="title">{{title}}</h2>
+    <app-list *ngIf="slides?.length" [renderingContexts]="slides"></app-list>
+</div>

@@ -1,0 +1,20 @@
+<div [id]="rContext.id" class="child-pages-list">
+  <div class="grid-container grid-container-padded animated fadeInUp">
+    <h2 *ngIf="heading" wchEditable="heading">{{ heading }}</h2>
+    <div *ngIf="rContext?.context?.children?.length > 0" class="child-pages-result animated fadeInUp"  >
+      <div class="grid-x grid-margin-x">
+        <div class="medium-6 cell category-container" *ngFor="let page of rContext.context.children">
+          <div *ngIf="page && !page.hideFromNavigation" >
+            <wch-content [layoutMode]="constants.SUMMARY" [id]="page.contentId"></wch-content>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div *ngIf="!rContext?.context?.children">
+      {{'No child pages available'}}
+    </div>
+  </div>
+</div>
+
+
+

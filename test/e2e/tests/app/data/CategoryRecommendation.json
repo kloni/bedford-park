@@ -1,0 +1,13 @@
+{    
+    "test01" : {
+        "category0" : "Dining Room",
+        "category0desc": "Entertain your guests with dining room furniture and decor that fits any space",
+        "category1" : "Kitchen",
+        "category1desc": "Create a kitchen that suits your needs and fits your lifestyle",
+        "category0Url": "dep_diningroom.jpg",
+        "category1Url": "dep_kitchen.jpg"
+    },
+    "test02" : {
+        "department" : "Bedroom"
+    }
+}

@@ -1,0 +1,16 @@
+<div class="wch-hero-image wch-hero-image-message-left">
+    <img class="foreground-image" *ngIf="foregroundImageUrl!=undefined" [src]="foregroundImageUrl">
+    <img class="show-for-medium" [src]="imageUrl" wchEditable="backgroundImage">
+    <img class="show-for-small-only smallresolution-image" [src]="smallImageUrl" wchEditable="backgroundImage">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 medium-8 cell hero-message">
+                <div>
+                    <h1 class="text-hero text-hero-left" wchEditable="title">{{ title }}</h1>
+                    <p wchEditable="descriptiveText" [innerHTML]="descriptiveText"></p>
+                    <a (click)="navigateToLink()" class="button" wchEditable="callToActionLink" *ngIf="callToActionLink?.linkText">{{ callToActionLink.linkText }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

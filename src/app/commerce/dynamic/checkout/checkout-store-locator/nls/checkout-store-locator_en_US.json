@@ -1,0 +1,11 @@
+{
+    "Checkout-store-locator": {
+        "ShopOnline": "Ship to me",
+        "PickUpInStore": "Pick up",
+        "SaveAndContinue": "Save and Continue",
+        "BOPIS": "Shipping method",
+        "SelectStore": "Select store",
+        "Edit": "Edit",
+        "StoreNotSelected": "Select pickup store"
+    }
+}

@@ -1,0 +1,26 @@
+<div id="{{componentName}}_div_1_{{id}}" class="searchWrapper">
+  <form id="{{componentName}}_form_2_{{id}}" class="search-form" id="search-form" name="search-form">
+    <input #searchInput id="{{componentName}}_input_3_{{id}}"
+      type="search"
+      [(ngModel)]="query" name="queryInput"
+      (focus)="setFocus()"
+      (blur)="removeFocus()"
+      (keyup.arrowup)="arrowUp($event)"
+      (keyup.arrowdown)="arrowDown($event)"
+      (keydown)="keyDown($event)"
+      [ngClass]="{'active-input': isQuery()}" autocomplete="off">
+    <button id="{{componentName}}_button_4_{{id}}" class="search-button" (click)="search()"></button>
+    <div id="{{componentName}}_div_5_{{id}}" class="search-input-clear" (click)="clearSearch()"  [ngClass]="{'show-clear-button': query.length > 0}"></div>
+  </form>
+  <div id="{{componentName}}_div_6_{{id}}" class="searchSuggestions" *ngIf="showSuggestion && suggestionView.length > 0 ">
+    <ul id="{{componentName}}_ul_7_{{id}}" class="no-bullet">
+      <ng-container *ngFor="let suggestion of suggestionView; index as idx" >
+      <li id="{{componentName}}_li_8_{{id}}_{{idx}}" [ngClass]="{'highlight-item': suggestion.highlight, 'suggestion-identifier': suggestion.identifier, 'suggestion-item': !suggestion.identifier}" >
+        <div id="{{componentName}}_div_9_{{id}}_{{idx}}" *ngIf="suggestion.identifier" [translate]="'search-box.' + suggestion.identifier"></div>
+        <a id="{{componentName}}_a_10_{{id}}_{{idx}}" *ngIf="!suggestion.identifier" (mouseover)="hoverSelect(suggestion)" (click)="triggerSearch(suggestion)" title="{{suggestion.name}}" [innerHTML]="suggestion.displayName">
+        </a>
+      </li>
+    </ng-container>
+    </ul>
+  </div>
+</div>

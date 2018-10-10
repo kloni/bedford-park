@@ -1,0 +1,183 @@
+$images-dir: "~/../images/";
+i.wishlist-icon {
+  cursor: pointer;
+  vertical-align: text-bottom;
+  display: inline-block;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+i.edit-wishlist-name {
+    background: url('images/edit_20.svg') no-repeat 0% 100%;
+    padding-right: 2.6rem;
+}
+
+i.detele-wishlist {
+    background: url('images/trash_20.svg') no-repeat 100% 100%;
+}
+
+i.new-wishlist-icon {
+    background: url($images-dir+'addnew_20.svg') no-repeat 100% 100%;
+}
+
+// for desktop and tablet.
+@media only screen and (min-width: 640px) {
+    span.wishlist-name {
+        color: #303030;
+        font-size: 24px;
+        font-family: 'IBMPlexSans';
+        display: inline;
+    }
+
+    hr.wishlist-hr {
+        margin-top: 0px;
+        fill: #D8D8D8;
+    }
+
+    div.black-modal-top, div.new-wishlist-modal-top {
+        padding-top: 0.6rem;
+        padding-left: 0.5rem;
+        height: 2rem;
+        background-color: #303030;
+        width: 100%;
+        vertical-align: middle;
+        text-align: left;
+        color: white;
+    }
+
+    button.close-btn-new-wishlist {
+        top: 0rem;
+        color: white;
+    }
+}
+
+
+// for mobile view
+@media only screen and (min-width:0px) and (max-width: 640px) {
+    .wishlist-name {
+        color: #303030;
+        font-size: 18px;
+        font-family: 'IBMPlexSans';
+        display: inline;
+        padding-left: 1rem;
+        width: 75%;
+    }
+
+    hr.wishlist-hr {
+        fill: #D8D8D8;
+        margin: 0.75rem
+    }
+
+    div.black-modal-top {
+        padding-top: 0.5rem;
+        padding-left: 1.5rem;
+        height: 2rem;
+        background-color: #303030;
+        width: 100%;
+        vertical-align: middle;
+        text-align: left;
+        color: white;
+    }
+
+    i.chevron_left_14 {
+        background: url('images/chevron_left_14.svg') no-repeat 100% 100%;
+        height: 0.875rem;
+        width: 0.875rem;
+        display: inline-block;
+        vertical-align: baseline;
+    }
+
+    div.grid-container {
+        padding: 0rem;
+    }
+
+    .wishlist-items-no {
+        font-size: 14px;
+        display: inline;
+        font-family: IBMPlexSans;
+        color: #777677;
+        padding-top: 0.5rem;
+    }
+
+    div.action-bar {
+        margin-top: 0.5rem;
+    }
+
+    div.wishlist-panel-small {
+        padding-top: 0.7rem;
+    }
+
+    div.button-cell-mobile {
+        text-align: center;
+    }
+
+    i.chevron_right_20 {
+        background: url('images/chevron_right_20.svg') no-repeat 100% 100%;
+        position: absolute;
+        left: 80%
+    }
+
+    button.close-btn-new-wishlist {
+        top: 0rem;
+        color: #303030;
+        font-size: 2.5rem;
+    }
+
+    div.new-wishlist-modal-top {
+        display: block;
+        background-color:inherit;
+        color: black;
+        padding-left: 0.625rem;
+        margin-top: 5rem;
+        margin-bottom: 1.875rem;
+        font-size: 38px;
+        font-weight: bold;
+    }
+}
+
+input.wishlist-rename-box {
+    width: 80%;
+    display: none;
+}
+
+.bottom_10 {
+    margin-bottom: 0.4167rem;
+}
+
+.empty-wishlist-img {
+    margin-top: 2.917rem;
+    background: url('images/empty-wishlist-icon.svg') no-repeat 100% 100%;
+    margin-bottom: 1.3rem;
+    height: 7rem;
+    background-position: center;
+}
+
+.empty-wishlist-txt {
+    color: #a6a5a6;
+    font-size: 24px;
+    font-family: 'IBMPlexSans-Light';
+    text-align: center;
+}
+
+.no-padding {
+    padding: 0rem;
+    border: 0;
+}
+
+.new-wishlist-form-btn {
+    width: 100%;
+    padding: 0.833rem;
+    word-wrap: break-word;
+}
+
+.color-inherit {
+    color: inherit;
+}
+
+.new-wishlist-modal {
+    overflow-x: hidden;
+}
+
+.delete-confirmation-container {
+    margin-top: 15px;
+}

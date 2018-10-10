@@ -1,0 +1,72 @@
+<h2 id="privacy_modal_1_{{id}}" wchEditable="title" *ngIf="title" class="title text-center">{{title}}</h2>
+<!-- start gdpr container -->
+<div id="privacy_modal_2_{{id}}" class="gdpr-section-container animated fadeInUp">
+  <h4 id="privacy_modal_3_{{id}}"><wch-contentref [renderingContext]="personalInformationHeading"></wch-contentref></h4>
+  <hr>
+  <wch-contentref [renderingContext]="personalInformation"></wch-contentref>
+</div>
+<div id="privacy_modal_4_{{id}}" *ngIf="marketingTrackingConsentEnabled" class="gdpr-section-container animated fadeInUp">
+  <h4 id="privacy_modal_5_{{id}}"><wch-contentref [renderingContext]="marketingBehaviorTrackingHeading"></wch-contentref></h4>
+  <hr>
+  <wch-contentref [renderingContext]="marketingBehaviorTracking"></wch-contentref>
+
+  <div id="privacy_modal_6_{{id}}" class=" grid-container privacy-options">
+    <div id="privacy_modal_7_{{id}}" class="grid-x grid-padding-x">
+      <div id="privacy_modal_8_{{id}}" class="shrink">
+        <div id="privacy_modal_9_{{id}}" class="switch large switch-align">
+          <input class="switch-input" id="{{marketingConsentCheckboxId}}" name="marketingConsent" type="checkbox" (change)="updateMarketingConsent()" [checked]="iMarketing === '1'">
+          <label id="privacy_modal_10_{{id}}" class="switch-paddle" for="{{marketingConsentCheckboxId}}">
+            <span class="show-for-sr" [translate]="'PrivacyPolicyModal.marketingTrackingConsent'"></span>
+            <span aria-hidden="true" class="switch-active switch-yes" [translate]="'PrivacyPolicyModal.yesLabel'"></span>
+            <span aria-hidden="true" class="switch-inactive" [translate]="'PrivacyPolicyModal.noLabel'"></span>
+          </label>
+        </div>
+      </div>
+      <div id="privacy_modal_11_{{id}}" class="cell auto yes-no-label">
+        <wch-contentref [renderingContext]="marketingBehaviorTrackingOptionLabel"></wch-contentref>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="privacy_modal_12_{{id}}" *ngIf="DAConsentEnabled" class="gdpr-section-container animated fadeInUp">
+  <h4 id="privacy_modal_13_{{id}}"><wch-contentref [renderingContext]="digitalAnalyticsHeading"></wch-contentref></h4>
+  <hr>
+  <wch-contentref [renderingContext]="digitalAnalytics"></wch-contentref>
+  <div id="privacy_modal_14_{{id}}" class=" grid-container privacy-options">
+    <div id="privacy_modal_15_{{id}}" class="grid-x grid-padding-x">
+      <div id="privacy_modal_16_{{id}}" class="shrink">
+        <div id="privacy_modal_17_{{id}}" class="switch large switch-align">
+          <input class="switch-input" id="{{digitalConsentCheckboxId}}" type="checkbox" name="digitalAnalyticsConsent" (change)="updateDAConsent()" [checked]="iDaConsent === '1'">
+          <label id="privacy_modal_18_{{id}}" class="switch-paddle" for="{{digitalConsentCheckboxId}}">
+            <span class="show-for-sr" [translate]="'PrivacyPolicyModal.digitalAnalyticsConsent'"></span>
+            <span aria-hidden="true" class="switch-active switch-yes" [translate]="'PrivacyPolicyModal.yesLabel'"></span>
+            <span aria-hidden="true" class="switch-inactive" [translate]="'PrivacyPolicyModal.noLabel'"></span>
+          </label>
+        </div>
+      </div>
+      <div id="privacy_modal_19_{{id}}" class="cell auto yes-no-label">
+        <wch-contentref [renderingContext]="digitalAnalyticsOptionLabel"></wch-contentref>
+      </div>
+    </div>
+    <div id="privacy_modal_15_1_{{id}}" class="grid-x grid-padding-x">
+      <div id="privacy_modal_16_1_{{id}}" class="shrink">
+        <div id="privacy_modal_17_1_{{id}}" class="switch large switch-align">
+          <input class="switch-input" id="{{digitalConsentCheckboxAnonymousId}}" type="checkbox" name="digitalAnalyticsConsent" (change)="updateDAAnonymousConsent()" [checked]="iDaAnonymous === '1'" [disabled]="iDaConsent !== '1'">
+          <label id="privacy_modal_21_{{id}}" class="switch-paddle" for="{{digitalConsentCheckboxAnonymousId}}">
+            <span class="show-for-sr" [translate]="'PrivacyPolicyModal.digitalAnalyticsAnonymousConsent'"></span>
+            <span aria-hidden="true" class="switch-active switch-yes" [translate]="'PrivacyPolicyModal.yesLabel'"></span>
+            <span aria-hidden="true" class="switch-inactive" [translate]="'PrivacyPolicyModal.noLabel'"></span>
+          </label>
+        </div>
+      </div>
+      <div id="privacy_modal_19_1_{{id}}" class="cell auto yes-no-label">
+        <wch-contentref [renderingContext]="digitalAnalyticsAnonymousOptionLabel"></wch-contentref>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="privacy_modal_21_{{id}}" *ngIf="errorMessage" class="margin-top-1">
+  <commerce-message [message]="errorMessage" [type]="'alert'" [close]="closeFunc"></commerce-message>
+</div>
+<div id="privacy_modal_20_{{id}}" class="button gdpr-submit-container float-right button-dark" *ngIf="confirmationLabel" (click)="submit($event)" wchEditable="confirmationLabel">{{confirmationLabel}}</div>

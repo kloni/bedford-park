@@ -1,0 +1,37 @@
+$close-button: "~/../images/icon-remove.svg";
+
+@mixin go-link(){
+    .go-link {
+        margin-right: 0.5rem;
+        background-image: url($close-button);
+        width:16px;
+        height:16px;
+    }
+}
+
+@mixin facet-area(){
+    .facet-area{
+        margin-bottom: 1rem;
+        .cell {
+            &.more-actions{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                div.filter-label{
+                    display: flex;
+                    align-items: center;
+                    height: 2rem;
+                }
+                span{
+                    margin-right: 0.5rem;
+                }
+                .clear-all {
+                    color: $clear-button-color;
+                    cursor: pointer;
+                }
+                @include go-link();
+            }
+        }
+    }
+}
+

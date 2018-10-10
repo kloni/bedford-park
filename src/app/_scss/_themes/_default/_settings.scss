@@ -1,0 +1,92 @@
+/*******************************************************************************
+ * Copyright IBM Corp. 2017
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+*******************************************************************************/
+
+$foundation-palette: (
+  primary: #1779ba,
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37
+);
+
+$default-palette: map-merge(
+  $foundation-palette, (
+    grey1: #5a5a5a,
+    grey2: #323232,
+    grey3: #303030,
+    grey4: #767676,
+    grey5: #555,
+    grey6: #6b6b6b,
+    grey7: #dadada,
+    grey8: #737373,
+    grey9: #4a4a4a,
+    grey10: #828282,
+    grey11: #e4e4e4,
+    grey12: #f7f7f7,
+    grey13: #4c4c4c,
+    grey14: #212121,
+    grey15: #6c6c6c,
+    grey16: #808282,
+    grey17: #EFEFEF,
+    grey18: #cacaca,
+    grey19: #fefefe,
+    green1: #028a44,
+  )
+);
+
+$section-alternating-background: #{map-get($default-palette,  grey7)};
+
+$body-text-color:#{map-get($default-palette,  grey3)};
+
+$titlebar-background: white;
+$titlebar-color: #{map-get($default-palette,  grey1)};
+$titlebar-icon-color: #{map-get($default-palette,  grey1)};
+
+$topbar-background: white;
+
+$dropdown-menu-item-color-active: #{map-get($default-palette,  grey2)};
+$dropdownmenu-arrow-color: #{map-get($default-palette,  grey2)};
+
+$button-palette: map-merge($foundation-palette, (
+	news-btn: #000
+)) !default;
+
+$placeholder-color: #{map-get($default-palette,  grey4)} !default;
+$disable-btn-color: #{map-get($default-palette,  grey4)} !default;
+$layout-bgcolor: #{map-get($default-palette,  grey5)} !default;
+$sidebar-border-color: #{map-get($default-palette,  grey6)} !default;
+$divider-color: #{map-get($default-palette,  grey7)} !default;
+$border-color: #{map-get($default-palette,  grey7)} !default;
+$filter-active-border-color: #{map-get($default-palette,  grey14)};
+$page-tab-border-color: #{map-get($default-palette, grey3)};
+$header-bg-color: #{map-get($default-palette,  grey11)};
+$link-color: #{map-get($default-palette,  grey13)} !default;
+$link-color-hover: #{map-get($default-palette,  grey14)} !default;
+$link-color-visited: #{map-get($default-palette,  grey13)} !default;
+$link-color-active: #{map-get($default-palette,  grey15)} !default;
+$light-text-color: #{map-get($default-palette,  grey16)} !default;
+$input-number-background: #{map-get($default-palette,  grey17)} !default;
+$input-number-increment-text-color: #{map-get($default-palette,  grey6)} !default;
+$price-filter-background: #{map-get($default-palette,  grey18)} !default;
+$product-filter-background: #{map-get($default-palette,  grey19)} !default;
+$close-button-background: #{map-get($default-palette,  grey18)} !default;
+$clear-button-color: #{map-get($default-palette,  primary)} !default;
+$search-suggestion-background: #{map-get($default-palette,  grey11)} !default;
+
+$article-image-caption: #{map-get($default-palette,  grey19)} !default;
+$article-image-pub-info-color: #{map-get($default-palette,  grey8)} !default;
+$product-sku-color: #{map-get($default-palette,  grey8)} !default;
+$availability-text-color: #{map-get($default-palette,  green1)} !default;

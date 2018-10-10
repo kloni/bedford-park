@@ -1,0 +1,131 @@
+<h2 class="show-for-medium" id="wishlist_page_label_{{id}}">Wish List</h2>
+<hr class="wishlist-hr show-for-medium">
+<span id="wishlist_details">
+    <div class="grid-x grid-margin-x wishlist-panel-small">
+        <div class="show-for-small-only black-modal-top">
+            <a class="color-inherit" (click)="showAllWishlists()">
+                <i class="chevron_left_14"></i>
+                {{ 'wishlist.AllWishlists' | translate }}
+            </a>
+        </div>
+        <div class="cell large-6 medium-6 small-9 action-bar">
+            <span class="wishlist-name" id="wishlist_name_label_{{id}}">
+                <ng-container *ngIf="!editNameBool && selectedWishlist.uniqueID !== defaultListId">
+                    {{ selectedWishlist.descriptionName }}
+                    <i (click)="showRenameInput()" class="wishlist-icon edit-wishlist-name" id="wishlist_name_edit_button_{{id}}"></i>
+                </ng-container>
+                <ng-container *ngIf="selectedWishlist.uniqueID === defaultListId">
+                    {{ defaultListNameTranslated }}
+                </ng-container>
+                <input #newName type="text"
+                    class="wishlist-rename-box"
+                    [value]="selectedWishlist.descriptionName"
+                    (keyup.enter)="changeName(newName.value)"
+                    (blur)="changeName(newName.value)"
+                    id="wishlist_rename_input_{{id}}"
+                />
+                <i (click)="removeList()"
+                    *ngIf="selectedWishlist.uniqueID !== defaultListId" id="wishlist_delete_button_{{id}}"
+                    class="wishlist-icon detele-wishlist"></i>
+            </span>
+        </div>
+        <div class="cell large-3 medium-3 hide-for-small-only">
+            <select [(ngModel)]="selectedWishlist" (ngModelChange)="updateWishListItems()" class="bottom_10" id="wishlist_name_dropdown_{{id}}">
+                <option *ngFor="let wishlist of wishLists" [ngValue]="wishlist">
+                    <ng-container *ngIf="wishlist.uniqueID !== defaultListId; else defaultListOption ">
+                        {{ wishlist.descriptionName }}
+                    </ng-container>
+                    <ng-template #defaultListOption>
+                        {{ defaultListNameTranslated }}
+                    </ng-template>
+                    (<span [innerHTML]="'wishlist.Items' | translate : { numberOfItem: wishlist.item.length, item: wishlist.item.length>1 ? ('wishlist.MultipleItems' | translate) : ('wishlist.SingularItem' | translate) }"></span>)
+                </option>
+            </select>
+        </div>
+        <div class="cell large-3 medium-3 hide-for-small-only" id="wishlist_newwishlist_button_{{id}}">
+            <a class="bottom_10 button button-dark"
+                (click)="showCreateModal()">
+                <i class="wishlist-icon new-wishlist-icon"></i>
+                {{ 'wishlist.CreateWishlist' | translate }}
+            </a>
+        </div>
+        <div class="cell small-3 show-for-small-only wishlist-items-no action-bar">
+            <span [innerHTML]="'wishlist.Items' | translate : { numberOfItem: selectedWishlist.item.length, item: selectedWishlist.item.length>1 ? ('wishlist.MultipleItems' | translate) : ('wishlist.SingularItem' | translate) }"></span>
+        </div>
+    </div>
+    <hr class="wishlist-hr">
+    <div class="grid-x grid-margin-x gallery">
+    <ng-container *ngIf="products.length > 0; else elseBlock">
+        <div class="large-4 medium-6 small-6 cell" *ngFor="let p of products" [class.small-6]="twoColMobile" [class.medium-6]="twoColGrid">
+            <app-wishlist-card-layout
+                [wishListId]="selectedWishlist.uniqueID"
+                [product]="p"
+                [wishlists]="wishLists"
+                (removeItem)="removeItem($event)"
+                (newWishList)="showCreateModal()"
+                (moveToWishList)="moveToWishList($event)">
+            </app-wishlist-card-layout>
+        </div>
+    </ng-container>
+    <ng-template #elseBlock>
+        <div class="cell empty-wishlist-img"></div>
+        <div class="cell empty-wishlist-txt" id="wishlist_emptywishlist_{{id}}">{{ 'wishlist.EmptyWishlist' | translate }}</div>
+    </ng-template>
+    </div>
+</span>
+<!-- new WishList Modal -->
+<div class="no-padding tiny animated fadeIn reveal new-wishlist-modal" id="{{newWishListModalId}}_{{id}}" data-reveal>
+    <div class="new-wishlist-modal-top">
+        {{ 'wishlist.NewWishlist' | translate }}
+        <button class="close-btn-new-wishlist close-button" data-close aria-label="Close modal" type="button" id="wishlist_newwishlist_close_button_{{id}}">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <form #newForm="ngForm" (ngSubmit)="newForm.form.valid && wishListCreation(newForm)" class="grid-x grid-container grid-margin-x">
+        <div class="cell">
+            <label for="descriptionName">{{ 'wishlist.Name' | translate }}</label>
+            <input type="text" name="descriptionName" ngModel id="newWishList_name_{{id}}" commerce-maxlength=32 commerce-nonwhitespace commerce-not-allowed-str='DefaultListName' required>
+        </div>
+        <hr class="cell show-for-medium">
+        <div class="large-6 medium-6 cell show-for-medium"><a class="new-wishlist-form-btn button" id="newWishList_cancel_{{id}}" data-close>{{ 'wishlist.Cancel' | translate }}</a></div>
+        <div class="large-6 medium-6 small-12 cell"><button class="new-wishlist-form-btn button button-dark" id="newWishList_save_{{id}}" type="submit" [disabled]="!newForm.form.valid">{{ 'wishlist.Save' | translate }}</button></div>
+    </form>
+</div>
+
+<!-- all wishlists - mobile view -->
+<span id="all_wishlists_mobile" class="show-for-small-only">
+    <h2>Wish List</h2>
+    <div class="grid-x grid-margin-x">
+        <hr class="cell wishlist-hr">
+        <ng-container *ngFor="let w of wishLists; index as i">
+            <div class="cell action-bar wishlist-name" id="wishlist_name_{{id}}_{{i}}">
+                <a class="color-inherit" (click)="showWishlistDetail(w.uniqueID)">
+                    {{ w.descriptionName }}
+                    <span class="wishlist-items-no" [innerHTML]="'wishlist.Items' | translate : { numberOfItem: w.item.length, item: w.item.length>1 ? ('wishlist.MultipleItems' | translate) : ('wishlist.SingularItem' | translate) }"></span>
+                    <i class="wishlist-icon chevron_right_20"></i>
+                </a>
+            </div>
+            <hr class="cell wishlist-hr">
+        </ng-container>
+        <div class="cell button-cell-mobile">
+            <a class="bottom_10 button button-dark"
+                (click)="showCreateModal()">
+                <i class="wishlist-icon new-wishlist-icon"></i>
+                {{ 'wishlist.CreateWishlist' | translate }}
+            </a>
+        </div>
+    </div>
+</span>
+<!-- delete WishList Modal -->
+<div class="no-padding tiny animated fadeIn reveal" id="{{deleteWishListModalId}}_{{id}}" data-reveal>
+    <div class="new-wishlist-modal-top">
+        {{ 'wishlist.DeleteWishlist' | translate }}
+        <button class="close-btn-new-wishlist close-button" data-close aria-label="Close modal" type="button" id="wishlist_newwishlist_close_button_{{id}}">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="grid-x grid-container grid-margin-x delete-confirmation-container">
+        <div class="large-6 medium-6 cell"><a class="new-wishlist-form-btn button" id="deleteWishList_cancel_{{id}}" data-close>{{ 'wishlist.Cancel' | translate }}</a></div>
+        <div class="large-6 medium-6 small-12 cell"><button class="new-wishlist-form-btn button button-dark" id="deleteWishList_delete_{{id}}" (click)="removeListConfirmation()">{{ 'wishlist.Delete' | translate }}</button></div>
+    </div>
+</div>

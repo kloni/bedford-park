@@ -1,0 +1,13 @@
+{
+    "addressBook" : {
+		"address": "Address",
+		"addresses": "Addresses",
+		"addAddress": "Add Address",
+		"saveSuccessful": "Address with nickname \"{{nickName}}\" was saved successfully",
+		"deleteSuccessful": "Address with nickname \"{{nickName}}\" was deleted successfully",
+		"removeAddress": "Remove Address",
+		"confirmDelete": "Are you sure you want to remove \"{{nickName}}\" address?",
+		"no": "No",
+		"yes": "Yes"
+	}
+}

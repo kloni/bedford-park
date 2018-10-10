@@ -1,0 +1,303 @@
+{
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14837",
+            "uniqueID": "14837",
+            "partNumber": "BR-ACCE-0003",
+            "singleSKUCatalogEntryID": "14838",
+            "shortDescription": "Classic hand soap dispenser.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "Wash your hands in style with this classic looking liquid hand soap dispenser. A contemporary design that accents any design. Made with elegant frosted glass and sparkling chrome.",
+            "name": "Kerry's Glass Soap Dispenser",
+            "parentCatalogGroupID": [
+                "11251_10612",
+                "11301_10612"
+            ],
+            "manufacturer": "Kerry's Glass",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "55.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "55.0",
+                    "maximumValue": {
+                        "value": "55.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "45.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "45.0",
+                    "maximumValue": {
+                        "value": "45.0"
+                    }
+                }
+            ],
+            "numberOfSKUs": 1,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14838",
+                    "uniqueID": "14838",
+                    "partNumber": "BR-ACCE-0003-0001",
+                    "shortDescription": "Classic hand soap dispenser.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Kerry's Glass Soap Dispenser",
+                    "parentCatalogGroupID": [
+                        "11251_10612",
+                        "11301_10612"
+                    ],
+                    "manufacturer": "Kerry's Glass",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "55.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "45.0"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "BR-ACCE-0003-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14838",
+                            "usage": "images_main_thumbnail",
+                            "name": "BR-ACCE-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54681,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-ACCE-0003-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14838",
+                            "usage": "images_main_fullimage",
+                            "name": "BR-ACCE-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54681,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-ACCE-0003-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14838",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BR-ACCE-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54681,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-ACCE-0003-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14838",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BR-ACCE-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54681,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-ACCE-0003-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14838",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BR-ACCE-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54681,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BR-ACCE-0003-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14838",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BR-ACCE-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54681,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a2_100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "bath_accessories",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Bath accessories",
+                            "uniqueID": "7000000000000003353"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "DescriptiveColor",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "white",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "White",
+                            "uniqueID": "7000000000000003362"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000655"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "glass_chrome",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Glass, Chrome",
+                            "uniqueID": "7000000000000003326"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Type",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "contemporary",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Contemporary",
+                            "uniqueID": "7000000000000003366"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Type",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000656"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "BR-ACCE-0003_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14837",
+                    "usage": "images_main_fullimage",
+                    "name": "BR-ACCE-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54603,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-ACCE-0003_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14837",
+                    "usage": "images_main_thumbnail",
+                    "name": "BR-ACCE-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54603,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-ACCE-0003_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14837",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BR-ACCE-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54603,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-ACCE-0003_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14837",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BR-ACCE-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54603,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-ACCE-0003_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14837",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BR-ACCE-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54603,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a2_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BR-ACCE-0003_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14837",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BR-ACCE-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54603,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/accessories/bathacc3_a2_600.jpg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+<footer>
+    <div class="wch-footer">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="medium-3 cell footer-logo">
+                    <a routerLink="/"><img wchEditable="logo" *ngIf="logo" [src]="renderingContext.context.hub.deliveryUrl.origin + logo.url" [alt]="logo.altText" [title]="logo.asset.fileName"/></a>
+                </div>
+                <div class="medium-3 cell footer-nav">
+                    <h5 *ngIf="customerServiceLabel" wchEditable="customerServiceLabel">{{customerServiceLabel}}</h5>
+                    <ul *ngIf="customerServiceLinks">
+                        <li *ngFor="let v of customerServiceLinks;let idx = index">
+                            <a [wchEditable]="'customerServiceLinks[' + idx + ']'" [routerLink]="[v.linkURL]" [title]="v['linkDescription']?v['linkDescription']:v.linkText">{{ v.linkText }}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="medium-3 cell follow-us">
+                    <h5 *ngIf="followUsLabel" wchEditable="followUsLabel">{{followUsLabel}}</h5>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com">
+                                <svg-icon src="images/icon-facebook-logo.svg"></svg-icon>
+                                <span class="show-for-medium">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com">
+                                <svg-icon src="images/icon-twitter-logo-white.svg"></svg-icon>
+                                <span class="show-for-medium">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com">
+                                <svg-icon src="images/icon-instagram-logo.svg"></svg-icon>
+                                <span class="show-for-medium">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="medium-3 cell contact-us">
+                    <h5 *ngIf="companyLinksLabel" wchEditable="companyLinksLabel">{{companyLinksLabel}}</h5>
+                    <ul *ngIf="companyLinks">
+                        <li *ngFor="let v of companyLinks;let idx = index">
+                            <a [wchEditable]="'companyLinks[' + idx + ']'" [routerLink]="[v.linkURL]" [title]="v['linkDescription']?v['linkDescription']:v.linkText">{{ v.linkText }}</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div *ngIf="copyright" class="grid-x legal">
+                <div class="copyright">&copy; <span>{{currentYear}}</span> <span wchEditable="copyright"> {{copyright}}</span></div>
+            </div>
+        </div>
+    </div>
+</footer>

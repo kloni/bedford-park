@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://cdn.rawgit.com/angular-translate/bower-angular-translate/2.18.1/angular-translate.js"></script>
+        <script src="https://cdn.rawgit.com/angular-translate/bower-angular-translate-loader-static-files/2.18.1/angular-translate-loader-static-files.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+        <script src="espotPicker.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="espotPicker.css">
+    </head>
+    <body>
+        <div id="espot-picker" ng-controller="eSpotPickerController as ctrl">
+            <!-- E-marketing Spot Type dropdown -->
+            <div class="espot-type-dropdown">
+                <label id="espot_type_label" class="section-title">{{ 'TYPE_LABEL' | translate }}</label>
+                <div class="dropdown-wrapper element-responsive-width" ng-if="!ctrl.isPublished">
+                    <input id="espot_type_dropdown" type="search"
+                        class="espot-input"
+                        ng-blur="ctrl.removeFocus('type')"
+                        ng-focus="ctrl.setFocus('type')" />
+                    <button id="espot_type_button" type="button"
+                        ng-click="ctrl.toggleDropdown('type')"
+                        ng-class="{ 'glyphicon-menu-down' : !ctrl.showDropdownList['type'],
+                                    'glyphicon-menu-up': ctrl.showDropdownList['type'] }"
+                        class="dropdown-btn glyphicon action-icon">
+                    </button>
+                    <div class="suggestions element-responsive-width" ng-if="ctrl.showDropdownList.type">
+                        <ul class="no-bullet">
+                            <ng-container ng-repeat="type in ctrl.espotTypes">
+                                <li id="espot_type_item" class="suggestion-item" ng-click="ctrl.onSelectType(type)">{{type.text}}</li>
+                            </ng-container>
+                        </ul>
+                    </div>
+                </div>
+                <!-- E-marketing Spot Type Result Card -->
+                <div class="dropdown-results" ng-if="ctrl.selectedType">
+                    <div class="tag-component">
+                        <span id="espot_type_tag" class="single-tag" ng-class="{'without-remove-btn': ctrl.isPublished}">
+                            <span id="espot_type_tag_text" class="tag-text">{{ctrl.selectedType.text}}</span>
+                            <button id="espot_type_tag_button" role="button"
+                                class="tag-remove-icon"
+                                ng-hide="ctrl.isPublished"
+                                ng-click="ctrl.onRemoveType()"
+                                aria-label="Remove"
+                                title="Remove">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M18 3.1L16.9 2 10 8.9 3.1 2 2 3.1 8.9 10 2 16.9 3.1 18l6.9-6.9 6.9 6.9 1.1-1.1-6.9-6.9z"/>
+                                </svg>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- E-marketing Spot Name Input Field -->
+            <div class="espot-name-input" ng-if="ctrl.showEspotNameInputField()">
+                <div class="input-area" ng-if="!ctrl.isPublished">
+                    <label id="espot_name_pattern_label" class="section-title">{{ 'NAME_LABEL' | translate }}</label>
+                    <input id="espot_name_pattern_input" type="text"
+                        class="espot-input element-responsive-width"
+                        ng-blur="ctrl.saveInput()"
+                        ng-model="ctrl.espotName"/>
+                </div>
+                <div class="input-result" ng-if="ctrl.isPublished">
+                    <label class="section-title">{{ 'NAME_LABEL' | translate }}</label>
+                    <span id="espot_name_pattern_tag" class="single-tag">
+                        <span id="espot_name_pattern_tag_espotName" class="tag-text">{{ctrl.espotName}}</span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- E-marketing Spot Name Dropdown -->
+            <div class="espot-name-picker" ng-if="ctrl.showEspotNameDropdown()">
+                <label id="espot_name_dropdown_label" class="section-title">{{ 'NAME_LABEL' | translate }}</label>
+                <div class="dropdown-wrapper element-responsive-width" ng-if="!ctrl.isPublished">
+                    <input id="espot_name_dropdown" type="search"
+                        class="espot-input"
+                        ng-focus="ctrl.setFocus('name')"
+                        ng-blur="ctrl.removeFocus('name')"
+                        ng-model="ctrl.typedEspot"/>
+                    <button id="espot_name_dropdown_button" type="button"
+                        ng-click="ctrl.toggleDropdown('name')"
+                        ng-class="{ 'glyphicon-menu-down' : !ctrl.showDropdownList['name'],
+                                    'glyphicon-menu-up': ctrl.showDropdownList['name'] }"
+                        class="dropdown-btn glyphicon action-icon">
+                    </button>
+                    <div class="suggestions element-responsive-width" ng-if="ctrl.showDropdownList.name">
+                        <ul class="no-bullet">
+                            <ng-container ng-repeat="espot in ctrl.espots">
+                                <li id="espot_name_dropdown_item" class="suggestion-item" ng-click="ctrl.onSelectEspot(espot)">{{espot.spotName}}</li>
+                            </ng-container>
+                        </ul>
+                    </div>
+                </div>
+                <!-- E-marketing Spot Result -->
+                <div class="dropdown-results">
+                    <div ng-repeat="espot in ctrl.selectedEspotNames"
+                        class="tag-component">
+                        <span id="espot_name_dropdown_tag" class="single-tag" ng-class="{'without-remove-btn': ctrl.isPublished}">
+                            <span id="espot_name_dropdown_tag_text" class="tag-text">{{espot}}</span>
+                            <button id="espot_name_dropdown_tag_button" role="button"
+                                class="tag-remove-icon"
+                                ng-click="ctrl.onRemoveEspot(espot)"
+                                ng-hide="ctrl.isPublished"
+                                aria-label="Remove"
+                                title="Remove">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M18 3.1L16.9 2 10 8.9 3.1 2 2 3.1 8.9 10 2 16.9 3.1 18l6.9-6.9 6.9 6.9 1.1-1.1-6.9-6.9z"/>
+                                </svg>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+{
+    "css": {
+        "textField": {
+            "valid": [
+                "border-left",
+                "1px solid rgb(202, 202, 202)"
+            ],
+            "invalid": [
+                "border-left",
+                "5px solid rgb(204, 75, 55)"
+            ]
+        }
+    },
+    "test01": {
+        "productName": "Nordic Sofa Set",
+        "kitIncludedProductNames": [
+            "Nordic Sofa",
+            "Nordic Loveseat"
+        ],
+        "kitIncludedProductSkus": [
+            "LR-FUCH-0004-0001",
+            "LR-FUCH-0005-0001"
+        ]
+    },
+    "test02": {
+        "subtotal1": 2759.96,
+        "discount1": 580.9,
+        "total1": 2182.97,
+        "shippingName1": "US - Regular Delivery",
+        "shippingCost1": 8.91,
+        "subtotal2": 3999.98,
+        "discount2": 11.93,
+        "total2": 3994.98,
+        "shippingName2": "US - Regular Delivery",
+        "shippingCost2": 6.93
+    },
+    "user01": {
+        "login": "mscpag@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "CaliGuestcheckoutfirst",
+        "lastName": "CaliGuestcheckoutlast",
+        "phone": "3334441111",
+        "email": "CaliAddress@test.com",
+        "addressBook": [
+            {
+                "nickName": "CaliAddress",
+                "firstName": "CaliGuestcheckoutfirst",
+                "lastName": "CaliGuestcheckoutlast",
+                "email": "CaliAddress@test.com",
+                "phoneNumber": "3334441111",
+                "addressLine1": "Los Angeles street address checkout",
+                "addressLine2": "Los Angeles street address2 checkout2",
+                "country": "United States",
+                "countryShort": "US",
+                "city": "Los Angeles guest checkout",
+                "state": "California",
+                "stateShort": "CA",
+                "zipCode": "90001"
+            }
+        ]
+    }
+}

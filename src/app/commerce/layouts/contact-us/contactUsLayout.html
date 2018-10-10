@@ -1,0 +1,16 @@
+<div id="contactus_div_1_{{id}}" class="small-12 medium-12 large-6 cell">
+  <br>
+  <div class="grid-x text-center">
+    <div class="small-12 medium-12 large-12">
+      <div class="grid-x">
+        <div class="small-12 medium-12 large-6 cell">
+          <br>
+          <app-contact-info-layout-component *ngFor="let rc of contextList" [renderingContext]="rc"></app-contact-info-layout-component>
+        </div>
+        <div class="small-12 medium-12 large-6 cell">
+          <iframe wchEditable="location" [src]="'https://maps.google.com/maps?q='+ this.encodeAddress(location) + '&output=embed' | formattedText:'resourceUrl'" [width]="(onWidth | async) ? width : LOCATION_WIDTH " [height]="(onHeight | async) ? height : LOCATION_HEIGHT" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

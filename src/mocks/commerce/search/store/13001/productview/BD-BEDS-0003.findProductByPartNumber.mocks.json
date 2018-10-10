@@ -1,0 +1,303 @@
+{
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14857",
+            "uniqueID": "14857",
+            "partNumber": "BD-BEDS-0003",
+            "singleSKUCatalogEntryID": "14858",
+            "shortDescription": "Kids low double bed made of wood.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "A low design double bed for kids. The design has a simple head board and short legs so kids don't have a hard time getting onto the bed. Made of light weight wood the design is very appealing in both girls and boys room.",
+            "name": "Sleepy Head Storytime Double Bed",
+            "parentCatalogGroupID": [
+                "11251_10614",
+                "11301_10614"
+            ],
+            "manufacturer": "Sleepy Head",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "999.99"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "999.99",
+                    "maximumValue": {
+                        "value": "999.99"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "945.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "945.0",
+                    "maximumValue": {
+                        "value": "945.0"
+                    }
+                }
+            ],
+            "numberOfSKUs": 1,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14858",
+                    "uniqueID": "14858",
+                    "partNumber": "BD-BEDS-0003-0001",
+                    "shortDescription": "Kids low double bed made of wood.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Sleepy Head Storytime Double Bed",
+                    "parentCatalogGroupID": [
+                        "11251_10614",
+                        "11301_10614"
+                    ],
+                    "manufacturer": "Sleepy Head",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "999.99"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "945.0"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "BD-BEDS-0003-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14858",
+                            "usage": "images_main_thumbnail",
+                            "name": "BD-BEDS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54691,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-BEDS-0003-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14858",
+                            "usage": "images_main_fullimage",
+                            "name": "BD-BEDS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54691,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-BEDS-0003-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14858",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-BEDS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54691,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-BEDS-0003-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14858",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-BEDS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54691,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-BEDS-0003-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14858",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "BD-BEDS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54691,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "BD-BEDS-0003-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14858",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "BD-BEDS-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54691,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a2_600.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "kids_bed",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Kids bed",
+                            "uniqueID": "7000000000000003355"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "smooth",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Smooth",
+                            "uniqueID": "7000000000000003368"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "self_assembly",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Self-assembly",
+                            "uniqueID": "7000000000000003370"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "associatedKeyword": "-",
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "hardwood",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Hard wood",
+                            "uniqueID": "7000000000000003333"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "BD-BEDS-0003_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14857",
+                    "usage": "images_main_fullimage",
+                    "name": "BD-BEDS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54613,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-BEDS-0003_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14857",
+                    "usage": "images_main_thumbnail",
+                    "name": "BD-BEDS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54613,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-BEDS-0003_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14857",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BD-BEDS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54613,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-BEDS-0003_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14857",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BD-BEDS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54613,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-BEDS-0003_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14857",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "BD-BEDS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54613,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a2_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "BD-BEDS-0003_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14857",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "BD-BEDS-0003_CatalogEntryImages",
+                    "attachmentAssetID": 54613,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/beds/bed3_a2_100.jpg"
+                }
+            ]
+        }
+    ]
+}

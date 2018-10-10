@@ -1,0 +1,58 @@
+hr {
+  margin: 2rem 0 0;
+}
+
+@media (max-width: 39.9375em) {
+  .personalinfo-container:last-of-type{
+      margin-top:2rem;
+  }
+}
+
+.personal-info {
+  a {
+    text-decoration-line: underline;
+  }
+
+  .button {
+    font-size: 0.9rem;
+    text-transform: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom:0.5rem;
+    display: inline;
+    width: 200px;
+  }
+
+  .button-next {
+    @media (min-width: 440px) {
+      margin-left: 0.65rem;
+    }
+  }
+
+  .button-white {
+    background-color:white;
+    color: black;
+    border: 2px black solid;
+  }
+
+  .stop-acting-button {
+    margin-bottom: 0.3rem;
+    @media (min-width: 640px) {
+      margin-left: 3rem;
+    }
+  }
+
+  .box-bottom-border {
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .top-spacer {
+    margin-top: 3rem;
+  }
+
+  .csr-acting-as {
+    >span {
+      font-weight: normal;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+<div id="address_card_{{id}}" class="account-address-card-container">
+    <div [ngClass]="{'address-header-default':_addr.primary=='true','address-header':_addr.primary=='false','bold':true}">
+        <p>
+            <span id="address_isDefault_{{id}}" *ngIf="_addr.primary=='true'" translate>address.default</span>
+            <span id="address_firstName_{{id}}" *ngIf="_addr.firstName">{{_addr.firstName}}</span>
+            <span id="address_lastName_{{id}}" *ngIf="_addr.lastName">{{_addr.lastName}}</span>
+            <span id="address_separator_{{id}}" *ngIf="_addr.firstName||_addr.lastName">-</span>
+            <span id="address_nickName_{{id}}">{{_addr.nickName}}</span>
+        </p>
+    </div>
+    <div class="address-body">
+        <p>
+            <span id="address_physicalTitle_{{id}}" class="bold" translate>address.address</span>
+            <br>
+            <span id="address_lines_{{id}}" *ngIf="_addr.addressLine">
+                {{_addr.lines}}<span *ngIf="_addr.city||_addr.state">,</span>
+            </span>
+            <span  id="address_city_{{id}}" *ngIf="_addr.city">
+                {{_addr.city}}<span *ngIf="_addr.state">,</span>
+            </span>
+            <span id="address_state_{{id}}" *ngIf="_addr.state">
+                {{_addr.state}}<span *ngIf="!_addr.zipCode&&cDescs&&cDescs[_addr.country]">,</span>
+            </span>
+            <span id="address_zip_{{id}}" *ngIf="_addr.zipCode">
+                {{_addr.zipCode}}<span *ngIf="cDescs&&cDescs[_addr.country]">,</span>
+            </span>
+            <span id="address_country_{{id}}" *ngIf="cDescs&&cDescs[_addr.country]">
+                {{cDescs[_addr.country].displayName}}
+            </span>
+        </p>
+        <p *ngIf="!_addr.regAddr">
+            <span id="address_emailTitle_{{id}}" class="bold" translate>address.email</span>
+            <br>
+            <span id="address_email_{{id}}" *ngIf="_addr.email1">{{_addr.email1}}</span>
+        </p>
+        <p>
+            <span id="address_phoneTitle_{{id}}" class="bold" translate>address.phone</span>
+            <br>
+            <span id="address_phone_{{id}}" *ngIf="_addr.phone1">{{_addr.phone1}}</span>
+        </p>
+        <p class="bold address-options">
+            <a id="address_linkEdit_{{id}}" (click)="edit()">{{'address.edit'|translate}}</a>
+            <span *ngIf="!_addr.regAddr&&_addr.primary!=='true'">|<a id="address_linkRemove_{{id}}" (click)="delete()">{{'address.remove'|translate}}</a>
+            </span>
+            <span *ngIf="_addr.primary=='false'">|<a id="address_linkSetDefault_{{id}}" (click)="setDefault()">{{'address.setDefault'|translate}}</a>
+            </span>
+        </p>
+    </div>
+</div>

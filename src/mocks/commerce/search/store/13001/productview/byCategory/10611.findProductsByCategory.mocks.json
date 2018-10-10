@@ -1,0 +1,957 @@
+{
+    "metaData": {
+        "price": "1"
+    },
+    "breadCrumbTrailEntryView": [
+        {
+            "label": "Bath"
+        },
+        {
+            "label": "Fixtures"
+        }
+    ],
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14839",
+            "partNumber": "BR-FIXT-0001",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix1_a1_350.jpg",
+            "name": "Single Handle Bath Faucet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "40.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0",
+                    "maximumValue": {
+                        "value": "40.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "35.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "35.0",
+                    "maximumValue": {
+                        "value": "35.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "3x8x8",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "3\"x8\"x8\"",
+                            "uniqueID": "7000000000000003383"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10lbs",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10 lbs",
+                            "uniqueID": "7000000000000003393"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_brass",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Brass",
+                            "uniqueID": "7000000000000003327"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14841",
+            "partNumber": "BR-FIXT-0001",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix2_a1_350.jpg",
+            "name": "Goose Neck Bath Faucet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "18.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "18.0",
+                    "maximumValue": {
+                        "value": "18.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "16.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "16.0",
+                    "maximumValue": {
+                        "value": "16.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "6x18x12",
+                            "sequence": "11.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "6\"x18\"x12\"",
+                            "uniqueID": "7000000000000003384"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_brass",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Brass",
+                            "uniqueID": "7000000000000003327"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14843",
+            "partNumber": "BR-FIXT-0001",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix3_a1_350.jpg",
+            "name": "High Arc Vessel Bath Faucet",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "55.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "55.0",
+                    "maximumValue": {
+                        "value": "55.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "45.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "45.0",
+                    "maximumValue": {
+                        "value": "45.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "6x18x12",
+                            "sequence": "11.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "6\"x18\"x12\"",
+                            "uniqueID": "7000000000000003384"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10lbs",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10 lbs",
+                            "uniqueID": "7000000000000003393"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_brass",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Brass",
+                            "uniqueID": "7000000000000003327"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14845",
+            "partNumber": "BR-FIXT-0001",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix4_a1_350.jpg",
+            "name": "Handheld Showerhead",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "40.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0",
+                    "maximumValue": {
+                        "value": "40.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "35.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "35.0",
+                    "maximumValue": {
+                        "value": "35.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "5x36x5",
+                            "sequence": "12.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "5\"x36\"x5\"",
+                            "uniqueID": "7000000000000003385"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "2lbs",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "2 lbs",
+                            "uniqueID": "7000000000000003399"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "plastic",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Plastic",
+                            "uniqueID": "7000000000000003328"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14847",
+            "partNumber": "BR-FIXT-0001",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/fixtures/bathfix5_a1_350.jpg",
+            "name": "Raindrop Showerhead",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "18.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "18.0",
+                    "maximumValue": {
+                        "value": "18.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "16.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "16.0",
+                    "maximumValue": {
+                        "value": "16.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "24x40x30",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "24\"x40\"x30\"",
+                            "uniqueID": "7000000000000003374"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10lbs",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10 lbs",
+                            "uniqueID": "7000000000000003393"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_plastic",
+                            "sequence": "4.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Plastic",
+                            "uniqueID": "7000000000000003329"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": "0",
+    "recordSetTotal": 5,
+    "facetView": [
+        {
+            "value": "price_USD",
+            "name": "OfferPrice_USD",
+            "entry": [
+                {
+                    "count": 5,
+                    "label": "({* 100} 100)",
+                    "value": "price_USD%3A%28%7B*+100%7D+100%29",
+                    "extendedData": {
+                        "uniqueId": "1121141059910195858368584012342324948481253249484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({100 200} 200)",
+                    "value": "price_USD%3A%28%7B100+200%7D+200%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123494848325048481253250484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({200 300} 300)",
+                    "value": "price_USD%3A%28%7B200+300%7D+300%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123504848325148481253251484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({300 400} 400)",
+                    "value": "price_USD%3A%28%7B300+400%7D+400%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123514848325248481253252484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({400 500} 500)",
+                    "value": "price_USD%3A%28%7B400+500%7D+500%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123524848325348481253253484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({500 *})",
+                    "value": "price_USD%3A%28%7B500+*%7D%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123534848324212541"
+                    }
+                }
+            ]
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "label": "Bender Home Fashions",
+                    "value": "mfName_ntk_cs%3A%22Bender+Home+Fashions%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-1002661011101001011143272111109101327097115104105111110115"
+                    }
+                },
+                {
+                    "label": "Moderno",
+                    "value": "mfName_ntk_cs%3A%22Moderno%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "-100277111100101114110111"
+                    }
+                },
+                {
+                    "label": "Stockholm",
+                    "value": "mfName_ntk_cs%3A%22Stockholm%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-10028311611199107104111108109"
+                    }
+                }
+            ],
+            "name": "ManufacturerName",
+            "extendedData": {
+                "allowMultipleValueSelection": "true",
+                "maximumValuesToDisplay": "6",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "fname": "Brand",
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "mfName_ntk_cs",
+                "displayable": "1",
+                "facet_id": "-1000",
+                "srchattr_id": "-1002",
+                "zero_display": "0",
+                "selection": "1",
+                "group_id": "0",
+                "displaySequence": "0.0",
+                "storeent_id": "0",
+                "sortorder": "1",
+                "max_display": "6",
+                "fdesc": "The manufacturer",
+                "srchattridentifier": "_cat.ManufacturerName"
+            }
+        },
+        {
+            "value": "ads_f10101_ntk_cs",
+            "entry": [
+                {
+                    "label": "Chrome",
+                    "value": "ads_f10101_ntk_cs%3A%22Chrome%22",
+                    "count": "5",
+                    "extendedData": {
+                        "uniqueId": "1010167104114111109101",
+                        "sequence": "1.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png"
+                }
+            ],
+            "name": "Color",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10101_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10101",
+                "attrname": "Color",
+                "srchattr_id": "10101",
+                "attrdesc": "Color",
+                "attr_id": "7000000000000000651",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Color",
+                "srchattridentifier": "_cat.Color"
+            }
+        },
+        {
+            "value": "ads_f10106_ntk_cs",
+            "entry": [
+                {
+                    "label": "6\"x18\"x12\"",
+                    "value": "ads_f10106_ntk_cs%3A%226%5C%22x18%5C%22x12%5C%22%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "101065434120495634120495034"
+                    }
+                },
+                {
+                    "label": "24\"x40\"x30\"",
+                    "value": "ads_f10106_ntk_cs%3A%2224%5C%22x40%5C%22x30%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106505234120524834120514834"
+                    }
+                },
+                {
+                    "label": "3\"x8\"x8\"",
+                    "value": "ads_f10106_ntk_cs%3A%223%5C%22x8%5C%22x8%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106513412056341205634"
+                    }
+                },
+                {
+                    "label": "5\"x36\"x5\"",
+                    "value": "ads_f10106_ntk_cs%3A%225%5C%22x36%5C%22x5%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010653341205154341205334"
+                    }
+                }
+            ],
+            "name": "Product Dimensions",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10106_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10106",
+                "attrname": "Product Dimensions",
+                "srchattr_id": "10106",
+                "attrdesc": "Product Dimensions",
+                "attr_id": "7000000000000000660",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ProductDimensions",
+                "srchattridentifier": "_cat.ProductDimensions"
+            }
+        },
+        {
+            "value": "ads_f10107_ntk_cs",
+            "entry": [
+                {
+                    "label": "10 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2210+lbs%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "1010749483210898115"
+                    }
+                },
+                {
+                    "label": "15 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2215+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010749533210898115"
+                    }
+                },
+                {
+                    "label": "2 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%222+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10107503210898115"
+                    }
+                }
+            ],
+            "name": "Item Weight",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10107_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10107",
+                "attrname": "Item Weight",
+                "srchattr_id": "10107",
+                "attrdesc": "Item Weight",
+                "attr_id": "7000000000000000661",
+                "zero_display": "0",
+                "attrsequence": "2.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "2.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ItemWeight",
+                "srchattridentifier": "_cat.ItemWeight"
+            }
+        },
+        {
+            "value": "ads_f10103_ntk_cs",
+            "entry": [
+                {
+                    "label": "Metal, Brass",
+                    "value": "ads_f10103_ntk_cs%3A%22Metal%2C+Brass%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "10103771011169710844326611497115115"
+                    }
+                },
+                {
+                    "label": "Metal, Plastic",
+                    "value": "ads_f10103_ntk_cs%3A%22Metal%2C+Plastic%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010377101116971084432801089711511610599"
+                    }
+                },
+                {
+                    "label": "Plastic",
+                    "value": "ads_f10103_ntk_cs%3A%22Plastic%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10103801089711511610599"
+                    }
+                }
+            ],
+            "name": "Material",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10103_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10103",
+                "attrname": "Material",
+                "srchattr_id": "10103",
+                "attrdesc": "Material",
+                "attr_id": "7000000000000000653",
+                "zero_display": "0",
+                "attrsequence": "3.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "3.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Materials",
+                "srchattridentifier": "_cat.Materials"
+            }
+        }
+    ]
+}

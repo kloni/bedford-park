@@ -1,0 +1,65 @@
+{
+    "css":{
+        "attr":"outline"
+    },  
+    "products": [
+        {
+            "productName": "Stonehenge Modern Steelet Single Sofa",
+            "attrColor0": "Black", 
+            "Type": "Sofa"
+        },
+        {
+            "productName": "Hermitage Fit and Flare Dress",
+            "productSKU": "HFU032_320501",
+            "displayPrice" :"$250.00",
+            "productPrice": "$100.00",
+            "testProductIndex": 4,
+            "imageName": "wcl000_0028_a_red.jpg",
+            "shortDescription": "Jewel-toned cocktail dress with fitted bodice and gently flared skirt",
+            "attrColor0": "Red",
+            "attrColor1": "Teal",
+            "attrColor2": "Blue", 
+            "attrSize0": "XS",
+            "attrSize1": "S",
+            "attrSize2": "M",
+            "attrSize3": "L",
+            "attrSize4": "XL",
+            "attrSize5": "2XL", 
+            "longDescription": "Classically tailored, this elegant satin dress features a bateau neckline, soft pleating, and a clasped belt to define the waist.", 
+            "productDetails0":"Knit",
+            "productDetails1":"Short",
+            "productDetails2":"Synthetic",
+            "productDetails3":"Cocktail & Evening"
+        }
+    ],
+    "test01" : {
+        "attributes" : ["Style", "Finish", "Assembly", "Material"],
+        "category":"Dessers"
+    },
+
+    "test03":
+        {
+           "imagePatha" :"https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/wcl000_dresses/646x1000/wcl000_0033_a_blue.jpg",
+           "imagePathb" :"https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/wcl000_dresses/646x1000/wcl000_0033_b_blue.jpg"
+        }
+
+    , 
+
+    "test05":[
+        {
+           "displayPrice" :"$250.00",
+           "offerPrice" :"$100.00"
+        }
+
+    ],
+    "test07":{
+        "productName": "StyleHome Woodek Dining chair",
+        "attachmentURL": "dxdam/7a/7a164474-ef6b-4350-8dc3-ebaaab46968d/life3.jpg"
+
+    },
+
+    "test09":
+        {
+           "promotion" :"Save 20% on Bedroom!"
+        }
+}

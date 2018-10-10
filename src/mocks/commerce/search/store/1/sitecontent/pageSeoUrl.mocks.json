@@ -1,0 +1,17 @@
+{  
+   "numFound":3,
+   "documents":[  
+      {  
+         "id":"idc-category-10602",
+         "route":"/shop/LivingRoomFurniture"
+      },
+      {  
+         "id":"idc-category-10604",
+         "route":"/shop/Decoration"
+      },
+      {  
+         "id":"idc-category-10603",
+         "route":"/shop/LivingRoomLighthing"
+      }
+   ]
+}

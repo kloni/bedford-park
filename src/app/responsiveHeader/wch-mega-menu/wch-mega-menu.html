@@ -1,0 +1,23 @@
+<div class="wch-mega-menu" id="wch_mega_menu_{{id}}" [class.wch-mega-menu-top]="level === 1" [class.wch-mega-menu-overlay]="subMenuPage" [class.wch-mega-menu-open]="menuOpen" [ngClass]="themeClass">
+	<div *ngIf="level === 1" class="title">
+		<span>{{menutitle}}</span>
+	</div>
+
+	<ul [ngClass]="getLevelClass()"  role="menubar">
+		<li class="wch-mega-menu-item wch-go-back" *ngIf="parent"><div (click)="goBack($event)" ><span></span></div>{{parent.name}}</li>
+		<li class="wch-mega-menu-item wch-view-all" *ngIf="parent && filteredPages.length > 1">
+			<a routerLinkActive="active" >
+				<span (click)="navigate($event, parent)" class="limit-page-name" title="{{parent.name}}">View all</span>
+			</a>
+		</li>
+		<li *ngFor="let page of filteredPages;trackBy: trackByPageId" class="wch-mega-menu-item" role="menuitem"
+			[attr.aria-expanded]="displaySubmenu(page)" (click)="openSubmenu(page)"
+			[class.sub-level]="level > 1" [class.has-children]="hasVisibleChildren(page)">
+			<a *ngIf="page && !page.hideFromNavigation" (click)="navigate($event, page)" routerLinkActive="active">
+				<span  class="limit-page-name" id ="megamenu_department_{{id}}" title="{{page.name}}">{{page.name}}</span>
+            </a>
+			<wch-mega-menu (onGoBack)="closeSubmenu($event)" [parent]="page" [maxLevel]="maxLevel" (onMenuItemSelected)="menuItemSelected()" [menuOpen]="displaySubmenu(page)" [dynamicPages]="categoryDynamicPages"
+						   [pages]="getVisibleChildren(page)" [level]="level + 1"></wch-mega-menu>
+        </li>
+    </ul>
+</div>

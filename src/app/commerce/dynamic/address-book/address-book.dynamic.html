@@ -1,0 +1,53 @@
+<!-- Component: nav and header -->
+<!-- Begin layout-->
+<div id="addressBook_container_{{id}}" class="grid-container grid-container-padded">
+    <h2 id="addressBook_title_{{id}}" wchEditable="title">{{title}}</h2>
+    <p><span id="addressBook_count_{{id}}" class="bold">{{addrList.length}}</span> <span id="addressBook_countSuffix_{{id}}">{{(addrList.length!==1?'addressBook.addresses':'addressBook.address')|translate}}</span></p>
+    <hr>
+    <br>
+    <div *ngIf="success" class="callout success" translate data-closable>
+        <span id="addressBook_confirmSave_{{id}}" *ngIf="!deleteAddr" [translateParams]="{nickName:modAddrNickName}" translate>addressBook.saveSuccessful</span>
+        <span id="addressBook_confirmDelete_{{id}}" *ngIf="deleteAddr" [translateParams]="{nickName:modAddrNickName}" translate>addressBook.deleteSuccessful</span>
+        <button id="addressBook_buttonCloseAlert_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="reset()" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <!-- Address Cards start -->
+    <div class="grid-x grid-margin-x align-stretch animated fadeInUp">
+        <div class="small-12 medium-6 large-4 cell address-card" *ngFor="let a of addrList">
+            <dynamic-commerce-address (reflectActions)="setAddrActions($event)" [address]="a"></dynamic-commerce-address>
+        </div>
+    </div>
+    <!-- Address Cards end -->
+    <hr>
+    <div class="grid-x grid-margin-x">
+        <div class="small-12 medium-4 cell">
+            <br>
+            <button id="addressBook_addAddressButton_{{id}}" type="button" class="button button-dark expanded" (click)="modalEdit()" translate>addressBook.addAddress</button>
+        </div>
+    </div>
+
+    <dynamic-commerce-address-editable (reflectChanges)="setChanges($event)" [address]="ctxAddr" [id]="id"></dynamic-commerce-address-editable>
+
+    <div id="addressBook_removeAddress_container_{{id}}" class="large reveal animated fadeIn" data-reveal>
+        <div class="grid-container grid-container-padded">
+            <div class="grid-x grid-margin-x">
+                <div class="small-12 cell">
+                    <h2 id="addressBook_removeAddress_title_{{id}}" translate>addressBook.removeAddress</h2>
+                    <hr>
+                    <button id="addressBook_removeAddress_buttonCloseAlert_{{id}}" class="close-button" data-close aria-label="Close reveal" type="button"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="small-12 medium-12 cell">
+                    <p id="addressBook_removeAddress_confirm_{{id}}" [translateParams]="ctxAddr" translate>addressBook.confirmDelete</p>
+                </div>
+                <div class="small-12 medium-6 cell"><br>
+                    <button id="addressBook_removeAddress_buttonNo_{{id}}" type="button" [disabled]="processing" class="button button-light expanded" data-close translate>addressBook.no</button>
+                </div>
+                <div class="small-12 medium-6 cell"><br>
+                    <button id="addressBook_removeAddress_buttonYes_{{id}}" type="button" [disabled]="processing" class="button button-dark expanded" (click)="doDelete()" data-close translate>addressBook.yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

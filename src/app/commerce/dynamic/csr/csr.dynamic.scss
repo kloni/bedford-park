@@ -1,0 +1,157 @@
+.csr-container {
+  .stop-acting-diag {
+    margin-left: 0.9375rem;
+    margin-right: 3.75rem;
+    a {
+      text-decoration-line: underline;
+    }
+  }
+
+  .selected {
+    border-left: 3px solid #303030;
+    background-color: #f7f7f7;
+  }
+
+  .button {
+    font-size: 0.9rem;
+    text-transform: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom:0.5rem;
+  }
+
+  .button-white {
+    background-color:white;
+    color: black;
+    border: 2px black solid;
+  }
+
+  .clear-all {
+    padding-top: 0.7875rem;
+    text-align: right;
+    text-decoration-line: underline;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    @media(max-width: 640px) {
+      text-align: center;
+      padding-bottom: 1.35rem;
+    }
+  }
+
+  .accordion {
+    margin-bottom: 0.7875rem;
+  }
+
+  .diagnostic {
+    font-weight: bold;
+    padding-bottom: 0.7875rem;
+
+    a {
+      text-decoration-line: underline;
+    }
+  }
+
+  .expand-to-full {
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .tabs {
+    border: none;
+  }
+
+  .space-left-only {
+    margin-right: 0;
+  }
+
+  .space-right-only {
+    @media(min-width: 640px) {
+      margin-left: 0;
+    }
+  }
+
+  .tabs-content {
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+
+    @media (max-width:640px) {
+      border-left: none;
+    }
+  }
+
+  .tabs-panel {
+    min-height: 400px;
+    padding-top: 0;
+  }
+
+  .tabs-title {
+    a {
+      min-height: 40px;
+      font-weight: bold;
+      font-size: 1.05rem;
+      color: black;
+      border: none;
+      padding: 0.7rem 1.5rem;
+    }
+
+    a:active,
+    a:focus,
+    a[aria-selected='true'] {
+      color: white;
+      background-color: black;
+    }
+  }
+
+  .record-headers {
+    padding-top: 0.7875rem;
+    padding-bottom: 0.7875rem;
+    background-color: #f2f2f2;
+
+    >div {
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+  }
+
+  .record-body {
+    padding-top: 0.7875rem;
+    padding-bottom: 0.7875rem;
+    border-bottom: 1px solid #d8d8d8;
+
+    a {
+      font-size: 0.9rem;
+    }
+
+    >div {
+      font-size:0.9rem;
+
+      >select {
+        font-size:0.9rem;
+      }
+    }
+
+    .hide-overflow {
+      text-overflow:ellipsis;
+      overflow: hidden;
+    }
+  }
+
+  .acting-as {
+    padding-top: 0.3rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .button-guest {
+    @media(max-width: 640px) {
+      margin-top: 0.75rem;
+    }
+  }
+}

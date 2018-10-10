@@ -1,0 +1,50 @@
+@import '../../../theme_settings.scss';
+.checkoutlayout {
+    .cart-promo-code-mobile {
+        .accordion-menu {
+            .menu {
+                input.is-invalid-input {
+                    margin-bottom: 0.5em;
+                }
+            }
+            .is-accordion-submenu-parent:not(.has-submenu-toggle){
+                a {
+                    padding-left: 0;
+                    padding-right: 0;
+                    &::after {
+                        border: none;
+                    }
+                    @include go-link();
+                }
+                .button{
+                    padding: 0.5rem;
+                    &:not(:last-child){
+                        margin-bottom: 0.5rem;
+                    }
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+            .nested.is-accordion-submenu {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+    label {
+        p.checkout-address-label{
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+    }
+    commerce-ship-payment{
+        &>.grid-container{
+            margin-top: 1rem;
+        }
+    }
+    .checkout-costs {
+        margin-top:1.25rem;
+    }
+}

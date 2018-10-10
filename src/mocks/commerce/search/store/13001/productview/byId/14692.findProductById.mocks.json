@@ -1,0 +1,3119 @@
+{
+    "recordSetCount": 1,
+    "metaData": {
+        "price": "1"
+    },
+    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14692?langId=-1",
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": false,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14692",
+            "uniqueID": "14692",
+            "partNumber": "LR-FNTR-CO-0006",
+            "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "Modernize your living room space with the casual sofa. The sofa features cool tones, removable seat pillows, easy to clean polyester fabric, and an additional accent pillow along the backrest. The armchair's modern styling is complemented with durable brushed steel legs along its corners and center, for extra support. No assembly required.",
+            "name": "Casual Sofa",
+            "parentCatalogGroupID": [
+                "11251_10602",
+                "11301_10602"
+            ],
+            "manufacturer": "Moderno",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "600.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "600.0",
+                    "maximumValue": {
+                        "value": "600.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "549.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "549.99",
+                    "maximumValue": {
+                        "value": "589.99"
+                    }
+                }
+            ],
+            "numberOfSKUs": 10,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14693",
+                    "uniqueID": "14693",
+                    "partNumber": "LR-FNTR-CO-0006-0001",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "549.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "lightgrey",
+                                    "sequence": "6.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                                    "value": "Light Grey",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                                    "uniqueID": "7000000000000003306"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "48x6x48",
+                                    "sequence": "1.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "48\"x6\"x48\"",
+                                    "uniqueID": "7000000000000003324"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14693",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54822,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14693",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54822,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14693",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54822,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14693",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54822,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14693",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54822,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14693",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54822,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a2_100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14694",
+                    "uniqueID": "14694",
+                    "partNumber": "LR-FNTR-CO-0006-0002",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "569.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "toffee",
+                                    "sequence": "8.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                    "value": "Toffee",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                    "uniqueID": "7000000000000003308"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "48x6x48",
+                                    "sequence": "1.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "48\"x6\"x48\"",
+                                    "uniqueID": "7000000000000003324"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0002_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14694",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54823,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0002_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14694",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54823,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0002_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14694",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54823,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0002_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14694",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54823,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0002_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14694",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54823,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0002_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14694",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54823,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b2_100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14695",
+                    "uniqueID": "14695",
+                    "partNumber": "LR-FNTR-CO-0006-0003",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "569.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "grey",
+                                    "sequence": "3.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                                    "value": "Grey",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                                    "uniqueID": "7000000000000003303"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "48x6x48",
+                                    "sequence": "1.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "48\"x6\"x48\"",
+                                    "uniqueID": "7000000000000003324"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0003_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14695",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54824,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0003_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14695",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54824,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0003_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14695",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54824,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0003_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14695",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54824,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0003_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14695",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54824,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0003_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14695",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54824,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c2_100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14696",
+                    "uniqueID": "14696",
+                    "partNumber": "LR-FNTR-CO-0006-0004",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "579.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "blue",
+                                    "sequence": "9.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                    "value": "Blue",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                    "uniqueID": "7000000000000003311"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "48x6x48",
+                                    "sequence": "1.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "48\"x6\"x48\"",
+                                    "uniqueID": "7000000000000003324"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0004_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14696",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54825,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0004_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14696",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54825,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0004_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14696",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54825,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0004_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14696",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54825,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0004_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14696",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54825,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0004_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14696",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54825,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d2_100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14697",
+                    "uniqueID": "14697",
+                    "partNumber": "LR-FNTR-CO-0006-0005",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "579.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "brown",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "value": "Brown",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "uniqueID": "7000000000000003302"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "48x6x48",
+                                    "sequence": "1.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "48\"x6\"x48\"",
+                                    "uniqueID": "7000000000000003324"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0005_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14697",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54826,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0005_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14697",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54826,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0005_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14697",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54826,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0005_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14697",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54826,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0005_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14697",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54826,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0005_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14697",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54826,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e2_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14698",
+                    "uniqueID": "14698",
+                    "partNumber": "LR-FNTR-CO-0006-0006",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "589.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "lightgrey",
+                                    "sequence": "6.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                                    "value": "Light Grey",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                                    "uniqueID": "7000000000000003306"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "52x6x52",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "52\"x6\"x52\"",
+                                    "uniqueID": "7000000000000003325"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0006_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14698",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54827,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0006_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14698",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54827,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0006_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14698",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54827,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0006_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14698",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54827,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0006_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14698",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54827,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0006_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14698",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                            "attachmentAssetID": 54827,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a2_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14699",
+                    "uniqueID": "14699",
+                    "partNumber": "LR-FNTR-CO-0006-0007",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "589.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "toffee",
+                                    "sequence": "8.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                    "value": "Toffee",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                    "uniqueID": "7000000000000003308"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "52x6x52",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "52\"x6\"x52\"",
+                                    "uniqueID": "7000000000000003325"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0007_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14699",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54828,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0007_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14699",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54828,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0007_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14699",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54828,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0007_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14699",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54828,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0007_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14699",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54828,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0007_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14699",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54828,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_b2_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14700",
+                    "uniqueID": "14700",
+                    "partNumber": "LR-FNTR-CO-0006-0008",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "589.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "grey",
+                                    "sequence": "3.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                                    "value": "Grey",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                                    "uniqueID": "7000000000000003303"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "52x6x52",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "52\"x6\"x52\"",
+                                    "uniqueID": "7000000000000003325"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0008_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14700",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54829,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0008_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14700",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54829,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0008_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14700",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54829,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0008_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14700",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54829,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0008_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14700",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54829,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0008_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14700",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54829,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_c2_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14701",
+                    "uniqueID": "14701",
+                    "partNumber": "LR-FNTR-CO-0006-0009",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "589.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "blue",
+                                    "sequence": "9.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                    "value": "Blue",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                    "uniqueID": "7000000000000003311"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "52x6x52",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "52\"x6\"x52\"",
+                                    "uniqueID": "7000000000000003325"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0009_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14701",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54830,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0009_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14701",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54830,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0009_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14701",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54830,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0009_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14701",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54830,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0009_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14701",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54830,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0009_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14701",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54830,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_d2_100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14702",
+                    "uniqueID": "14702",
+                    "partNumber": "LR-FNTR-CO-0006-0010",
+                    "shortDescription": "A casual yet elegant sofa that offers comfort and modern styling to accent your home's living room.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Casual Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Moderno",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "600.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "589.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "brown",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "value": "Brown",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "uniqueID": "7000000000000003302"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "Size",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "52x6x52",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "value": "52\"x6\"x52\"",
+                                    "uniqueID": "7000000000000003325"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Size",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000652"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0010_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14702",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54831,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0010_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14702",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54831,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0010_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14702",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54831,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0010_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14702",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54831,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0010_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14702",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54831,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-CO-0006-0010_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14702",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-CO-0006-0005_CatalogEntryImages",
+                            "attachmentAssetID": 54831,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_e2_100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "brown",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "value": "Brown",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "uniqueID": "7000000000000003302"
+                        },
+                        {
+                            "identifier": "grey",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                            "value": "Grey",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                            "uniqueID": "7000000000000003303"
+                        },
+                        {
+                            "identifier": "lightgrey",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                            "value": "Light Grey",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                            "uniqueID": "7000000000000003306"
+                        },
+                        {
+                            "identifier": "toffee",
+                            "sequence": "8.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                            "value": "Toffee",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                            "uniqueID": "7000000000000003308"
+                        },
+                        {
+                            "identifier": "blue",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                            "value": "Blue",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                            "uniqueID": "7000000000000003311"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "48x6x48",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "value": "48\"x6\"x48\"",
+                            "uniqueID": "7000000000000003324"
+                        },
+                        {
+                            "identifier": "52x6x52",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "value": "52\"x6\"x52\"",
+                            "uniqueID": "7000000000000003325"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-CO-0006_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14692",
+                    "usage": "images_main_thumbnail",
+                    "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54656,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-CO-0006_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14692",
+                    "usage": "images_main_fullimage",
+                    "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54656,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-CO-0006_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14692",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54656,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-CO-0006_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14692",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54656,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-CO-0006_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14692",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54656,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a2_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-CO-0006_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14692",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-FNTR-CO-0006_CatalogEntryImages",
+                    "attachmentAssetID": 54656,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/couch6_a2_600.jpg"
+                }
+            ],
+            "merchandisingAssociations": [
+                {
+                    "buyable": "true",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14754",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_350.jpg",
+                    "sKUs": [
+                        {
+                            "hasSingleSKU": false,
+                            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14755",
+                            "uniqueID": "14755",
+                            "partNumber": "LR-FNTR-TB-0003-0001",
+                            "shortDescription": "A modern styled coffee table that is suited towards open-concept areas, providing plenty of space for your refreshments and decor.",
+                            "catalogEntryTypeCode": "ItemBean",
+                            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_600.jpg",
+                            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_350.jpg",
+                            "buyable": "true",
+                            "storeID": "12901",
+                            "name": "Abstract Glass Coffee Table",
+                            "parentCatalogGroupID": [
+                                "11251_10602",
+                                "11301_10602"
+                            ],
+                            "manufacturer": "Moderno",
+                            "price": [
+                                {
+                                    "usage": "Display",
+                                    "description": "L",
+                                    "currency": "USD",
+                                    "value": "155.0"
+                                },
+                                {
+                                    "usage": "Offer",
+                                    "description": "I",
+                                    "currency": "USD",
+                                    "value": "145.0"
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "identifier": "Color",
+                                    "sequence": "1.00000",
+                                    "storeDisplay": false,
+                                    "values": [
+                                        {
+                                            "identifier": "puple",
+                                            "sequence": "10.00000",
+                                            "unitOfMeasure": "one",
+                                            "unitID": "C62",
+                                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png",
+                                            "value": "Tan",
+                                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png",
+                                            "uniqueID": "7000000000000003317"
+                                        }
+                                    ],
+                                    "usage": "Defining",
+                                    "displayable": true,
+                                    "name": "Color",
+                                    "facetable": true,
+                                    "comparable": true,
+                                    "searchable": true,
+                                    "uniqueID": "7000000000000000651"
+                                }
+                            ],
+                            "attachments": [
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0003-0001_CatalogEntryImages_main_fullimage",
+                                    "catentry_id": "14755",
+                                    "usage": "images_main_fullimage",
+                                    "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54876,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0003-0001_CatalogEntryImages_main_thumbnail",
+                                    "catentry_id": "14755",
+                                    "usage": "images_main_thumbnail",
+                                    "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54876,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_350.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0003-0001_CatalogEntryImages_angle1_fullimage",
+                                    "catentry_id": "14755",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54876,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0003-0001_CatalogEntryImages_angle1_thumbnail",
+                                    "catentry_id": "14755",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54876,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0003-0001_CatalogEntryImages_angle2_fullimage",
+                                    "catentry_id": "14755",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54876,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a2_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0003-0001_CatalogEntryImages_angle2_thumbnail",
+                                    "catentry_id": "14755",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54876,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a2_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0003-0001_CatalogEntryImages_angle3_thumbnail",
+                                    "catentry_id": "14755",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54876,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a3_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0003-0001_CatalogEntryImages_angle3_fullimage",
+                                    "catentry_id": "14755",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54876,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a3_600.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0003_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14754",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54664,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0003_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14754",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54664,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0003_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14754",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54664,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0003_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14754",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54664,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0003_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14754",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54664,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0003_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14754",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54664,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0003_CatalogEntryImages_angle3_fullimage",
+                            "catentry_id": "14754",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54664,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a3_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0003_CatalogEntryImages_angle3_thumbnail",
+                            "catentry_id": "14754",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-TB-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54664,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable3_a3_100.jpg"
+                        }
+                    ],
+                    "quantity": 1,
+                    "associationType": "X-SELL",
+                    "shortDescription": "A modern styled coffee table that is suited towards open-concept areas, providing plenty of space for your refreshments and decor.",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "storeID": "12901",
+                    "singleSKUCatalogEntryID": "14755",
+                    "manufacturer": "Moderno",
+                    "numberOfSKUs": 1,
+                    "hasSingleSKU": true,
+                    "price": [
+                        {
+                            "minimumValue": {
+                                "value": "155.0"
+                            },
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "155.0",
+                            "maximumValue": {
+                                "value": "155.0"
+                            }
+                        },
+                        {
+                            "minimumValue": {
+                                "value": "145.0"
+                            },
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "145.0",
+                            "maximumValue": {
+                                "value": "145.0"
+                            }
+                        }
+                    ],
+                    "name": "Abstract Glass Coffee Table",
+                    "partNumber": "LR-FNTR-TB-0003",
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "puple",
+                                    "sequence": "10.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png",
+                                    "value": "Tan",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png",
+                                    "uniqueID": "7000000000000003317"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "catalogEntryTypeCode": "ProductBean",
+                    "uniqueID": "14754"
+                },
+                {
+                    "buyable": "true",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14756",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_350.jpg",
+                    "sKUs": [
+                        {
+                            "hasSingleSKU": false,
+                            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14757",
+                            "uniqueID": "14757",
+                            "partNumber": "LR-FNTR-TB-0004-0001",
+                            "shortDescription": "A compact pub-style coffee table that provides modern styling and room for all types of refreshments.",
+                            "catalogEntryTypeCode": "ItemBean",
+                            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_600.jpg",
+                            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_350.jpg",
+                            "buyable": "true",
+                            "storeID": "12901",
+                            "name": "Pub-style Coffee Table",
+                            "parentCatalogGroupID": [
+                                "11251_10602",
+                                "11301_10602"
+                            ],
+                            "manufacturer": "Style Home",
+                            "price": [
+                                {
+                                    "usage": "Display",
+                                    "description": "L",
+                                    "currency": "USD",
+                                    "value": "155.0"
+                                },
+                                {
+                                    "usage": "Offer",
+                                    "description": "I",
+                                    "currency": "USD",
+                                    "value": "145.0"
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "identifier": "Color",
+                                    "sequence": "1.00000",
+                                    "storeDisplay": false,
+                                    "values": [
+                                        {
+                                            "identifier": "toffee",
+                                            "sequence": "8.00000",
+                                            "unitOfMeasure": "one",
+                                            "unitID": "C62",
+                                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                            "value": "Toffee",
+                                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                            "uniqueID": "7000000000000003308"
+                                        }
+                                    ],
+                                    "usage": "Defining",
+                                    "displayable": true,
+                                    "name": "Color",
+                                    "facetable": true,
+                                    "comparable": true,
+                                    "searchable": true,
+                                    "uniqueID": "7000000000000000651"
+                                }
+                            ],
+                            "attachments": [
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0004-0001_CatalogEntryImages_main_fullimage",
+                                    "catentry_id": "14757",
+                                    "usage": "images_main_fullimage",
+                                    "name": "LR-FNTR-TB-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54877,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0004-0001_CatalogEntryImages_main_thumbnail",
+                                    "catentry_id": "14757",
+                                    "usage": "images_main_thumbnail",
+                                    "name": "LR-FNTR-TB-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54877,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_350.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0004-0001_CatalogEntryImages_angle1_fullimage",
+                                    "catentry_id": "14757",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-FNTR-TB-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54877,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-FNTR-TB-0004-0001_CatalogEntryImages_angle1_thumbnail",
+                                    "catentry_id": "14757",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-FNTR-TB-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54877,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_100.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0004_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14756",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-TB-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54665,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0004_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14756",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-TB-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54665,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0004_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14756",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-TB-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54665,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-TB-0004_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14756",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-TB-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54665,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/ctable4_a1_600.jpg"
+                        }
+                    ],
+                    "quantity": 1,
+                    "associationType": "X-SELL",
+                    "shortDescription": "A compact pub-style coffee table that provides modern styling and room for all types of refreshments.",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "storeID": "12901",
+                    "singleSKUCatalogEntryID": "14757",
+                    "manufacturer": "Style Home",
+                    "numberOfSKUs": 1,
+                    "hasSingleSKU": true,
+                    "price": [
+                        {
+                            "minimumValue": {
+                                "value": "155.0"
+                            },
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "155.0",
+                            "maximumValue": {
+                                "value": "155.0"
+                            }
+                        },
+                        {
+                            "minimumValue": {
+                                "value": "145.0"
+                            },
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "145.0",
+                            "maximumValue": {
+                                "value": "145.0"
+                            }
+                        }
+                    ],
+                    "name": "Pub-style Coffee Table",
+                    "partNumber": "LR-FNTR-TB-0004",
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "toffee",
+                                    "sequence": "8.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                    "value": "Toffee",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_toffee.png",
+                                    "uniqueID": "7000000000000003308"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "catalogEntryTypeCode": "ProductBean",
+                    "uniqueID": "14756"
+                },
+                {
+                    "buyable": "true",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14775",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_350.jpg",
+                    "sKUs": [
+                        {
+                            "hasSingleSKU": false,
+                            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14776",
+                            "uniqueID": "14776",
+                            "partNumber": "LR-LITB-0002-0001",
+                            "shortDescription": "A rustic pendant light fixture that adds a vintage feel to any living space.",
+                            "catalogEntryTypeCode": "ItemBean",
+                            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_600.jpg",
+                            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_350.jpg",
+                            "buyable": "true",
+                            "storeID": "12901",
+                            "name": "Weathered Pendant Light",
+                            "parentCatalogGroupID": [
+                                "11251_10603",
+                                "11301_10603"
+                            ],
+                            "manufacturer": "Bender Home Fashions",
+                            "price": [
+                                {
+                                    "usage": "Display",
+                                    "description": "L",
+                                    "currency": "USD",
+                                    "value": "180.0"
+                                },
+                                {
+                                    "usage": "Offer",
+                                    "description": "I",
+                                    "currency": "USD",
+                                    "value": "160.0"
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "identifier": "Color",
+                                    "sequence": "1.00000",
+                                    "storeDisplay": false,
+                                    "values": [
+                                        {
+                                            "identifier": "gold",
+                                            "sequence": "10.00000",
+                                            "unitOfMeasure": "one",
+                                            "unitID": "C62",
+                                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_gold.png",
+                                            "value": "Gold",
+                                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_gold.png",
+                                            "uniqueID": "7000000000000003312"
+                                        }
+                                    ],
+                                    "usage": "Defining",
+                                    "displayable": true,
+                                    "name": "Color",
+                                    "facetable": true,
+                                    "comparable": true,
+                                    "searchable": true,
+                                    "uniqueID": "7000000000000000651"
+                                }
+                            ],
+                            "attachments": [
+                                {
+                                    "image": "",
+                                    "identifier": "LR-LITB-0002-0001_CatalogEntryImages_main_thumbnail",
+                                    "catentry_id": "14776",
+                                    "usage": "images_main_thumbnail",
+                                    "name": "LR-LITB-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54891,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_350.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-LITB-0002-0001_CatalogEntryImages_main_fullimage",
+                                    "catentry_id": "14776",
+                                    "usage": "images_main_fullimage",
+                                    "name": "LR-LITB-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54891,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-LITB-0002-0001_CatalogEntryImages_angle1_fullimage",
+                                    "catentry_id": "14776",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-LITB-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54891,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-LITB-0002-0001_CatalogEntryImages_angle1_thumbnail",
+                                    "catentry_id": "14776",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-LITB-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54891,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-LITB-0002-0001_CatalogEntryImages_angle2_fullimage",
+                                    "catentry_id": "14776",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-LITB-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54891,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a2_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-LITB-0002-0001_CatalogEntryImages_angle2_thumbnail",
+                                    "catentry_id": "14776",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-LITB-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54891,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a2_100.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0002_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14775",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-LITB-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54672,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0002_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14775",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-LITB-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54672,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0002_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14775",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-LITB-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54672,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0002_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14775",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-LITB-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54672,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0002_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14775",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-LITB-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54672,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-LITB-0002_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14775",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-LITB-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54672,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a2_100.jpg"
+                        }
+                    ],
+                    "quantity": 1,
+                    "associationType": "X-SELL",
+                    "shortDescription": "A rustic pendant light fixture that adds a vintage feel to any living space.",
+                    "parentCatalogGroupID": [
+                        "11251_10603",
+                        "11301_10603"
+                    ],
+                    "storeID": "12901",
+                    "singleSKUCatalogEntryID": "14776",
+                    "manufacturer": "Bender Home Fashions",
+                    "numberOfSKUs": 1,
+                    "hasSingleSKU": true,
+                    "price": [
+                        {
+                            "minimumValue": {
+                                "value": "180.0"
+                            },
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "180.0",
+                            "maximumValue": {
+                                "value": "180.0"
+                            }
+                        },
+                        {
+                            "minimumValue": {
+                                "value": "160.0"
+                            },
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "160.0",
+                            "maximumValue": {
+                                "value": "160.0"
+                            }
+                        }
+                    ],
+                    "name": "Weathered Pendant Light",
+                    "partNumber": "LR-LITB-0002",
+                    "attributes": [
+                        {
+                            "identifier": "ProductDimensions",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "10x24x12",
+                                    "sequence": "9.00000",
+                                    "unitOfMeasure": "",
+                                    "unitID": "",
+                                    "value": "10\"x24\"x12\"",
+                                    "uniqueID": "7000000000000003382"
+                                }
+                            ],
+                            "usage": "Descriptive",
+                            "displayable": true,
+                            "name": "Product Dimensions",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000660"
+                        },
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "gold",
+                                    "sequence": "10.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_gold.png",
+                                    "value": "Gold",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_gold.png",
+                                    "uniqueID": "7000000000000003312"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "ItemWeight",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "6lbs",
+                                    "sequence": "10.00000",
+                                    "unitOfMeasure": "",
+                                    "unitID": "",
+                                    "value": "6 lbs",
+                                    "uniqueID": "7000000000000003402"
+                                }
+                            ],
+                            "usage": "Descriptive",
+                            "displayable": true,
+                            "name": "Item Weight",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000661"
+                        },
+                        {
+                            "identifier": "Materials",
+                            "sequence": "3.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "metal_glass",
+                                    "sequence": "5.00000",
+                                    "unitOfMeasure": "",
+                                    "unitID": "",
+                                    "value": "Metal, Glass",
+                                    "uniqueID": "7000000000000003330"
+                                }
+                            ],
+                            "usage": "Descriptive",
+                            "displayable": true,
+                            "name": "Material",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000653"
+                        },
+                        {
+                            "identifier": "NumberOfBulbs",
+                            "sequence": "4.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "1bulb",
+                                    "sequence": "1.00000",
+                                    "unitOfMeasure": "",
+                                    "unitID": "",
+                                    "value": "1",
+                                    "uniqueID": "7000000000000003409"
+                                }
+                            ],
+                            "usage": "Descriptive",
+                            "displayable": true,
+                            "name": "Number of Light Bulbs",
+                            "facetable": false,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": false,
+                            "uniqueID": "7000000000000000663"
+                        }
+                    ],
+                    "catalogEntryTypeCode": "ProductBean",
+                    "uniqueID": "14775"
+                },
+                {
+                    "buyable": "true",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14609",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_350.jpg",
+                    "sKUs": [
+                        {
+                            "hasSingleSKU": false,
+                            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14610",
+                            "uniqueID": "14610",
+                            "partNumber": "LR-DECO-0004-0001",
+                            "shortDescription": "A stylish hand-crafted accent rug that features a pointed braided texture to accent your living space in a warm, welcoming way.",
+                            "catalogEntryTypeCode": "ItemBean",
+                            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_600.jpg",
+                            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_350.jpg",
+                            "buyable": "true",
+                            "storeID": "12901",
+                            "name": "Braided Accent Rug",
+                            "parentCatalogGroupID": [
+                                "11251_10604",
+                                "11301_10604"
+                            ],
+                            "manufacturer": "Rugs America",
+                            "price": [
+                                {
+                                    "usage": "Display",
+                                    "description": "L",
+                                    "currency": "USD",
+                                    "value": "200.0"
+                                },
+                                {
+                                    "usage": "Offer",
+                                    "description": "I",
+                                    "currency": "USD",
+                                    "value": "200.0"
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "identifier": "Color",
+                                    "sequence": "1.00000",
+                                    "storeDisplay": false,
+                                    "values": [
+                                        {
+                                            "identifier": "crimson",
+                                            "sequence": "10.00000",
+                                            "unitOfMeasure": "one",
+                                            "unitID": "C62",
+                                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png",
+                                            "value": "Crimson",
+                                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png",
+                                            "uniqueID": "7000000000000003315"
+                                        }
+                                    ],
+                                    "usage": "Defining",
+                                    "displayable": true,
+                                    "name": "Color",
+                                    "facetable": true,
+                                    "comparable": true,
+                                    "searchable": true,
+                                    "uniqueID": "7000000000000000651"
+                                }
+                            ],
+                            "attachments": [
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0001_CatalogEntryImages_main_fullimage",
+                                    "catentry_id": "14610",
+                                    "usage": "images_main_fullimage",
+                                    "name": "LR-DECO-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54752,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0001_CatalogEntryImages_main_thumbnail",
+                                    "catentry_id": "14610",
+                                    "usage": "images_main_thumbnail",
+                                    "name": "LR-DECO-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54752,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_350.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0001_CatalogEntryImages_angle1_thumbnail",
+                                    "catentry_id": "14610",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-DECO-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54752,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0001_CatalogEntryImages_angle1_fullimage",
+                                    "catentry_id": "14610",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-DECO-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54752,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0001_CatalogEntryImages_angle2_thumbnail",
+                                    "catentry_id": "14610",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-DECO-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54752,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a2_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0001_CatalogEntryImages_angle2_fullimage",
+                                    "catentry_id": "14610",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-DECO-0004_CatalogEntryImages",
+                                    "attachmentAssetID": 54752,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a2_600.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "hasSingleSKU": false,
+                            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14611",
+                            "uniqueID": "14611",
+                            "partNumber": "LR-DECO-0004-0002",
+                            "shortDescription": "A stylish hand-crafted accent rug that features a pointed braided texture to accent your living space in a warm, welcoming way.",
+                            "catalogEntryTypeCode": "ItemBean",
+                            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_b1_600.jpg",
+                            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_b1_350.jpg",
+                            "buyable": "true",
+                            "storeID": "12901",
+                            "name": "Braided Accent Rug",
+                            "parentCatalogGroupID": [
+                                "11251_10604",
+                                "11301_10604"
+                            ],
+                            "manufacturer": "Rugs America",
+                            "price": [
+                                {
+                                    "usage": "Display",
+                                    "description": "L",
+                                    "currency": "USD",
+                                    "value": "200.0"
+                                },
+                                {
+                                    "usage": "Offer",
+                                    "description": "I",
+                                    "currency": "USD",
+                                    "value": "200.0"
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "identifier": "Color",
+                                    "sequence": "1.00000",
+                                    "storeDisplay": false,
+                                    "values": [
+                                        {
+                                            "identifier": "seaweed",
+                                            "sequence": "10.00000",
+                                            "unitOfMeasure": "one",
+                                            "unitID": "C62",
+                                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                                            "value": "Seaweed",
+                                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                                            "uniqueID": "7000000000000003314"
+                                        }
+                                    ],
+                                    "usage": "Defining",
+                                    "displayable": true,
+                                    "name": "Color",
+                                    "facetable": true,
+                                    "comparable": true,
+                                    "searchable": true,
+                                    "uniqueID": "7000000000000000651"
+                                }
+                            ],
+                            "attachments": [
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0002_CatalogEntryImages_main_fullimage",
+                                    "catentry_id": "14611",
+                                    "usage": "images_main_fullimage",
+                                    "name": "LR-DECO-0004-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54753,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_b1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0002_CatalogEntryImages_main_thumbnail",
+                                    "catentry_id": "14611",
+                                    "usage": "images_main_thumbnail",
+                                    "name": "LR-DECO-0004-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54753,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_b1_350.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0002_CatalogEntryImages_angle1_thumbnail",
+                                    "catentry_id": "14611",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-DECO-0004-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54753,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_b1_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0002_CatalogEntryImages_angle1_fullimage",
+                                    "catentry_id": "14611",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-DECO-0004-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54753,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_b1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0002_CatalogEntryImages_angle2_thumbnail",
+                                    "catentry_id": "14611",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-DECO-0004-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54753,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_b2_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0002_CatalogEntryImages_angle2_fullimage",
+                                    "catentry_id": "14611",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-DECO-0004-0002_CatalogEntryImages",
+                                    "attachmentAssetID": 54753,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_b2_600.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "hasSingleSKU": false,
+                            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14612",
+                            "uniqueID": "14612",
+                            "partNumber": "LR-DECO-0004-0003",
+                            "shortDescription": "A stylish hand-crafted accent rug that features a pointed braided texture to accent your living space in a warm, welcoming way.",
+                            "catalogEntryTypeCode": "ItemBean",
+                            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_c1_600.jpg",
+                            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_c1_350.jpg",
+                            "buyable": "true",
+                            "storeID": "12901",
+                            "name": "Braided Accent Rug",
+                            "parentCatalogGroupID": [
+                                "11251_10604",
+                                "11301_10604"
+                            ],
+                            "manufacturer": "Rugs America",
+                            "price": [
+                                {
+                                    "usage": "Display",
+                                    "description": "L",
+                                    "currency": "USD",
+                                    "value": "200.0"
+                                },
+                                {
+                                    "usage": "Offer",
+                                    "description": "I",
+                                    "currency": "USD",
+                                    "value": "200.0"
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "identifier": "Color",
+                                    "sequence": "1.00000",
+                                    "storeDisplay": false,
+                                    "values": [
+                                        {
+                                            "identifier": "blue",
+                                            "sequence": "9.00000",
+                                            "unitOfMeasure": "one",
+                                            "unitID": "C62",
+                                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                            "value": "Blue",
+                                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                            "uniqueID": "7000000000000003311"
+                                        }
+                                    ],
+                                    "usage": "Defining",
+                                    "displayable": true,
+                                    "name": "Color",
+                                    "facetable": true,
+                                    "comparable": true,
+                                    "searchable": true,
+                                    "uniqueID": "7000000000000000651"
+                                }
+                            ],
+                            "attachments": [
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0003_CatalogEntryImages_main_fullimage",
+                                    "catentry_id": "14612",
+                                    "usage": "images_main_fullimage",
+                                    "name": "LR-DECO-0004-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54754,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_c1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0003_CatalogEntryImages_main_thumbnail",
+                                    "catentry_id": "14612",
+                                    "usage": "images_main_thumbnail",
+                                    "name": "LR-DECO-0004-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54754,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_c1_350.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0003_CatalogEntryImages_angle1_thumbnail",
+                                    "catentry_id": "14612",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-DECO-0004-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54754,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_c1_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0003_CatalogEntryImages_angle1_fullimage",
+                                    "catentry_id": "14612",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-DECO-0004-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54754,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_c1_600.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0003_CatalogEntryImages_angle2_thumbnail",
+                                    "catentry_id": "14612",
+                                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                                    "name": "LR-DECO-0004-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54754,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_c2_100.jpg"
+                                },
+                                {
+                                    "image": "",
+                                    "identifier": "LR-DECO-0004-0003_CatalogEntryImages_angle2_fullimage",
+                                    "catentry_id": "14612",
+                                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                                    "name": "LR-DECO-0004-0003_CatalogEntryImages",
+                                    "attachmentAssetID": 54754,
+                                    "mimeType": "image/jpeg",
+                                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_c2_600.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0004_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14609",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-DECO-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54643,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0004_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14609",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-DECO-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54643,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0004_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14609",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-DECO-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54643,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0004_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14609",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-DECO-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54643,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0004_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14609",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-DECO-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54643,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-DECO-0004_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14609",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-DECO-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54643,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a2_600.jpg"
+                        }
+                    ],
+                    "quantity": 1,
+                    "associationType": "X-SELL",
+                    "shortDescription": "A stylish hand-crafted accent rug that features a pointed braided texture to accent your living space in a warm, welcoming way.",
+                    "parentCatalogGroupID": [
+                        "11251_10604",
+                        "11301_10604"
+                    ],
+                    "storeID": "12901",
+                    "manufacturer": "Rugs America",
+                    "numberOfSKUs": 3,
+                    "hasSingleSKU": false,
+                    "price": [
+                        {
+                            "minimumValue": {
+                                "value": "200.0"
+                            },
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "200.0",
+                            "maximumValue": {
+                                "value": "200.0"
+                            }
+                        },
+                        {
+                            "minimumValue": {
+                                "value": "200.0"
+                            },
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "200.0",
+                            "maximumValue": {
+                                "value": "200.0"
+                            }
+                        }
+                    ],
+                    "name": "Braided Accent Rug",
+                    "partNumber": "LR-DECO-0004",
+                    "attributes": [
+                        {
+                            "identifier": "ProductDimensions",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "60x40x1",
+                                    "sequence": "18.00000",
+                                    "unitOfMeasure": "",
+                                    "unitID": "",
+                                    "value": "60\"x40\"x1\"",
+                                    "uniqueID": "7000000000000003391"
+                                }
+                            ],
+                            "usage": "Descriptive",
+                            "displayable": true,
+                            "name": "Product Dimensions",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000660"
+                        },
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "blue",
+                                    "sequence": "9.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                    "value": "Blue",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                                    "uniqueID": "7000000000000003311"
+                                },
+                                {
+                                    "identifier": "seaweed",
+                                    "sequence": "10.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                                    "value": "Seaweed",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                                    "uniqueID": "7000000000000003314"
+                                },
+                                {
+                                    "identifier": "crimson",
+                                    "sequence": "10.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png",
+                                    "value": "Crimson",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png",
+                                    "uniqueID": "7000000000000003315"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        },
+                        {
+                            "identifier": "ItemWeight",
+                            "sequence": "2.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "15lbs",
+                                    "sequence": "6.00000",
+                                    "unitOfMeasure": "",
+                                    "unitID": "",
+                                    "value": "15 lbs",
+                                    "uniqueID": "7000000000000003398"
+                                }
+                            ],
+                            "usage": "Descriptive",
+                            "displayable": true,
+                            "name": "Item Weight",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000661"
+                        },
+                        {
+                            "identifier": "Materials",
+                            "sequence": "3.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "vinyl-wool",
+                                    "sequence": "12.00000",
+                                    "unitOfMeasure": "",
+                                    "unitID": "",
+                                    "value": "Vinyl, Wool",
+                                    "uniqueID": "7000000000000003349"
+                                }
+                            ],
+                            "usage": "Descriptive",
+                            "displayable": true,
+                            "name": "Material",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000653"
+                        },
+                        {
+                            "identifier": "Pattern",
+                            "sequence": "4.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "Braided",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "",
+                                    "unitID": "",
+                                    "value": "Braided",
+                                    "uniqueID": "7000000000000003408"
+                                }
+                            ],
+                            "usage": "Descriptive",
+                            "displayable": true,
+                            "name": "Pattern",
+                            "facetable": true,
+                            "associatedKeyword": "-",
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000662"
+                        }
+                    ],
+                    "catalogEntryTypeCode": "ProductBean",
+                    "uniqueID": "14609"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": 0,
+    "resourceName": "productview",
+    "recordSetTotal": 1,
+    "recordSetTotalMatches": 1,
+    "recordSetComplete": "true"
+}

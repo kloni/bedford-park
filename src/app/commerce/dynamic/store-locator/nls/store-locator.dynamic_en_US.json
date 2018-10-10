@@ -1,0 +1,29 @@
+{
+	"StoreLocator" : {
+		"SelectFilters": "Select filters",
+		"Filter": "Filter",
+		"UseMyLocation": "Use my location",
+		"NoAddressFound": "No address was found for ",
+        "SearchResultFound": "{{numberOfResult}} {{result}} found within {{radius}} km for ",
+        "SingularResult": "result",
+        "MultipleResults": "results",
+		"SearchTerm": "{{searchTerm}}",
+		"YourLocation": "your location",
+		"Cancel": "Cancel",
+		"Apply": "Apply",
+		"Distance": "Distance",
+        "FilterSelected": "{{numFilter}} selected",
+        "FilterApplied": "{{numFilter}} filters applied: ",
+		"ClearAll": "Clear all",
+		"DisabledLocationService": "Enable your location services to activate the feature.",
+		"OpenUntil": "Open today until {{closingHour}}",
+		"ClosedToday": "Closed today",
+		"Services": "Services",
+		"Hours": "Hours",
+        "Directions": "Directions",
+        "ListView": "List view",
+        "MapView": "Map view",
+        "SetAsMyStore": "Set as my store",
+        "MyStore": "My store"
+	}
+}

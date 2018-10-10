@@ -1,0 +1,15 @@
+<div id="categoryCard_div_1_{{id}}" class="grid-container full category-container" *ngIf="category.name">
+    <div [attr.dataci_toolbar]="(ctx.eSpotDescInternal | json) == '{}' ? category.uniqueID+'_category' : null" [attr.dataci_category]="(ctx.eSpotDescInternal | json) == '{}' ? category.uniqueID+'_'+category.identifier.split(' ').join('-spchar1-').split('\'').join('-spchar2-').split('>').join('-spchar3-').split('<').join('-spchar4-').split('&#x22;').join('-spchar5-') : null">
+        <a [id]="'categoryCard_a_2_'+category.name+'_'+id" class="grid-x grid-margin-x" (click)="onClick()" [routerLink]="[category.seoUrl]">
+            <div class="small-6 medium-6 image-wrap cell">
+                <img [id]="'categoryCard_img_3_'+category.name+'_'+id" [src]="category.thumbnail | catImage"/>
+            </div>
+            <div class="small-6 medium-6 text-wrap">
+                <div class="text cell">
+                        <h4 [id]="'categoryCard_h3_1_'+category.name+'_'+id"><strong>{{ category.name }}</strong></h4>
+                        <p [id]="'categoryCard_p_5_'+category.name+'_'+id">{{ category.shortDescription }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>

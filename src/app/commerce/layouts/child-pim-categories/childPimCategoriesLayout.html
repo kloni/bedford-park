@@ -1,0 +1,12 @@
+<div id="childPimCategories_div_1_{{id}}">
+    <div id="childPimCategories_wci_toolbar_{{id}}" [attr.dataci_toolbar]="categoryId+'_'+'category'" [attr.dataci_category]="categoryId+'_'+categoryIdentifier.split(' ').join('-spchar1-').split('\'').join('-spchar2-').split('>').join('-spchar3-').split('<').join('-spchar4-').split('&#x22;').join('-spchar5-')">
+    </div>
+    <h2 id="childPimCategories_h2_2_{{id}}" *ngIf="categoryTitle">{{ categoryTitle }}</h2>
+    <div class="grid-container full">
+        <div class="grid-x">
+            <div id="childPimCategories_div_3_{{id}}" *ngFor="let list of lists" class="small-12 medium-6 category-container">
+                <wch-contentref [renderingContext]="list"></wch-contentref>
+            </div>
+        </div>
+    </div>
+</div>

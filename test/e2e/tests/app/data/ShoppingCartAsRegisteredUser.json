@@ -1,0 +1,61 @@
+{
+    "errorMessages" : {
+        "invalidPromotionCode" : "The promotion code you have entered is not valid. Verify the code and try again.",
+        "invalidZipCode": "Not a valid US zip code"
+    },
+    "user01" : {
+        "login" : "msscr@test.com",
+        "password": "Ibm4ever!",
+        "firstName" : "shopCartFirst",
+        "lastName" : "shopCartLast",
+        "phone" : "4443332222"
+    },
+    "test01" : {
+        "user" : "user01",
+        "promotionCode" : "REGISTER7",
+        "promotionDecimal" : "0.07",
+        "category" : "bath",
+        "expectedTotalWithPromo" : 14.88,
+        "expectedTotalWithoutPromo" : 14.40,
+        "expectedDiscount" : 1.12
+    },
+    "test02" : {
+        "user" : "user01",
+        "expectedDiscount" : 5.10,
+        "expectedDiscount2" : 8.60,
+        "expectedSubtotal" : 51.00,
+        "expectedSubtotal2" : 86.00,
+        "expectedTotal" : 45.9,
+        "expectedTotal2" : 77.40
+    },
+    "test03" : {
+        "user" : "user01",
+        "promotionCode" : "REGISTER7",
+        "promotionPercent" : "7.0"
+    },
+    "test04" : {
+        "promotionCode" : "InvalidPromo"
+    },
+    "test05" : {
+    },
+    "test06" : {
+    },
+    "test07" : {
+        "shippingCountry" : "United States",
+        "zipCode" : "10001",
+        "discount" : 3.20,
+        "shippingBase" : 5.94,
+        "shippingAdditional" : 0.99
+    },
+    "test08" : {
+        "invalidZipCode" : "1000",
+        "shippingCountry" : "United States"
+    },
+    "test09" : {
+    },
+    "test10" : {
+    },
+    "test11" : {
+    }
+
+}

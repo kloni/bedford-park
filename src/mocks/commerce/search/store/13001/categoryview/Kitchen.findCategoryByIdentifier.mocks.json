@@ -1,0 +1,24 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Kitchen",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/dep_kitchen.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/dep_kitchen.jpg",
+            "storeID": "12901",
+            "name": "Kitchen",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10616",
+            "uniqueID": "10616",
+            "parentCatalogGroupID": [
+                "11251_-1",
+                "11301_-1"
+            ],
+            "childCatalogGroupID": [
+                "11251_10617",
+                "11251_10618",
+                "11301_10617",
+                "11301_10618"
+            ],
+            "shortDescription": "Create a kitchen that suits your needs and fits your lifestyle"
+        }
+    ]
+}

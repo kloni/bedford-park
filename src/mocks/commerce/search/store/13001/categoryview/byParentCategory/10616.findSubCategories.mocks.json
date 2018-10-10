@@ -1,0 +1,38 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Cabinets",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/cabinets.jpg",
+            "storeID": "12901",
+            "name": "Cabinets",
+            "sequence": [
+                "11251_10616_1.00000",
+                "11301_10616_1.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10617",
+            "uniqueID": "10617",
+            "parentCatalogGroupID": [
+                "11251_10616",
+                "11301_10616"
+            ],
+            "shortDescription": "Versatile cabinetry and shelving give your kitchen storage space in style"
+        },
+        {
+            "identifier": "Countertops",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/countertops.jpg",
+            "storeID": "12901",
+            "name": "Countertops",
+            "sequence": [
+                "11251_10616_2.00000",
+                "11301_10616_2.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10618",
+            "uniqueID": "10618",
+            "parentCatalogGroupID": [
+                "11251_10616",
+                "11301_10616"
+            ],
+            "shortDescription": "Heat, scratch, stain, and water resistant countertops for every kitchen"
+        }
+    ]
+}

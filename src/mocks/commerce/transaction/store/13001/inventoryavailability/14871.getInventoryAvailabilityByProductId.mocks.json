@@ -1,0 +1,14 @@
+{
+    "InventoryAvailability": [
+        {
+            "availableQuantity": "2895.0",
+            "onlineStoreName": "Stockholm0410",
+            "productId": "14623",
+            "unitOfMeasure": "C62",
+            "inventoryStatus": "Available",
+            "onlineStoreId": "13001"
+        }
+    ],
+    "resourceId": "https://abc123.watsoncommerce.ibm.com:443/wcs/resources/store/13001/inventoryavailability/14623",
+    "resourceName": "inventoryavailability"
+}

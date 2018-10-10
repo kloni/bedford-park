@@ -1,0 +1,8 @@
+<div class="promo-large">
+  <img class="show-for-medium promo-img" *ngIf="backgroundImage" wchEditable="backgroundImage" [src]="imageUrl" [alt]="callToActionLink.linkText" [title]="callToActionLink['linkDescription']">
+  <img class="show-for-small-only promo-img" *ngIf="backgroundImage" wchEditable="backgroundImage" [src]="smallImageUrl" [alt]="callToActionLink.linkText" [title]="callToActionLink['linkDescription']">
+  <div class="promo-large-message">
+    <p class="promo-large-text" wchEditable="promotionText" [innerHTML]="promotionText"></p>
+    <a *ngIf="callToActionLink.linkURL!=undefined" wchEditable="callToActionLink" (click)="navigateToLink()" class="button">{{callToActionLink.linkText}}</a>
+  </div>
+</div>

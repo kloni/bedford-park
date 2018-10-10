@@ -1,0 +1,20 @@
+{
+    "order-items" : {
+		"numberOfOrderItems": "<b>{{value}}</b> items",
+		"oneItem": "<b>{{value}}</b> item",
+		"sku": "SKU: {{value}}",
+		"inStock": "In stock",
+		"outOfStock": "Out of stock",
+		"backOrdered": "Back ordered",
+		"quantity": "Quantity",
+		"remove": "Remove",
+		"pd_attr_C62": "{{0}}: {{1}}",
+		"pd_attr_HUR": "{{0}} Hour(s)",
+		"pd_attr_DAY": "{{0}} Day(s)",
+		"pd_attr_WEE": "{{0}} Week(s)",
+		"pd_attr_MON": "{{0}} Month(s)",
+		"pd_attr_ANN": "{{0}} Year(s)",
+		"pd_attr": "{{0}}: {{1}}{{2}}",
+		"quantities": "Quantity: {{value}}"
+	}
+}

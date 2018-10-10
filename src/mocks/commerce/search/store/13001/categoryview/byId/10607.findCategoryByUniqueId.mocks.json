@@ -1,0 +1,18 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "DiningChairs",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/chairs.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/chairs.jpg",
+            "storeID": "12901",
+            "name": "Chairs",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10607",
+            "uniqueID": "10607",
+            "parentCatalogGroupID": [
+                "11251_10605",
+                "11301_10605"
+            ],
+            "shortDescription": "Sturdy seating that matches any dining room decor"
+        }
+    ]
+}

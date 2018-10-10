@@ -1,0 +1,172 @@
+@import '~foundation-sites/scss/foundation';
+@import '../../theme_settings.scss';
+
+
+.searchWrapper {
+    /*
+   width: 200px;
+
+   input, input:focus {
+	 float: left;
+	 border: none;
+	 box-shadow: none;
+	 max-width: 250px;
+	 padding: 0 0 0 10px;
+   }
+ */
+    position: relative;
+    .searchSuggestions {
+        position: absolute;
+        top: 47px;
+        left: 0px;
+        z-index: 100;
+        background: white;
+        width: 100%;
+        border: 1px solid $border-color;
+        -webkit-box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.31);
+        -moz-box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.31);
+        box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.31);
+        .suggestion-item, .suggestion-identifier {
+            padding: 10px;
+            &:not(:first-child){
+                border-top: 1px solid $border-color;
+            }
+            &.highlight-item {
+                text-decoration: underline;
+            }
+            a {
+                display: block;
+                color: black;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+        .suggestion-identifier {
+            background-color: $search-suggestion-background;
+            text-transform: uppercase;
+        }
+    }
+    .search-results-count {
+        font-weight: 500
+    }
+    .search-form {
+        margin-top: -1px;
+        position: relative;
+        /* height: 35px; */
+        height: 60px;
+        overflow: hidden;
+        input{
+            border-bottom: 1px solid $border-color;
+       }
+    }
+    .search-button {
+        position: absolute;
+        /* top: 3px; */
+        top: 15px;
+        height: 30px;
+        width: 30px;
+        background: url(./images/icon-search.svg) left center no-repeat;
+        background-size: 20px 20px;
+        cursor: pointer;
+        /* opacity: .5; */
+    }
+    .search-input-clear {
+        position: absolute;
+        top: 15px;
+        background: url(./images/icon-search-input-clear.svg) center center no-repeat;
+        background-size: 22px 22px;
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+        left: 100%;
+        transition: all .5s ease-in-out;
+    }
+    .search-input-clear:not(.show-clear-button) {
+        opacity: 0;
+        margin: 0;
+    }
+    .search-input-clear:active {
+        opacity: 1;
+    }
+    [type=search],
+    [type=search]:focus {
+        height: auto;
+        margin-top: 12px;
+        padding: 10px 30px 5px 30px;
+        outline: none;
+        border: none;
+        /* border-bottom: 1px solid #cacaca; */
+        border-bottom: 1px solid transparent;
+        box-shadow: none;
+        line-height: 1;
+        transition: width 0.5s ease-in-out;
+        /* width: 200px; */
+    }
+    /*
+  [type=search]:active {
+    border-bottom:1px solid $border-color;
+    width:260px;
+  }
+  */
+    [type=search]:focus,
+    [type=search].active-input {
+        box-shadow: none;
+        width: 150px;
+        /*Transitions width of search input on focus*/
+    }
+    [type=search] {
+        width: 0px;
+        box-sizing: border-box;
+    }
+    .active-input~.search-button {
+        opacity: 1;
+    }
+    .search-button {
+        right: auto;
+        left: 0;
+    }
+    /* When the user inputs a search term and then leaves the search box we want
+  to keep the box looking like it still has focus. This next declaration duplicates
+  the styles used when the search input has focus so we can assign the .active-input
+  class to it onBlur.*/
+    .active-input~.search-input-clear.show-clear-button {
+        left: 100%;
+        margin-left: -30px;
+        transition: all 0.3s ease-in;
+        opacity: 1;
+    }
+    /* Marco: Styles for search results and controls, below */
+    .search-result-tools {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+    .search-result-tools * {
+        margin: 0
+    }
+    .search-result-tools select {
+        width: auto;
+        padding-left: 20px;
+    }
+    @media (min-width:40em) {
+        .search-form {
+            margin-top: -6px;
+        }
+        [type=search] {
+            width: 120px;
+        }
+        [type=search],
+        [type=search]:focus {
+            padding-right: 32px;
+            border-bottom: 1px solid $border-color;
+        }
+        [type=search]:focus,
+        [type=search].active-input {
+            width: 270px;
+            /*Transitions width of search input on focus*/
+        }
+    }
+}

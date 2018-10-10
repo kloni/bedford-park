@@ -1,0 +1,10 @@
+div.grid-x.grid-margin-x{
+    &>div.cell{
+        &:not(:last-child){
+            margin-bottom: 5rem;
+            @media screen and (max-width: 40em) {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

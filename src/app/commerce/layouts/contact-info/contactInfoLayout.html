@@ -1,0 +1,5 @@
+<div [id]="rContext.id">
+  <img *ngIf="icon" wchEditable="icon" [src]="this.utilsService.getImageUrl(rContext, this.IMAGE_KEY, 'default')" [alt]="icon.altText ? (onIcon | async).altText : ''" [title]="icon.asset?.fileName ? icon.asset?.fileName : ''" />
+  <div wchEditable="title" [innerHTML]="(onTitle | async) ? title : ''"></div>
+  <div wchEditable="details" [innerHTML]="(onDetails | async) ? details : ''"></div>
+</div>

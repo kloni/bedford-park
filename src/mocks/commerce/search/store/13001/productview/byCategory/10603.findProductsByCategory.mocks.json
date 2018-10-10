@@ -1,0 +1,1714 @@
+{
+    "metaData": {
+        "price": "1"
+    },
+    "breadCrumbTrailEntryView": [
+        {
+            "label": "Living Room"
+        },
+        {
+            "label": "Lighting"
+        }
+    ],
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14773",
+            "partNumber": "LR-LITB-0006",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light1_a1_350.jpg",
+            "name": "Modern Pendant Light",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "140.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "140.0",
+                    "maximumValue": {
+                        "value": "140.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "135.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "135.0",
+                    "maximumValue": {
+                        "value": "135.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10x24x12",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10\"x24\"x12\"",
+                            "uniqueID": "7000000000000003382"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "6lbs",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "6 lbs",
+                            "uniqueID": "7000000000000003402"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_glass",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Glass",
+                            "uniqueID": "7000000000000003330"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfBulbs",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "1bulb",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "1",
+                            "uniqueID": "7000000000000003409"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Light Bulbs",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000663"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14775",
+            "partNumber": "LR-LITB-0006",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light2_a1_350.jpg",
+            "name": "Weathered Pendant Light",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "180.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "180.0",
+                    "maximumValue": {
+                        "value": "180.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "160.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "160.0",
+                    "maximumValue": {
+                        "value": "160.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10x24x12",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10\"x24\"x12\"",
+                            "uniqueID": "7000000000000003382"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "6lbs",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "6 lbs",
+                            "uniqueID": "7000000000000003402"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_glass",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Glass",
+                            "uniqueID": "7000000000000003330"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfBulbs",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "1bulb",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "1",
+                            "uniqueID": "7000000000000003409"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Light Bulbs",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000663"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14777",
+            "partNumber": "LR-LITB-0006",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light3_a1_350.jpg",
+            "name": "Solid Pendant Light",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "155.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "155.0",
+                    "maximumValue": {
+                        "value": "155.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "145.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "145.0",
+                    "maximumValue": {
+                        "value": "145.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10x24x12",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10\"x24\"x12\"",
+                            "uniqueID": "7000000000000003382"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "6lbs",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "6 lbs",
+                            "uniqueID": "7000000000000003402"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_glass",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Glass",
+                            "uniqueID": "7000000000000003330"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfBulbs",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "1bulb",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "1",
+                            "uniqueID": "7000000000000003409"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Light Bulbs",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000663"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14779",
+            "partNumber": "LR-LITB-0006",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light4_a1_350.jpg",
+            "name": "Brushed Pendant Light",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "140.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "140.0",
+                    "maximumValue": {
+                        "value": "140.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "135.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "135.0",
+                    "maximumValue": {
+                        "value": "135.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10x24x12",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10\"x24\"x12\"",
+                            "uniqueID": "7000000000000003382"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "6lbs",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "6 lbs",
+                            "uniqueID": "7000000000000003402"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_glass",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Glass",
+                            "uniqueID": "7000000000000003330"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfBulbs",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "1bulb",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "1",
+                            "uniqueID": "7000000000000003409"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Light Bulbs",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000663"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14781",
+            "partNumber": "LR-LITB-0006",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light5_a1_350.jpg",
+            "name": "Circular Chandelier",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "400.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "400.0",
+                    "maximumValue": {
+                        "value": "400.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "349.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "349.99",
+                    "maximumValue": {
+                        "value": "349.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_glass_plastic",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Glass, Plastic",
+                            "uniqueID": "7000000000000003331"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfBulbs",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "3bulbs",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "3",
+                            "uniqueID": "7000000000000003410"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Light Bulbs",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000663"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14783",
+            "partNumber": "LR-LITB-0006",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light6_a1_350.jpg",
+            "name": "Raindrop Chandelier",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "1800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "1800.0",
+                    "maximumValue": {
+                        "value": "1800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "1749.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "1749.0",
+                    "maximumValue": {
+                        "value": "1749.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "16x28x14",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "16\"x28\"x14\"",
+                            "uniqueID": "7000000000000003380"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_glass",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Glass",
+                            "uniqueID": "7000000000000003330"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfBulbs",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "5bulbs",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "5",
+                            "uniqueID": "7000000000000003411"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Light Bulbs",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000663"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14785",
+            "partNumber": "LR-LITB-0006",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light7_a1_350.jpg",
+            "name": "Rattan Ceiling Light",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "800.0",
+                    "maximumValue": {
+                        "value": "800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "749.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "749.99",
+                    "maximumValue": {
+                        "value": "749.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "12x12x12",
+                            "sequence": "19.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "12\"x12\"x12\"",
+                            "uniqueID": "7000000000000003392"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "6lbs",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "6 lbs",
+                            "uniqueID": "7000000000000003402"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "rattan_metal",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Rattan, Metal",
+                            "uniqueID": "7000000000000003332"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfBulbs",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "1bulb",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "1",
+                            "uniqueID": "7000000000000003409"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Light Bulbs",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000663"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14790",
+            "partNumber": "LR-LITB-0006",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/lighting/light8_a1_600.png",
+            "name": "Nordic Lamp",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "300.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "300.0",
+                    "maximumValue": {
+                        "value": "300.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "249.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "249.99",
+                    "maximumValue": {
+                        "value": "249.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "28x13x13",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "28\"x13\"x23\"",
+                            "uniqueID": "7000000000000003379"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10lbs",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10 lbs",
+                            "uniqueID": "7000000000000003393"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "cotton-steel",
+                            "sequence": "13.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Cotton, Steel",
+                            "uniqueID": "7000000000000003340"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Solid",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Solid",
+                            "uniqueID": "7000000000000003405"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                },
+                {
+                    "identifier": "shade-diameter",
+                    "sequence": "5.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "13",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "13",
+                            "uniqueID": "7000000000000003414"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Lamp Shade Diameter",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000670"
+                },
+                {
+                    "identifier": "bulb-type",
+                    "sequence": "6.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "E26",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "E26",
+                            "uniqueID": "7000000000000003415"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Light Bulb Type",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000671"
+                },
+                {
+                    "identifier": "maximun-bulb-waltage",
+                    "sequence": "7.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "60watts",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "7000000000000003416"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Maximum Light Bulb Wattage",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000672"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": "0",
+    "recordSetTotal": 8,
+    "facetView": [
+        {
+            "value": "price_USD",
+            "name": "OfferPrice_USD",
+            "entry": [
+                {
+                    "count": 0,
+                    "label": "({* 100} 100)",
+                    "value": "price_USD%3A%28%7B*+100%7D+100%29",
+                    "extendedData": {
+                        "uniqueId": "1121141059910195858368584012342324948481253249484841"
+                    }
+                },
+                {
+                    "count": 4,
+                    "label": "({100 200} 200)",
+                    "value": "price_USD%3A%28%7B100+200%7D+200%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123494848325048481253250484841"
+                    }
+                },
+                {
+                    "count": 1,
+                    "label": "({200 300} 300)",
+                    "value": "price_USD%3A%28%7B200+300%7D+300%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123504848325148481253251484841"
+                    }
+                },
+                {
+                    "count": 1,
+                    "label": "({300 400} 400)",
+                    "value": "price_USD%3A%28%7B300+400%7D+400%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123514848325248481253252484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({400 500} 500)",
+                    "value": "price_USD%3A%28%7B400+500%7D+500%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123524848325348481253253484841"
+                    }
+                },
+                {
+                    "count": 2,
+                    "label": "({500 *})",
+                    "value": "price_USD%3A%28%7B500+*%7D%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123534848324212541"
+                    }
+                }
+            ]
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "label": "Bender Home Fashions",
+                    "value": "mfName_ntk_cs%3A%22Bender+Home+Fashions%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-1002661011101001011143272111109101327097115104105111110115"
+                    }
+                },
+                {
+                    "label": "Kerry's Glass",
+                    "value": "mfName_ntk_cs%3A%22Kerry%27s+Glass%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "-10027510111411412139115327110897115115"
+                    }
+                },
+                {
+                    "label": "Stockholm",
+                    "value": "mfName_ntk_cs%3A%22Stockholm%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "-10028311611199107104111108109"
+                    }
+                },
+                {
+                    "label": "Style Home",
+                    "value": "mfName_ntk_cs%3A%22Style+Home%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-1002831161211081013272111109101"
+                    }
+                }
+            ],
+            "name": "ManufacturerName",
+            "extendedData": {
+                "allowMultipleValueSelection": "true",
+                "maximumValuesToDisplay": "6",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "fname": "Brand",
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "mfName_ntk_cs",
+                "displayable": "1",
+                "facet_id": "-1000",
+                "srchattr_id": "-1002",
+                "zero_display": "0",
+                "selection": "1",
+                "group_id": "0",
+                "displaySequence": "0.0",
+                "storeent_id": "0",
+                "sortorder": "1",
+                "max_display": "6",
+                "fdesc": "The manufacturer",
+                "srchattridentifier": "_cat.ManufacturerName"
+            }
+        },
+        {
+            "value": "ads_f10101_ntk_cs",
+            "entry": [
+                {
+                    "label": "Chrome",
+                    "value": "ads_f10101_ntk_cs%3A%22Chrome%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010167104114111109101",
+                        "sequence": "1.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png"
+                },
+                {
+                    "label": "Dark Grey",
+                    "value": "ads_f10101_ntk_cs%3A%22Dark+Grey%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010168971141073271114101121",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png"
+                },
+                {
+                    "label": "Grey",
+                    "value": "ads_f10101_ntk_cs%3A%22Grey%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010171114101121",
+                        "sequence": "3.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_grey.png"
+                },
+                {
+                    "label": "Brown",
+                    "value": "ads_f10101_ntk_cs%3A%22Brown%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010166114111119110",
+                        "sequence": "2.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png"
+                },
+                {
+                    "label": "Crimson",
+                    "value": "ads_f10101_ntk_cs%3A%22Crimson%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010167114105109115111110",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png"
+                },
+                {
+                    "label": "Gold",
+                    "value": "ads_f10101_ntk_cs%3A%22Gold%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010171111108100",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_gold.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_gold.png"
+                },
+                {
+                    "label": "Light Grey",
+                    "value": "ads_f10101_ntk_cs%3A%22Light+Grey%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10101761051031041163271114101121",
+                        "sequence": "6.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png"
+                },
+                {
+                    "label": "Purple",
+                    "value": "ads_f10101_ntk_cs%3A%22Purple%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010180117114112108101",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_purple.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_purple.png"
+                }
+            ],
+            "name": "Color",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10101_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10101",
+                "attrname": "Color",
+                "srchattr_id": "10101",
+                "attrdesc": "Color",
+                "attr_id": "7000000000000000651",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Color",
+                "srchattridentifier": "_cat.Color"
+            }
+        },
+        {
+            "value": "ads_f10106_ntk_cs",
+            "entry": [
+                {
+                    "label": "10\"x24\"x12\"",
+                    "value": "ads_f10106_ntk_cs%3A%2210%5C%22x24%5C%22x12%5C%22%22",
+                    "count": "4",
+                    "extendedData": {
+                        "uniqueId": "10106494834120505234120495034"
+                    }
+                },
+                {
+                    "label": "16\"x28\"x14\"",
+                    "value": "ads_f10106_ntk_cs%3A%2216%5C%22x28%5C%22x14%5C%22%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "10106495434120505634120495234"
+                    }
+                },
+                {
+                    "label": "12\"x12\"x12\"",
+                    "value": "ads_f10106_ntk_cs%3A%2212%5C%22x12%5C%22x12%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106495034120495034120495034"
+                    }
+                },
+                {
+                    "label": "28\"x13\"x23\"",
+                    "value": "ads_f10106_ntk_cs%3A%2228%5C%22x13%5C%22x23%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106505634120495134120505134"
+                    }
+                }
+            ],
+            "name": "Product Dimensions",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10106_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10106",
+                "attrname": "Product Dimensions",
+                "srchattr_id": "10106",
+                "attrdesc": "Product Dimensions",
+                "attr_id": "7000000000000000660",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ProductDimensions",
+                "srchattridentifier": "_cat.ProductDimensions"
+            }
+        },
+        {
+            "value": "ads_f10107_ntk_cs",
+            "entry": [
+                {
+                    "label": "6 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%226+lbs%22",
+                    "count": "5",
+                    "extendedData": {
+                        "uniqueId": "10107543210898115"
+                    }
+                },
+                {
+                    "label": "15 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2215+lbs%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010749533210898115"
+                    }
+                },
+                {
+                    "label": "10 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2210+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010749483210898115"
+                    }
+                }
+            ],
+            "name": "Item Weight",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10107_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10107",
+                "attrname": "Item Weight",
+                "srchattr_id": "10107",
+                "attrdesc": "Item Weight",
+                "attr_id": "7000000000000000661",
+                "zero_display": "0",
+                "attrsequence": "2.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "2.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ItemWeight",
+                "srchattridentifier": "_cat.ItemWeight"
+            }
+        },
+        {
+            "value": "ads_f10103_ntk_cs",
+            "entry": [
+                {
+                    "label": "Metal, Glass",
+                    "value": "ads_f10103_ntk_cs%3A%22Metal%2C+Glass%22",
+                    "count": "5",
+                    "extendedData": {
+                        "uniqueId": "10103771011169710844327110897115115"
+                    }
+                },
+                {
+                    "label": "Cotton, Steel",
+                    "value": "ads_f10103_ntk_cs%3A%22Cotton%2C+Steel%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010367111116116111110443283116101101108"
+                    }
+                },
+                {
+                    "label": "Metal, Glass, Plastic",
+                    "value": "ads_f10103_ntk_cs%3A%22Metal%2C+Glass%2C+Plastic%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101037710111697108443271108971151154432801089711511610599"
+                    }
+                },
+                {
+                    "label": "Rattan, Metal",
+                    "value": "ads_f10103_ntk_cs%3A%22Rattan%2C+Metal%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010382971161169711044327710111697108"
+                    }
+                }
+            ],
+            "name": "Material",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10103_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10103",
+                "attrname": "Material",
+                "srchattr_id": "10103",
+                "attrdesc": "Material",
+                "attr_id": "7000000000000000653",
+                "zero_display": "0",
+                "attrsequence": "3.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "3.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Materials",
+                "srchattridentifier": "_cat.Materials"
+            }
+        },
+        {
+            "value": "ads_f10105_ntk_cs",
+            "entry": [
+                {
+                    "label": "Solid",
+                    "value": "ads_f10105_ntk_cs%3A%22Solid%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010583111108105100"
+                    }
+                }
+            ],
+            "name": "Pattern",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10105_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10105",
+                "attrname": "Pattern",
+                "srchattr_id": "10105",
+                "attrdesc": "Pattern",
+                "attr_id": "7000000000000000662",
+                "zero_display": "0",
+                "attrsequence": "4.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "4.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Pattern",
+                "srchattridentifier": "_cat.Pattern"
+            }
+        }
+    ]
+}

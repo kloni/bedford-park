@@ -1,0 +1,23 @@
+{
+    "productDetail": {
+        "SelectionError": "Selection not available, choose a different combination.",
+        "Quantity":"Quantity",
+        "QtyError":"Quantity must be greater or equal to 1.",
+        "Availability":"Availability",
+        "AddToCart":"Add to cart",
+        "Description":"Description",
+        "ProductDetails":"Product Details",
+        "InStock":"In Stock",
+        "OutofStock":"Out of Stock",
+        "AddedToCartConfirmation":"Item was added to the cart",
+        "ViewCart":"View Cart",
+        "PricePending":"Price pending",
+        "ViewProductsArrangement": "View all products from the arrangement",
+        "ForArrangement": "From the Arrangement",
+        "itemIncluded": "The following items are included:",
+        "VATincl": "VAT incl.",
+        "SignInToContinue": "Sign in to continue",
+        "SelectStore":"Select store",
+        "ChangeStore":"Change store"
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "recordSetCount": "1",
+    "resourceId": "https://wcsolr78.torolab.ibm.com:5443/wcs/resources/store/1/productview/HFU032_320901",
+    "CatalogEntryView": [
+      {
+        "buyable": "true",
+        "longDescription": "Cozy single sofa made of leather and a boxy design meant for both home and office environments. Can also be used as a reading chair as its memory keeps you from back ache from long periods of seating.",
+        "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/hfu032_furniture/200x310/hfu032_3209.jpg",
+        "resourceId": "https://wcsolr78.torolab.ibm.com:5443/wcs/resources/store/1/productview/byId/12853",
+        "parentProductID": "12852",
+        "Attributes": [
+          {
+            "identifier": "FurnitureType",
+            "usage": "Defining",
+            "dataType": "STRING",
+            "Values": [
+              {
+                "identifier": "Sofa",
+                "values": "Sofa",
+                "extendedValue": [
+                  {
+                    "value": "C62",
+                    "key": "UnitOfMeasure"
+                  }
+                ],
+                "uniqueID": "7000000000000002000"
+              }
+            ],
+            "name": "Type",
+            "displayable": "true",
+            "description": "Type",
+            "extendedValue": [
+              {
+                "value": "C62",
+                "key": "UnitOfMeasure"
+              }
+            ],
+            "comparable": "true",
+            "searchable": "false",
+            "uniqueID": "7000000000000000114"
+          },
+          {
+            "identifier": "FurnitureColor",
+            "usage": "Defining",
+            "dataType": "STRING",
+            "Values": [
+              {
+                "identifier": "Black",
+                "values": "Black",
+                "extendedValue": [
+                  {
+                    "value": "C62",
+                    "key": "UnitOfMeasure"
+                  }
+                ],
+                "uniqueID": "7000000000000002008"
+              }
+            ],
+            "name": "Color",
+            "displayable": "true",
+            "description": "Color",
+            "extendedValue": [
+              {
+                "value": "C62",
+                "key": "UnitOfMeasure"
+              }
+            ],
+            "comparable": "true",
+            "searchable": "false",
+            "uniqueID": "7000000000000000115"
+          }
+        ],
+        "fullImageAltDescription": "Image for Stonehenge Modern Steelet Single Sofa from AuroraESite",
+        "shortDescription": "A modern single sofa with leather seat and steel legs.",
+        "title": "Stonehenge Modern Steelet Single Sofa | AuroraESite",
+        "storeID": "10501",
+        "metaDescription": "A modern single sofa with leather seat and steel legs.",
+        "Attachments": [
+          {
+            "path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/hfu032_furniture/646x1000/hfu032_3209.jpg",
+            "MetaData": [
+              {
+                "metaData": "HFU032_3209_AuroraCatalogEntryImages",
+                "metaKey": "name"
+              },
+              {
+                "metaData": "HFU032_320901_AuroraCatalogEntryImages_main_fullimage",
+                "metaKey": "identifier"
+              },
+              {
+                "metaData": "",
+                "metaKey": "image"
+              }
+            ],
+            "usage": "images_main_fullimage",
+            "ID": "35158",
+            "mimeType": "image/jpeg"
+          },
+          {
+            "path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/hfu032_furniture/200x310/hfu032_3209.jpg",
+            "MetaData": [
+              {
+                "metaData": "HFU032_3209_AuroraCatalogEntryImages",
+                "metaKey": "name"
+              },
+              {
+                "metaData": "HFU032_320901_AuroraCatalogEntryImages_main_thumbnail",
+                "metaKey": "identifier"
+              },
+              {
+                "metaData": "",
+                "metaKey": "image"
+              }
+            ],
+            "usage": "images_main_thumbnail",
+            "ID": "35158",
+            "mimeType": "image/jpeg"
+          }
+        ],
+        "manufacturer": "Stonehenge",
+        "disallowRecOrder": "true",
+        "Price": [
+          {
+            "priceUsage": "Offer",
+            "priceValue": "235.0",
+            "priceDescription": "I"
+          }
+        ],
+        "subscriptionType": "NONE",
+        "name": "Stonehenge Modern Steelet Single Sofa",
+        "partNumber": "HFU032_320901",
+        "parentCategoryID": "10034",
+        "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/hfu032_furniture/646x1000/hfu032_3209.jpg",
+        "uniqueID": "12853",
+        "productType": "ItemBean",
+        "metaKeyword": " Stonehenge"
+      }
+    ],
+    "MetaData": [
+      {
+        "metaData": "1",
+        "metaKey": "price"
+      }
+    ],
+    "recordSetStartNumber": "0",
+    "resourceName": "productview",
+    "recordSetTotal": "1",
+    "recordSetComplete": "true"
+  }

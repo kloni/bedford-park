@@ -1,0 +1,255 @@
+{      
+    "css": {
+        "textField": {
+            "valid": [
+                "border-left",
+                "1px solid rgb(202, 202, 202)"
+            ],
+            "invalid": [
+                "border-left",
+                "5px solid rgb(204, 75, 55)"
+            ]
+        }
+    },
+    "register": {
+        "logonId": "mscpars@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "AddressBook" : 
+            {
+                "firstName" : "defaultcheckoutfirst",
+                "lastName" : "defaultcheckoutlast",
+                "address" : "Central Park checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "stateShort" : "NY",
+                "zipCode" : "10001",
+                "phone":"111-222-3333"
+            }
+    },    
+    "commonLogin" : {
+        "logonId": "mscpars@test.com",
+        "logonPassword": "Ibm4ever!"
+    }
+    ,
+    "test1" : {
+        "nickName": "Test1Address",
+        "firstName": "John",
+        "lastName" : "Doe",
+        "email" : "johndoe@ibm.com",
+        "enterPhoneNumber" : "905-123-5346",
+        "address1" : "1234 Test st.",
+        "address2" : "Apt 510",
+        "shipsTo" : "United States",
+        "city" : "Markham",
+        "state" : "Arizona",
+        "zipCode" : "12345",
+
+        "saveAlertMsg": "Address with nickname \"Test1Address\" was saved successfully",
+        "expectedNickName": "Test1Address",
+        "expectedFirstName": "John",
+        "expectedLastName": "Doe",
+        "expectedAddress": "1234 Test st. Apt 510",
+        "expectedCity": "Markham",
+        "expectedState": "AZ",
+        "expectedZipCode": "12345",
+        "expectedCountry": "United States",
+        "expectedEmail": "johndoe@ibm.com",
+        "expectedPhone": "905-123-5346"
+        
+    }
+    ,
+    "test2": {
+        "logonId": "wchuser1@gmail.com",
+        "logonPassword": "diet4coke"
+    }
+    ,
+    "test3" : {
+        "nickName": "Test1Address",
+        "firstName": "John",
+        "lastName" : "Doe",
+        "email" : "johndoe@ibm.com",
+        "enterPhoneNumber" : "905-123-5346",
+        "address1" : "1234 Test st.",
+        "address2" : "Apt 510",
+        "shipsTo" : "United States",
+        "city" : "Markham",
+        "state" : "Arizona",
+        "zipCode" : "12345",
+
+        "saveAlertMsg": "Address with nickname \"Test1Address\" was saved successfully",
+        "expectedNickName": "Test1Address",
+        "expectedFirstName": "John",
+        "expectedLastName": "Doe",
+        "expectedAddress": "1234 Test st. Apt 510",
+        "expectedCity": "Markham",
+        "expectedState": "AZ",
+        "expectedZipCode": "12345",
+        "expectedCountry": "United States",
+        "expectedEmail": "johndoe@ibm.com",
+        "expectedPhone": "905-123-5346"
+        
+    }
+    ,
+    "test5" : {
+        "nickName": "Test5Address",
+        "firstName": "John",
+        "lastName" : "Doe",
+        "email" : "johndoe@ibm.com",
+        "enterPhoneNumber" : "905-123-5346",
+        "address1" : "1234 Test st.",
+        "address2" : "Apt 510",
+        "shipsTo" : "United States",
+        "city" : "Markham",
+        "state" : "Arizona",
+        "zipCode" : "12345",
+
+        "updateFirstName": "John2",
+        "updateLastName" : "Doe2",
+
+        "saveAlertMsg": "Address with nickname \"Test5Address\" was saved successfully",
+        "expectedNickName": "Test5Address",
+        "expectedFirstName": "John",
+        "expectedLastName": "Doe",
+        "expectedAddress": "1234 Test st. Apt 510",
+        "expectedCity": "Markham",
+        "expectedState": "AZ",
+        "expectedZipCode": "12345",
+        "expectedCountry": "United States",
+        "expectedEmail": "johndoe@ibm.com",
+        "expectedPhone": "905-123-5346"
+        
+    }
+    ,
+    "test6" : {
+        "nickName": "Test6Address",
+        "firstName": "John",
+        "lastName" : "Doe",
+        "email" : "johndoe@ibm.com",
+        "enterPhoneNumber" : "905-123-5346",
+        "address1" : "1234 Test st.",
+        "address2" : "Apt 510",
+        "shipsTo" : "United States",
+        "city" : "Markham",
+        "state" : "Arizona",
+        "zipCode" : "12345",
+
+        "updateFirstName": "JohnUpdated",
+        "updateLastName" : "DoeUpdated",
+        "updateEmail" : "johndoe2@ibm.com",
+        "updatePhoneNumber" : "905-123-9999",
+        "updateAddress1" : "9999 Test st.",
+        "updateAddress2" : "Apt 590",
+        "updateShipsTo" : "United Kingdom",
+        "updateCity" : "London",
+        "updateState" : "London",
+        "updateZipCode" : "12346",
+
+        "saveAlertMsg": "Address with nickname \"Test6Address\" was saved successfully",
+        "expectedNickName": "Test6Address",
+        "expectedFirstName": "JohnUpdated",
+        "expectedLastName": "DoeUpdated",
+        "expectedAddress": "9999 Test st. Apt 950",
+        "expectedCity": "London",
+        "expectedState": "London",
+        "expectedZipCode": "12346",
+        "expectedCountry": "United Kingdom",
+        "expectedEmail": "johndoe2@ibm.com",
+        "expectedPhone": "905-123-9999"
+        
+    }
+    ,
+    "test7" : {
+        "nickName": "Test7Address",
+        "firstName": "John",
+        "lastName" : "Doe",
+        "email" : "johndoe@ibm.com",
+        "enterPhoneNumber" : "905-123-5346",
+        "address1" : "1234 Test st.",
+        "address2" : "Apt 510",
+        "shipsTo" : "United States",
+        "city" : "Markham",
+        "state" : "Arizona",
+        "zipCode" : "12345",
+
+        "updateFirstName": "John2",
+        "updateLastName" : "Doe2",
+        "updateEmail" : "johndoe2@ibm.com",
+        "updatePhoneNumber" : "905-123-9999",
+        "updateAddress1" : "9999 Test st.",
+        "updateAddress2" : "Apt 590",
+        "updateShipsTo" : "United Kingdom",
+        "updateCity" : "London",
+        "updateState" : "London",
+        "updateZipCode" : "12346",
+
+        "saveAlertMsg": "Address with nickname \"Test7Address\" was saved successfully",
+        "deleteAlertMsg": "Address with nickname \"Test7Address\" was deleted successfully" 
+    }
+    ,
+    "test8" : {
+        "nickName": "Test8Address",
+        "firstName": "John",
+        "lastName" : "Doe",
+        "email" : "johndoe@ibm.com",
+        "enterPhoneNumber" : "905-123-5346",
+        "address1" : "1234 Test st.",
+        "address2" : "Apt 510",
+        "shipsTo" : "United States",
+        "city" : "Markham",
+        "state" : "Arizona",
+        "zipCode" : "12345",
+
+        "saveAlertMsg": "Address with nickname \"Test8Address\" was saved successfully"
+    }
+    ,
+    "test9" : {
+        "nickName": "Test9Address",
+        "firstName": "John",
+        "lastName" : "Doe",
+        "email" : "johndoe@ibm.com",
+        "enterPhoneNumber" : "905-123-5346",
+        "address1" : "1234 Test st.",
+        "address2" : "Apt 510",
+        "shipsTo" : "United States",
+        "city" : "Markham",
+        "state" : "Arizona",
+        "zipCode" : "12345",
+
+        "nickName2": "Test9Address",
+        "firstName2": "John",
+        "lastName2" : "Doe",
+        "email2" : "johndoe@ibm.com",
+        "enterPhoneNumber2" : "905-123-5346",
+        "address1_2" : "1234 Test st.",
+        "address2_2" : "Apt 510",
+        "shipsTo2" : "United States",
+        "city2" : "Markham",
+        "state2" : "Arizona",
+        "zipCode2" : "12345",
+        "errorMessage": "The nickname you entered already exists. Type another name in the Nickname field and try again.",        
+        "speicialChar":"~!@#$%^&*()_+`1234567890-=[]{}|;"
+    }
+    ,
+    "test10" : {
+        "nickName": "Test10Address",
+        "firstName": "John",
+        "lastName" : "Doe",
+        "email" : "johndoe@ibm.com",
+        "enterPhoneNumber" : "905-123-5346",
+        "address1" : "1234 Test st.",
+        "address2" : "Apt 510",
+        "shipsTo" : "United States",
+        "city" : "Markham",
+        "state" : "Arizona",
+        "zipCode" : "12345"        
+
+    }
+    
+}
+
+

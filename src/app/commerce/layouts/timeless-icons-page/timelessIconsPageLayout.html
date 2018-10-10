@@ -1,0 +1,34 @@
+<div [ngSwitch]="layoutMode">
+  <div *ngSwitchCase="constants.SUMMARY">
+    <a class="read-more-link" href [routerLink]="navLink()">
+      <div class="summary-card">
+        <div *ngIf="cardImage" class="summary-card-image">
+          <!-- This sample shows the entire supplied image, so the correct aspect should be supplied by the user. -->
+          <div class="article-lead-image">
+            <div class="article-lead-image small-12 medium-4 cell">
+              <div class="image-container">
+                <img *ngIf="cardImage?.url" wchEditable="leadImage" [src]="utils.getImageUrl(rContext, CARD_IMAGE_KEY, 'lead')" [alt]="utils.getImageName(rContext)"
+                     [title]="utils.getImageName(rContext)">
+              </div>
+            </div>
+               <p class="article-title" wchEditable="cardTitle">{{onCardTitle | async}}</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div *ngSwitchCase="constants.DETAIL" id="{{rContext.id}}" class="wch-page layout-container section-small grid-container full">
+    <div *ngIf="hero" class="grid-x">
+      <div class="cell section">
+        <wch-contentref [renderingContext]="hero"></wch-contentref>
+      </div>
+    </div>
+    <div class="grid-x grid-margin-x">
+      <div *ngIf="collectionComponent" class="medium-12 cell section">
+        <div class="grid-container">
+          <wch-contentref [renderingContext]="collectionComponent"></wch-contentref>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+{
+  "Registration" : {
+    "NewCustomer": "New Customer?",
+    "DontHaveAnAccount":"Don't have an account ?",
+    "FirstName": "First Name",
+    "LastName": "Last Name",
+    "Email": "Email",
+    "Password": "Password",
+    "VerifyPassword": "Verify Password",
+    "Phone_optional": "Phone (optional)",
+    "ReceiveEmail": "Receive home design ideas sent to your inbox",
+    "Register": "Register",
+    "EmailInvalid": "Email format is invalid",
+    "PhoneInvalid": "Phone format is invalid",
+    "MarketingConsentSectionHeading": "Shopping Behavior Tracking",
+    "AnalyticsConsentSectionHeading": "Data Collection for Analytics",
+    "DigitalAnalyticsAnonymous": "I want any data collected to be anonymous. Do not associate my name, email or any other identifying information with any collected data.",
+    "DigitalAnalyticsConsent": "I consent to having my shopping behavior and other data collected for analytics use for  identifying ways to provide a better shopping experience for myself and other shoppers.  I understand that the collected data can include my name, email, or other personal identifying information.",
+    "MarketingTrackingConsent": "I consent to having my shopping behavior tracked for marketing and promotion use to provide a more personalized shopping experience to myself and other shoppers."
+  }
+}

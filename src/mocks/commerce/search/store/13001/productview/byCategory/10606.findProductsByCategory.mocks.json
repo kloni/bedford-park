@@ -1,0 +1,871 @@
+{
+    "metaData": {
+        "price": "1"
+    },
+    "breadCrumbTrailEntryView": [
+        {
+            "label": "Dining Room"
+        },
+        {
+            "label": "Tables"
+        }
+    ],
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14825",
+            "partNumber": "DR-TBLS-0001",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable1_a1_350.jpg",
+            "name": "Luncheon Table",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "1200.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "1200.0",
+                    "maximumValue": {
+                        "value": "1200.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "999.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "999.99",
+                    "maximumValue": {
+                        "value": "999.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "40x36x36",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "40\"x36\"x36\"",
+                            "uniqueID": "7000000000000003376"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "90lbs",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "90 lbs",
+                            "uniqueID": "7000000000000003401"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-glass",
+                            "sequence": "16.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Glass",
+                            "uniqueID": "7000000000000003343"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfSeats",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "4seats",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "4",
+                            "uniqueID": "7000000000000003413"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Seating",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000664"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14827",
+            "partNumber": "DR-TBLS-0001",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable2_a1_350.jpg",
+            "name": "Patio Table",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "780.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "780.0",
+                    "maximumValue": {
+                        "value": "780.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "760.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "760.0",
+                    "maximumValue": {
+                        "value": "760.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "56x24x24",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "56\"x24\"x24\"",
+                            "uniqueID": "7000000000000003378"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "90lbs",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "90 lbs",
+                            "uniqueID": "7000000000000003401"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-glass",
+                            "sequence": "16.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Glass",
+                            "uniqueID": "7000000000000003343"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfSeats",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "4seats",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "4",
+                            "uniqueID": "7000000000000003413"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Seating",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000664"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14829",
+            "partNumber": "DR-TBLS-0001",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable3_a1_350.jpg",
+            "name": "Espresso Table",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "500.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "500.0",
+                    "maximumValue": {
+                        "value": "500.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "498.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "498.99",
+                    "maximumValue": {
+                        "value": "498.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "40x36x36",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "40\"x36\"x36\"",
+                            "uniqueID": "7000000000000003376"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "90lbs",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "90 lbs",
+                            "uniqueID": "7000000000000003401"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-glass",
+                            "sequence": "16.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Glass",
+                            "uniqueID": "7000000000000003343"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfSeats",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "4seats",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "4",
+                            "uniqueID": "7000000000000003413"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Seating",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000664"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14831",
+            "partNumber": "DR-TBLS-0001",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/tables/dintable4_a1_350.jpg",
+            "name": "Pub Table",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "650.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "650.0",
+                    "maximumValue": {
+                        "value": "650.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "599.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "599.99",
+                    "maximumValue": {
+                        "value": "599.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "24x40x30",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "24\"x40\"x30\"",
+                            "uniqueID": "7000000000000003374"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "45lbs",
+                            "sequence": "4.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "45 lbs",
+                            "uniqueID": "7000000000000003396"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal-vinyl",
+                            "sequence": "17.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Vinyl",
+                            "uniqueID": "7000000000000003344"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "NumberOfSeats",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "4seats",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "4",
+                            "uniqueID": "7000000000000003413"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Number of Seating",
+                    "facetable": false,
+                    "comparable": true,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000664"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": "0",
+    "recordSetTotal": 4,
+    "facetView": [
+        {
+            "value": "price_USD",
+            "name": "OfferPrice_USD",
+            "entry": [
+                {
+                    "count": 0,
+                    "label": "({* 100} 100)",
+                    "value": "price_USD%3A%28%7B*+100%7D+100%29",
+                    "extendedData": {
+                        "uniqueId": "1121141059910195858368584012342324948481253249484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({100 200} 200)",
+                    "value": "price_USD%3A%28%7B100+200%7D+200%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123494848325048481253250484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({200 300} 300)",
+                    "value": "price_USD%3A%28%7B200+300%7D+300%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123504848325148481253251484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({300 400} 400)",
+                    "value": "price_USD%3A%28%7B300+400%7D+400%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123514848325248481253252484841"
+                    }
+                },
+                {
+                    "count": 1,
+                    "label": "({400 500} 500)",
+                    "value": "price_USD%3A%28%7B400+500%7D+500%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123524848325348481253253484841"
+                    }
+                },
+                {
+                    "count": 3,
+                    "label": "({500 *})",
+                    "value": "price_USD%3A%28%7B500+*%7D%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123534848324212541"
+                    }
+                }
+            ]
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "label": "Bender Home Fashions",
+                    "value": "mfName_ntk_cs%3A%22Bender+Home+Fashions%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-1002661011101001011143272111109101327097115104105111110115"
+                    }
+                },
+                {
+                    "label": "Moderno",
+                    "value": "mfName_ntk_cs%3A%22Moderno%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-100277111100101114110111"
+                    }
+                },
+                {
+                    "label": "Style Home",
+                    "value": "mfName_ntk_cs%3A%22Style+Home%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "-1002831161211081013272111109101"
+                    }
+                }
+            ],
+            "name": "ManufacturerName",
+            "extendedData": {
+                "allowMultipleValueSelection": "true",
+                "maximumValuesToDisplay": "6",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "fname": "Brand",
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "mfName_ntk_cs",
+                "displayable": "1",
+                "facet_id": "-1000",
+                "srchattr_id": "-1002",
+                "zero_display": "0",
+                "selection": "1",
+                "group_id": "0",
+                "displaySequence": "0.0",
+                "storeent_id": "0",
+                "sortorder": "1",
+                "max_display": "6",
+                "fdesc": "The manufacturer",
+                "srchattridentifier": "_cat.ManufacturerName"
+            }
+        },
+        {
+            "value": "ads_f10101_ntk_cs",
+            "entry": [
+                {
+                    "label": "Blonde",
+                    "value": "ads_f10101_ntk_cs%3A%22Blonde%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010166108111110100101",
+                        "sequence": "5.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png"
+                },
+                {
+                    "label": "Brown",
+                    "value": "ads_f10101_ntk_cs%3A%22Brown%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010166114111119110",
+                        "sequence": "2.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png"
+                },
+                {
+                    "label": "Chrome",
+                    "value": "ads_f10101_ntk_cs%3A%22Chrome%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010167104114111109101",
+                        "sequence": "1.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_whitegrey.png"
+                },
+                {
+                    "label": "Dark Grey",
+                    "value": "ads_f10101_ntk_cs%3A%22Dark+Grey%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010168971141073271114101121",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png"
+                }
+            ],
+            "name": "Color",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10101_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10101",
+                "attrname": "Color",
+                "srchattr_id": "10101",
+                "attrdesc": "Color",
+                "attr_id": "7000000000000000651",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Color",
+                "srchattridentifier": "_cat.Color"
+            }
+        },
+        {
+            "value": "ads_f10106_ntk_cs",
+            "entry": [
+                {
+                    "label": "40\"x36\"x36\"",
+                    "value": "ads_f10106_ntk_cs%3A%2240%5C%22x36%5C%22x36%5C%22%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "10106524834120515434120515434"
+                    }
+                },
+                {
+                    "label": "24\"x40\"x30\"",
+                    "value": "ads_f10106_ntk_cs%3A%2224%5C%22x40%5C%22x30%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106505234120524834120514834"
+                    }
+                },
+                {
+                    "label": "56\"x24\"x24\"",
+                    "value": "ads_f10106_ntk_cs%3A%2256%5C%22x24%5C%22x24%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10106535434120505234120505234"
+                    }
+                }
+            ],
+            "name": "Product Dimensions",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10106_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10106",
+                "attrname": "Product Dimensions",
+                "srchattr_id": "10106",
+                "attrdesc": "Product Dimensions",
+                "attr_id": "7000000000000000660",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ProductDimensions",
+                "srchattridentifier": "_cat.ProductDimensions"
+            }
+        },
+        {
+            "value": "ads_f10107_ntk_cs",
+            "entry": [
+                {
+                    "label": "90 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2290+lbs%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "1010757483210898115"
+                    }
+                },
+                {
+                    "label": "45 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2245+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010752533210898115"
+                    }
+                }
+            ],
+            "name": "Item Weight",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10107_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10107",
+                "attrname": "Item Weight",
+                "srchattr_id": "10107",
+                "attrdesc": "Item Weight",
+                "attr_id": "7000000000000000661",
+                "zero_display": "0",
+                "attrsequence": "2.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "2.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ItemWeight",
+                "srchattridentifier": "_cat.ItemWeight"
+            }
+        },
+        {
+            "value": "ads_f10103_ntk_cs",
+            "entry": [
+                {
+                    "label": "Wood, Glass",
+                    "value": "ads_f10103_ntk_cs%3A%22Wood%2C+Glass%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "101038711111110044327110897115115"
+                    }
+                },
+                {
+                    "label": "Metal, Vinyl",
+                    "value": "ads_f10103_ntk_cs%3A%22Metal%2C+Vinyl%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101037710111697108443286105110121108"
+                    }
+                }
+            ],
+            "name": "Material",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10103_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10103",
+                "attrname": "Material",
+                "srchattr_id": "10103",
+                "attrdesc": "Material",
+                "attr_id": "7000000000000000653",
+                "zero_display": "0",
+                "attrsequence": "3.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "3.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Materials",
+                "srchattridentifier": "_cat.Materials"
+            }
+        }
+    ]
+}

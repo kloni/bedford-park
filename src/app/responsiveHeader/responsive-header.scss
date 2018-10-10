@@ -1,0 +1,202 @@
+/* Header */
+$header-border-bottom-color: #efefef;
+$header-menu-dropdown-color: #323232;
+$header-anchor-color: #323232;
+$header-anchor-hover-color: #000;
+$header-anchor-active-bg-color: #fff;
+$header-anchor-active-color: #000;
+$header-anchor-active-border-color: #000;
+
+$logo-width-medium: 205px;
+$logo-width-small: 85px;
+$logo-height-medium: 49px;
+
+
+
+.wch-responsive-menu {
+
+  margin-top: -20px;  /* pull the container up so the megamenu is not visible when sliding down */
+
+  .menu-container {
+	position: absolute;
+	width: 100%;
+	z-index: 1150;
+	margin-top:5px;
+
+	transform: translate3d(-120%, 0, 0);
+	transition: all 0.5s;
+	box-shadow: none;
+	visibility: collapse;
+
+  }
+
+  .menu-container.open {
+	visibility: visible;
+	transform: translate3d(0, 0, 0);
+	box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.31);
+  }
+
+  //padding-left: 0;
+
+  .header {
+	width: 100%;
+	padding-top: 20px;  /* offset the negative margin on wch-responsive-menu */
+	height:60px;
+	display:flex;
+	justify-content: space-between;
+
+
+	a.tool-button {
+	  height:34px;
+	  min-width:38px;
+	  margin-left: 1rem;
+	  //padding-left:40px;
+	  text-decoration:none;
+	  background-repeat: no-repeat;
+	  background-position: left center;
+	  background-size: 24px 24px;
+	  font-size: 1.125rem; /*18px*/
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  color:#212121;
+	}
+
+	.branding {
+	  margin-top:-10px;
+	  margin-left:20px;
+	  width:110px;
+	}
+
+
+
+	.header-tools {
+	  display: flex;
+	  align-items: center;
+
+
+	  app-search-box {
+			display: flex;
+			align-content: center;
+	  }
+
+	  .tool-button-user-account {
+			background-image: url(images/tools/icon-account.svg);
+		}
+		.tool-button-store-locator {
+			background-image: url(images/tools/icon-location.svg);
+		}
+	  .tool-button-cart {
+			background-image: url(images/tools/icon-cart.svg);
+	  }
+
+      .preferred-store {
+          padding-left: 40px;
+      }
+
+	}
+
+	.logo {
+	  height: 0;
+	  padding-top: $logo-height-medium/$logo-width-medium*100%;
+	  overflow: hidden;
+	  background-size:100%;
+	  background-repeat: no-repeat;
+	  margin: 0;
+	}
+
+	.menu-hamburger svg{
+	  display:block;
+	  width:24px;
+	  height:24px;
+	  max-width:none;
+	}
+
+	.nav-and-branding {
+	  display: flex;
+	  align-items: center;
+	}
+
+	/* Shopping cart badge showing items in cart */
+
+	.wch-show-badge::before {
+	  content: attr(data-cart-length);
+	  width: 1rem;
+	  height: 1rem;
+	  line-height: 1rem;
+	  text-align: center;
+	  display: block;
+	  border-radius: 50%;
+	  background: #000;
+	  position: relative;
+	  top: -.75rem;
+	  left: 1.0rem;
+	  font-size: .75rem;
+	  color: white;
+	}
+
+  }
+
+
+
+
+  /* 40.63 min-width 641px, medium screens */
+/*  40.063 -> 64 min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* 64.063 min-width 1025px, large screens */
+/* 64.063 90 min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+/* 90.063 min-width 1441px, xlarge screens */
+/* 90.063 120 min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+
+
+  @media (min-width:40em) {
+	.header {
+	  height:90px;
+	  z-index: 1151;
+
+	  a.tool-button {
+		margin-left: 2rem;
+		background-size: 34px 34px;
+	  }
+
+	  .branding {
+		width:155px;
+	  }
+
+	  .menu-hamburger svg{
+		display:block;
+		width:30px;
+		height:30px;
+	  }
+
+	}
+
+	.menu-container {
+	  transform: translate3d(0, -120%, 0);
+	}
+
+	.menu-container.open {
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+  @media (min-width:64em) {
+	.header {
+	  height:120px;
+
+	  .branding {
+		margin-top:-19px;
+		margin-left:24px;
+		width:205px;
+	  }
+
+	  .menu-hamburger svg{
+		display:block;
+		width:38px;
+		height:38px;
+	  }
+	}
+  }
+
+}
+
+

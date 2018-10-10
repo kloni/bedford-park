@@ -1,0 +1,6 @@
+{
+    "resultList": [
+        {"orderId": "order1", "status": "G" },
+        {"orderId": "order2", "status": "G" }
+    ]
+}

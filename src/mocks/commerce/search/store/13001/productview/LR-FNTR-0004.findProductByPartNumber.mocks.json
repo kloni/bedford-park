@@ -1,0 +1,751 @@
+{
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": false,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14633",
+            "uniqueID": "14633",
+            "partNumber": "LR-FNTR-0004",
+            "shortDescription": "Very cozy short design single sofa.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "The sofa has a short back rest but a long width to get lazy while sitting lazy. With a matte fabric finish and a soft center, this is the perfect sofa to indulge someone to get lazy and stay back.",
+            "name": "Stonehenge UltraCozy Single Sofa",
+            "parentCatalogGroupID": [
+                "11251_10602",
+                "11301_10602"
+            ],
+            "manufacturer": "Supreme",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "800.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "800.0",
+                    "maximumValue": {
+                        "value": "800.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "749.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "749.99",
+                    "maximumValue": {
+                        "value": "749.99"
+                    }
+                }
+            ],
+            "numberOfSKUs": 4,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14634",
+                    "uniqueID": "14634",
+                    "partNumber": "LR-FNTR-0004-0001",
+                    "shortDescription": "Very cozy short design single sofa.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Stonehenge UltraCozy Single Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Supreme",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "749.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "darkgrey",
+                                    "sequence": "10.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png",
+                                    "value": "Dark Grey",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png",
+                                    "uniqueID": "7000000000000003310"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14634",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54771,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14634",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54771,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14634",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54771,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14634",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54771,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0001_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14634",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54771,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0001_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14634",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54771,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0001_CatalogEntryImages_angle3_thumbnail",
+                            "catentry_id": "14634",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54771,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a3_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0001_CatalogEntryImages_angle3_fullimage",
+                            "catentry_id": "14634",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54771,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a3_600.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14635",
+                    "uniqueID": "14635",
+                    "partNumber": "LR-FNTR-0004-0002",
+                    "shortDescription": "Very cozy short design single sofa.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Stonehenge UltraCozy Single Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Supreme",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "749.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "brown",
+                                    "sequence": "2.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "value": "Brown",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                                    "uniqueID": "7000000000000003302"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0002_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14635",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54772,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0002_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14635",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54772,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0002_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14635",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54772,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0002_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14635",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54772,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0002_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14635",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54772,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0002_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14635",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54772,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0002_CatalogEntryImages_angle3_fullimage",
+                            "catentry_id": "14635",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54772,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b3_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0002_CatalogEntryImages_angle3_thumbnail",
+                            "catentry_id": "14635",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004-0002_CatalogEntryImages",
+                            "attachmentAssetID": 54772,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_b3_100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14636",
+                    "uniqueID": "14636",
+                    "partNumber": "LR-FNTR-0004-0003",
+                    "shortDescription": "Very cozy short design single sofa.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Stonehenge UltraCozy Single Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Supreme",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "749.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "denim",
+                                    "sequence": "10.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_denim.png",
+                                    "value": "Denim",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_denim.png",
+                                    "uniqueID": "7000000000000003320"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0003_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14636",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54773,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0003_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14636",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54773,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0003_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14636",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54773,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0003_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14636",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54773,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0003_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14636",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54773,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0003_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14636",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54773,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0003_CatalogEntryImages_angle3_fullimage",
+                            "catentry_id": "14636",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54773,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c3_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0003_CatalogEntryImages_angle3_thumbnail",
+                            "catentry_id": "14636",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004-0003_CatalogEntryImages",
+                            "attachmentAssetID": 54773,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_c3_100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14637",
+                    "uniqueID": "14637",
+                    "partNumber": "LR-FNTR-0004-0004",
+                    "shortDescription": "Very cozy short design single sofa.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Stonehenge UltraCozy Single Sofa",
+                    "parentCatalogGroupID": [
+                        "11251_10602",
+                        "11301_10602"
+                    ],
+                    "manufacturer": "Supreme",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "800.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "749.99"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "seaweed",
+                                    "sequence": "10.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                                    "value": "Seaweed",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                                    "uniqueID": "7000000000000003314"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0004_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14637",
+                            "usage": "images_main_thumbnail",
+                            "name": "LR-FNTR-0004-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54774,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0004_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14637",
+                            "usage": "images_main_fullimage",
+                            "name": "LR-FNTR-0004-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54774,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0004_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14637",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54774,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d1_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0004_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14637",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54774,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0004_CatalogEntryImages_angle2_thumbnail",
+                            "catentry_id": "14637",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54774,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d2_100.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0004_CatalogEntryImages_angle2_fullimage",
+                            "catentry_id": "14637",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54774,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d2_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0004_CatalogEntryImages_angle3_fullimage",
+                            "catentry_id": "14637",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "LR-FNTR-0004-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54774,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d3_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "LR-FNTR-0004-0004_CatalogEntryImages_angle3_thumbnail",
+                            "catentry_id": "14637",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "LR-FNTR-0004-0004_CatalogEntryImages",
+                            "attachmentAssetID": 54774,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_d3_100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "brown",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "value": "Brown",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                            "uniqueID": "7000000000000003302"
+                        },
+                        {
+                            "identifier": "darkgrey",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png",
+                            "value": "Dark Grey",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_darkgrey.png",
+                            "uniqueID": "7000000000000003310"
+                        },
+                        {
+                            "identifier": "denim",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_denim.png",
+                            "value": "Denim",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_denim.png",
+                            "uniqueID": "7000000000000003320"
+                        },
+                        {
+                            "identifier": "seaweed",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                            "value": "Seaweed",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                            "uniqueID": "7000000000000003314"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-0004_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14633",
+                    "usage": "images_main_fullimage",
+                    "name": "LR-FNTR-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54648,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-0004_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14633",
+                    "usage": "images_main_thumbnail",
+                    "name": "LR-FNTR-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54648,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-0004_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14633",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-FNTR-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54648,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-0004_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14633",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-FNTR-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54648,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-0004_CatalogEntryImages_angle2_fullimage",
+                    "catentry_id": "14633",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-FNTR-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54648,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a2_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-0004_CatalogEntryImages_angle2_thumbnail",
+                    "catentry_id": "14633",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-FNTR-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54648,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a2_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-0004_CatalogEntryImages_angle3_thumbnail",
+                    "catentry_id": "14633",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "LR-FNTR-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54648,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a3_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "LR-FNTR-0004_CatalogEntryImages_angle3_fullimage",
+                    "catentry_id": "14633",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "LR-FNTR-0004_CatalogEntryImages",
+                    "attachmentAssetID": 54648,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/furniture/chair4_a3_600.jpg"
+                }
+            ]
+        }
+    ]
+}

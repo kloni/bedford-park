@@ -1,0 +1,62 @@
+{
+    "register": {
+        "logonId": "mscpars@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "AddressBook" :
+            {
+                "firstName" : "defaultcheckoutfirst",
+                "lastName" : "defaultcheckoutlast",
+                "address" : "Central Park checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "stateShort" : "NY",
+                "zipCode" : "10001"
+            }
+    },
+    "checkout": {
+        "product": 1,
+        "product2": 2,
+        "product3": 3,
+        "shipping": "US - Regular Delivery",
+        "expectedSubtotal": 2579.98
+    },
+    "commonLogin":{
+        "logonId": "mscpars@test.com",
+        "password": "Ibm4ever!"
+    },
+    "test01": {
+        "expectedBillingAddress": "Central Park checkout, New York City checkout, NY 10001, United States",
+        "expectedStatus": "Order received and ready for processing",
+        "expectedShippingAddress": "Central Park checkout, New York City checkout, NY 10001, United States",
+        "expectedPaymentInfo": "Cash on delivery",
+        "expectedShppingMethod": "US - Regular Delivery",
+        "expectedQuantityCount":"5",
+
+        "expectedQuantity1":"1",
+        "expectedQuantity2":"3",
+        "expectedQuantity3":"1",
+
+        "expectedSubTotal":"$4,579.96",
+        "expectedDiscount":"-$1,287.29",
+        "expectedShippingTotal":"$9.90",
+        "expectedTax":"$0.00",
+        "grandTotal":"$3,302.57" ,
+        "expectedGrandTotal":"$3,302.57"
+    },
+    "test02": {
+        "expectedPrice1":"$30.00",
+        "expectedPrice2":"$45.00",
+        "expectedPrice3":"$949.00",
+
+        "expectedQuantity1":1,
+        "expectedQuantity2":3,
+        "expectedQuantity3":1
+    },
+    "test03": {},
+    "test04": {}
+}

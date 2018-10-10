@@ -1,0 +1,59 @@
+{ 
+    "css": {
+        "textField": {
+            "valid": [
+                "border-left",
+                "1px solid rgb(202, 202, 202)"
+            ],
+            "invalid": [
+                "border-left",
+                "5px solid rgb(204, 75, 55)"
+            ]
+        }
+    },
+    "ErrorMessages" : {
+        "invalidEmail" : "Email format is invalid",
+        "invalidPhone" : "Phone format is invalid",
+        "verifyPassword" : "The verify password you entered does not match your password. Type your password in the Verify password field and try again."
+    },
+    "test01" : {
+        "email" : "msr1@test.com",
+        "password": "Ibm4ever!",
+        "firstName" : "Jane",
+        "lastName" : "Smith",
+        "phone" : "1234567891"
+
+    },
+    "test02" : {
+        "email" : "msr2@test.com",
+        "password": "Ibm4ever!",
+        "firstName" : "Jane",
+        "lastName" : "Smith",
+        "phone" : ""
+    },
+    "test03" : {
+        "email" : "msr3@test.com",
+        "password": "Ibm4ever!",
+        "firstName" : "Jane",
+        "lastName" : "Smith",
+        "phone" : "230-123-4432"
+    },
+    "test04" : {
+        "email" : "msr4@test.com",
+        "invalidEmail" : "msr4",
+        "password": "Ibm4ever!",
+        "invalidPassword" : "ibm$ever!",
+        "firstName" : "Jane",
+        "lastName" : "Smith",
+        "phone" : ""
+    },
+    "test05" : {
+        "email" : "msr5@test.com",
+        "invalidEmail" : "msr4",
+        "password": "Ibm4ever!",
+        "firstName" : "Jane",
+        "lastName" : "Smith",
+        "phone" : "4163334444",
+        "invalidPhone" : "P163334444"
+    }
+}

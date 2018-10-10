@@ -1,0 +1,39 @@
+<div *ngIf="!registered" id="registration_simplified_{{id}}" class="grid-container grid-container-padded animated fadeInUp">
+    <hr>
+    <form name="registerForm" (ngSubmit)="registerForm.form.valid && register()" #registerForm="ngForm">
+        <div class="grid-x grid-margin-x register-container">
+            <div class="small-12 text-center cell">
+                <br>
+                <h4 translate>SimplifiedRegistration.RegisterTitle</h4>
+                <br>
+            </div>
+            <div *ngIf="registerErrorMsg" id="registration_simplified_error_div1_{{id}}" class="small-12 cell callout alert" role="alert" translate data-closable>
+                <!-- Error message from transaction server-->
+                <span  *ngIf="registerErrorMsg" id="registration_simplified_registererror_span1_{{id}}" translate>{{registerErrorMsg}}</span>
+                <button id="registration_simplified_registererror_button_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="reset()" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="small-12 medium-12 large-4 cell">
+                <label translate>SimplifiedRegistration.Email
+                    <input type="email" name="email" placeholder="name@domain.com" [(ngModel)]="user.email" #email="ngModel" maxlength="50" commerce-UTF8length=256 email [ngClass]='{"is-invalid-input": email.invalid && (email.touched || email.dirty)}' required/>
+                </label>
+            </div>
+            <div class="small-12 medium-12 large-4 cell">
+                <label translate>SimplifiedRegistration.Password
+                    <input id="registration_simplified_pwinput_{{id}}" type="text" type="password" [(ngModel)]="user.password" name="password" #password="ngModel" required />
+                </label>
+            </div>
+            <div class="small-12 medium-12 large-4 cell">
+                <label translate>SimplifiedRegistration.VerifyPassword
+                    <input id="registration_simplified_pwconfirminput_{{id}}" type="text" type="password" [(ngModel)]="user.confirmPassword" name="confirmPassword" #confirmPassword="ngModel" required />
+
+                </label>
+            </div>
+            <div class="small-12 medium-4 cell"></div>
+            <div class="small-12 medium-4 cell text-center">
+                <button id="registration_simplified_submitbutton_{{id}}" (click)="register" class="simplified__registration__button__register button button-dark expanded " type="submit " [disabled]="!registerForm.form.valid|| registerLoading" translate>SimplifiedRegistration.Register</button>
+            </div>
+        </div>
+    </form>
+</div>

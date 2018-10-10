@@ -1,0 +1,129 @@
+@import '../../../theme_settings.scss';
+
+.article-filter-container{
+	@media screen and (max-width: 40em) {
+		margin-bottom: 1rem;
+	}
+}
+
+.results {
+	margin-bottom: 2em;
+}
+.sort-select {
+	margin-bottom: 2em;
+}
+
+.search-result-item {
+	opacity: 1;
+  margin-bottom: 1.125rem;
+}
+
+.loading,
+.loading:before,
+.loading:after {
+	border-radius: 50%;
+	width: 1.5em;
+	height: 1.5em;
+	animation-fill-mode: both;
+	animation: load7 2.8s infinite ease-in-out;
+}
+.loading {
+	color: #000000;
+	font-size: 8px;
+	margin: 80px auto;
+	position: relative;
+	text-indent: -9999em;
+	transform: translateZ(0);
+	animation-delay: -0.16s;
+}
+.loading:before,
+.loading:after {
+	content: '';
+	position: absolute;
+	top: 0;
+}
+.loading:before {
+	left: -3.5em;
+	animation-delay: -0.32s;
+}
+.loading:after {
+	left: 3.5em;
+}
+
+@include facet-area();
+
+@keyframes load7 {
+	0%,
+	80%,
+	100% {
+		box-shadow: 0 2.0em 0 -1.3em;
+	}
+	40% {
+		box-shadow: 0 2.0em 0 0;
+	}
+}
+
+
+x.product-filters {
+  padding: 0.5rem 1rem;
+  background-color: #fefefe;
+}
+.product-filters a{
+  color:#000;
+}
+
+.price-filter {
+  background-color:#cacaca;
+  max-height:50px;
+}
+.price-filter-input {
+  padding:5px 5px 0px;
+}
+.product-filters .accordion-title {
+  font-size:1em;
+  padding:20px 0px 15px;
+  width:100%;
+  border:none !important;
+  text-transform:uppercase;
+}
+.product-filters .accordion-title:hover {
+  background-color:transparent;
+}
+.product-filters .accordion-content {
+  border:none;
+  padding:0rem;
+}
+.tabs-container{
+  border-bottom: solid 1px #dadada;
+}
+.search-results-label {
+  padding-top:12px;
+}
+.tabs-panel {
+  border:0px none;
+  padding:0rem;
+  padding-top:20px;
+
+}
+.tabs-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tabs, .tabs-content, .tabs-panel {
+  border:none;
+}
+
+.tabs-title a{
+  font-size:1.25em;
+	color:#303030;
+	text-align: center;
+  min-width:200px;
+}
+.tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
+  background: none;
+	border-bottom:solid 4px $page-tab-border-color;
+	font-weight: bold;
+}
+

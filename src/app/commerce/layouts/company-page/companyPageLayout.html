@@ -1,0 +1,16 @@
+<div class="wch-page grey-background">
+  <wch-contentref *ngIf="heroBanner" [renderingContext]="heroBanner"></wch-contentref>
+  <div class="grid-container grid-container-padded">
+    <div class="grid-x">
+      <div class="small-12 medium-12 large-12">
+        <h2 wchEditable="title" class="title text-center">{{title}}</h2>
+        <hr>
+        <div *ngIf="bodyText" wchEditable="bodyText" [innerHTML]="bodyText"></div>
+        <div *ngIf="section">
+        <wch-contentref *ngFor="let v of section;trackBy: trackByComponentId" [renderingContext]="v"></wch-contentref>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

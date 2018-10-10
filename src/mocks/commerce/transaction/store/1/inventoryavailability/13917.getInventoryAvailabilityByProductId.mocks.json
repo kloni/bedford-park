@@ -1,0 +1,14 @@
+{
+  "InventoryAvailability": [
+    {
+      "availableQuantity": "100.0",
+      "onlineStoreName": "AuroraESite",
+      "productId": "12837",
+      "unitOfMeasure": "C62",
+      "inventoryStatus": "Available",
+      "onlineStoreId": "1"
+    }
+  ],
+  "resourceId": "https:\/\/aas129.watsoncommerce.ibm.com:443\/wcs\/resources\/store\/1\/inventoryavailability\/12837",
+  "resourceName": "inventoryavailability"
+}

@@ -1,0 +1,18 @@
+{
+    "commerceSearchHostPort": "search.domain.com:port",
+    "commerceSearchContextPath": "/search/resources",
+    "commerceTransactionHostPort": "transaction.domain.com:port",
+    "commerceTransactionContextPath": "/wcs/resources",
+    "commerceStoreName": "storeName",
+    "logger": {
+        "level": 2,
+        "store": false
+    },
+    "digitalAnalyticsConfig": {
+        "ProductionClientIds": ["12345678"],
+        "DevelopmentClientIds": ["12345678"],
+        "DataCollectionMethod": true,
+        "DataCollectionDomain": "collection.domain.com",
+        "CookieDomain": "localhost"
+    }
+}

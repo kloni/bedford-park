@@ -1,0 +1,33 @@
+{ 
+    "test01": {
+        "searchTerm": "Bender Toothbrush Holder",
+        "productNumResult": 10,
+        "numberOfSuggestion": 1
+    },
+    "test02": {
+        "searchTerm": "toothbrush",
+        "suggestionKeyword": "toothbrush holder",
+        "numberOfSuggestion": 2,
+        "productNumResult": 1
+    },
+    "test03": {
+        "searchTerm": "accessories",
+        "suggestionKeyword": "Bath > Accessories",
+        "numberOfSuggestion": 2,
+        "productNumResult": 3
+    },
+    "test04": {
+        "searchTerm": "bath",
+        "suggestionKeyword": "Bath",
+        "numberOfSuggestion": 5,
+        "categoryTitle": "All Bath"
+    },
+    "test05": {
+        "searchTerm": "clear this search term"
+    }
+    ,
+    "test06": {
+        "searchTerm": "LR-FNTR-0001-0001",
+        "productName": "Wooden Angled Chair"
+    }
+}

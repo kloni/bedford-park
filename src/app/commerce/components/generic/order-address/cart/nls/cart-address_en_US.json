@@ -1,0 +1,13 @@
+{
+    "cart-address" : {
+		"address": "{{l1}}, {{city}}, {{state}} {{zip}}, {{country}}",
+		"address2": "{{l1}} {{l2}}, {{city}}, {{state}} {{zip}}, {{country}}",
+		"estimateShippingTax": "Estimate Shipping and Tax",
+		"haveAPromotionCode": "Have a promotion code?",
+		"getQuote": "Get quote",
+		"shipTo": "Ship to",
+		"zipCode": "Zip Code",
+		"invalidZip_CA": "Not a valid Canadian postcode",
+		"invalidZip_US": "Not a valid US zip code"
+	}
+}

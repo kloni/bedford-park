@@ -1,0 +1,317 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "LivingRoom",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/dep_livingroom.jpg",
+            "storeID": "12901",
+            "name": "Living Room",
+            "sequence": [
+                "11251_-1_1.00000",
+                "11301_-1_1.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10601",
+            "uniqueID": "10601",
+            "parentCatalogGroupID": [
+                "11251_-1",
+                "11301_-1"
+            ],
+            "childCatalogGroupID": [
+                "11251_10602",
+                "11251_10603",
+                "11251_10604",
+                "11301_10602",
+                "11301_10603",
+                "11301_10604"
+            ],
+            "shortDescription": "Bring your living space together with comfort and style",
+            "catalogGroupView": [
+                {
+                    "identifier": "LivingRoomFurniture",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/furniture.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/furniture.jpg",
+                    "storeID": "12901",
+                    "name": "Furniture",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10602",
+                    "uniqueID": "10602",
+                    "parentCatalogGroupID": [
+                        "11251_10601",
+                        "11301_10601"
+                    ],
+                    "shortDescription": "Beautiful chairs, couches and tables that fit any decor"
+                },
+                {
+                    "identifier": "LivingRoomLighthing",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/livingroom-lighting.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/livingroom-lighting.jpg",
+                    "storeID": "12901",
+                    "name": "Lighting",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10603",
+                    "uniqueID": "10603",
+                    "parentCatalogGroupID": [
+                        "11251_10601",
+                        "11301_10601"
+                    ],
+                    "shortDescription": "Illuminate your living room with a variety of pendant lights and chandeliers"
+                },
+                {
+                    "identifier": "Decoration",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/decoration.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/category/decoration.jpg",
+                    "storeID": "12901",
+                    "name": "Decoration",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10604",
+                    "uniqueID": "10604",
+                    "parentCatalogGroupID": [
+                        "11251_10601",
+                        "11301_10601"
+                    ],
+                    "shortDescription": "Versatile pieces to accent all your surfaces and walls"
+                }
+            ]
+        },
+        {
+            "identifier": "Bath",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/dep_bathroom.jpg",
+            "storeID": "12901",
+            "name": "Bath",
+            "sequence": [
+                "11251_-1_2.00000",
+                "11301_-1_2.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10609",
+            "uniqueID": "10609",
+            "parentCatalogGroupID": [
+                "11251_-1",
+                "11301_-1"
+            ],
+            "childCatalogGroupID": [
+                "11251_10610",
+                "11251_10611",
+                "11251_10612",
+                "11301_10610",
+                "11301_10611",
+                "11301_10612"
+            ],
+            "shortDescription": "Modernize your bath space with a variety of vanity fixtures and lighting options",
+            "catalogGroupView": [
+                {
+                    "identifier": "BathLighthing",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/lighting.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/lighting.jpg",
+                    "storeID": "12901",
+                    "name": "Lighting",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10610",
+                    "uniqueID": "10610",
+                    "parentCatalogGroupID": [
+                        "11251_10609",
+                        "11301_10609"
+                    ],
+                    "shortDescription": "Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom"
+                },
+                {
+                    "identifier": "Fixtures",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/fixtures.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/fixtures.jpg",
+                    "storeID": "12901",
+                    "name": "Fixtures",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10611",
+                    "uniqueID": "10611",
+                    "parentCatalogGroupID": [
+                        "11251_10609",
+                        "11301_10609"
+                    ],
+                    "shortDescription": "Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space"
+                },
+                {
+                    "identifier": "Accessories",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/accessories.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bathroom/category/accessories.jpg",
+                    "storeID": "12901",
+                    "name": "Accessories",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10612",
+                    "uniqueID": "10612",
+                    "parentCatalogGroupID": [
+                        "11251_10609",
+                        "11301_10609"
+                    ],
+                    "shortDescription": "Accent your bath with stylish accessories and makeup mirrors"
+                }
+            ]
+        },
+        {
+            "identifier": "Bedroom",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/dep_bedroom.jpg",
+            "storeID": "12901",
+            "name": "Bedroom",
+            "sequence": [
+                "11251_-1_3.00000",
+                "11301_-1_3.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10613",
+            "uniqueID": "10613",
+            "parentCatalogGroupID": [
+                "11251_-1",
+                "11301_-1"
+            ],
+            "childCatalogGroupID": [
+                "11251_10614",
+                "11251_10615",
+                "11301_10614",
+                "11301_10615"
+            ],
+            "shortDescription": "Furnish your bedrooms in style and make them your own",
+            "catalogGroupView": [
+                {
+                    "identifier": "Beds",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/beds.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/beds.jpg",
+                    "storeID": "12901",
+                    "name": "Beds",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10614",
+                    "uniqueID": "10614",
+                    "parentCatalogGroupID": [
+                        "11251_10613",
+                        "11301_10613"
+                    ],
+                    "shortDescription": "Functional and space-saving beds to extend any sleeping space"
+                },
+                {
+                    "identifier": "Dressers",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/dressers.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/bedroom/category/dressers.jpg",
+                    "storeID": "12901",
+                    "name": "Dressers",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10615",
+                    "uniqueID": "10615",
+                    "parentCatalogGroupID": [
+                        "11251_10613",
+                        "11301_10613"
+                    ],
+                    "shortDescription": "Highly-functional dressers that maximize both storage space and function"
+                }
+            ]
+        },
+        {
+            "identifier": "DiningRoom",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/dep_diningroom.jpg",
+            "storeID": "12901",
+            "name": "Dining Room",
+            "sequence": [
+                "11251_-1_4.00000",
+                "11301_-1_4.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10605",
+            "uniqueID": "10605",
+            "parentCatalogGroupID": [
+                "11251_-1",
+                "11301_-1"
+            ],
+            "childCatalogGroupID": [
+                "11251_10606",
+                "11251_10607",
+                "11251_10608",
+                "11301_10606",
+                "11301_10607",
+                "11301_10608"
+            ],
+            "shortDescription": "Entertain your guests with dining room furniture and decor that fits any space",
+            "catalogGroupView": [
+                {
+                    "identifier": "DiningTables",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/tables.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/tables.jpg",
+                    "storeID": "12901",
+                    "name": "Tables",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10606",
+                    "uniqueID": "10606",
+                    "parentCatalogGroupID": [
+                        "11251_10605",
+                        "11301_10605"
+                    ],
+                    "shortDescription": "Find the perfect dining table for serving your guests in comfort and style"
+                },
+                {
+                    "identifier": "DiningChairs",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/chairs.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/chairs.jpg",
+                    "storeID": "12901",
+                    "name": "Chairs",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10607",
+                    "uniqueID": "10607",
+                    "parentCatalogGroupID": [
+                        "11251_10605",
+                        "11301_10605"
+                    ],
+                    "shortDescription": "Sturdy seating that matches any dining room decor"
+                },
+                {
+                    "identifier": "Buffets",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/buffets.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/buffets.jpg",
+                    "storeID": "12901",
+                    "name": "Buffets",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10608",
+                    "uniqueID": "10608",
+                    "parentCatalogGroupID": [
+                        "11251_10605",
+                        "11301_10605"
+                    ],
+                    "shortDescription": "Add fully-functional drawer, cabinet, and counter space to any dining room in style"
+                }
+            ]
+        },
+        {
+            "identifier": "Kitchen",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/dep_kitchen.jpg",
+            "storeID": "12901",
+            "name": "Kitchen",
+            "sequence": [
+                "11251_-1_5.00000",
+                "11301_-1_5.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10616",
+            "uniqueID": "10616",
+            "parentCatalogGroupID": [
+                "11251_-1",
+                "11301_-1"
+            ],
+            "childCatalogGroupID": [
+                "11251_10617",
+                "11251_10618",
+                "11301_10617",
+                "11301_10618"
+            ],
+            "shortDescription": "Create a kitchen that suits your needs and fits your lifestyle",
+            "catalogGroupView": [
+                {
+                    "identifier": "Cabinets",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/cabinets.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/cabinets.jpg",
+                    "storeID": "12901",
+                    "name": "Cabinets",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10617",
+                    "uniqueID": "10617",
+                    "parentCatalogGroupID": [
+                        "11251_10616",
+                        "11301_10616"
+                    ],
+                    "shortDescription": "Versatile cabinetry and shelving give your kitchen storage space in style"
+                },
+                {
+                    "identifier": "Countertops",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/countertops.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/category/countertops.jpg",
+                    "storeID": "12901",
+                    "name": "Countertops",
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10618",
+                    "uniqueID": "10618",
+                    "parentCatalogGroupID": [
+                        "11251_10616",
+                        "11301_10616"
+                    ],
+                    "shortDescription": "Heat, scratch, stain, and water resistant countertops for every kitchen"
+                }
+            ]
+        }
+    ]
+}

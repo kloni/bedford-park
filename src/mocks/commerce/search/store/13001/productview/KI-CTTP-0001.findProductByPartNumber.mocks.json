@@ -1,0 +1,324 @@
+{
+    "recordSetCount": 1,
+    "metaData": {
+        "price": "1"
+    },
+    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/KI-CTTP-0001?langId=-1",
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14893",
+            "uniqueID": "14893",
+            "partNumber": "KI-CTTP-0001",
+            "singleSKUCatalogEntryID": "14894",
+            "shortDescription": "Wood-grained countertops add an elegant and warm design to your home's contempory or traditional kitchen.",
+            "catalogEntryTypeCode": "ProductBean",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_600.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_350.jpg",
+            "buyable": "true",
+            "storeID": "12901",
+            "longDescription": "Countertops that feature wooden construction throughout, ideal for long-term durability. Finished and sealed in your choice of color, these countertops are heat, scratch, stain, and water resistant. Able to accomodate any size cabinetry and undermount sinks by simply cutting where needed.",
+            "name": "Dark Brown Wood-grained Countertop",
+            "parentCatalogGroupID": [
+                "11251_10618",
+                "11301_10618"
+            ],
+            "manufacturer": "Stockholm",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "120.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "120.0",
+                    "maximumValue": {
+                        "value": "120.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "115.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "115.0",
+                    "maximumValue": {
+                        "value": "115.0"
+                    }
+                }
+            ],
+            "numberOfSKUs": 1,
+            "sKUs": [
+                {
+                    "hasSingleSKU": false,
+                    "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/productview/byId/14894",
+                    "uniqueID": "14894",
+                    "partNumber": "KI-CTTP-0001-0001",
+                    "shortDescription": "Wood-grained countertops add an elegant and warm design to your home's contempory or traditional kitchen.",
+                    "catalogEntryTypeCode": "ItemBean",
+                    "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_600.jpg",
+                    "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_350.jpg",
+                    "buyable": "true",
+                    "storeID": "12901",
+                    "name": "Dark Brown Wood-grained Countertop",
+                    "parentCatalogGroupID": [
+                        "11251_10618",
+                        "11301_10618"
+                    ],
+                    "manufacturer": "Stockholm",
+                    "price": [
+                        {
+                            "usage": "Display",
+                            "description": "L",
+                            "currency": "USD",
+                            "value": "120.0"
+                        },
+                        {
+                            "usage": "Offer",
+                            "description": "I",
+                            "currency": "USD",
+                            "value": "115.0"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "identifier": "Color",
+                            "sequence": "1.00000",
+                            "storeDisplay": false,
+                            "values": [
+                                {
+                                    "identifier": "standin",
+                                    "sequence": "10.00000",
+                                    "unitOfMeasure": "one",
+                                    "unitID": "C62",
+                                    "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_standin.png",
+                                    "value": "Standin",
+                                    "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_standin.png",
+                                    "uniqueID": "7000000000000003313"
+                                }
+                            ],
+                            "usage": "Defining",
+                            "displayable": true,
+                            "name": "Color",
+                            "facetable": true,
+                            "comparable": true,
+                            "searchable": true,
+                            "uniqueID": "7000000000000000651"
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "image": "",
+                            "identifier": "KI-CTTP-0001-0001_CatalogEntryImages_main_fullimage",
+                            "catentry_id": "14894",
+                            "usage": "images_main_fullimage",
+                            "name": "KI-CTTP-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54743,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "KI-CTTP-0001-0001_CatalogEntryImages_main_thumbnail",
+                            "catentry_id": "14894",
+                            "usage": "images_main_thumbnail",
+                            "name": "KI-CTTP-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54743,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_350.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "KI-CTTP-0001-0001_CatalogEntryImages_angle1_fullimage",
+                            "catentry_id": "14894",
+                            "usage": "ANGLEIMAGES_FULLIMAGE",
+                            "name": "KI-CTTP-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54743,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_600.jpg"
+                        },
+                        {
+                            "image": "",
+                            "identifier": "KI-CTTP-0001-0001_CatalogEntryImages_angle1_thumbnail",
+                            "catentry_id": "14894",
+                            "usage": "ANGLEIMAGES_THUMBNAIL",
+                            "name": "KI-CTTP-0001_CatalogEntryImages",
+                            "attachmentAssetID": 54743,
+                            "mimeType": "image/jpeg",
+                            "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "48x20x1",
+                            "sequence": "15.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "48\"x20\"x1\"",
+                            "uniqueID": "7000000000000003388"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "standin",
+                            "sequence": "10.00000",
+                            "unitOfMeasure": "one",
+                            "unitID": "C62",
+                            "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_standin.png",
+                            "value": "Standin",
+                            "image1path": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_standin.png",
+                            "uniqueID": "7000000000000003313"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "30lbs",
+                            "sequence": "3.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "30 lbs",
+                            "uniqueID": "7000000000000003395"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "ashwood",
+                            "sequence": "8.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Ash wood",
+                            "uniqueID": "7000000000000003335"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Wood-grained",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood-grained",
+                            "uniqueID": "7000000000000003406"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "associatedKeyword": "-",
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ],
+            "attachments": [
+                {
+                    "image": "",
+                    "identifier": "KI-CTTP-0001_CatalogEntryImages_main_fullimage",
+                    "catentry_id": "14893",
+                    "usage": "images_main_fullimage",
+                    "name": "KI-CTTP-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54636,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_600.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "KI-CTTP-0001_CatalogEntryImages_main_thumbnail",
+                    "catentry_id": "14893",
+                    "usage": "images_main_thumbnail",
+                    "name": "KI-CTTP-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54636,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_350.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "KI-CTTP-0001_CatalogEntryImages_angle1_thumbnail",
+                    "catentry_id": "14893",
+                    "usage": "ANGLEIMAGES_THUMBNAIL",
+                    "name": "KI-CTTP-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54636,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_100.jpg"
+                },
+                {
+                    "image": "",
+                    "identifier": "KI-CTTP-0001_CatalogEntryImages_angle1_fullimage",
+                    "catentry_id": "14893",
+                    "usage": "ANGLEIMAGES_FULLIMAGE",
+                    "name": "KI-CTTP-0001_CatalogEntryImages",
+                    "attachmentAssetID": 54636,
+                    "mimeType": "image/jpeg",
+                    "attachmentAssetPath": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/kitchen/countertops/countertop1_a1_600.jpg"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": 0,
+    "resourceName": "productview",
+    "recordSetTotal": 1,
+    "recordSetTotalMatches": 1,
+    "recordSetComplete": "true"
+}

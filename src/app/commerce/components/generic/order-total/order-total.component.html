@@ -1,0 +1,58 @@
+<div class="grid-container full">
+    <div id="{{componentName}}_div_0_{{id}}" class="grid-x grid-margin-x">
+        <div id="{{componentName}}_div_52_{{id}}" class="small-6 medium-6 cell">
+            <p id="{{componentName}}_p_53_{{id}}" translate>order-total.subTotal</p>
+        </div>
+        <div id="{{componentName}}_div_54_{{id}}" class="small-6 medium-6 cell text-right">
+            <p id="{{componentName}}_p_55_{{id}}">
+                <span id="{{componentName}}_span_56_{{id}}" translate [translateParams]="{value: cart.totalProductPrice | number:'.2-2'}" >currencyDisplay.{{cart.totalProductPriceCurrency}}</span></p><p *ngIf="VATEnabled" class="VATincl" id="{{componentName}}_p_566_{{id}}" translate>order-total.VATincl</p>
+        </div>
+        <div *ngIf="!VATEnabled" id="{{componentName}}_div_62_{{id}}" class="small-6 medium-6 cell">
+            <p id="{{componentName}}_p_63_{{id}}" translate>order-total.tax</p>
+        </div>
+        <div *ngIf="!VATEnabled" id="{{componentName}}_div_64_{{id}}" class="small-6 medium-6 cell text-right">
+            <p id="{{componentName}}_p_65_{{id}}">
+                <span id="{{componentName}}_span_66_{{id}}" translate [translateParams]="{value: cart.totalSalesTax | number:'.2-2'}">currencyDisplay.{{cart.totalSalesTaxCurrency}}</span></p>
+        </div>
+        <div id="{{componentName}}_div_67_{{id}}" class="small-6 medium-6 cell">
+            <p id="{{componentName}}_p_68_{{id}}" translate>order-total.shippingCost</p>
+        </div>
+        <div id="{{componentName}}_div_69_{{id}}" class="small-6 medium-6 cell text-right">
+            <p id="{{componentName}}_p_70_{{id}}">
+                <span id="{{componentName}}_span_71_{{id}}" translate [translateParams]="{value: cart.totalShippingCharge | number:'.2-2'}">currencyDisplay.{{cart.totalShippingChargeCurrency}}</span></p>
+        </div>
+        <div *ngIf="!VATEnabled" id="{{componentName}}_div_72_{{id}}" class="small-6 medium-6 cell">
+            <p id="{{componentName}}_p_73_{{id}}" translate>order-total.shippingTax</p>
+        </div>
+        <div *ngIf="!VATEnabled" id="{{componentName}}_div_74_{{id}}" class="small-6 medium-6 cell text-right">
+            <p id="{{componentName}}_p_75_{{id}}">
+                <span id="{{componentName}}_span_76_{{id}}" translate [translateParams]="{value: cart.totalShippingTax | number:'.2-2'}">currencyDisplay.{{cart.totalShippingTaxCurrency}}</span></p>
+        </div>
+         <!-- VAT tax -->
+         <div *ngIf="VATEnabled" id="{{componentName}}_div_766_{{id}}" class="small-6 medium-6 cell">
+            <p id="{{componentName}}_p_767_{{id}}" translate>order-total.VATincluded</p>
+        </div>
+        <div *ngIf="VATEnabled" id="{{componentName}}_div_768_{{id}}" class="small-6 medium-6 cell text-right">
+            <p id="{{componentName}}_p_769_{{id}}">
+                <span id="{{componentName}}_span_770_{{id}}" translate [translateParams]="{value: VAT | number:'.2-2'}">currencyDisplay.{{cart.totalShippingTaxCurrency}}</span></p>
+        </div>
+        <!--end-->
+        <div id="{{componentName}}_div_57_{{id}}" class="small-6 medium-6 cell" *ngIf="cart.totalAdjustment != 0">
+            <p id="{{componentName}}_discount_{{id}}" data-tooltip aria-haspopup="true" class="has-tip" data-allow-html="true" data-disable-hover="false" tabindex="2" [attr.data-tooltip-class]="discountTooltipClass" [attr.data-tip-text]="tooltipText" translate>order-total.discount</p>
+        </div>
+        <div id="{{componentName}}_div_59_{{id}}" class="small-6 medium-6 cell text-right" *ngIf="cart.totalAdjustment != 0" id="discountInfo">
+            <p id="{{componentName}}_discount_60_{{id}}">
+                <span id="{{componentName}}_span_61_{{id}}" [translate]="'order-total.symbolNegative'"></span><span id="{{componentName}}_span_62_{{id}}" translate [translateParams]="{value: -cart.totalAdjustment | number:'.2-2'}">currencyDisplay.{{cart.totalAdjustmentCurrency}}</span></p>
+        </div>
+        <div id="{{componentName}}_div_779_{{id}}" class="small-12 medium-12 cell">
+            <hr *ngIf="isCheckout">
+        </div>
+        <div id="{{componentName}}_div_77_{{id}}" class="small-6 medium-6 cell">
+            <p class="bold cart-total" translate >order-total.grandTotal</p>
+        </div>
+        <div id="{{componentName}}_div_78_{{id}}" class="small-6 medium-6 cell text-right">
+            <p class="bold cart-total">
+                <span id="{{componentName}}_span_79_{{id}}" translate [translateParams]="{value: cart.grandTotal | number:'.2-2'}">currencyDisplay.{{cart.grandTotalCurrency}}</span></p>
+        </div>
+    </div>
+</div>

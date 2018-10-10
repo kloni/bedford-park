@@ -1,0 +1,11 @@
+{
+    "searchResult": {
+        "productsTabName": "Products",
+        "ArticlesTabName" : "Articles",
+        "filterBy": "Filter by",
+        "articleFoundSingle": "{{numFound}} article found for <b>{{keyword}}</b>",
+        "articleFoundPlural": "{{numFound}} articles found for <b>{{keyword}}</b>",
+        "articleType": "Article Type",
+        "noMatch": "Searching for <b>{{keyword}}</b> doesn't return any good matches. <br/>Try your search again with a different term or browse our recommendations."
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "messages":
+    {
+        "thankYou" : "THANK YOU FOR YOUR ORDER!",
+        "emailConfirmation" : "You will receive an email confirmation."
+    },
+    "shippingType": [
+        {
+            "shippingName": "US - Regular Delivery",
+            "shippingBase": 5.94,
+            "shippingAddItem": 0.99,
+            "promotionFlatShipping" : 5.00
+        },
+        {
+            "shippingName": "US - Overnight Delivery",
+            "shippingBase": 22.94,
+            "shippingAddItem": 2.99
+        },
+        {
+            "shippingName": "US - 2-Day Express Delivery",
+            "shippingBase": 14.94,
+            "shippingAddItem": 1.99
+        }
+    ],
+    "products": [
+        {
+            "productName": "Stonehenge Modern Steelet Single Sofa",
+            "productSKU": "HFU032_320901",
+            "productPrice": "235.00",
+            "testProductIndex": 0
+        },
+        {
+            "productName": "StyleHome Rigg Dining chair",
+            "productSKU": "HFU032_322501",
+            "productPrice": "30.00",
+            "testProductIndex": 1
+        },
+        {
+            "productName": "StyleHome Woodek Dining chair",
+            "productSKU": "HFU032_322601",
+            "productPrice": "45.00",
+            "testProductIndex": 2
+        },
+        {
+            "productName": "Supreme GiantsCorner Sofa Set",
+            "productSKU": "HFU032_320501",
+            "productPrice": "949.00",
+            "testProductIndex": 3
+        }
+    ],
+    "user01": {
+        "login": "mscpars@test.com",
+        "password": "Ibm4ever!",
+        "firstName": "checkOutFirst",
+        "lastName": "checkOutLast",
+        "phone": "3334441111",
+        "addressBook" : [
+            {
+                "firstName" : "defaultcheckoutfirst",
+                "lastName" : "defaultcheckoutlast",
+                "address" : "Central Park checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "New York City checkout",
+                "state" : "New York",
+                "stateShort" : "NY",
+                "zipCode" : "10001"
+            }
+        ]
+    },
+    "test01": {
+        "product": 2,
+        "user": "user01",
+        "shippingTypeIndex" : 0
+    }
+}

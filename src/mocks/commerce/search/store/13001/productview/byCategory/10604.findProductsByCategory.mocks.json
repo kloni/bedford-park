@@ -1,0 +1,1198 @@
+{
+    "metaData": {
+        "price": "1"
+    },
+    "breadCrumbTrailEntryView": [
+        {
+            "label": "Living Room"
+        },
+        {
+            "label": "Decoration"
+        }
+    ],
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14601",
+            "partNumber": "LR-DECO-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror1_a1_350.jpg",
+            "name": "Accent Mirror",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "40.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "40.0",
+                    "maximumValue": {
+                        "value": "40.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "35.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "35.0",
+                    "maximumValue": {
+                        "value": "35.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "12x30x1",
+                            "sequence": "16.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "12\"x30\"x1\"",
+                            "uniqueID": "7000000000000003389"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "23lbs",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "23 lbs",
+                            "uniqueID": "7000000000000003394"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "metal_glass",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Metal, Glass",
+                            "uniqueID": "7000000000000003330"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Shape",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "oval",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Oval",
+                            "uniqueID": "7000000000000003372"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Shape",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000659"
+                },
+                {
+                    "identifier": "DescriptiveColor",
+                    "sequence": "5.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "black",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Black",
+                            "uniqueID": "7000000000000003364"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000655"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": true,
+            "uniqueID": "14603",
+            "partNumber": "LR-DECO-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/mirror2_a1_350.jpg",
+            "name": "Framed Mirror",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "18.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "18.0",
+                    "maximumValue": {
+                        "value": "18.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "16.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "16.0",
+                    "maximumValue": {
+                        "value": "16.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "65x40x3",
+                            "sequence": "17.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "65\"x40\"x3\"",
+                            "uniqueID": "7000000000000003390"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "60lbs",
+                            "sequence": "11.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "60 lbs",
+                            "uniqueID": "7000000000000003403"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-glass",
+                            "sequence": "16.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Glass",
+                            "uniqueID": "7000000000000003343"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Shape",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "rectangle",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Rectangle",
+                            "uniqueID": "7000000000000003373"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Shape",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000659"
+                },
+                {
+                    "identifier": "DescriptiveColor",
+                    "sequence": "5.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "darkbrown",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Dark Brown",
+                            "uniqueID": "7000000000000003365"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000655"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14605",
+            "partNumber": "LR-DECO-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug1_a1_350.jpg",
+            "name": "Striped Area Rug",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "180.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "180.0",
+                    "maximumValue": {
+                        "value": "180.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "180.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "180.0",
+                    "maximumValue": {
+                        "value": "180.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "60x40x1",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "60\"x40\"x1\"",
+                            "uniqueID": "7000000000000003391"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "10lbs",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "10 lbs",
+                            "uniqueID": "7000000000000003393"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "polyester-cotton-latex",
+                            "sequence": "12.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Polyester, Cotton, Latex",
+                            "uniqueID": "7000000000000003348"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Striped",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Striped",
+                            "uniqueID": "7000000000000003407"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14609",
+            "partNumber": "LR-DECO-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug2_a1_350.jpg",
+            "name": "Braided Accent Rug",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "200.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "200.0",
+                    "maximumValue": {
+                        "value": "200.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "200.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "200.0",
+                    "maximumValue": {
+                        "value": "200.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "60x40x1",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "60\"x40\"x1\"",
+                            "uniqueID": "7000000000000003391"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "vinyl-wool",
+                            "sequence": "12.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Vinyl, Wool",
+                            "uniqueID": "7000000000000003349"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Braided",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Braided",
+                            "uniqueID": "7000000000000003408"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14613",
+            "partNumber": "LR-DECO-0002",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/livingroom/decoration/rug3_a1_350.jpg",
+            "name": "Bordered Decorative Rug",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "200.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "200.0",
+                    "maximumValue": {
+                        "value": "200.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "169.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "169.99",
+                    "maximumValue": {
+                        "value": "169.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "ProductDimensions",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "60x40x1",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "60\"x40\"x1\"",
+                            "uniqueID": "7000000000000003391"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Product Dimensions",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000660"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "ItemWeight",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "15lbs",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "15 lbs",
+                            "uniqueID": "7000000000000003398"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Item Weight",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000661"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "polyester-cotton",
+                            "sequence": "12.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Polyester, Cotton",
+                            "uniqueID": "7000000000000003350"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                },
+                {
+                    "identifier": "Pattern",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "Solid",
+                            "sequence": "2.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Solid",
+                            "uniqueID": "7000000000000003405"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Pattern",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000662"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": "0",
+    "recordSetTotal": 5,
+    "facetView": [
+        {
+            "value": "price_USD",
+            "name": "OfferPrice_USD",
+            "entry": [
+                {
+                    "count": 2,
+                    "label": "({* 100} 100)",
+                    "value": "price_USD%3A%28%7B*+100%7D+100%29",
+                    "extendedData": {
+                        "uniqueId": "1121141059910195858368584012342324948481253249484841"
+                    }
+                },
+                {
+                    "count": 3,
+                    "label": "({100 200} 200)",
+                    "value": "price_USD%3A%28%7B100+200%7D+200%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123494848325048481253250484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({200 300} 300)",
+                    "value": "price_USD%3A%28%7B200+300%7D+300%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123504848325148481253251484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({300 400} 400)",
+                    "value": "price_USD%3A%28%7B300+400%7D+400%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123514848325248481253252484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({400 500} 500)",
+                    "value": "price_USD%3A%28%7B400+500%7D+500%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123524848325348481253253484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({500 *})",
+                    "value": "price_USD%3A%28%7B500+*%7D%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123534848324212541"
+                    }
+                }
+            ]
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "label": "Bender Home Fashions",
+                    "value": "mfName_ntk_cs%3A%22Bender+Home+Fashions%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-1002661011101001011143272111109101327097115104105111110115"
+                    }
+                },
+                {
+                    "label": "Rugs America",
+                    "value": "mfName_ntk_cs%3A%22Rugs+America%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "-10028211710311532651091011141059997"
+                    }
+                },
+                {
+                    "label": "Stockholm",
+                    "value": "mfName_ntk_cs%3A%22Stockholm%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-10028311611199107104111108109"
+                    }
+                },
+                {
+                    "label": "Style Home",
+                    "value": "mfName_ntk_cs%3A%22Style+Home%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-1002831161211081013272111109101"
+                    }
+                }
+            ],
+            "name": "ManufacturerName",
+            "extendedData": {
+                "allowMultipleValueSelection": "true",
+                "maximumValuesToDisplay": "6",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "fname": "Brand",
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "mfName_ntk_cs",
+                "displayable": "1",
+                "facet_id": "-1000",
+                "srchattr_id": "-1002",
+                "zero_display": "0",
+                "selection": "1",
+                "group_id": "0",
+                "displaySequence": "0.0",
+                "storeent_id": "0",
+                "sortorder": "1",
+                "max_display": "6",
+                "fdesc": "The manufacturer",
+                "srchattridentifier": "_cat.ManufacturerName"
+            }
+        },
+        {
+            "value": "ads_f10101_ntk_cs",
+            "entry": [
+                {
+                    "label": "Blue",
+                    "value": "ads_f10101_ntk_cs%3A%22Blue%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "1010166108117101",
+                        "sequence": "9.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png"
+                },
+                {
+                    "label": "Crimson",
+                    "value": "ads_f10101_ntk_cs%3A%22Crimson%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010167114105109115111110",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_crimson.png"
+                },
+                {
+                    "label": "Purple",
+                    "value": "ads_f10101_ntk_cs%3A%22Purple%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010180117114112108101",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_purple.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_purple.png"
+                },
+                {
+                    "label": "Seaweed",
+                    "value": "ads_f10101_ntk_cs%3A%22Seaweed%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "101018310197119101101100",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_seaweed.png"
+                },
+                {
+                    "label": "Tan",
+                    "value": "ads_f10101_ntk_cs%3A%22Tan%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101018497110",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_tan.png"
+                }
+            ],
+            "name": "Color",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10101_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10101",
+                "attrname": "Color",
+                "srchattr_id": "10101",
+                "attrdesc": "Color",
+                "attr_id": "7000000000000000651",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Color",
+                "srchattridentifier": "_cat.Color"
+            }
+        },
+        {
+            "value": "ads_f10106_ntk_cs",
+            "entry": [
+                {
+                    "label": "60\"x40\"x1\"",
+                    "value": "ads_f10106_ntk_cs%3A%2260%5C%22x40%5C%22x1%5C%22%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "101065448341205248341204934"
+                    }
+                },
+                {
+                    "label": "12\"x30\"x1\"",
+                    "value": "ads_f10106_ntk_cs%3A%2212%5C%22x30%5C%22x1%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101064950341205148341204934"
+                    }
+                },
+                {
+                    "label": "65\"x40\"x3\"",
+                    "value": "ads_f10106_ntk_cs%3A%2265%5C%22x40%5C%22x3%5C%22%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101065453341205248341205134"
+                    }
+                }
+            ],
+            "name": "Product Dimensions",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10106_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10106",
+                "attrname": "Product Dimensions",
+                "srchattr_id": "10106",
+                "attrdesc": "Product Dimensions",
+                "attr_id": "7000000000000000660",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ProductDimensions",
+                "srchattridentifier": "_cat.ProductDimensions"
+            }
+        },
+        {
+            "value": "ads_f10107_ntk_cs",
+            "entry": [
+                {
+                    "label": "15 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2215+lbs%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010749533210898115"
+                    }
+                },
+                {
+                    "label": "10 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2210+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010749483210898115"
+                    }
+                },
+                {
+                    "label": "23 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2223+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010750513210898115"
+                    }
+                },
+                {
+                    "label": "60 lbs",
+                    "value": "ads_f10107_ntk_cs%3A%2260+lbs%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010754483210898115"
+                    }
+                }
+            ],
+            "name": "Item Weight",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10107_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10107",
+                "attrname": "Item Weight",
+                "srchattr_id": "10107",
+                "attrdesc": "Item Weight",
+                "attr_id": "7000000000000000661",
+                "zero_display": "0",
+                "attrsequence": "2.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "2.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "ItemWeight",
+                "srchattridentifier": "_cat.ItemWeight"
+            }
+        },
+        {
+            "value": "ads_f10103_ntk_cs",
+            "entry": [
+                {
+                    "label": "Metal, Glass",
+                    "value": "ads_f10103_ntk_cs%3A%22Metal%2C+Glass%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10103771011169710844327110897115115"
+                    }
+                },
+                {
+                    "label": "Polyester, Cotton",
+                    "value": "ads_f10103_ntk_cs%3A%22Polyester%2C+Cotton%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010380111108121101115116101114443267111116116111110"
+                    }
+                },
+                {
+                    "label": "Polyester, Cotton, Latex",
+                    "value": "ads_f10103_ntk_cs%3A%22Polyester%2C+Cotton%2C+Latex%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101038011110812110111511610111444326711111611611111044327697116101120"
+                    }
+                },
+                {
+                    "label": "Vinyl, Wool",
+                    "value": "ads_f10103_ntk_cs%3A%22Vinyl%2C+Wool%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010386105110121108443287111111108"
+                    }
+                },
+                {
+                    "label": "Wood, Glass",
+                    "value": "ads_f10103_ntk_cs%3A%22Wood%2C+Glass%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101038711111110044327110897115115"
+                    }
+                }
+            ],
+            "name": "Material",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10103_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10103",
+                "attrname": "Material",
+                "srchattr_id": "10103",
+                "attrdesc": "Material",
+                "attr_id": "7000000000000000653",
+                "zero_display": "0",
+                "attrsequence": "3.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "3.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Materials",
+                "srchattridentifier": "_cat.Materials"
+            }
+        },
+        {
+            "value": "ads_f10105_ntk_cs",
+            "entry": [
+                {
+                    "label": "Braided",
+                    "value": "ads_f10105_ntk_cs%3A%22Braided%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101056611497105100101100"
+                    }
+                },
+                {
+                    "label": "Solid",
+                    "value": "ads_f10105_ntk_cs%3A%22Solid%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010583111108105100"
+                    }
+                },
+                {
+                    "label": "Striped",
+                    "value": "ads_f10105_ntk_cs%3A%22Striped%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010583116114105112101100"
+                    }
+                }
+            ],
+            "name": "Pattern",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10105_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10105",
+                "attrname": "Pattern",
+                "srchattr_id": "10105",
+                "attrdesc": "Pattern",
+                "attr_id": "7000000000000000662",
+                "zero_display": "0",
+                "attrsequence": "4.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "4.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Pattern",
+                "srchattridentifier": "_cat.Pattern"
+            }
+        }
+    ]
+}

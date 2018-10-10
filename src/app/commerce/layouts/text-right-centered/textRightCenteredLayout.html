@@ -1,0 +1,18 @@
+<div class="wch-hero-image wch-hero-image-message-right">
+  <img class="foreground-image" *ngIf="foregroundImageUrl!=undefined" [src]="foregroundImageUrl">
+  <img class="show-for-medium" [src]="imageUrl">
+  <img class="show-for-small-only" [src]="smallImageUrl">
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">   
+      <div class="small-12 cell hero-message">
+          <div >
+              <h1 class="text-hero show-for-medium text-hero-right">{{ title }}</h1>
+              <h1 class="text-hero show-for-small-only text-hero-center">{{ title }}</h1>
+              <p class="show-for-medium" [innerHTML]="descriptiveText"></p>
+              <p class="show-for-small-only text-hero-center" [innerHTML]="descriptiveText"></p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

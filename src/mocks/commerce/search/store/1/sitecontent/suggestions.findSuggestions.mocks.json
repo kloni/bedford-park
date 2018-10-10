@@ -1,0 +1,835 @@
+{
+    "suggestionView": [
+        {
+            "entry": [
+                {
+                    "value": "1",
+                    "fullPath": "Apparel",
+                    "fullPathCategoryIds": "1",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_wcl_pants.png",
+                    "name": "Apparel",
+                    "shortDescription": "The latest styles for the entire family."
+                },
+                {
+                    "value": "2",
+                    "fullPath": "Apparel > Men",
+                    "fullPathCategoryIds": "1 > 2",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/men/category/catr_app_men.png",
+                    "name": "Men",
+                    "shortDescription": "Men"
+                },
+                {
+                    "value": "3",
+                    "fullPath": "Apparel > Women",
+                    "fullPathCategoryIds": "1 > 3",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_app_women.png",
+                    "name": "Women",
+                    "shortDescription": "Women"
+                },
+                {
+                    "value": "4",
+                    "fullPath": "Apparel > Boys",
+                    "fullPathCategoryIds": "1 > 4",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/category/catr_app_boys.png",
+                    "name": "Boys",
+                    "shortDescription": "boys"
+                },
+                {
+                    "value": "5",
+                    "fullPath": "Apparel > Girls",
+                    "fullPathCategoryIds": "1 > 5",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/girls/category/catr_app_girls.png",
+                    "name": "Girls",
+                    "shortDescription": "Girls"
+                },
+                {
+                    "value": "6",
+                    "fullPath": "Electronics",
+                    "fullPathCategoryIds": "6",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/electronics/category/catr_cta_tablets.png",
+                    "name": "Electronics",
+                    "shortDescription": "Electronics"
+                },
+                {
+                    "value": "7",
+                    "fullPath": "Grocery",
+                    "fullPathCategoryIds": "7",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/grocery/category/catr_gda_dairy.png",
+                    "name": "Grocery",
+                    "shortDescription": "Grocery"
+                },
+                {
+                    "value": "8",
+                    "fullPath": "Health",
+                    "fullPathCategoryIds": "8",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/category/catr_hme_medicine.png",
+                    "name": "Health",
+                    "shortDescription": "Health"
+                },
+                {
+                    "value": "9",
+                    "fullPath": "Home & Furnishing",
+                    "fullPathCategoryIds": "9",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/category/catr_hap_appliances.png",
+                    "name": "Home & Furnishing",
+                    "shortDescription": "Home & Furnishing"
+                },
+                {
+                    "value": "10",
+                    "fullPath": "Newsletters & Magazines",
+                    "fullPathCategoryIds": "10",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/newslettersmagazines/category/catr_nma_magazines.png",
+                    "name": "Newsletters & Magazines",
+                    "shortDescription": "Newsletters & Magazines"
+                },
+                {
+                    "value": "10001",
+                    "fullPath": "Apparel > Women > Dresses",
+                    "fullPathCategoryIds": "1 > 3 > 10001",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_wcl_dresses.png",
+                    "name": "Dresses",
+                    "shortDescription": "Dresses"
+                },
+                {
+                    "value": "10002",
+                    "fullPath": "Apparel > Women > Blouses",
+                    "fullPathCategoryIds": "1 > 3 > 10002",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_wcl_blouses.png",
+                    "name": "Blouses",
+                    "shortDescription": "Blouses"
+                },
+                {
+                    "value": "10003",
+                    "fullPath": "Apparel > Women > Sweaters",
+                    "fullPathCategoryIds": "1 > 3 > 10003",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_wcl_sweaters.png",
+                    "name": "Sweaters",
+                    "shortDescription": "Sweaters"
+                },
+                {
+                    "value": "10004",
+                    "fullPath": "Apparel > Women > Skirts",
+                    "fullPathCategoryIds": "1 > 3 > 10004",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_wcl_skirts.png",
+                    "name": "Skirts",
+                    "shortDescription": "Skirts"
+                },
+                {
+                    "value": "10005",
+                    "fullPath": "Apparel > Women > Pants",
+                    "fullPathCategoryIds": "1 > 3 > 10005",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_wcl_pants.png",
+                    "name": "Pants",
+                    "shortDescription": "Pants"
+                },
+                {
+                    "value": "10006",
+                    "fullPath": "Apparel > Women > Shoes",
+                    "fullPathCategoryIds": "1 > 3 > 10006",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_wsh_shoes.png",
+                    "name": "Shoes",
+                    "shortDescription": "Shoes"
+                },
+                {
+                    "value": "10007",
+                    "fullPath": "Apparel > Women > Handbags",
+                    "fullPathCategoryIds": "1 > 3 > 10007",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_wbg_handbags.png",
+                    "name": "Handbags",
+                    "shortDescription": "Handbags"
+                },
+                {
+                    "value": "10008",
+                    "fullPath": "Apparel > Women > Accessories",
+                    "fullPathCategoryIds": "1 > 3 > 10008",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/women/category/catr_wac_accessories.png",
+                    "name": "Accessories",
+                    "shortDescription": "Accessories"
+                },
+                {
+                    "value": "10009",
+                    "fullPath": "Apparel > Men > Jackets",
+                    "fullPathCategoryIds": "1 > 2 > 10009",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/men/category/catr_mcl_jackets.png",
+                    "name": "Jackets",
+                    "shortDescription": "Jackets"
+                },
+                {
+                    "value": "10010",
+                    "fullPath": "Apparel > Men > Shirts",
+                    "fullPathCategoryIds": "1 > 2 > 10010",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/men/category/catr_mcl_shirts.png",
+                    "name": "Shirts",
+                    "shortDescription": "Shirts"
+                },
+                {
+                    "value": "10011",
+                    "fullPath": "Apparel > Men > Suits",
+                    "fullPathCategoryIds": "1 > 2 > 10011",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/men/category/catr_mcl_suits.png",
+                    "name": "Suits",
+                    "shortDescription": "Suits"
+                },
+                {
+                    "value": "10012",
+                    "fullPath": "Apparel > Men > Pants",
+                    "fullPathCategoryIds": "1 > 2 > 10012",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/men/category/catr_mcl_pants.png",
+                    "name": "Pants",
+                    "shortDescription": "Pants"
+                },
+                {
+                    "value": "10013",
+                    "fullPath": "Apparel > Men > Accessories",
+                    "fullPathCategoryIds": "1 > 2 > 10013",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/men/category/catr_mac_accessories.png",
+                    "name": "Accessories",
+                    "shortDescription": "Accessories"
+                },
+                {
+                    "value": "10014",
+                    "fullPath": "Apparel > Men > Shoes",
+                    "fullPathCategoryIds": "1 > 2 > 10014",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/men/category/catr_msh_shoes.png",
+                    "name": "Shoes",
+                    "shortDescription": "Shoes"
+                },
+                {
+                    "value": "10015",
+                    "fullPath": "Apparel > Girls > Shoes",
+                    "fullPathCategoryIds": "1 > 5 > 10015",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/girls/category/catr_gsh_shoes.png",
+                    "name": "Shoes",
+                    "shortDescription": "Shoes"
+                },
+                {
+                    "value": "10016",
+                    "fullPath": "Apparel > Girls > Pants",
+                    "fullPathCategoryIds": "1 > 5 > 10016",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/girls/category/catr_gcl_pants.png",
+                    "name": "Pants",
+                    "shortDescription": "Pants"
+                },
+                {
+                    "value": "10017",
+                    "fullPath": "Apparel > Girls > Skirts",
+                    "fullPathCategoryIds": "1 > 5 > 10017",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/girls/category/catr_gcl_skirts.png",
+                    "name": "Skirts",
+                    "shortDescription": "Skirts"
+                },
+                {
+                    "value": "10018",
+                    "fullPath": "Apparel > Girls > Tops",
+                    "fullPathCategoryIds": "1 > 5 > 10018",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/girls/category/catr_gcl_tops.png",
+                    "name": "Tops",
+                    "shortDescription": "Tops"
+                },
+                {
+                    "value": "10019",
+                    "fullPath": "Apparel > Boys > Pants",
+                    "fullPathCategoryIds": "1 > 4 > 10019",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/category/catr_bcl_pants.png",
+                    "name": "Pants",
+                    "shortDescription": "Pants"
+                },
+                {
+                    "value": "10020",
+                    "fullPath": "Apparel > Boys > Tops",
+                    "fullPathCategoryIds": "1 > 4 > 10020",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/category/catr_bcl_tops.png",
+                    "name": "Tops",
+                    "shortDescription": "Tops"
+                },
+                {
+                    "value": "10021",
+                    "fullPath": "Apparel > Boys > Shoes",
+                    "fullPathCategoryIds": "1 > 4 > 10021",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/apparel/boys/category/catr_bsh_shoes.png",
+                    "name": "Shoes",
+                    "shortDescription": "Shoes"
+                },
+                {
+                    "value": "10022",
+                    "fullPath": "Electronics > Accessories",
+                    "fullPathCategoryIds": "6 > 10022",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/electronics/category/catr_cac_accessories.png",
+                    "name": "Accessories",
+                    "shortDescription": "Accessories"
+                },
+                {
+                    "value": "10023",
+                    "fullPath": "Electronics > Tablets",
+                    "fullPathCategoryIds": "6 > 10023",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/electronics/category/catr_cta_tablets.png",
+                    "name": "Tablets",
+                    "shortDescription": "Tablets"
+                },
+                {
+                    "value": "10024",
+                    "fullPath": "Electronics > Laptops",
+                    "fullPathCategoryIds": "6 > 10024",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/electronics/category/catr_cla_laptops.png",
+                    "name": "Laptops",
+                    "shortDescription": "Laptops"
+                },
+                {
+                    "value": "10025",
+                    "fullPath": "Electronics > Desktops",
+                    "fullPathCategoryIds": "6 > 10025",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/electronics/category/catr_cde_desktops.png",
+                    "name": "Desktops",
+                    "shortDescription": "Desktops"
+                },
+                {
+                    "value": "10026",
+                    "fullPath": "Electronics > Components",
+                    "fullPathCategoryIds": "6 > 10026",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/electronics/category/catr_ccm_components.png",
+                    "name": "Components",
+                    "shortDescription": "Components"
+                },
+                {
+                    "value": "10027",
+                    "fullPath": "Grocery > Dairy",
+                    "fullPathCategoryIds": "7 > 10027",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/grocery/category/catr_gda_dairy.png",
+                    "name": "Dairy",
+                    "shortDescription": "Dairy"
+                },
+                {
+                    "value": "10028",
+                    "fullPath": "Grocery > Fruit",
+                    "fullPathCategoryIds": "7 > 10028",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/grocery/category/catr_gfr_fruit.png",
+                    "name": "Fruit",
+                    "shortDescription": "Fruit"
+                },
+                {
+                    "value": "10029",
+                    "fullPath": "Grocery > Meat",
+                    "fullPathCategoryIds": "7 > 10029",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/grocery/category/catr_gme_meat.png",
+                    "name": "Meat",
+                    "shortDescription": "Meat"
+                },
+                {
+                    "value": "10030",
+                    "fullPath": "Grocery > Vegetables",
+                    "fullPathCategoryIds": "7 > 10030",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/grocery/category/catr_gve_vegetables.png",
+                    "name": "Vegetables",
+                    "shortDescription": "Vegetables"
+                },
+                {
+                    "value": "10031",
+                    "fullPath": "Health > Medicine",
+                    "fullPathCategoryIds": "8 > 10031",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/category/catr_hme_medicine.png",
+                    "name": "Medicine",
+                    "shortDescription": "Medicine"
+                },
+                {
+                    "value": "10032",
+                    "fullPath": "Health > Vitamins",
+                    "fullPathCategoryIds": "8 > 10032",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/health/category/catr_hvt_vitamins.png",
+                    "name": "Vitamins",
+                    "shortDescription": "Vitamins"
+                },
+                {
+                    "value": "10033",
+                    "fullPath": "Home & Furnishing > Bath Accessories",
+                    "fullPathCategoryIds": "9 > 10033",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/category/catr_hba_bath.png",
+                    "name": "Bath Accessories",
+                    "shortDescription": "Bath Accessories"
+                },
+                {
+                    "value": "10034",
+                    "fullPath": "Home & Furnishing > Furniture",
+                    "fullPathCategoryIds": "9 > 10034",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/category/catr_hfu_furniture.png",
+                    "name": "Furniture",
+                    "shortDescription": "Furniture"
+                },
+                {
+                    "value": "10035",
+                    "fullPath": "Home & Furnishing > Kitchenware",
+                    "fullPathCategoryIds": "9 > 10035",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/category/catr_hkt_kitchenware.png",
+                    "name": "Kitchenware",
+                    "shortDescription": "Kitchenware"
+                },
+                {
+                    "value": "10036",
+                    "fullPath": "Home & Furnishing > Lighting",
+                    "fullPathCategoryIds": "9 > 10036",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/category/catr_hlg_lighting.png",
+                    "name": "Lighting",
+                    "shortDescription": "Lighting"
+                },
+                {
+                    "value": "10037",
+                    "fullPath": "Home & Furnishing > Tableware",
+                    "fullPathCategoryIds": "9 > 10037",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/category/catr_hta_tableware.png",
+                    "name": "Tableware",
+                    "shortDescription": "Tableware"
+                },
+                {
+                    "value": "10038",
+                    "fullPath": "Home & Furnishing > Appliances",
+                    "fullPathCategoryIds": "9 > 10038",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/homefurnishings/category/catr_hap_appliances.png",
+                    "name": "Appliances",
+                    "shortDescription": "Appliances"
+                },
+                {
+                    "value": "10039",
+                    "fullPath": "Newsletters & Magazines > Magazines",
+                    "fullPathCategoryIds": "10 > 10039",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/newslettersmagazines/category/catr_nma_magazines.png",
+                    "name": "Magazines",
+                    "shortDescription": "Magazines"
+                },
+                {
+                    "value": "10040",
+                    "fullPath": "Newsletters & Magazines > Newsletters",
+                    "fullPathCategoryIds": "10 > 10040",
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/ExtendedSitesCatalogAssetStore/images/catalog/newslettersmagazines/category/catr_nne_newsletters.png",
+                    "name": "Newsletters",
+                    "shortDescription": "Newsletters"
+                }
+            ],
+            "categorySeparator": " > ",
+            "identifier": "Category"
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "name": "Adelee Plus",
+                    "value": "mfName_ntk_cs%3A%22Adelee+Plus%22",
+                    "count": "14"
+                },
+                {
+                    "name": "Albini",
+                    "value": "mfName_ntk_cs%3A%22Albini%22",
+                    "count": "471"
+                },
+                {
+                    "name": "Alexander Home",
+                    "value": "mfName_ntk_cs%3A%22Alexander+Home%22",
+                    "count": "2"
+                },
+                {
+                    "name": "All-In-One",
+                    "value": "mfName_ntk_cs%3A%22All-In-One%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Alumina",
+                    "value": "mfName_ntk_cs%3A%22Alumina%22",
+                    "count": "12"
+                },
+                {
+                    "name": "Archaeo",
+                    "value": "mfName_ntk_cs%3A%22Archaeo%22",
+                    "count": "3"
+                },
+                {
+                    "name": "AromaStar",
+                    "value": "mfName_ntk_cs%3A%22AromaStar%22",
+                    "count": "20"
+                },
+                {
+                    "name": "Australia Lamb Co.",
+                    "value": "mfName_ntk_cs%3A%22Australia+Lamb+Co.%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Baril",
+                    "value": "mfName_ntk_cs%3A%22Baril%22",
+                    "count": "43"
+                },
+                {
+                    "name": "Bender Home Fashions",
+                    "value": "mfName_ntk_cs%3A%22Bender+Home+Fashions%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Bluthe Potato Co.",
+                    "value": "mfName_ntk_cs%3A%22Bluthe+Potato+Co.%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Borsati",
+                    "value": "mfName_ntk_cs%3A%22Borsati%22",
+                    "count": "168"
+                },
+                {
+                    "name": "Burleign",
+                    "value": "mfName_ntk_cs%3A%22Burleign%22",
+                    "count": "6"
+                },
+                {
+                    "name": "California Sun",
+                    "value": "mfName_ntk_cs%3A%22California+Sun%22",
+                    "count": "12"
+                },
+                {
+                    "name": "Captain Stewarts",
+                    "value": "mfName_ntk_cs%3A%22Captain+Stewarts%22",
+                    "count": "6"
+                },
+                {
+                    "name": "Cassetti",
+                    "value": "mfName_ntk_cs%3A%22Cassetti%22",
+                    "count": "42"
+                },
+                {
+                    "name": "Cassetti, Borsati",
+                    "value": "mfName_ntk_cs%3A%22Cassetti%2C+Borsati%22",
+                    "count": "1"
+                },
+                {
+                    "name": "Classics Home Decor",
+                    "value": "mfName_ntk_cs%3A%22Classics+Home+Decor%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Claudet",
+                    "value": "mfName_ntk_cs%3A%22Claudet%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Cold-Be-Gone",
+                    "value": "mfName_ntk_cs%3A%22Cold-Be-Gone%22",
+                    "count": "4"
+                },
+                {
+                    "name": "Colts Bathroom Accessories",
+                    "value": "mfName_ntk_cs%3A%22Colts+Bathroom+Accessories%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Coolers",
+                    "value": "mfName_ntk_cs%3A%22Coolers%22",
+                    "count": "10"
+                },
+                {
+                    "name": "Cristie Glassware",
+                    "value": "mfName_ntk_cs%3A%22Cristie+Glassware%22",
+                    "count": "21"
+                },
+                {
+                    "name": "Cuisine",
+                    "value": "mfName_ntk_cs%3A%22Cuisine%22",
+                    "count": "8"
+                },
+                {
+                    "name": "DVR Technics",
+                    "value": "mfName_ntk_cs%3A%22DVR+Technics%22",
+                    "count": "27"
+                },
+                {
+                    "name": "Delish",
+                    "value": "mfName_ntk_cs%3A%22Delish%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Delissima",
+                    "value": "mfName_ntk_cs%3A%22Delissima%22",
+                    "count": "4"
+                },
+                {
+                    "name": "Dieter Co",
+                    "value": "mfName_ntk_cs%3A%22Dieter+Co%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Digiglee",
+                    "value": "mfName_ntk_cs%3A%22Digiglee%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Econo Sense",
+                    "value": "mfName_ntk_cs%3A%22Econo+Sense%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Emery",
+                    "value": "mfName_ntk_cs%3A%22Emery%22",
+                    "count": "31"
+                },
+                {
+                    "name": "Enzi",
+                    "value": "mfName_ntk_cs%3A%22Enzi%22",
+                    "count": "14"
+                },
+                {
+                    "name": "Eye Dee Team",
+                    "value": "mfName_ntk_cs%3A%22Eye+Dee+Team%22",
+                    "count": "20"
+                },
+                {
+                    "name": "Fast Financing",
+                    "value": "mfName_ntk_cs%3A%22Fast+Financing%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Finit",
+                    "value": "mfName_ntk_cs%3A%22Finit%22",
+                    "count": "8"
+                },
+                {
+                    "name": "GECC",
+                    "value": "mfName_ntk_cs%3A%22GECC%22",
+                    "count": "14"
+                },
+                {
+                    "name": "Gusso",
+                    "value": "mfName_ntk_cs%3A%22Gusso%22",
+                    "count": "449"
+                },
+                {
+                    "name": "Hampton Poultry",
+                    "value": "mfName_ntk_cs%3A%22Hampton+Poultry%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Hawthorne Bath Collection",
+                    "value": "mfName_ntk_cs%3A%22Hawthorne+Bath+Collection%22",
+                    "count": "6"
+                },
+                {
+                    "name": "Healthy Boost",
+                    "value": "mfName_ntk_cs%3A%22Healthy+Boost%22",
+                    "count": "26"
+                },
+                {
+                    "name": "Hermitage",
+                    "value": "mfName_ntk_cs%3A%22Hermitage%22",
+                    "count": "11"
+                },
+                {
+                    "name": "Hermitage Collection",
+                    "value": "mfName_ntk_cs%3A%22Hermitage+Collection%22",
+                    "count": "425"
+                },
+                {
+                    "name": "Hermitage Collection, Borsati",
+                    "value": "mfName_ntk_cs%3A%22Hermitage+Collection%2C+Borsati%22",
+                    "count": "1"
+                },
+                {
+                    "name": "Investing Interests",
+                    "value": "mfName_ntk_cs%3A%22Investing+Interests%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Kerry's Glass",
+                    "value": "mfName_ntk_cs%3A%22Kerry%27s+Glass%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Kitchen's Best",
+                    "value": "mfName_ntk_cs%3A%22Kitchen%27s+Best%22",
+                    "count": "14"
+                },
+                {
+                    "name": "KitchenComfort",
+                    "value": "mfName_ntk_cs%3A%22KitchenComfort%22",
+                    "count": "36"
+                },
+                {
+                    "name": "KitchenCraft",
+                    "value": "mfName_ntk_cs%3A%22KitchenCraft%22",
+                    "count": "24"
+                },
+                {
+                    "name": "Kitchenel,KitchenComfort",
+                    "value": "mfName_ntk_cs%3A%22Kitchenel%2CKitchenComfort%22",
+                    "count": "1"
+                },
+                {
+                    "name": "Klaus Bathroom Collection",
+                    "value": "mfName_ntk_cs%3A%22Klaus+Bathroom+Collection%22",
+                    "count": "2"
+                },
+                {
+                    "name": "LUM",
+                    "value": "mfName_ntk_cs%3A%22LUM%22",
+                    "count": "14"
+                },
+                {
+                    "name": "Leo",
+                    "value": "mfName_ntk_cs%3A%22Leo%22",
+                    "count": "48"
+                },
+                {
+                    "name": "Locken Home Accessories",
+                    "value": "mfName_ntk_cs%3A%22Locken+Home+Accessories%22",
+                    "count": "4"
+                },
+                {
+                    "name": "Luigi Valenti",
+                    "value": "mfName_ntk_cs%3A%22Luigi+Valenti%22",
+                    "count": "399"
+                },
+                {
+                    "name": "Madisons Choice",
+                    "value": "mfName_ntk_cs%3A%22Madisons+Choice%22",
+                    "count": "16"
+                },
+                {
+                    "name": "Mayflower",
+                    "value": "mfName_ntk_cs%3A%22Mayflower%22",
+                    "count": "66"
+                },
+                {
+                    "name": "Meso",
+                    "value": "mfName_ntk_cs%3A%22Meso%22",
+                    "count": "42"
+                },
+                {
+                    "name": "Modern Finance",
+                    "value": "mfName_ntk_cs%3A%22Modern+Finance%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Modern Houseware",
+                    "value": "mfName_ntk_cs%3A%22Modern+Houseware%22",
+                    "count": "12"
+                },
+                {
+                    "name": "Money Management",
+                    "value": "mfName_ntk_cs%3A%22Money+Management%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Natura",
+                    "value": "mfName_ntk_cs%3A%22Natura%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Oxford Orchards",
+                    "value": "mfName_ntk_cs%3A%22Oxford+Orchards%22",
+                    "count": "18"
+                },
+                {
+                    "name": "Oxford Organics",
+                    "value": "mfName_ntk_cs%3A%22Oxford+Organics%22",
+                    "count": "6"
+                },
+                {
+                    "name": "Photoritz",
+                    "value": "mfName_ntk_cs%3A%22Photoritz%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Pierre's Fromage",
+                    "value": "mfName_ntk_cs%3A%22Pierre%27s+Fromage%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Regis Bath and Kitchen",
+                    "value": "mfName_ntk_cs%3A%22Regis+Bath+and+Kitchen%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Ritect",
+                    "value": "mfName_ntk_cs%3A%22Ritect%22",
+                    "count": "4"
+                },
+                {
+                    "name": "Sharpson",
+                    "value": "mfName_ntk_cs%3A%22Sharpson%22",
+                    "count": "12"
+                },
+                {
+                    "name": "Signia Towel Racks",
+                    "value": "mfName_ntk_cs%3A%22Signia+Towel+Racks%22",
+                    "count": "2"
+                },
+                {
+                    "name": "SleepyHead",
+                    "value": "mfName_ntk_cs%3A%22SleepyHead%22",
+                    "count": "6"
+                },
+                {
+                    "name": "Smart Investing",
+                    "value": "mfName_ntk_cs%3A%22Smart+Investing%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Society Time",
+                    "value": "mfName_ntk_cs%3A%22Society+Time%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Spago Bathroom Designs",
+                    "value": "mfName_ntk_cs%3A%22Spago+Bathroom+Designs%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Sportfit",
+                    "value": "mfName_ntk_cs%3A%22Sportfit%22",
+                    "count": "3"
+                },
+                {
+                    "name": "Stonehenge",
+                    "value": "mfName_ntk_cs%3A%22Stonehenge%22",
+                    "count": "28"
+                },
+                {
+                    "name": "StyleHome",
+                    "value": "mfName_ntk_cs%3A%22StyleHome%22",
+                    "count": "28"
+                },
+                {
+                    "name": "Sunshine",
+                    "value": "mfName_ntk_cs%3A%22Sunshine%22",
+                    "count": "6"
+                },
+                {
+                    "name": "Sunshine's Bath Design",
+                    "value": "mfName_ntk_cs%3A%22Sunshine%27s+Bath+Design%22",
+                    "count": "2"
+                },
+                {
+                    "name": "Supreme",
+                    "value": "mfName_ntk_cs%3A%22Supreme%22",
+                    "count": "4"
+                },
+                {
+                    "name": "Synergy",
+                    "value": "mfName_ntk_cs%3A%22Synergy%22",
+                    "count": "36"
+                },
+                {
+                    "name": "Versatil",
+                    "value": "mfName_ntk_cs%3A%22Versatil%22",
+                    "count": "380"
+                },
+                {
+                    "name": "VitaVerve",
+                    "value": "mfName_ntk_cs%3A%22VitaVerve%22",
+                    "count": "6"
+                },
+                {
+                    "name": "Wedding Luxe",
+                    "value": "mfName_ntk_cs%3A%22Wedding+Luxe%22",
+                    "count": "3"
+                }
+            ],
+            "name": "ManufacturerName",
+            "identifier": "Brand"
+        }
+    ],
+    "resourceHandler": {
+        "resourceName": "sitecontent"
+    }
+}

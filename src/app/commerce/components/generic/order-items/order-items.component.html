@@ -1,0 +1,212 @@
+<ng-container *ngIf="!isCheckout">
+    <hr>
+</ng-container>
+<div id="{{componentName}}_div_1_{{id}}" [ngClass]="{'grid-x row grid-padding-x large-up-2': isCheckout}">
+    <ng-container *ngFor="let item of orderItems; index as i; odd as isOdd; last as isLast">
+        <div id="{{componentName}}_div_5_{{id}}_{{i}}" class="item grid-x grid-margin-x" [ngClass]="{'cell': isCheckout}">
+            <div id="{{componentName}}_div_6_{{id}}_{{i}}" class="cell cart-prod-img" [ngClass]="{'medium-2 small-3 ': !isCheckout, 'small-4': isCheckout}">
+                <a *ngIf="item.item" id="{{componentName}}_a_7_{{id}}_{{i}}"
+                [routerLink]="[item.item.seoUrl]">
+                    <img id="{{componentName}}_img_8_{{id}}_{{i}}" [src]="item.item.thumbnail | catImage" />
+                </a>
+            </div>
+            <div id="{{componentName}}_div_8_{{id}}_{{i}}" class="cart-prod-info" [ngClass]="{'cell small-6 medium-5': !isCheckout, 'small-8': isCheckout}">
+                <div id="{{componentName}}_div_9_{{id}}_{{i}}" class="grid-x grid-margin-x">
+                    <div id="{{componentName}}_div_10_{{id}}_{{i}}" class="small-12 medium-12 cell">
+                        <p id="{{componentName}}_p_11_{{id}}_{{i}}" *ngIf="!isCheckout">
+                            <a *ngIf="item.item" id="{{componentName}}_a_2_{{id}}_{{i}}"
+                                [routerLink]="[item.item?.seoUrl]" >{{item.item?.name}}
+                            </a>
+                            <br>
+                            <span id="{{componentName}}_span_12_{{id}}_{{i}}" translate [translateParams]="{value: item.partNumber}">order-items.sku</span>
+                            <ng-container *ngFor="let attr of item.item?.attributes">
+                                <br>
+                                <span id="{{componentName}}_span_14_{{id}}_{{i}}" *ngIf="attr.values[0].unitID == 'C62' || attr.identifier == 'fulfillmentFrequency' || attr.identifier == 'paymentFrequency' else elseAttr"
+                                    translate [translateParams]="{'0': attr.name, '1': attr.values[0].value}">order-items.pd_attr_{{attr.values[0].unitID}}</span>
+                                <ng-template #elseAttr>
+                                    <span id="{{componentName}}_span_15_{{id}}_{{i}}" *ngIf="attr.values[0].unitOfMeasure != ''" translate [translateParams]="{'0': attr.name, '1': attr.values[0].value, '2': attr.values[0].unitOfMeasure}">order-items.pd_attr</span>
+                                </ng-template>
+                            </ng-container>
+                        </p>
+                        <p id="{{componentName}}_p_11_{{id}}_{{i}}" *ngIf="isCheckout">
+                            <a *ngIf="item.item" id="{{componentName}}_a_2_{{id}}_{{i}}"
+                                [routerLink]="[item.item?.seoUrl]">{{item.item?.name}}
+                            </a>
+                            <br>
+                            <span id="{{componentName}}_span_12_{{id}}_{{i}}" translate [translateParams]="{value: item.partNumber}">order-items.sku</span>
+                            <ng-container *ngFor="let attr of item.item?.attributes">
+                                <br>
+                                <span id="{{componentName}}_span_14_{{id}}_{{i}}" *ngIf="attr.values[0].unitID == 'C62' || attr.identifier == 'fulfillmentFrequency' || attr.identifier == 'paymentFrequency' else elseAttr"
+                                    translate [translateParams]="{'0': attr.name, '1': attr.values[0].value}">order-items.pd_attr_{{attr.values[0].unitID}}</span>
+                                <ng-template #elseAttr>
+                                    <span id="{{componentName}}_span_15_{{id}}_{{i}}" *ngIf="attr.values[0].unitOfMeasure != ''" translate [translateParams]="{'0': attr.name, '1': attr.values[0].value, '2': attr.values[0].unitOfMeasure}">order-items.pd_attr</span>
+                                </ng-template>
+                            </ng-container>
+                            <br>
+                            <span id="{{componentName}}_p_21_{{id}}_{{i}}" translate [translateParams]="{value: item.quantity}">order-items.quantities</span>
+                            <br>
+                            <span id="{{componentName}}_p_15_{{id}}_{{i}}" class="cart-availability" [ngClass]="item.availability"
+                                translate>order-items.{{item.availability}}</span>
+                        </p>
+                        <p id="{{componentName}}_p_33_{{id}}_{{i}}" class="cart-item-price bold" *ngIf="isCheckout">
+                            <span id="{{componentName}}_span_25_{{id}}_{{i}}" translate [translateParams]="{value: item.unitPrice | number:'.2-2'}">currencyDisplay.{{item.currency}}</span>
+                        </p>
+                    </div>
+                    <div id="{{componentName}}_div_16_{{id}}_{{i}}" class="small-12 cell" *ngIf="!isCheckout">
+                        <p id="{{componentName}}_p_17_{{id}}_{{i}}" class="cart-availability" [ngClass]="item.availability" translate>order-items.{{item.availability}}</p>
+                    </div>
+                </div>
+            </div>
+            <div id="{{componentName}}_div_18_{{id}}_{{i}}" class="cell small-3 cart-prod-price medium-order-1 medium-5" *ngIf="!isCheckout" >
+                <div id="{{componentName}}_div_19_{{id}}_{{i}}" class="grid-x grid-margin-x">
+                    <div id="{{componentName}}_div_20_{{id}}_{{i}}" class="small-11 medium-6 cell text-center" >
+                        <p id="{{componentName}}_p_21_{{id}}_{{i}}" translate>order-items.quantity</p>
+                        <input id="{{componentName}}_input_22_{{id}}_{{i}}" type="number" class="cart-quantity-input" name="quantity" (keyup.enter)="quantityKeyup($event, item)"
+                        (blur)="quantityKeyup($event, item)" [value]="item.quantity" autocomplete="off" min="1" [readonly]="cartLocked && !isCSR">
+                    </div>
+                    <div id="{{componentName}}_div_23_{{id}}_{{i}}" class="small-11 cell medium-6 relative">
+                        <p id="{{componentName}}_p_24_{{id}}_{{i}}" class="cart-item-price">
+                            <span id="{{componentName}}_span_25_{{id}}_{{i}}" translate [translateParams]="{value: item.unitPrice | number:'.2-2'}">currencyDisplay.{{item.currency}}</span></p>
+                        <p id="{{componentName}}_p_26_{{id}}_{{i}}" *ngIf="!isSmall && (!cartLocked || isCSR)">
+                            <a class="button" id="{{componentName}}_a_3_{{id}}_{{i}}" (click)="deleteOrderItem(item)" translate>order-items.remove</a>
+                        </p>
+                        <p id="{{componentName}}_p_27_{{id}}_{{i}}" *ngIf="!isSmall && (!cartLocked || isCSR)">
+                            <span class="inline-block">
+                                <a class="button move-to-wishlist-btn"
+                                    id="{{componentName}}_a_4_1_{{id}}_{{i}}"
+                                    (click)="!isGuest? openMoveToWishListDropdown(item, i): openSignInModal()">
+                                    {{ 'wishlist.moveToWishlist'| translate }}
+                                    <i id="dropdown_down_{{id}}_{{i}}" *ngIf="!isSmall" class="chevron_down"></i>
+                                    <i id="dropdown_up_{{id}}_{{i}}" *ngIf="!isSmall" class="chevron_up"></i>
+                                </a>
+                                <ul id="wishList_dropDown_{{id}}_{{i}}" class="wishList_dropDown no-bullet">
+                                    <ng-container *ngFor="let wishList of wishLists; index as i">
+                                        <li  class="wishList-item" id="wishList_name_{{id}}_{{i}}">
+                                            <a (click)="moveToWishList(wishList.externalId, i)">
+                                                <ng-container *ngIf="wishList.name !== 'DefaultListName'; else defaultListOption ">
+                                                    {{ wishList.name }}
+                                                </ng-container>
+                                                <ng-template #defaultListOption>
+                                                    {{ 'wishlist.DefaultListName' | translate }}
+                                                </ng-template>
+                                            </a>
+                                        </li>
+                                    </ng-container>
+                                    <li class="wishList-item">
+                                        <a (click)="showCreateModal(i)" class="create_wishlist" id="wishlist_createNewWishList_{{id}}">
+                                            <i class="addnew"></i>
+                                            {{ 'wishlist.CreateWishlist' | translate }}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="{{componentName}}_div_28_{{id}}_{{i}}" class="cell relative" *ngIf="isSmall">
+                <div id="{{componentName}}_div_31_{{id}}_{{i}}" class="grid-x grid-margin-x">
+                    <div id="{{componentName}}_div_29_{{id}}_{{i}}"
+                        class="cell small-6"
+                        *ngIf="!cartLocked || isCSR">
+                        <a class="button wishlist-button-small"
+                            id="{{componentName}}_a_3_{{id}}_{{i}}"
+                            (click)="deleteOrderItem(item)" translate>order-items.remove</a>
+                    </div>
+                    <div id="{{componentName}}_div_30_{{id}}_{{i}}"
+                        class="cell small-6"
+                        *ngIf="!cartLocked || isCSR">
+                        <a class="button wishlist-button-small"
+                            id="{{componentName}}_a_4_1_{{id}}_{{i}}"
+                            (click)="!isGuest? openMoveToWishListDropdown(item, i): openSignInModal()">
+                            {{ 'wishlist.moveToWishlist'| translate }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ng-container *ngIf="isOdd && isCheckout && !isLast">
+            <hr class="grid-x grid-margin-x cell show-for-large">
+            <hr class="grid-x grid-margin-x cell show-for-large">
+        </ng-container>
+        <hr *ngIf="!isLast" [ngClass]="{'grid-x grid-margin-x cell hide-for-large': isCheckout}">
+    </ng-container>
+</div>
+<hr class="item-separator">
+
+<!-- Move to WishList Modal -->
+<div id="{{moveToWishListModelId}}_{{id}}" class="reveal small animated fadeIn" aria-label="WishList Modal" data-reveal>
+    <div class="grid-x grid-container grid-container-padded padded-5">
+        <ng-container *ngIf="wishLists.length > 0; else elseBlock">
+            <div class="cell wishlist-modal-title">
+                <h2>{{'wishlist.moveToWishlist' | translate}}</h2>
+                <hr class="wishlist-hr">
+            </div>
+            <form class="cell" #wishlistForm="ngForm">
+                <ng-container *ngFor="let wishlist of wishLists; let i = index">
+                    <div class="expanded">
+                        <input id="move_to_wishlist_{{id}}_{{i}}" type="radio" name="wishListId" [value]="wishlist.externalId" [(ngModel)]="selectedWishListId">
+                        <label for="move_to_wishlist_{{id}}_{{i}}">{{wishlist.name}}</label>
+                    </div>
+                    <hr class="wishlist-hr">
+                </ng-container>
+                <button class="button button-dark expanded"
+                    id="move_to_wishlist_confirm_{{id}}"
+                    (click)="moveToWishList(selectedWishListId)"
+                    [disabled]="!wishlistForm.form.valid">{{'wishlist.Move' | translate}}</button>
+            </form>
+        </ng-container>
+        <ng-template #elseBlock>{{'wishlist.noWishList' | translate}}</ng-template>
+    </div>
+    <a class="close-button move_to_wishlist_close_btn" aria-label="Close WishList" id="move_to_wishlist_close_btn_{{id}}" data-close>&#215;</a>
+</div>
+
+<!-- signIn Modal -->
+<div class="reveal grid-margin-x gallery signInModal" id="{{signInModelId}}_{{id}}" data-reveal>
+    <div class='signInModal-top' id="signIn_form_div_{{id}}">{{'productDetail.SignInToContinue'| translate}}</div>
+    <form name="signInForm" #signInForm="ngForm"
+        class="medium-8 cell" [ngClass]="{'show-invalid-input': signInForm.submitted}"
+        (ngSubmit)="signInForm.form.valid && login()" id="signin_form_{{id}}">
+        <p class='signIn_msg'>{{ 'wishlist.SignInRequiredForWishlist' | translate}}</p>
+        <label for="descriptionName">{{ 'SignIn.Email' | translate }}</label>
+        <input type="email" placeholder="name@domain.com" id="signin_input_9_{{id}}"
+            name="username" [(ngModel)]="user.username"
+            commerce-maxlength=256 email required />
+        <label for="description">{{ 'SignIn.Password' | translate }}</label>
+        <input type="password" placeholder="" id="signin_input_10_{{id}}"
+            name="password" [(ngModel)]="user.password" commerce-maxlength=256 required />
+        <button class="button button-dark cell" type="submit">{{ 'SignIn.SubmitButton' | translate }}</button>
+        <p>{{'Registration.DontHaveAnAccount' | translate}}</p>
+        <button class="button cell" (click)="goToRegistrationPage()" type="submit">{{ 'Registration.Register' | translate }}</button>
+    </form>
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<!-- new WishList Modal -->
+<div class="no-padding tiny reveal" id="{{newWishListModalId}}_{{id}}" data-reveal>
+    <div class="new-wishlist-modal-top">
+        {{ 'wishlist.NewWishlist' | translate }}
+        <button class="close-btn-new-wishlist close-button"
+            id="newWishList_close_btn_{{id}}"
+            data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="grid-container grid-container-padded">
+        <form #newForm="ngForm" (ngSubmit)="newForm.form.valid && wishListCreation(newForm)" class="grid-x grid-margin-x">
+            <div class="cell">
+                <label for="descriptionName">{{ 'wishlist.Name' | translate }}</label>
+                <input type="text" name="descriptionName" id="new_wishlist_name_iput_{{id}}" ngModel commerce-maxlength=32 commerce-nonwhitespace commerce-not-allowed-str='DefaultListName' required>
+            </div>
+            <div class="cell"></div>
+            <div class="large-6 medium-6 small-6 cell">
+                <a class="new-wishlist-form-btn button" id="new_wishlist_cancel_{{id}}" data-close>{{ 'wishlist.Cancel' | translate }}</a>
+            </div>
+            <div class="large-6 medium-6 small-6 cell">
+                <button class="new-wishlist-form-btn button button-dark" id="new_wishList_save_{{id}}" type="submit" [disabled]="!newForm.form.valid">{{ 'wishlist.Save' | translate }}</button>
+            </div>
+        </form>
+    </div>
+</div>

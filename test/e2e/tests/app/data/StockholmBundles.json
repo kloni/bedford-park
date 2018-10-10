@@ -1,0 +1,18 @@
+{
+    "Nordic Style": {
+        "bundleName" : "Nordic Style",
+        "bundleSku" : "SKU: LR-FUCH-NORDIC-0001",
+        "bundleShortDescription" : "The nordic style arrangement features modern and sleek furniture that brightens up and accents your home's living room.",
+        "bundleLongDescription" : "Modernize your living room by using the nordic style arrangement. Nordic style elements include furniture and lighting that contain cool tones and open designs that are sure to inspire every homeowner.",
+        "bundlePrice": 2999.97,
+        "slideImages" : [
+            "furniture4_a5_600.png",
+            "furniture4_a4_600.png"
+        ],
+        "bundleProducts" : [
+            "LivingRoom.LivingRoomFurniture.Nordic Sofa",
+            "LivingRoom.LivingRoomFurniture.Nordic Loveseat",
+            "LivingRoom.LivingRoomLighting.Nordic Lamp"
+        ]
+    }
+}

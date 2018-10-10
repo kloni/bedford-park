@@ -1,0 +1,340 @@
+<div class="csr-container grid-container">
+  <h2 id="csrTitle_{{id}}" wchEditable="title">{{title}}</h2>
+  <div class="grid-x grid-margin-x">
+    <div class="callout stop-acting-diag notification-toast-info notification-toast-common" *ngIf="csrDesc.notifyActingAs">
+        <div class="notification-message-info message-container grid-x grid-margin-x">
+            <div class="info-icon"></div>
+            <span>
+              <span class="small-11 medium-12" translate>csr.currentlyActing</span>
+              {{csrDesc.actingDisplay?csrDesc.actingDisplay:('csr.guest'|translate)}}.
+              <a (click)="stopActing()" translate>csr.stopActing</a>
+            </span>
+            <button class="close-button" (click)="clearActingNotification()" aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="cell medium-3 space-left-only">
+      <ul #csrTabs class="vertical tabs" data-tabs id="csrTabs_{{id}}">
+        <li id="itemCsrSearch_{{id}}" class="tabs-title is-active"><a [attr.data-tabs-target]="'itemCsrSearch_content_'+id" aria-selected="true" translate>csr.findCustomer</a></li>
+        <li id="itemOrderSearch_{{id}}" class="tabs-title"><a [attr.data-tabs-target]="'itemOrderSearch_content_'+id" translate>csr.findOrder</a></li>
+        <li id="itemCustomerAdd_{{id}}" class="tabs-title"><a [attr.data-tabs-target]="'itemCustomerAdd_content_'+id" translate>csr.addCustomer</a></li>
+        <li id="itemShopAsGuest_{{id}}" class="tabs-title"><a [attr.data-tabs-target]="'itemShopAsGuest_content_'+id" translate>csr.shopAsGuest</a></li>
+      </ul>
+    </div>
+    <div class="cell medium-9 space-right-only">
+      <div class="tabs-content" [attr.data-tabs-content]="'csrTabs_'+id">
+        <div id="itemCsrSearch_content_{{id}}" class="tabs-panel is-active">
+          <div id="csrUserSearch_{{id}}" class="grid-container grid-container-padded">
+            <ul #userAccordion id="userAccordion_{{id}}" class="accordion criteria-accordion" data-allow-all-closed="true" data-multi-expand="false" data-accordion>
+              <li id="itemUserAccordion_{{id}}" class="accordion-item is-active" data-accordion-item>
+                <a id="itemUserAccordion_title_{{id}}" class="accordion-title" translate>Criteria</a>
+                <div id="itemUserAccordion_content_{{id}}" class="grid-x grid-margin-x accordion-content" data-tab-content>
+                  <form id="csrUserSearch_form" class="grid-x grid-margin-x" [ngClass]="{'show-invalid-input': csrUserSearchForm.submitted}" name="csrUserSearchForm" (ngSubmit)="csrUserSearchForm.form.valid && search()" #csrUserSearchForm="ngForm">
+                      <div id="csrSearch_alert_{{id}}" *ngIf="csrUserSearchForm.submitted && csrErrors.searchError" class="medium-12 cell">
+                          <div id="csrSearch_alertDiv_{{id}}" class="callout alert" translate data-closable>
+                              <span id="csrSearch_alertSpan_{{id}}" translate>{{csrErrors.searchError}}</span>
+                              <button id="csrSearch_alertButton_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearError('searchError')" cleardata-close>
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                      </div>
+                      <div id="csrSearch_login_{{id}}" class="small-12 medium-6 cell">
+                          <label id="csrSearch_loginLabel_{{id}}" translate>csr.login
+                              <input id="csrSearch_loginInput_{{id}}" type="text" name="logonId" [(ngModel)]="userDesc.logonId" commerce-maxlength=128 commerce-nonwhitespace />
+                          </label>
+                      </div>
+                      <div class="small-12 medium-6 cell"></div>
+                      <div id="csrSearch_firstName_{{id}}" class="small-12 medium-6 cell">
+                          <label id="csrSearch_firstNameLabel_{{id}}" translate>csr.firstName
+                              <input id="csrSearch_firstNameInput_{{id}}" type="text" name="firstName" [(ngModel)]="userDesc.firstName" commerce-maxlength=128 commerce-nonwhitespace />
+                          </label>
+                      </div>
+                      <div id="csrSearch_lastName_{{id}}" class="small-12 medium-6 cell">
+                          <label id="csrSearch_lastNameLabel_{{id}}" translate>csr.lastName
+                              <input id="csrSearch_lastNameInput_{{id}}" type="text" name="lastName" [(ngModel)]="userDesc.lastName" commerce-maxlength=128 commerce-nonwhitespace />
+                          </label>
+                      </div>
+                      <div id="csrSearch_email_{{id}}" class="small-12 medium-6 cell">
+                          <label id="csrSearch_emailLabel_{{id}}" translate>csr.email
+                              <input id="csrSearch_emailInput_{{id}}" type="email" name="email1" [(ngModel)]="userDesc.email1" commerce-maxlength=256 [email]="userDesc.email1!==''" />
+                          </label>
+                      </div>
+                      <div id="csrSearch_phone_{{id}}" class="small-12 medium-6 cell">
+                          <label id="csrSearch_phoneLabel_{{id}}" translate>csr.phone
+                              <input id="csrSearch_phoneInput_{{id}}" type="text" name="phone1" [(ngModel)]="userDesc.phone1" commerce-maxlength=32 commerce-phonenumber />
+                          </label>
+                      </div>
+                      <div id="csrSearch_address_{{id}}" class="small-12 medium-6 cell">
+                          <label id="csrSearch_addressLabel_{{id}}" translate>csr.address
+                              <input id="csrSearch_addressInput_{{id}}" type="text" name="address1" [(ngModel)]="userDesc.address1" maxlength="50" commerce-nonwhitespace/>
+                          </label>
+                      </div>
+                      <div id="csrSearch_zip_{{id}}" class="small-12 medium-6 cell">
+                          <label id="csrSearch_zipLabel_{{id}}" translate>csr.zipPostal
+                              <input id="csrSearch_zipInput_{{id}}" type="text" name="zipcode" [(ngModel)]="userDesc.zipcode" maxlength="40" commerce-postalcode-northamerica/>
+                          </label>
+                      </div>
+
+                      <div class="small-12 medium-6 cell">
+                          <label id="csrSearch_country_{{id}}" translate>csr.country
+                              <select id="csrSearch_countryLabel_{{id}}" [(ngModel)]="userDesc.country" name="country" (change)="fixState(userDesc)">
+                              <option *ngFor="let country of countries" [value]="country.code">{{country.displayName}}</option>
+                              </select>
+                          </label>
+                      </div>
+
+                      <div class="small-12 medium-6 cell">
+                          <label id="csrSearch_state_{{id}}" translate>csr.state
+                              <select id="csrSearch_stateInput_{{id}}" *ngIf="!noStates[userDesc.country]" name="state" [(ngModel)]="userDesc.state">
+                                  <option *ngFor="let state of cDescs[userDesc.country].states" [value]="state.code">{{state.displayName}}</option>
+                              </select>
+                              <input id="csrSearch_stateInput_{{id}}" type="text" *ngIf="noStates[userDesc.country]" name="state" [(ngModel)]="userDesc.state" maxlength="128" commerce-nonwhitespace />
+                          </label>
+                      </div>
+
+                      <div id="csrSearch_clearSpacer_{{id}}" class="small-12 medium-6 cell hide-for-small-only">&nbsp;</div>
+
+                      <div id="csrSearch_clear_{{id}}" class="small-12 medium-3 cell clear-all">
+                          <a id="csrSearch_clear_clearAll_{{id}}" (click)="clear()" translate>csr.clearAll</a>
+                      </div>
+                      <div id="csrSearch_search_{{id}}" class="small-12 medium-3 cell">
+                          <button id="csrSearch_searchButton_{{id}}" type="submit" class="button button-dark expanded" [disabled]="csrDesc.actingAs||isUserSearchInvalid()" translate>csr.search</button>
+                      </div>
+                  </form>
+                </div>
+              </li>
+            </ul>
+
+            <div *ngIf="noResultsFound" id="csrSearchResultsNone_{{id}}" class="callout alert fadeOut expand-to-full" translate data-closable>
+                <span id="csrSearchResultsNone_msg_{{id}}" translate>csr.noUsersFound</span>
+                <button id="csrSearchResultsNone_buttonClose_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearNoResults()" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div *ngIf="searchResults.length" id="csrSearchResultsSome_{{id}}" class="diagnostic expand-to-full">
+              {{searchResults.length}} <span translate>csr.results</span>
+              &nbsp;
+              <a (click)="clear()" translate>csr.startNewSearch</a>
+            </div>
+
+            <div *ngIf="searchResults.length" id="csrSearchResultsHeaders_{{id}}" class="record-headers grid-x grid-margin-x">
+                <div id="csrSearchResultsHeader_customer_{{id}}" class="small-12 medium-2 cell" translate>csr.customer</div>
+                <div id="csrSearchResultsHeader_login_{{id}}" class="small-12 medium-3 cell" translate>csr.login</div>
+                <div id="csrSearchResultsHeader_address_{{id}}" class="small-12 medium-4 cell" translate>csr.address</div>
+                <div id="csrSearchResultsHeader_actions_{{id}}" class="small-12 medium-3 cell" translate>csr.actions</div>
+            </div>
+
+            <ng-container *ngIf="searchResults.length">
+                <div *ngFor="let c of searchResults; index as i" class="record-body grid-x grid-margin-x" [class.selected]="c.userId==csrDesc.actingAs?.userId">
+                    <div id="csrSearchResultsBody_customer_{{id}}_{{i}}" class="small-12 medium-2 cell hide-overflow">
+                        <ng-container *ngIf="c.firstName">{{c.firstName}} </ng-container>
+                        <ng-container *ngIf="c.lastName">{{c.lastName}}</ng-container>
+                    </div>
+                    <div id="csrSearchResultsBody_login_{{id}}_{{i}}" class="small-12 medium-3 cell hide-overflow">
+                        {{c.logonId}}
+                    </div>
+                    <div id="csrSearchResultsBody_address_{{id}}_{{i}}" class="small-12 medium-4 cell hide-overflow">
+                        <ng-container *ngIf="c.address1">{{c.address1}}<br/></ng-container>
+                        <ng-container *ngIf="c.city">{{c.city}}<ng-container *ngIf="c.state">, {{noStates[c.country]?c.state:cDescs[c.country].stDescs[c.state].displayName}}</ng-container><br/></ng-container>
+                        <ng-container *ngIf="!c.city&&c.state">noStates[c.country]?c.state:cDescs[c.country].stDescs[c.state].displayName<br/></ng-container>
+                        <ng-container *ngIf="c.zipCode">{{c.zipCode}}<br/></ng-container>
+                        <ng-container *ngIf="c.country">{{cDescs[c.country].displayName}}</ng-container>
+                    </div>
+                    <div id="csrSearchResultsBody_action_{{id}}_{{i}}" class="small-12 medium-3 cell">
+                      <button id="csrSearch_actButton_{{id}}_{{i}}" type="button" (click)="doAction(c, CHOICES.ACT)" class="button button-dark expanded" [disabled]="csrDesc.actingAs&&c.userId!=csrDesc.actingAs.userId" translate>{{(csrDesc.actingAs&&c.userId==csrDesc.actingAs.userId?'csr.stopActing':'csr.startActing')|translate}}</button>
+                      <button id="csrSearch_enableDisableButton_{{id}}_{{i}}" type="button" (click)="doAction(c, CHOICES.STATUS)" class="button button-dark expanded" [class.button-white]="c.userRegistry.status=='1'" [disabled]="csrDesc.actingAs">{{(c.userRegistry.status=='1'?'csr.disable':'csr.enable')|translate}}</button>
+                    </div>
+                  </div>
+            </ng-container>
+          </div>
+        </div>
+
+        <div id="itemOrderSearch_content_{{id}}" class="tabs-panel">
+          <div id="csrOrderSearch_{{id}}" class="grid-container grid-container-padded">
+              <ul #orderAccordion id="orderAccordion_{{id}}" class="accordion criteria-accordion" data-allow-all-closed="true" data-multi-expand="false" data-accordion>
+                <li id="itemOrderAccordion_{{id}}" class="accordion-item is-active" data-accordion-item>
+                  <a id="itemOrderAccordion_title_{{id}}" class="accordion-title" translate>Criteria</a>
+                  <div id="itemOrderAccordion_content_{{id}}" class="grid-x grid-margin-x accordion-content" data-tab-content>
+                    <form id="csrOrderSearch_form" class="grid-x grid-margin-x" [ngClass]="{'show-invalid-input': csrOrderSearchForm.submitted}" name="csrOrderSearchForm" (ngSubmit)="csrOrderSearchForm.form.valid && searchOrders()" #csrOrderSearchForm="ngForm">
+                        <div id="csrOrderSearch_alert_{{id}}" *ngIf="csrOrderSearchForm.submitted && csrErrors.searchOrderError" class="medium-12 cell">
+                            <div id="csrOrderSearch_alertDiv_{{id}}" class="callout alert" translate data-closable>
+                                <span id="csrOrderSearch_alertSpan_{{id}}" translate>{{csrErrors.searchOrderError}}</span>
+                                <button id="csrOrderSearch_alertButton_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearError('searchOrderError')" data-close>
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="csrOrderSearch_order_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_orderLabel_{{id}}" translate>csr.orderNumber
+                                <input id="csrOrderSearch_orderInput_{{id}}" type="text" name="orderId" [(ngModel)]="orderDesc.orderId" commerce-maxlength=128 commerce-nonwhitespace />
+                            </label>
+                        </div>
+                        <div id="csrOrderSearch_email_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_emailLabel_{{id}}" translate>csr.email
+                                <input id="csrOrderSearch_emailInput_{{id}}" type="email" name="orderEmail1" [(ngModel)]="orderDesc.email" commerce-maxlength=256 [email]="orderDesc.email!==''" />
+                            </label>
+                        </div>
+                        <div id="csrOrderSearch_start_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_startLabel_{{id}}" translate>csr.startDate
+                                <input id="csrOrderSearch_startInput_{{id}}" type="date" name="startDate" [(ngModel)]="orderDesc.orderDateFrom" commerce-maxlength=128 commerce-nonwhitespace />
+                            </label>
+                        </div>
+                        <div id="csrOrderSearch_end_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_endLabel_{{id}}" translate>csr.endDate
+                                <input id="csrOrderSearch_endInput_{{id}}" type="date" name="endDate" [(ngModel)]="orderDesc.orderDateTo" commerce-maxlength=128 commerce-nonwhitespace />
+                            </label>
+                        </div>
+                        <div id="csrOrderSearch_firstName_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_firstNameLabel_{{id}}" translate>csr.firstName
+                                <input id="csrOrderSearch_firstNameInput_{{id}}" type="text" name="orderFirstName" [(ngModel)]="orderDesc.firstName" commerce-maxlength=128 commerce-nonwhitespace />
+                            </label>
+                        </div>
+                        <div id="csrSearch_lastName_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrSearch_lastNameLabel_{{id}}" translate>csr.lastName
+                                <input id="csrOrderSearch_lastNameInput_{{id}}" type="text" name="orderLastName" [(ngModel)]="orderDesc.lastName" commerce-maxlength=128 commerce-nonwhitespace />
+                            </label>
+                        </div>
+                        <div id="csrOrderSearch_phone_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_phoneLabel_{{id}}" translate>csr.phone
+                                <input id="csrOrderSearch_phoneInput_{{id}}" type="text" name="orderPhone1" [(ngModel)]="orderDesc.phone" commerce-maxlength=32 commerce-phonenumber />
+                            </label>
+                        </div>
+                        <div id="csrOrderSearch_address_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_addressLabel_{{id}}" translate>csr.address
+                                <input id="csrOrderSearch_addressInput_{{id}}" type="text" name="orderAddress1" [(ngModel)]="orderDesc.streetAddress1" maxlength="50" commerce-nonwhitespace/>
+                            </label>
+                        </div>
+
+                        <div id="csrOrderSearch_zip_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_zipLabel_{{id}}" translate>csr.zipPostal
+                                <input id="csrOrderSearch_zipInput_{{id}}" type="text" name="orderZipcode" [(ngModel)]="orderDesc.zipCode" maxlength="40" commerce-postalcode-northamerica/>
+                            </label>
+                        </div>
+                        <div id="csrOrderSearch_city_{{id}}" class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_cityLabel_{{id}}" translate>csr.city
+                                <input id="csrOrderSearch_cityInput_{{id}}" type="text" name="orderCity" [(ngModel)]="orderDesc.city" maxlength="40" commerce-postalcode-northamerica/>
+                            </label>
+                        </div>
+
+                        <div class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_country_{{id}}" translate>csr.country
+                                <select id="csrOrderSearch_countryLabel_{{id}}" [(ngModel)]="orderDesc.country" name="orderCountry" (change)="fixState(orderDesc)">
+                                  <option *ngFor="let country of countries" [value]="country.code">{{country.displayName}}</option>
+                                </select>
+                            </label>
+                        </div>
+
+                        <div class="small-12 medium-6 cell">
+                            <label id="csrOrderSearch_state_{{id}}" translate>csr.state
+                                <select id="csrOrderSearch_stateInput_{{id}}" *ngIf="!noStates[orderDesc.country]" name="orderState" [(ngModel)]="orderDesc.state">
+                                    <option *ngFor="let state of cDescs[orderDesc.country].states" [value]="state.code">{{state.displayName}}</option>
+                                </select>
+                                <input id="csrOrderSearch_stateInput_{{id}}" type="text" *ngIf="noStates[orderDesc.country]" name="orderState" [(ngModel)]="orderDesc.state" maxlength="128" commerce-nonwhitespace />
+                            </label>
+                        </div>
+
+                        <div id="csrOrderSearch_clearSpacer_{{id}}" class="small-12 medium-6 cell hide-for-small-only">&nbsp;</div>
+                        <div id="csrOrderSearch_clear_{{id}}" class="small-12 medium-3 cell clear-all">
+                            <a (click)="clearOrderForm()" translate>csr.clearAll</a>
+                        </div>
+                        <div id="csrOrderSearch_search_{{id}}" class="small-12 medium-3 cell">
+                            <button id="csrOrderSearch_searchButton_{{id}}" type="submit" class="button button-dark expanded" [disabled]="csrDesc.actingAs" translate>csr.search</button>
+                        </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+
+              <div *ngIf="noOrdersFound" id="csrOrderResultsNone_{{id}}" class="callout alert fadeOut expand-to-full" translate data-closable>
+                  <span id="csrOrderResultsNone_msg_{{id}}" translate>csr.noOrdersFound</span>
+                  <button id="csrOrderResultsNone_buttonClose_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearNoOrderResults()" data-close>
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+
+              <div *ngIf="orderResults.length" id="csrOrderResultsSome_{{id}}" class="diagnostic expand-to-full">
+                  {{orderResults.length}} <span translate>csr.results</span>
+                  &nbsp;
+                  <a (click)="clearOrderForm()" translate>csr.startNewSearch</a>
+              </div>
+
+              <div *ngIf="orderResults.length" id="csrOrderResultsHeaders_{{id}}" class="record-headers grid-x grid-margin-x">
+                  <div id="csrOrderResultsHeader_order_{{id}}" class="small-12 medium-2 cell" translate>csr.orderNumber</div>
+                  <div id="csrOrderResultsHeader_date_{{id}}" class="small-12 medium-2 cell" translate>csr.orderDate</div>
+                  <div id="csrOrderResultsHeader_address_{{id}}" class="small-12 medium-2 cell" translate>csr.address</div>
+                  <div id="csrOrderResultsHeader_email_{{id}}" class="small-12 medium-3 cell" translate>csr.email</div>
+                  <div id="csrOrderResultsHeader_actions_{{id}}" class="small-12 medium-3 cell" translate>csr.actions</div>
+              </div>
+
+              <ng-container *ngIf="orderResults.length">
+                <ng-container *ngFor="let c of orderResults; index as i">
+                    <div id="csrOrderResultsBody_order_{{id}}_{{i}}" class="record-body grid-x grid-margin-x" [class.selected]="c.memberId==csrDesc.actingAs?.userId">
+                      <div class="small-12 medium-2 cell">
+                          <a id="csrOrderSearchResult_{{i}}_{{id}}" *ngIf="!csrDesc.actingAs||c.memberId==csrDesc.actingAs.userId" (click)="doOrderAction(c,CHOICES.VIEW_SUMMARY)">{{c.orderId}}</a>
+                          <span id="csrOrderSearchResultText_{{i}}_{{id}}" *ngIf="csrDesc.actingAs&&c.memberId!=csrDesc.actingAs.userId">{{c.orderId}}</span>
+                      </div>
+                      <div id="csrOrderResultsBody_date_{{id}}_{{i}}" class="small-12 medium-2 cell">
+                        <ng-container *ngIf="c.orderTime">{{c.orderTime}}</ng-container>
+                        <span *ngIf="!c.orderTime" translate>csr.orderInCart</span>
+                      </div>
+                      <div id="csrOrderResultsBody_address_{{id}}_{{i}}" class="small-12 medium-2 cell hide-overflow">
+                          <ng-container *ngIf="c.uniqueShippingAddresses[0]; let addrDesc">
+                            <ng-container *ngIf="addrDesc.firstName">{{addrDesc.firstName}} </ng-container>
+                            <ng-container *ngIf="addrDesc.lastName">{{addrDesc.lastName}}</ng-container><br/>
+                            <ng-container *ngIf="addrDesc.address1">{{addrDesc.address1}}<br/></ng-container>
+                            <ng-container *ngIf="addrDesc.city">{{addrDesc.city}}<ng-container *ngIf="addrDesc.state">, {{noStates[addrDesc.country]?addrDesc.state:cDescs[addrDesc.country].stDescs[addrDesc.state].displayName}}</ng-container><br/></ng-container>
+                            <ng-container *ngIf="!addrDesc.city&&addrDesc.state">noStates[addrDesc.country]?addrDesc.state:cDescs[addrDesc.country].stDescs[addrDesc.state].displayName<br/></ng-container>
+                            <ng-container *ngIf="addrDesc.zipCode">{{addrDesc.zipCode}}<br/></ng-container>
+                            <ng-container *ngIf="addrDesc.country">{{cDescs[addrDesc.country].displayName}}</ng-container>
+                          </ng-container>
+                      </div>
+                      <div id="csrOrderResultsBody_email_{{id}}_{{i}}" class="small-12 medium-3 cell hide-overflow">
+                        <ng-container *ngIf="c.uniqueShippingAddresses[0]; let addrDesc">{{addrDesc.email1}}</ng-container>
+                      </div>
+                      <div id="csrOrderResultsBody_actions_{{id}}_{{i}}" class="small-12 medium-3 cell">
+                        <button id="csrOrderSearch_actButton_{{id}}_{{i}}" type="button" (click)="doOrderAction(c, CHOICES.ACT)" class="button button-dark expanded" [disabled]="csrDesc.actingAs&&c.memberId!=csrDesc.actingAs.userId" translate>{{(csrDesc.actingAs&&c.memberId==csrDesc.actingAs.userId?'csr.stopActing':'csr.startActing')|translate}}</button>
+                        <button *ngIf="c.memberDescriptor.registerType!=='G'" id="csrOrderSearch_enableDisableButton_{{id}}_{{i}}" type="button" (click)="doOrderAction(c, CHOICES.STATUS)" class="button button-dark expanded" [class.button-white]="c.memberDescriptor.userRegistry.status=='1'" [disabled]="csrDesc.actingAs">{{(c.memberDescriptor.userRegistry.status=='1'?'csr.disable':'csr.enable')|translate}}</button>
+                        <ng-container *ngIf="c.status=='P'">
+                            <button *ngIf="c.isLocked" id="csrOrderSearch_takeoverButton_{{id}}_{{i}}" type="button" (click)="doOrderAction(c, CHOICES.TAKEOVER_UNLOCK)" class="button button-dark expanded" [disabled]="csrDesc.actingAs" translate>csr.takeOverUnlock</button>
+                            <button *ngIf="!c.isLocked" id="csrOrderSearch_flipLockButton_{{id}}_{{i}}" type="button" (click)="doOrderAction(c, CHOICES.FLIP_LOCK)" class="button button-dark expanded" [class.button-white]="!c.checkLock" [disabled]="csrDesc.actingAs">{{(c.checkLock?'csr.unlock':'csr.lock')|translate}}</button>
+                        </ng-container>
+                        <button id="csrOrderSearch_viewSummaryButton_{{id}}_{{i}}" type="button" (click)="doOrderAction(c, CHOICES.VIEW_SUMMARY)" class="button button-dark expanded" [disabled]="csrDesc.actingAs&&c.memberId!=csrDesc.actingAs.userId" translate>csr.orderSummary</button>
+                      </div>
+                    </div>
+                </ng-container>
+              </ng-container>
+          </div>
+        </div>
+
+
+        <div id="itemCustomerAdd_content_{{id}}" class="tabs-panel">
+          <wch-contentref [renderingContext]="REG_TEMPLATE"></wch-contentref>
+        </div>
+
+
+        <div id="itemShopAsGuest_content_{{id}}" class="tabs-panel">
+          <div id="csrShopAsGuest_alert_{{id}}" *ngIf="csrErrors.shopGuestError" class="medium-12 cell">
+            <div id="csrShopAsGuest_alertDiv_{{id}}" class="callout alert" translate data-closable>
+                <span id="csrShopAsGuest_alertSpan_{{id}}" translate>{{csrErrors.shopGuestError}}</span>
+                <button id="csrShopAsGuest_alertButton_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearError('shopGuestError')" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+          </div>
+
+          <div id="csrShopAsGuest_grid_{{id}}" class="grid-container grid-container-padded">
+            <div id="csrShopAsGuest_x_{{id}}" class="grid-x grid-margin-x">
+              <div id="csrShopAsGuest_cell_{{id}}" class="small-12 medium-6 cell">
+                <button id="csrShopAsGuest_shopButton_{{id}}" class="button button-dark expanded button-guest" [disabled]="csrDesc.actingAs" (click)="shopAsGuest()" translate>csr.startGuest</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div id="productCard_{{id}}" *ngIf="product.name" class="small-6 medium-3 cell text-center product-container">
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x" [attr.dataci_product]="categoryId + '_' + product.partNumber.split(' ').join('-spchar1-').split('\'').join('-spchar2-').split('>').join('-spchar3-').split('<').join('-spchar4-').split('&#x22;').join('-spchar5-')">
+      <a (click)="onClick()" [routerLink]="[product.seoUrl]" class="cell">
+        <img id="productCard_fullImage_{{id}}" class="product-image" [src]="(currentSelection.sku.fullImage || product.fullImage || product.thumbnail) | catImage" />
+      </a>
+      <ng-container *ngFor="let att of product.availableAttributes">
+        <p [id]="'productCard_defnAttrContainer_'+att.identifier+'_'+id" *ngIf="att.usage==='Defining'&&att.values.length&&att.values[0].image1">
+          <img [id]="'productCard_defnAttrImage_'+att.identifier+'_'+val.identifier+'_'+id" *ngFor="let val of att.values" [src]="val.image1"
+            class="product-swatch-small" />
+        </p>
+      </ng-container>
+      <p class="cell">
+        <a id="productCard_name_{{id}}" (click)="informMarketingOfClick()" [routerLink]="[product.seoUrl]">
+          <strong>{{product.name}}</strong>
+        </a>
+      </p>
+      <ng-container *ngFor="let p of product.price">
+        <p *ngIf="p.usage === 'Offer' && p.value !== ''">
+          <span id="productCard_price_{{id}}">
+            <ng-container *ngIf="p.minimumValue && p.maximumValue && p.minimumValue.value !== p.maximumValue.value; else elseBlock">{{p.minimumValue.value | currency:p.currency:'symbol':'1.2-2'}} - {{p.maximumValue.value | currency:p.currency:'symbol':'1.2-2'}}<p *ngIf="VATEnabled" id="productCard_price_vat_{{id}}" class="productCard_price_vat" translate>product.VATincl</p></ng-container>
+            <ng-template #elseBlock>{{p.value | currency:p.currency:'symbol':'1.2-2'}}<p *ngIf="VATEnabled" class="productCard_price_vat" id="productCard_price_vat_{{id}}" translate>product.VATincl</p></ng-template>
+          </span>
+          <span id="productCard_price_1_{{id}}" *ngIf="p.value === null">{{ 'product.pricePending' | translate }}
+          </span>
+        </p>
+      </ng-container>
+    </div>
+  </div>
+</div>

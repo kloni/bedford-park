@@ -1,0 +1,17 @@
+{
+    "SimplifiedRegistration" : {
+        "RegisterTitle": "Save your information for next time.",
+        "CreateAccount": "CREATE ACCOUNT",
+        "NameMsg": ", you are one click away from registering an account.",
+        "Email": "Email",
+        "Password": "Password",
+        "VerifyPassword": "Verify Password",
+        "EmailRequired": "Email is required",
+        "ReceiveEmail": "Receive home design ideas sent to your inbox",
+        "EmailInvalid": "Email format is invalid",
+        "PasswordRequired": "Password is required",
+        "VerifyPasswordRequired": "Password is required",
+        "Register" :"Register"
+        
+    }
+}

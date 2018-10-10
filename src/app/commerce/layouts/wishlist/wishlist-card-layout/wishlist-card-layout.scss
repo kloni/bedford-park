@@ -1,0 +1,130 @@
+$images-dir: "~/../images/";
+i.wishlist-menu-icon {
+    background: url("wishlist_menu_icon.svg") no-repeat 100% 100%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    cursor: pointer;
+}
+
+div.wishlist-item-container {
+    position: relative;
+}
+
+div.item-dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 2rem;
+    right: 0.8rem;
+    padding: 0.75rem 1rem;
+    white-space: nowrap;
+    width: 300px;
+}
+
+div.item-dropdown-menu:focus {
+    outline: none;
+}
+
+div.black-top {
+    background-color: #303030;
+    width: 100%;
+    height: 2rem;
+    vertical-align: middle;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-top: 0.6rem;
+    padding-left: 0.5rem;
+    font-family: 'IBMPlexSans-SemiBold';
+    font-size: 13px;
+}
+
+button.close-btn-drop-down {
+    top: 1.7rem;
+    right: 1.3rem;
+    color: rgb(255, 255, 255);
+}
+
+div.black-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 1rem 1rem;
+    border-color: transparent transparent black transparent;
+    margin-left: auto;
+}
+
+div.dropdown-container {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-right: 0px;
+    padding-right: 0px;
+    div.dropdown-row {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin: 0rem;
+        vertical-align: middle;
+        height: 2.3rem;
+        padding-top: 0.5rem;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    div.dropdown-row a {
+        color: #595859;
+        font-family: 'IBMPlexSans';
+        font-size: 13px;
+    }
+}
+
+.no-margin {
+    margin: 0rem;
+}
+
+i.new-wishlist-icon {
+    background: url($images-dir+'addnew_20.svg') no-repeat 100% 100%;
+    background-size: 80%;
+    cursor: pointer;
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+
+i.check-icon {
+    background: url($images-dir+'check_green_20.svg') no-repeat 100% 100%;
+    background-size: 80%;
+    vertical-align: baseline;
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+a.not-clickable{
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+div.fit-content {
+    width: fit-content;
+}
+
+.padding-10 {
+    padding: 0.625rem;
+}
+
+div.grey-font {
+    color: #828282;
+    font-family: 'IBMPlexSans-Italic';
+    font-size: 16px;
+}

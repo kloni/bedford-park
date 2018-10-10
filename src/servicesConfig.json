@@ -1,0 +1,40 @@
+{
+    "cacheConfig_comment": "define the REST services that the framework should cache the results for",
+    "cacheConfig": [
+        {
+            "url": "search/resources/store/{storeId}/categoryview"
+        },
+        {
+            "url": "search/resources/store/{storeId}/productview"
+        }
+    ],
+    "restRequiringUser_comment": "define the REST services that the framework needs to ensure there exists a guest or registered user before executing the particular service",
+    "restRequiringUser": [ "cart", "checkout" ],
+    "actionableRestService_comment": "define the REST services that are actionable calls, such as Add To Cart. Used for session timeout component to distinguish whether to stay on the current page",
+    "actionableRestService": [ 
+        {
+            "url": "/store/{storeId}/person/@self"
+        },
+        {
+            "url": "/store/{storeId}/cart/@self/applepay_cancel"
+        },
+        {
+            "url": "/store/{storeId}/cart/@self/precheckout"
+        },
+        {
+            "url": "/store/{storeId}/cart/@self/assigned_promotion_code"
+        },
+        {
+            "url": "/store/{storeId}/cart/@self/delete_order_item"
+        },
+        {
+            "url": "/store/{storeId}/cart/@self/update_order_item"
+        },
+        {
+            "url": "/store/{storeId}/person/@self/contact"
+        },
+        {
+            "url": "/store/{storeId}/cart"
+        }
+    ]
+}

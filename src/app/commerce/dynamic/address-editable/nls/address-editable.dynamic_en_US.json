@@ -1,0 +1,19 @@
+{
+    "addressEditable" : {
+		"addAddress": "Add Address",
+		"editAddress": "Edit Address",
+		"nickName": "Address Nickname",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"email": "Email",
+		"phone": "Phone Number (Optional)",
+		"addressLine1": "Address Line 1",
+		"addressLine2": "Address Line 2",
+		"shipTo": "Ship To",
+		"city": "City",
+		"state": "State",
+		"zipPostal": "ZIP Code / Postal Code",
+		"cancel": "Cancel",
+		"saveChanges": "Save Changes"
+	}
+}

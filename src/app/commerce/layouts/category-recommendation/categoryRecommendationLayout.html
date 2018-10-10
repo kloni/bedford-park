@@ -1,0 +1,10 @@
+<div *ngIf="eSpotObject" [attr.dataci_toolbar]="eSpotObject.marketingSpotIdentifier + '_espot'" [attr.dataci_espot]="eSpotObject.marketingSpotIdentifier + '_' + eSpotObject.eSpotName.split(' ').join('-spchar1-').split('\'').join('-spchar2-').split('>').join('-spchar3-').split('<').join('-spchar4-').split('&#x22;').join('-spchar5-')">
+<h2 id="categoryRecommendation_h2_1_{{id}}" *ngIf="title">{{title}}</h2>
+</div>
+<div class="grid-container full">
+    <div class="grid-x grid-margin-x">
+            <div id="categoryRecommendation_div_2_{{id}}" class="small-12 medium-6 cell category-recommendation" *ngFor="let list of lists">
+                <wch-contentref [layoutMode]="constants.SUMMARY" [renderingContext]="list"></wch-contentref>
+            </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<div [ngSwitch]="layoutMode">
+  <div *ngSwitchCase="constants.SUMMARY">
+    <a class="read-more-link" href [routerLink]="navLink()">
+      <div class="summary-card">
+        <div *ngIf="cardImage" class="summary-card-image">
+          <!-- This sample shows the entire supplied image, so the correct aspect should be supplied by the user. -->
+          <div class="article-lead-image">
+            <div class="article-lead-image small-12 medium-4 cell">
+              <div class="image-container">
+                <img *ngIf="cardImage?.url" wchEditable="leadImage" [src]="utils.getImageUrl(rContext, CARD_IMAGE_KEY, 'lead')" [alt]="utils.getImageName(rContext)"
+                     [title]="utils.getImageName(rContext)">
+              </div>
+            </div>
+              <p class="article-title" wchEditable="cardTitle">{{onCardTitle | async}}</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div *ngSwitchCase="constants.DETAIL" id="{{rContext.id}}" class="wch-page layout-container grid-container full">
+    <div *ngIf="hero" class="grid-x">
+      <div class="cell section">
+        <wch-contentref [renderingContext]="hero"></wch-contentref>
+      </div>
+    </div>
+      <div class="grid-x grid-margin-x">
+        <h2 wchEditable="heading" class="headline medium-12 cell section">
+          <div class="grid-container">
+            {{onHeading | async}}
+          </div>
+        </h2>
+        <div *ngIf="body" class="article-body-block medium-12 cell section">
+          <div class="article-body grid-container" *ngFor="let item of onBody | async; let idx = index">
+            <div [wchEditable]="'body[' + idx + ']'" [innerHTML]="item | formattedText:html"></div>
+          </div>
+        </div>
+        <div *ngIf="designerProfile" class="designer-profile medium-12 cell section">
+          <div class="grid-container">
+            <wch-contentref [renderingContext]="designerProfile"></wch-contentref>
+          </div>
+        </div>
+        <div *ngIf="fromTheArrangement" class="from-the-arrangement medium-12 cell section">
+          <div class="grid-container">
+            <wch-contentref [renderingContext]="fromTheArrangement"></wch-contentref>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

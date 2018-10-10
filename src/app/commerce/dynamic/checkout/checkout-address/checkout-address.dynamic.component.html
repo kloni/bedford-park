@@ -1,0 +1,418 @@
+<div id="{{componentName}}_div_1_{{id}}">
+    <div class="cell" *ngIf="!bopisOptionUpdate">
+        <p class="bold"><span>{{'checkout-address.ShippingAndBilling' | translate }}</span></p>
+    </div>
+    <div id="{{checkoutAddressSectionId}}" style="display: none">
+    <ng-container *ngIf="(shippingAndBillingAddresses && shippingAndBillingAddresses.length > 0) || (shippingAddresses && shippingAddresses.length > 0 && billingAddresses && billingAddresses.length > 0)" style="display: none">
+        <form id="{{componentName}}_form_{{id}}" name="{{componentName}}_form_{{id}}" #f="ngForm" novalidate class="grid-container full" [ngClass]="{'show-invalid-input': addressFormChecked}">
+            <ng-container *ngIf="!bopisOptionUpdate?.storeId">
+                <ng-container *ngIf="isGuest; else notGuest">
+                    <ng-container *ngIf="sameSB">
+                        <ng-container *ngTemplateOutlet="guestAddressTemplate; context: addressContext.ShippingAndBilling">
+                        </ng-container>
+                    </ng-container>
+                    <ng-container *ngIf="!sameSB">
+                        <ng-container *ngTemplateOutlet="guestAddressTemplate; context: addressContext.Shipping">
+                        </ng-container>
+                    </ng-container>
+                </ng-container>
+                <ng-template #notGuest>
+                    <ng-container *ngIf="sameSB">
+                        <ng-container *ngTemplateOutlet="addressDropDownTemplate; context: addressContext.ShippingAndBilling">
+                        </ng-container>
+                    </ng-container>
+                    <ng-container *ngIf="!sameSB">
+                        <ng-container *ngTemplateOutlet="addressDropDownTemplate; context: addressContext.Shipping">
+                        </ng-container>
+                    </ng-container>
+                </ng-template>
+            </ng-container>
+
+            <div id="{{billingAndShippingFormId}}" class="cell" style="display: none">
+                <div id="{{componentName}}_ShippingAndBilling_form_div_2_{{id}}" *ngIf="sameSB" class="grid-container full">
+                    <div id="{{componentName}}_ShippingAndBilling_form_div_3_{{id}}" class="grid-x grid-margin-x ">
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_4_{{id}}" class="small-12 medium-6 cell" *ngIf="selectedAddress.ShippingAndBilling?.isNew && !isGuest">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelNickName_{{id}}">
+                                <span [translate]="'checkout-address.nickName'"></span>
+                                <input id="{{componentName}}_ShippingAndBilling_form_inputNickName_{{id}}" type="text" [placeholder]="'checkout-address.nicknamePlaceholder' | translate"
+                                    name="ShippingAndBilling_nickName" [(ngModel)]="selectedAddress.ShippingAndBilling.nickName"
+                                    maxlength="254" #ShippingAndBillingNickName="ngModel" commerce-identifier required/>
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_5_{{id}}" class="small-12 medium-6 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelFirstName_11_{{id}}">
+                                <span [translate]="'checkout-address.firstName'"></span>
+                                <input id="{{componentName}}_ShippingAndBilling_form_inputFirstName_{{id}}" type="text" [placeholder]="'checkout-address.firstnamePlaceholder' | translate" name="ShippingAndBillingFirstName"
+                                    [(ngModel)]="selectedAddress.ShippingAndBilling.firstName" maxlength="128" #ShippingAndBillingFirstName="ngModel"
+                                    commerce-nonwhitespace required/>
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_6_{{id}}" class="small-12 medium-6 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelLastName_{{id}}">
+                                <span [translate]="'checkout-address.lastName'"></span>
+                                <input id="{{componentName}}_ShippingAndBilling_form_inputLastName_{{id}}" type="text" [placeholder]="'checkout-address.lastnamePlaceholder' | translate" name="ShippingAndBillingLastName"
+                                    [(ngModel)]="selectedAddress.ShippingAndBilling.lastName" maxlength="128" #ShippingAndBillingLastName="ngModel"
+                                    commerce-nonwhitespace required/>
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_7_{{id}}" class="small-12 medium-6 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelEmail_{{id}}">
+                                <span [translate]="'checkout-address.email'"></span>
+                                <input id="{{componentName}}_ShippingAndBilling_form_inputEmail_{{id}}" type="text" [placeholder]="'checkout-address.emailPlaceholder' | translate" name="ShippingAndBillingEmail1"
+                                    [(ngModel)]="selectedAddress.ShippingAndBilling.email1" maxlength="256" #ShippingAndBillingEmail1="ngModel"
+                                    email required/>
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_8_{{id}}" class="small-12 medium-6 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelPhone_{{id}}">
+                                <span [translate]="'checkout-address.phone'"></span>
+                                <input id="{{componentName}}_ShippingAndBilling_form_inputPhone_{{id}}" type="text" [placeholder]="'checkout-address.phoneNumberPlaceholder' | translate" name="ShippingAndBillingPhone1"
+                                    [(ngModel)]="selectedAddress.ShippingAndBilling.phone1" #ShippingAndBillingPhone1="ngModel"
+                                    commerce-phonenumber />
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_9_{{id}}" class="small-12 medium-6 cell"></div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_10_{{id}}" class="medium-12 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelLine1_{{id}}">
+                                <span [translate]="'checkout-address.addressLine1'"></span>
+                                <input id="{{componentName}}_ShippingAndBilling_form_inputLine1_{{id}}" type="text" [placeholder]="'checkout-address.addressLine1Placeholder' | translate" name="ShippingAndBillingAddressLine1"
+                                    [(ngModel)]="selectedAddress.ShippingAndBilling.addressLine[0]" maxlength="100" #ShippingAndBillingAddressLine1="ngModel"
+                                    commerce-nonwhitespace required/>
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_11_{{id}}" class="medium-12 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelLine2_{{id}}">
+                                <span [translate]="'checkout-address.addressLine2'"></span>
+                                <input id="{{componentName}}_ShippingAndBilling_form_inputLine2_{{id}}" type="text" [placeholder]="'checkout-address.addressLine2Placeholder' | translate" name="ShippingAndBillingAddressLine2"
+                                    [(ngModel)]="selectedAddress.ShippingAndBilling.addressLine[1]" maxlength="50" #ShippingAndBillingAddressLine2="ngModel"
+                                    commerce-nonwhitespace/>
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_12_{{id}}" class="medium-6 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelShipTo_{{id}}">
+                                <span [translate]="'checkout-address.countryRegion'"></span>
+                                <select id="{{componentName}}_ShippingAndBilling_form_inputShipTo_{{id}}" [(ngModel)]="selectedAddress.ShippingAndBilling.country"
+                                    name="ShippingAndBillingCountry" (change)="onCountrySelect(selectedAddress.ShippingAndBilling)"
+                                    required>
+                                    <option *ngFor="let country of countries" [value]="country.code">{{country.displayName}}</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_13_{{id}}" class="medium-6 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelCity_{{id}}">
+                                <span [translate]="'checkout-address.city'"></span>
+                                <input id="{{componentName}}_ShippingAndBilling_form_inputCity_{{id}}" type="text" [placeholder]="'checkout-address.cityPlaceholder' | translate" name="ShippingAndBillingCity"
+                                    [(ngModel)]="selectedAddress.ShippingAndBilling.city" maxlength="128" #ShippingAndBillingCity="ngModel"
+                                    commerce-nonwhitespace required/>
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_14_{{id}}" class="medium-6 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelState_{{id}}">
+                                <span [translate]="'checkout-address.state'"></span>
+                                <select id="{{componentName}}_ShippingAndBilling_form_inputState_{{id}}" *ngIf="selectedAddress.ShippingAndBilling.countryObject?.states?.length>0; else stateElse"
+                                    name="ShippingAndBillingsState" [(ngModel)]="selectedAddress.ShippingAndBilling.state" (change)="onStateSelect(selectedAddress.ShippingAndBilling)"
+                                    required>
+                                    <option *ngFor="let state of selectedAddress.ShippingAndBilling.countryObject.states" [value]="state.code">{{state.displayName}}</option>
+                                </select>
+                                <ng-template #stateElse>
+                                    <input id="{{componentName}}_ShippingAndBilling_form_inputState_{{id}}" type="text" [placeholder]="'checkout-address.statePlaceholder' | translate" name="ShippingAndBillingsState"
+                                        [(ngModel)]="selectedAddress.ShippingAndBilling.state" maxlength="128" #ShippingAndBillingsState="ngModel"
+                                        commerce-nonwhitespace required/>
+                                </ng-template>
+                            </label>
+                        </div>
+                        <div id="{{componentName}}_ShippingAndBilling_form_div_15_{{id}}" class="medium-6 cell">
+                            <label id="{{componentName}}_ShippingAndBilling_form_labelZip_{{id}}">
+                                <span [translate]="'checkout-address.zipPostal'"></span>
+                                <input id="{{componentName}}_ShippingAndBilling_form_inputZip_{{id}}" type="text" [placeholder]="'checkout-address.zipPlaceholder' | translate" name="ShippingAndBillingsZipCode"
+                                    [(ngModel)]="selectedAddress.ShippingAndBilling.zipCode" maxlength="40" #ShippingAndBillingsZipCode="ngModel"
+                                    commerce-postalcode-northamerica required/>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="{{shippingFormId}}" class="grid-container full" style="display: none" *ngIf="!bopisOptionUpdate?.storeId">
+                <div id="{{componentName}}_Shipping_form_div_17_{{id}}" class="grid-x grid-margin-x">
+                    <div id="{{componentName}}_Shipping_form_div_18_{{id}}" class="small-12 medium-6 cell" *ngIf="selectedAddress.Shipping?.isNew && !isGuest">
+                        <label id="{{componentName}}_Shipping_form_labelNickName_{{id}}">
+                            <span [translate]="'checkout-address.nickName'"></span>
+                            <input id="{{componentName}}_Shipping_form_inputNickName_{{id}}" type="text" [placeholder]="'checkout-address.nicknamePlaceholder' | translate"
+                                name="shipping_nickName" [(ngModel)]="selectedAddress.Shipping.nickName" maxlength="254"
+                                #shippingNickName="ngModel" commerce-identifier required/>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_19_{{id}}" class="small-12 medium-6 cell">
+                        <label id="{{componentName}}_Shipping_form_labelFirstName_20_{{id}}">
+                            <span [translate]="'checkout-address.firstName'"></span>
+                            <input id="{{componentName}}_Shipping_form_inputFirstName_{{id}}" type="text" [placeholder]="'checkout-address.firstnamePlaceholder' | translate" name="shippingFirstName"
+                                [(ngModel)]="selectedAddress.Shipping.firstName" maxlength="128" #shippingFirstName="ngModel"
+                                commerce-nonwhitespace required/>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_21_{{id}}" class="small-12 medium-6 cell">
+                        <label id="{{componentName}}_Shipping_form_labelLastName_{{id}}">
+                            <span [translate]="'checkout-address.lastName'"></span>
+                            <input id="{{componentName}}_Shipping_form_inputLastName_{{id}}" type="text" [placeholder]="'checkout-address.lastnamePlaceholder' | translate" name="shippingLastName"
+                                [(ngModel)]="selectedAddress.Shipping.lastName" maxlength="128" #shippingLastName="ngModel"
+                                commerce-nonwhitespace required/>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_22_{{id}}" class="small-12 medium-6 cell">
+                        <label id="{{componentName}}_Shipping_form_labelEmail_{{id}}">
+                            <span [translate]="'checkout-address.email'"></span>
+                            <input id="{{componentName}}_Shipping_form_inputEmail_{{id}}" type="text" [placeholder]="'checkout-address.emailPlaceholder' | translate" name="shippingEmail1"
+                                [(ngModel)]="selectedAddress.Shipping.email1" maxlength="256" #shippingEmail1="ngModel"
+                                email required/>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_23_{{id}}" class="small-12 medium-6 cell">
+                        <label id="{{componentName}}_Shipping_form_labelPhone_{{id}}">
+                            <span [translate]="'checkout-address.phone'"></span>
+                            <input id="{{componentName}}_Shipping_form_inputPhone_{{id}}" type="text" [placeholder]="'checkout-address.phoneNumberPlaceholder' | translate" name="shippingPhone1"
+                                [(ngModel)]="selectedAddress.Shipping.phone1" #shippingPhone1="ngModel" commerce-phonenumber
+                            />
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_24_{{id}}" class="small-12 medium-6 cell"></div>
+                    <div id="{{componentName}}_Shipping_form_div_35_{{id}}" class="medium-12 cell">
+                        <label id="{{componentName}}_Shipping_form_labelLine1_{{id}}">
+                            <span [translate]="'checkout-address.addressLine1'"></span>
+                            <input id="{{componentName}}_Shipping_form_inputLine1_{{id}}" type="text" [placeholder]="'checkout-address.addressLine1Placeholder' | translate" name="shippingAddressLine1"
+                                [(ngModel)]="selectedAddress.Shipping.addressLine[0]" maxlength="100" #shippingAddressLine1="ngModel"
+                                commerce-nonwhitespace required/>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_26_{{id}}" class="medium-12 cell">
+                        <label id="{{componentName}}_Shipping_form_labelLine2_{{id}}">
+                            <span [translate]="'checkout-address.addressLine2'"></span>
+                            <input id="{{componentName}}_Shipping_form_inputLine2_{{id}}" type="text" [placeholder]="'checkout-address.addressLine2Placeholder' | translate" name="shippingAddressLine2"
+                                [(ngModel)]="selectedAddress.Shipping.addressLine[1]" maxlength="50" #shippingAddressLine2="ngModel"
+                                commerce-nonwhitespace/>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_27_{{id}}" class="medium-6 cell">
+                        <label id="{{componentName}}_Shipping_form_labelShipTo_{{id}}">
+                            <span [translate]="'checkout-address.countryRegion'"></span>
+                            <select id="{{componentName}}_Shipping_form_inputShipTo_{{id}}" [(ngModel)]="selectedAddress.Shipping.country" name="shippingCountry"
+                                (change)="onCountrySelect(selectedAddress.Shipping)" required>
+                                <option *ngFor="let country of countries" [value]="country.code">{{country.displayName}}</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_28_{{id}}" class="medium-6 cell">
+                        <label id="{{componentName}}_Shipping_form_labelCity_{{id}}">
+                            <span [translate]="'checkout-address.city'"></span>
+                            <input id="{{componentName}}_Shipping_form_inputCity_{{id}}" type="text" [placeholder]="'checkout-address.cityPlaceholder' | translate" name="shippingCity" [(ngModel)]="selectedAddress.Shipping.city"
+                                maxlength="128" #shippingCity="ngModel" commerce-nonwhitespace required/>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_29_{{id}}" class="medium-6 cell">
+                        <label id="{{componentName}}_Shipping_form_labelState_{{id}}">
+                            <span [translate]="'checkout-address.state'"></span>
+                            <select id="{{componentName}}_Shipping_form_inputState_{{id}}" *ngIf="selectedAddress.Shipping.countryObject?.states?.length>0; else stateElse"
+                                name="shippingsState" [(ngModel)]="selectedAddress.Shipping.state"  (change)="onStateSelect(selectedAddress.Shipping)" required>
+                                <option *ngFor="let state of selectedAddress.Shipping.countryObject.states" [value]="state.code">{{state.displayName}}</option>
+                            </select>
+                            <ng-template #stateElse>
+                                <input id="{{componentName}}_Shipping_form_inputState_{{id}}" type="text" [placeholder]="'checkout-address.statePlaceholder' | translate" name="shippingsState" [(ngModel)]="selectedAddress.Shipping.state"
+                                    maxlength="128" #shippingsState="ngModel" commerce-nonwhitespace required/>
+                            </ng-template>
+                        </label>
+                    </div>
+                    <div id="{{componentName}}_Shipping_form_div_30_{{id}}" class="medium-6 cell">
+                        <label id="{{componentName}}_Shipping_form_labelZip_{{id}}">
+                            <span [translate]="'checkout-address.zipPostal'"></span>
+                            <input id="{{componentName}}_Shipping_form_inputZip_{{id}}" type="text" [placeholder]="'checkout-address.zipPlaceholder' | translate" name="shippingsZipCode" [(ngModel)]="selectedAddress.Shipping.zipCode"
+                                maxlength="40" #shippingsZipCode="ngModel" commerce-postalcode-northamerica required/>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container full cell" *ngIf="!bopisOptionUpdate?.storeId">
+                <div class="grid-x grid-margin-x">
+                    <div id="{{componentName}}_div_31_{{id}}" class="small-12 medium-6 cell same-address-checkbox">
+                        <input id="{{componentName}}_input_32_{{id}}" type="checkbox" [(ngModel)]="sameSB" (change)="updateSameSB()" [checked]="sameSB"
+                            name="sameSB">
+                        <label for="{{componentName}}_input_32_{{id}}" translate>checkout-address.sameSB</label>
+                    </div>
+                </div>
+            </div>
+            <ng-container *ngIf="showBilling">
+                <div id="{{billingId}}" class="grid-container full cell" style="display: none">
+                    <ng-container *ngIf="isGuest; else notGuestBilling">
+                        <ng-container *ngTemplateOutlet="guestAddressTemplate; context: addressContext.Billing">
+                        </ng-container>
+                    </ng-container>
+                    <ng-template #notGuestBilling>
+                        <ng-container *ngTemplateOutlet="addressDropDownTemplate; context: addressContext.Billing">
+                        </ng-container>
+                    </ng-template>
+                    <div class="grid-x grid-margin-x">
+                        <div id="{{billingFormId}}" class="small-12 cell" style="display: none">
+                            <div id="{{componentName}}_Billing_form_div_33_{{id}}" class="grid-container full">
+                                <div id="{{componentName}}_Billing_form_div_34_{{id}}" class="grid-x grid-margin-x ">
+                                    <div id="{{componentName}}_Billing_form_div_35_{{id}}" class="small-12 medium-6 cell" *ngIf="selectedAddress.Billing?.isNew && !isGuest">
+                                        <label id="{{componentName}}_Billing_form_labelNickName_{{id}}">
+                                            <span [translate]="'checkout-address.nickName'"></span>
+                                            <input id="{{componentName}}_Billing_form_inputNickName_{{id}}" type="text" [placeholder]="'checkout-address.nicknamePlaceholder' | translate"
+                                                name="nickName" [(ngModel)]="selectedAddress.Billing.nickName" maxlength="254" #nickName="ngModel"
+                                                commerce-identifier required/>
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_36_{{id}}" class="small-12 medium-6 cell">
+                                        <label id="{{componentName}}_Billing_form_labelFirstName_11_{{id}}">
+                                            <span [translate]="'checkout-address.firstName'"></span>
+                                            <input id="{{componentName}}_Billing_form_inputFirstName_{{id}}" type="text" [placeholder]="'checkout-address.firstnamePlaceholder' | translate" name="firstName" [(ngModel)]="selectedAddress.Billing.firstName"
+                                                maxlength="128" #firstName="ngModel" commerce-nonwhitespace required/>
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_37_{{id}}" class="small-12 medium-6 cell">
+                                        <label id="{{componentName}}_Billing_form_labelLastName_{{id}}">
+                                            <span [translate]="'checkout-address.lastName'"></span>
+                                            <input id="{{componentName}}_Billing_form_inputLastName_{{id}}" type="text" [placeholder]="'checkout-address.lastnamePlaceholder' | translate" name="lastName" [(ngModel)]="selectedAddress.Billing.lastName"
+                                                maxlength="128" #lastName="ngModel" commerce-nonwhitespace required/>
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_38_{{id}}" class="small-12 medium-6 cell">
+                                        <label id="{{componentName}}_Billing_form_labelEmail_{{id}}">
+                                            <span [translate]="'checkout-address.email'"></span>
+                                            <input id="{{componentName}}_Billing_form_inputEmail_{{id}}" type="text" [placeholder]="'checkout-address.emailPlaceholder' | translate" name="email" [(ngModel)]="selectedAddress.Billing.email1"
+                                                maxlength="256" #email1="ngModel" email required/>
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_39_{{id}}" class="small-12 medium-6 cell">
+                                        <label id="{{componentName}}_Billing_form_labelPhone_{{id}}">
+                                            <span [translate]="'checkout-address.phone'"></span>
+                                            <input id="{{componentName}}_Billing_form_inputPhone_{{id}}" type="text" [placeholder]="'checkout-address.phoneNumberPlaceholder' | translate" name="phone1" [(ngModel)]="selectedAddress.Billing.phone1"
+                                                #phone1="ngModel" commerce-phonenumber />
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_40_{{id}}" class="small-12 medium-6 cell"></div>
+                                    <div id="{{componentName}}_Billing_form_div_41_{{id}}" class="medium-12 cell">
+                                        <label id="{{componentName}}_Billing_form_labelLine1_{{id}}">
+                                            <span [translate]="'checkout-address.addressLine1'"></span>
+                                            <input id="{{componentName}}_Billing_form_inputLine1_{{id}}" type="text" [placeholder]="'checkout-address.addressLine1Placeholder' | translate" name="addressLine1"
+                                                [(ngModel)]="selectedAddress.Billing.addressLine[0]" maxlength="100" #address1="ngModel"
+                                                commerce-nonwhitespace required/>
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_42_{{id}}" class="medium-12 cell">
+                                        <label id="{{componentName}}_Billing_form_labelLine2_{{id}}">
+                                            <span [translate]="'checkout-address.addressLine2'"></span>
+                                            <input id="{{componentName}}_Billing_form_inputLine2_{{id}}" type="text" [placeholder]="'checkout-address.addressLine2Placeholder' | translate" name="addressLine2" [(ngModel)]="selectedAddress.Billing.addressLine[1]"
+                                                maxlength="50" #address2="ngModel" commerce-nonwhitespace/>
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_43_{{id}}" class="medium-6 cell">
+                                        <label id="{{componentName}}_Billing_form_labelShipTo_{{id}}">
+                                            <span [translate]="'checkout-address.countryRegion'"></span>
+                                            <select id="{{componentName}}_Billing_form_inputShipTo_{{id}}" [(ngModel)]="selectedAddress.Billing.country" name="country"
+                                                (change)="onCountrySelect(selectedAddress.Billing)" required>
+                                                <option *ngFor="let country of countries" [value]="country.code">{{country.displayName}}</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_44_{{id}}" class="medium-6 cell">
+                                        <label id="{{componentName}}_Billing_form_labelCity_{{id}}">
+                                            <span [translate]="'checkout-address.city'"></span>
+                                            <input id="{{componentName}}_Billing_form_inputCity_{{id}}" type="text" [placeholder]="'checkout-address.cityPlaceholder' | translate" name="city" [(ngModel)]="selectedAddress.Billing.city"
+                                                maxlength="128" #city="ngModel" commerce-nonwhitespace required/>
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_45_{{id}}" class="medium-6 cell">
+                                        <label id="{{componentName}}_Billing_form_labelState_{{id}}">
+                                            <span [translate]="'checkout-address.state'"></span>
+                                            <select id="{{componentName}}_Billing_form_inputState_{{id}}" *ngIf="selectedAddress.Billing.countryObject?.states?.length>0; else stateElse"
+                                                name="state" [(ngModel)]="selectedAddress.Billing.state" (change)="onStateSelect(selectedAddress.Billing)" required>
+                                                <option *ngFor="let state of selectedAddress.Billing.countryObject.states" [value]="state.code">{{state.displayName}}</option>
+                                            </select>
+                                            <ng-template #stateElse>
+                                                <input id="{{componentName}}_Billing_form_inputState_{{id}}" type="text" [placeholder]="'checkout-address.statePlaceholder' | translate" name="state" [(ngModel)]="selectedAddress.Billing.state"
+                                                    maxlength="128" #state="ngModel" commerce-nonwhitespace required/>
+                                            </ng-template>
+                                        </label>
+                                    </div>
+                                    <div id="{{componentName}}_Billing_form_div_46_{{id}}" class="medium-6 cell">
+                                        <label id="{{componentName}}_Billing_form_labelZip_{{id}}">
+                                            <span [translate]="'checkout-address.zipPostal'"></span>
+                                            <input id="{{componentName}}_Billing_form_inputZip_{{id}}" type="text" [placeholder]="'checkout-address.zipPlaceholder' | translate" name="zipCode" [(ngModel)]="selectedAddress.Billing.zipCode"
+                                                maxlength="40" #zipCode="ngModel" commerce-postalcode-northamerica required/>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="selectedAddress?.Shipping && selectedAddress?.Billing">
+                <div class="grid-container full cell">
+                    <div class="grid-x grid-margin-x ">
+                        <div id="{{componentName}}_div_47_{{id}}" class="small-12 medium-6 large-6 cell" *ngIf="selectedAddress.Billing?.isEdit || selectedAddress.Shipping?.isEdit || selectedAddress.Billing?.isNew || selectedAddress.Shipping?.isNew">
+                            <br>
+                            <button id="{{componentName}}_button_49_{{id}}" class="button button-dark expanded" [disabled]="" (click)="saveAndContinue(f)"
+                                translate>checkout-address.saveAndContinue</button>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+        </form>
+    </ng-container>
+    </div>
+</div>
+<ng-container *ngIf="selectedAddress?.Shipping && selectedAddress?.Billing">
+    <hr *ngIf="!selectedAddress.Shipping?.isNew && !selectedAddress.Billing?.isNew && !selectedAddress.Shipping?.isEdit && !selectedAddress.Billing?.isEdit">
+</ng-container>
+
+<ng-template #addressDropDownTemplate let-addressType let-addresses="addresses" let-selectedAddr="selectedAddress">
+    <ng-container *ngIf="selectedAddr">
+        <div class="grid-x grid-margin-x">
+            <div id="{{componentName}}_{{addressType}}_div_50_{{id}}" class="medium-6 cell">
+                <label id="{{componentName}}_{{addressType}}_div_51_{{id}}" for="{{componentName}}_{{addressType}}_select_53_{{id}}">
+                    <p id="{{componentName}}_{{addressType}}_p_52_{{id}}" class="checkout-address-label" translate>checkout-address.{{addressType}}</p>
+                    <select id="{{componentName}}_{{addressType}}_select_53_{{id}}" name="{{addressType}}" [(ngModel)]="selectedAddress[addressType]"
+                        *ngIf="!!addresses" (change)="onSelectChange(addressType)" [ngClass]="{'is-invalid-input': selectedAddr && !selectedAddr.addressLine}">
+                        <ng-container *ngFor="let addr of addresses">
+                            <option [ngValue]="addr" [selected]="addr==selectedAddr" [translate]="addr.displayName || addr.nickName"></option>
+                        </ng-container>
+                    </select>
+                </label>
+                <ng-container *ngIf="!selectedAddr?.isNew && !selectedAddr?.isEdit && selectedAddr?.addressLine?.length > 0" >
+                    <p id="{{componentName}}_{{addressType}}_p_54_{{id}}" class="" *ngIf="selectedAddr?.addressLine && !selectedAddr?.addressLine[1]"
+                        translate [translateParams]="{country: selectedAddr.countryObject? selectedAddr.countryObject.displayName : selectedAddr.country, city: selectedAddr.city || '', state: selectedAddr.stateObject? selectedAddr.stateObject.displayName : (selectedAddr.state || ''), zip: selectedAddr.zipCode||'', l1: selectedAddr.addressLine[0] || ''}">checkout-address.address</p>
+                    <p id="{{componentName}}_{{addressType}}_p_55_{{id}}" class="" *ngIf="selectedAddr?.addressLine && selectedAddr?.addressLine[1]"
+                        translate [translateParams]="{country: selectedAddr.countryObject? selectedAddr.countryObject.displayName : selectedAddr.country, city: selectedAddr.city || '', state: selectedAddr.stateObject? selectedAddr.stateObject.displayName : (selectedAddr.state || ''), zip: selectedAddr.zipCode||'', l1: selectedAddr.addressLine[0] || '', l2: selectedAddr.addressLine[1]||''}">checkout-address.address2</p>
+                        <p id="{{componentName}}_{{addressType}}_p_56_{{id}}" class="form-error is-visible " *ngIf="selectedAddr && !selectedAddr.addressLine"
+                        translate>checkout-address.addressNoLine</p>
+                </ng-container>
+            </div>
+        </div>
+    </ng-container>
+</ng-template>
+
+<ng-template #guestAddressTemplate let-addressType let-addresses="addresses" let-selectedAddr="selectedAddress">
+    <ng-container *ngIf="selectedAddr">
+        <div class="grid-x grid-margin-x">
+            <div id="{{componentName}}_guest_{{addressType}}_div_57_{{id}}" class="cell">
+                <p class="bold" id="{{componentName}}_guest_{{addressType}}_p_58_{{id}}" ><span translate>checkout-address.{{addressType}}</span> <a id="{{componentName}}_guest_{{addressType}}_a_61_{{id}}" href="#" id="editAddress" class="bold" [translate]="'checkout-address.edit'"
+                    (click)="edit($event, selectedAddr, addressType)" *ngIf="!selectedAddr?.isEdit && !selectedAddr?.isNew"></a></p>
+                <ng-container *ngIf="!selectedAddr?.isEdit && !selectedAddr?.isNew">
+                    <p id="{{componentName}}_guest_{{addressType}}_p_59_{{id}}">
+                        <span id="{{componentName}}_guest_{{addressType}}_span_60_{{id}}" *ngIf="selectedAddr.firstName; else guestNoFirstname" class="bold" [translate]="'checkout-address.guestAddressTitle'" [translateParams]="{firstname: selectedAddr.firstName, lastname: selectedAddr.lastName}"></span>
+                        <ng-template #guestNoFirstname>
+                            <span id="{{componentName}}_guest_{{addressType}}_span_60_{{id}}" class="bold" [translate]="'checkout-address.guestAddressTitleNoFirstname'" [translateParams]="{lastname: selectedAddr.lastName}"></span>
+                        </ng-template>
+                        <br>
+                        <span id="{{componentName}}_guest_{{addressType}}_span_62_{{id}}" *ngIf="selectedAddr?.addressLine && !selectedAddr?.addressLine[1]"
+                            translate [translateParams]="{country: selectedAddr.countryObject? selectedAddr.countryObject.displayName : selectedAddr.country, city: selectedAddr.city || '', state: selectedAddr.stateObject? selectedAddr.stateObject.displayName : (selectedAddr.state || ''), zip: selectedAddr.zipCode||'', l1: selectedAddr.addressLine[0] || ''}">checkout-address.address</span>
+                        <span id="{{componentName}}_guest_{{addressType}}_span_63_{{id}}" *ngIf="selectedAddr?.addressLine && selectedAddr?.addressLine[1]"
+                            translate [translateParams]="{country: selectedAddr.countryObject? selectedAddr.countryObject.displayName : selectedAddr.country, city: selectedAddr.city || '', state: selectedAddr.stateObject? selectedAddr.stateObject.displayName : (selectedAddr.state || ''), zip: selectedAddr.zipCode||'', l1: selectedAddr.addressLine[0] || '', l2: selectedAddr.addressLine[1]||''}">checkout-address.address2</span>
+                    </p>
+                </ng-container>
+            </div>
+        </div>
+        <!--
+        <hr *ngIf="selectedAddr?.isEdit || selectedAddr?.isNew"> -->
+    </ng-container>
+</ng-template>

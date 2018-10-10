@@ -1,0 +1,18 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "Buffets",
+            "fullImage": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/buffets.jpg",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/buffets.jpg",
+            "storeID": "12901",
+            "name": "Buffets",
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10608",
+            "uniqueID": "10608",
+            "parentCatalogGroupID": [
+                "11251_10605",
+                "11301_10605"
+            ],
+            "shortDescription": "Add fully-functional drawer, cabinet, and counter space to any dining room in style"
+        }
+    ]
+}

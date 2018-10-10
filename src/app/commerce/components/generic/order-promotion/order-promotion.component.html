@@ -1,0 +1,38 @@
+<div id="{{componentName}}_{{id}}" class="grid-y grid-frame cart-promo-code show-for-large hide-for-small-only hide-for-medium-only" *ngIf="!isCheckout">
+    <p id="{{componentName}}_p_37_{{id}}" class="bold cart-headers" translate>order-promotion.promoCode</p>
+    <label [ngClass]="{'is-invalid-label': promoCodeError}">
+        <span id="{{componentName}}_span_38_{{id}}" translate>order-promotion.promotCodeLabel</span>
+        <input id="{{componentName}}_input_2_{{id}}" type="text" [ngClass]="{'is-invalid-input': !!promoCodeError}" placeholder="" [readonly]="cartLocked && !isCSR" [(ngModel)]="promoCode"
+            (ngModelChange)="onPromoCodeChange()" />
+        <span id="{{componentName}}_span_39_{{id}}" class="form-error is-visible" *ngIf="!!promoCodeError" translate>{{promoCodeError}}</span>
+    </label>
+    <a id="{{componentName}}_a_7_{{id}}" class="promo-code-apply" (click)="applyPromotionCode()"  *ngIf="!cartLocked || isCSR" translate>order-promotion.apply</a>
+    <div id="{{componentName}}_p_40_{{id}}" class="grid-x promotion-codes">
+        <a class="hollow button secondary small" *ngFor="let code of cart?.promotionCode">
+            <span id="{{componentName}}_span_41_{{id}}" translate class="promotion-text" [translateParams]="{value: code.code}">order-promotion.removePromo</span>
+            <button class="go-link" *ngIf="!cartLocked || isCSR" (click)="removePromotionCode(code.code)"></button>
+        </a>
+    </div>
+</div>
+<div id="{{componentName}}_mobile_{{id}}" class="cart-promo-code-mobile" [ngClass]="{'hide-for-large': !isCheckout}">
+    <ul id="{{componentName}}_ul_43_{{id}}" class="vertical menu accordion-menu" data-accordion-menu>
+        <li id="{{componentName}}_li_44_{{id}}">
+            <a id="{{componentName}}_a_8_{{id}}" translate>order-promotion.haveAPromotionCode</a>
+            <ul id="{{componentName}}_ul_45_{{id}}" class="menu vertical nested">
+                <li id="{{componentName}}_li_46_{{id}}">
+                    <label for="{{componentName}}_input_3_{{id}}" [ngClass]="{'is-invalid-label': promoCodeError}" *ngIf="isCheckout"><span translate>order-promotion.promotCodeLabel</span></label>
+                    <input id="{{componentName}}_input_3_{{id}}" [readonly]="cartLocked && !isCSR"  type="text" [ngClass]="{'is-invalid-input': !!promoCodeError}" placeholder="" [(ngModel)]="promoCode"
+                        (ngModelChange)="onPromoCodeChange()" />
+                    <span id="{{componentName}}_span_47_{{id}}" class="form-error is-visible" *ngIf="!!promoCodeError" translate>{{promoCodeError}}</span>
+                    <a id="{{componentName}}_a_9_{{id}}" *ngIf="!cartLocked || isCSR" class="mobile-apply bold" (click)="applyPromotionCode()" translate>order-promotion.apply</a>
+                    <div id="{{componentName}}_p_48_{{id}}" class="promotion-codes grid-y">
+                        <a class="hollow button secondary small text-left grid-x" *ngFor="let code of cart?.promotionCode">
+                            <span id="{{componentName}}_span_49_{{id}}" translate [translateParams]="{value: code.code}">order-promotion.removePromo</span>
+                            <span class="go-link" *ngIf="!cartLocked || isCSR" (click)="removePromotionCode(code.code)"></span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

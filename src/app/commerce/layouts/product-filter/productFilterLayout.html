@@ -1,0 +1,159 @@
+
+<!-- desktop version -->
+<section class="hide-for-small-only" id="productFilter_section_1_{{id}}">
+    <div class="product-filters" id="productFilter_div_2_{{id}}">
+        <p id="productFilter_p_3_{{id}}">{{ 'productFilter.filterBy' | translate }}</p>
+        <!-- Facet accordion -->
+        <ul #facetAccordion class="accordion" id="{{accordionIds.facet}}" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+            <li class="accordion-item is-active" data-accordion-item  *ngFor="let facet of facets; let i = index"  id="productFilter_li_5_{{i}}_{{id}}">
+                <a class="accordion-title" id="productFilter_a_6_{{i}}_{{id}}" tabindex="0">{{facet.name}}</a>
+                <div class="accordion-content" data-tab-content id="productFilter_div_7_{{i}}_{{id}}">
+                    <!-- Price Facet -->
+                    <ng-container [ngSwitch]="isPriceFacet(facet)">
+                        <ng-container *ngSwitchCase="true">
+                            <div class="grid-container full" id="productFilter_div_8_{{i}}_{{id}}">
+                                <div *ngIf="productListingSharedService.priceSelected" class="more-actions" id="productFilter_div_9_{{i}}_{{id}}">
+                                    <button class="go-link" (click)="clearPriceFacet(facet)" id="productFilter_a_10_{{i}}_{{id}}"></button>
+                                    <span id="productFilter_span_11_{{i}}_{{id}}" translate [translateParams]="{
+                                        minPrice: facet.minPrice | currency:currencyCode:'symbol', 
+                                        maxPrice: facet.maxPrice | currency:currencyCode:'symbol'
+                                    }">productFilter.selectedPriceRange</span>
+                                </div>
+                                <div class="grid-x grid-padding-x price-filter price-filter-input" *ngIf="!productListingSharedService.priceSelected" id="productFilter_div_12_{{i}}_{{id}}">
+                                    <div class="small-4 cell" id="productFilter_div_13_{{i}}_{{id}}">
+                                        <input placeholder="{{ 'productFilter.minPrice' | translate }}" 
+                                        type="number" 
+                                        value="facet.minPrice" 
+                                        [(ngModel)]="facet.minPrice" 
+                                        id="productFilter_input_14_{{i}}_{{id}}" 
+                                        min="0" 
+                                        [ngClass]="validMinInput(facet.minPrice, facet.maxPrice)?'ng-valid':'ng-invalid'">
+                                    </div>
+                                    <div class="small-1 text-center" id="productFilter_div_15_{{i}}_{{id}}">
+                                        __
+                                    </div>
+                                    <div class="small-4 cell" id="productFilter_div_16_{{i}}_{{id}}">
+                                        <input placeholder="{{ 'productFilter.maxPrice' | translate }}" 
+                                            type="number" 
+                                            value="facet.maxPrice" 
+                                            [(ngModel)]="facet.maxPrice" 
+                                            min="0"
+                                            id="productFilter_input_17_{{i}}_{{id}}"
+                                            [ngClass]="validMaxInput(facet.minPrice, facet.maxPrice)?'ng-valid':'ng-invalid'">
+                                    </div>
+                                    <div class="small-3 cell" id="productFilter_div_18_{{i}}_{{id}}">
+                                        <button class="button price-go" [disabled]="!validateGoButton(facet.minPrice, facet.maxPrice)" (click)="onPriceFacetSubmit(facet)" id="productFilter_button_19_{{i}}_{{id}}">Go</button>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </ng-container>
+                        <!-- Other facets -->
+                        <ng-container *ngSwitchDefault>
+                            <ul [ngClass]="{ 'menu':facet.hasImage, 'no-bullet':!facet.hasImage }" id="productFilter_ul_20_{{i}}_{{id}}">
+                                <li *ngFor="let entry of facet.entries; let j = index" id="productFilter_li_21_{{i}}_{{j}}_{{id}}">
+                                    <!-- Swatch Images Facets -->
+                                    <div *ngIf="entry.imageURL" class="image-swatch" id="productFilter_div_22_{{i}}_{{j}}_{{id}}">
+                                        <img src="{{entry.imageURL}}" (click)="entry.selected = !entry.selected; onCheckboxChange(entry, facet.name)" [ngClass]=" { 'selected': entry.selected}" id="productFilter_img_23_{{i}}_{{j}}_{{id}}">
+                                    </div>
+                                    <!-- Checkbox facets -->
+                                    <div class="grid-x checkbox-selection" *ngIf="!entry.imageURL" id="productFilter_div_24_{{i}}_{{j}}_{{id}}">
+                                        <input class="category-clear-selection" [(ngModel)]="entry.selected" type="checkbox" (change)="onCheckboxChange(entry, facet.name)"  id="productFilter_input_24_{{i}}_{{j}}_{{id}}">
+                                        <label class="small-8 large-10" for="category-checkbox1" for="productFilter_input_24_{{i}}_{{j}}_{{id}}" id="productFilter_label_25_{{i}}_{{j}}_{{id}}" translate [translateParams]="{
+                                            facet: entry.name,
+                                            count: entry.count
+                                        }">productFilter.facetEntry</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="go-link" *ngIf="showMoreButton(facet)" (click)="toggleMoreFacetEntries(facet, 'more')"  id="productFilter_a_26_{{i}}_{{id}}">
+                                {{ 'productFilter.showMore' | translate }}
+                            </a>
+                            <a class="go-link" *ngIf="showLessButton(facet)"  (click)="toggleMoreFacetEntries(facet, 'less')"  id="productFilter_a_27_{{i}}_{{id}}">
+                                {{ 'productFilter.showLess' | translate }}
+                            </a>
+                        </ng-container>
+                    </ng-container>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Mobile version -->
+<section class="show-for-small-only"  id="productFilter_section_28_{{id}}">
+    <div class="product-filters"  id="productFilter_div_29_{{id}}">
+        <!-- Parent accordion -->
+        <ul #filterByAccordion class="accordion" id="{{accordionIds.filterBy}}" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+            <li class="accordion-item" data-accordion-item  id="productFilter_li_31_{{id}}">
+                <a class="accordion-title"  id="productFilter_a_32_{{id}}">{{ 'productFilter.filterBy' | translate }}</a>
+                <div class="accordion-content"  data-tab-content  id="productFilter_div_33_{{id}}">
+                    <!-- Facet accordion -->
+                    <ul #facetAccordion class="accordion" id="{{accordionIds.facet}}" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+                        <li class="accordion-item" data-accordion-item *ngFor="let facet of facets; let i = index"  id="productFilter_li_35_{{i}}_{{id}}">
+                            <a class="accordion-title"  id="productFilter_a_36_{{i}}_{{id}}" tabindex="0">{{facet.name}}</a>
+                            <div class="accordion-content"  data-tab-content id="productFilter_div_37_{{i}}_{{id}}">
+                                <!-- Price Facet -->
+                                <ng-container [ngSwitch]="isPriceFacet(facet)">
+                                    <ng-container *ngSwitchCase="true">
+                                        <div class="grid-container full" id="productFilter_div_38_{{i}}_{{id}}" class="more-actions">
+                                            <div *ngIf="productListingSharedService.priceSelected" id="productFilter_div_39_{{i}}_{{id}}">
+                                                <button class="go-link" (click)="clearPriceFacet(facet)" id="productFilter_a_40_{{i}}_{{id}}"></button>
+                                                <span id="productFilter_span_41_{{i}}_{{id}}" translate [translateParams]="{
+                                                    minPrice: facet.minPrice | currency:currencyCode:'symbol', 
+                                                    maxPrice: facet.maxPrice | currency:currencyCode:'symbol'
+                                                }">productFilter.selectedPriceRange</span>
+                                            </div>
+                                            <div class="grid-x grid-padding-x price-filter price-filter-input" *ngIf="!productListingSharedService.priceSelected" id="productFilter_div_42_{{i}}_{{id}}">
+                                                <div class="small-4 cell" id="productFilter_div_43_{{i}}_{{id}}">
+                                                    <input placeholder="{{ 'productFilter.minPrice' | translate }}" 
+                                                        type="number" 
+                                                        value="facet.minPrice" 
+                                                        [(ngModel)]="facet.minPrice" 
+                                                        id="productFilter_input_44_{{i}}_{{id}}" 
+                                                        min="0" 
+                                                        [ngClass]="validMinInput(facet.minPrice, facet.maxPrice)?'ng-valid':'ng-invalid'">
+                                                </div>
+                                                <div class="small-1 text-center" id="productFilter_div_45_{{i}}_{{id}}">
+                                                    __
+                                                </div>
+                                                <div class="small-4 cell" id="productFilter_div_46_{{i}}_{{id}}">
+                                                    <input placeholder="{{ 'productFilter.maxPrice' | translate }}" 
+                                                        type="number" 
+                                                        value="facet.maxPrice" 
+                                                        [(ngModel)]="facet.maxPrice" 
+                                                        min="0"
+                                                        id="productFilter_input_47_{{i}}_{{id}}" 
+                                                        [ngClass]="validMaxInput(facet.minPrice, facet.maxPrice)?'ng-valid':'ng-invalid'">
+                                                </div>
+                                                <div class="small-3 cell" id="productFilter_div_48_{{i}}_{{id}}">
+                                                    <button class="button price-go" [disabled]="!validateGoButton(facet.minPrice, facet.maxPrice)" (click)="onPriceFacetSubmit(facet)" id="productFilter_button_49_{{i}}_{{id}}">Go</button>
+                                                </div>
+                                            </div>
+                                            <br>
+                                        </div>
+                                    </ng-container>
+                                    <!-- Other facets -->
+                                    <ng-container *ngSwitchDefault>
+                                        <ul [ngClass]="{ 'menu':facet.hasImage, 'no-bullet':!facet.hasImage }" id="productFilter_ul_50_{{i}}_{{id}}">
+                                            <li *ngFor="let entry of facet.entries; let j = index" id="productFilter_li_51_{{i}}_{{j}}_{{id}}">
+                                                <div *ngIf="entry.imageURL" class="image-swatch" id="productFilter_div_52_{{i}}_{{j}}_{{id}}">
+                                                    <img src="{{entry.imageURL}}" (click)="entry.selected = !entry.selected; onCheckboxChange(entry, facet.name)" [ngClass]=" { 'selected': entry.selected}" id="productFilter_img_53_{{i}}_{{j}}_{{id}}">
+                                                </div>
+                                                <div *ngIf="!entry.imageURL" id="productFilter_div_54_{{i}}_{{j}}_{{id}}">
+                                                    <input class="category-clear-selection" [(ngModel)]="entry.selected" type="checkbox" (change)="onCheckboxChange(entry, facet.name)" id="productFilter_input_55_{{i}}_{{j}}_{{id}}" >
+                                                    <label for="category-checkbox1" id="productFilter_label_56_{{i}}_{{j}}_{{id}}" for="productFilter_input_55_{{i}}_{{j}}_{{id}}">{{entry.name}} ({{entry.count}})</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a class="go-link" *ngIf="!facet.allValReturned" (click)="toggleMoreFacetEntries(facet, 'more')" id="productFilter_a_57_{{i}}_{{id}}">{{ 'productFilter.showMore' | translate }}</a>
+                                        <a class="go-link" *ngIf="facet.allValReturned && facet.maxVal != -1 && facet.maxVal < facet.entries.length"  (click)="toggleMoreFacetEntries(facet, 'less')" id="productFilter_a_58_{{i}}_{{id}}">{{ 'productFilter.showLess' | translate }}</a>
+                                    </ng-container>
+                                </ng-container>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>

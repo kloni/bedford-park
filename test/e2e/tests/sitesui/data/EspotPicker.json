@@ -1,0 +1,7 @@
+{
+    "espotPickerKey": "espot",
+    "suffix": "Page-specific E-Marketing spot using suffix",
+    "prefix" : "Page-specific E-Marketing spot using prefix",
+    "common": "Common E-Marketing Spot",
+    "espotList" : ["DesignTopics_CatEntries", "PrivacyPolicyPageCenter_Content" , "ShoppingCartRight_CatEntries"]
+}

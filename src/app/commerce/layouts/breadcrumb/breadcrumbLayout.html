@@ -1,0 +1,10 @@
+<nav *ngIf="(onBreadcrumb | async)?.length > 1" id="breadcrumb_nav_1_{{id}}" class="cell grid-container">
+    <ul id="breadcrumb_ul_2_{{id}}" class="breadcrumbs">
+        <ng-container *ngFor='let b of onBreadcrumb | async | slice:1 ; first as isFirst; last as isLast'>
+            <li [id]="'breadcrumb_li_3_'+b.name+'_'+id" *ngIf="identifierNameMap[b.externalContext.identifier]">
+                <span *ngIf="!isFirst && isLast">{{identifierNameMap[b.externalContext.identifier]}}</span>
+                <a [id]="'breadcrumb_a_4_'+b.name+'_'+id" *ngIf="!isLast" [routerLink]="pathMap[b.route]"> {{identifierNameMap[b.externalContext.identifier]}}</a>
+            </li>
+        </ng-container>
+    </ul>
+</nav>

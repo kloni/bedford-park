@@ -1,0 +1,7 @@
+<div id="{{componentName}}_div_1_{{id}" class="callout" [ngClass]="type">
+  <span id="{{componentName}}_p_1_{{id}" translate>{{message}}</span>
+  <button id="{{componentName}}_button_{{id}" *ngIf="close" class="close-button" [attr.aria-label]="'commerce-message.dismissAlert'|translate"
+    type="button" (click)="close()">
+    <span [attr.aria-hidden]="true">&times;</span>
+  </button>
+</div>

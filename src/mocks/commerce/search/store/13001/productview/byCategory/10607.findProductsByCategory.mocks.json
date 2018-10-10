@@ -1,0 +1,1059 @@
+{
+    "metaData": {
+        "price": "1"
+    },
+    "breadCrumbTrailEntryView": [
+        {
+            "label": "Dining Room"
+        },
+        {
+            "label": "Chairs"
+        }
+    ],
+    "catalogEntryView": [
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14800",
+            "partNumber": "DR-CHRS-0004",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair1_a1_350.jpg",
+            "name": "Wooden Dining Chair",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "70.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "70.0",
+                    "maximumValue": {
+                        "value": "70.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "59.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "59.99",
+                    "maximumValue": {
+                        "value": "59.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "modern",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Modern",
+                            "uniqueID": "7000000000000003361"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "glossy",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Glossy",
+                            "uniqueID": "7000000000000003369"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "prebuilt",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Pre-built",
+                            "uniqueID": "7000000000000003371"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "wood-steel",
+                            "sequence": "14.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Wood, Steel",
+                            "uniqueID": "7000000000000003341"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14807",
+            "partNumber": "DR-CHRS-0004",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair2_a1_350.jpg",
+            "name": "Ant Chair",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "100.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "100.0",
+                    "maximumValue": {
+                        "value": "100.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "99.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "99.99",
+                    "maximumValue": {
+                        "value": "99.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "modern",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Modern",
+                            "uniqueID": "7000000000000003361"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "glossy",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Glossy",
+                            "uniqueID": "7000000000000003369"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "prebuilt",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Pre-built",
+                            "uniqueID": "7000000000000003371"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "maple",
+                            "sequence": "9.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Maple",
+                            "uniqueID": "7000000000000003336"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14814",
+            "partNumber": "DR-CHRS-0004",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair3_a1_350.jpg",
+            "name": "Dark Wooden Chair",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "100.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "100.0",
+                    "maximumValue": {
+                        "value": "100.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "89.99"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "89.99",
+                    "maximumValue": {
+                        "value": "89.99"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "simple",
+                            "sequence": "6.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Simple",
+                            "uniqueID": "7000000000000003359"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "glossy",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Glossy",
+                            "uniqueID": "7000000000000003369"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Size",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Size",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000652"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "prebuilt",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Pre-built",
+                            "uniqueID": "7000000000000003371"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "oakwood",
+                            "sequence": "7.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Oak wood",
+                            "uniqueID": "7000000000000003334"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        },
+        {
+            "hasSingleSKU": false,
+            "uniqueID": "14821",
+            "partNumber": "DR-CHRS-0004",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/chairs/dinchair4_a1_350.jpg",
+            "name": "StyleHome Comfy Dining chair",
+            "price": [
+                {
+                    "minimumValue": {
+                        "value": "225.0"
+                    },
+                    "usage": "Display",
+                    "description": "L",
+                    "currency": "USD",
+                    "value": "225.0",
+                    "maximumValue": {
+                        "value": "225.0"
+                    }
+                },
+                {
+                    "minimumValue": {
+                        "value": "225.0"
+                    },
+                    "usage": "Offer",
+                    "description": "I",
+                    "currency": "USD",
+                    "value": "225.0",
+                    "maximumValue": {
+                        "value": "225.0"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "identifier": "Style",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "contemporary",
+                            "sequence": "5.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Contemporary",
+                            "uniqueID": "7000000000000003358"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Style",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000654"
+                },
+                {
+                    "identifier": "Color",
+                    "sequence": "1.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "0",
+                            "sequence": ".00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "0",
+                            "uniqueID": "0"
+                        }
+                    ],
+                    "usage": "Defining",
+                    "displayable": true,
+                    "name": "Color",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000651"
+                },
+                {
+                    "identifier": "Finish",
+                    "sequence": "2.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "smooth",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Smooth",
+                            "uniqueID": "7000000000000003368"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Finish",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000657"
+                },
+                {
+                    "identifier": "Assembly",
+                    "sequence": "3.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "prebuilt",
+                            "sequence": "1.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Pre-built",
+                            "uniqueID": "7000000000000003371"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Assembly",
+                    "facetable": false,
+                    "comparable": false,
+                    "searchable": false,
+                    "uniqueID": "7000000000000000658"
+                },
+                {
+                    "identifier": "Materials",
+                    "sequence": "4.00000",
+                    "storeDisplay": false,
+                    "values": [
+                        {
+                            "identifier": "fabric-wood",
+                            "sequence": "18.00000",
+                            "unitOfMeasure": "",
+                            "unitID": "",
+                            "value": "Fabric and Wood",
+                            "uniqueID": "7000000000000003345"
+                        }
+                    ],
+                    "usage": "Descriptive",
+                    "displayable": true,
+                    "name": "Material",
+                    "facetable": true,
+                    "comparable": true,
+                    "searchable": true,
+                    "uniqueID": "7000000000000000653"
+                }
+            ]
+        }
+    ],
+    "recordSetStartNumber": "0",
+    "recordSetTotal": 4,
+    "facetView": [
+        {
+            "value": "price_USD",
+            "name": "OfferPrice_USD",
+            "entry": [
+                {
+                    "count": 3,
+                    "label": "({* 100} 100)",
+                    "value": "price_USD%3A%28%7B*+100%7D+100%29",
+                    "extendedData": {
+                        "uniqueId": "1121141059910195858368584012342324948481253249484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({100 200} 200)",
+                    "value": "price_USD%3A%28%7B100+200%7D+200%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123494848325048481253250484841"
+                    }
+                },
+                {
+                    "count": 1,
+                    "label": "({200 300} 300)",
+                    "value": "price_USD%3A%28%7B200+300%7D+300%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123504848325148481253251484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({300 400} 400)",
+                    "value": "price_USD%3A%28%7B300+400%7D+400%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123514848325248481253252484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({400 500} 500)",
+                    "value": "price_USD%3A%28%7B400+500%7D+500%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123524848325348481253253484841"
+                    }
+                },
+                {
+                    "count": 0,
+                    "label": "({500 *})",
+                    "value": "price_USD%3A%28%7B500+*%7D%29",
+                    "extendedData": {
+                        "uniqueId": "11211410599101958583685840123534848324212541"
+                    }
+                }
+            ]
+        },
+        {
+            "value": "mfName_ntk_cs",
+            "entry": [
+                {
+                    "label": "Moderno",
+                    "value": "mfName_ntk_cs%3A%22Moderno%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-100277111100101114110111"
+                    }
+                },
+                {
+                    "label": "Stockholm",
+                    "value": "mfName_ntk_cs%3A%22Stockholm%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-10028311611199107104111108109"
+                    }
+                },
+                {
+                    "label": "Stonehenge",
+                    "value": "mfName_ntk_cs%3A%22Stonehenge%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-100283116111110101104101110103101"
+                    }
+                },
+                {
+                    "label": "Style Home",
+                    "value": "mfName_ntk_cs%3A%22Style+Home%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "-1002831161211081013272111109101"
+                    }
+                }
+            ],
+            "name": "ManufacturerName",
+            "extendedData": {
+                "allowMultipleValueSelection": "true",
+                "maximumValuesToDisplay": "6",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "fname": "Brand",
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "mfName_ntk_cs",
+                "displayable": "1",
+                "facet_id": "-1000",
+                "srchattr_id": "-1002",
+                "zero_display": "0",
+                "selection": "1",
+                "group_id": "0",
+                "displaySequence": "0.0",
+                "storeent_id": "0",
+                "sortorder": "1",
+                "max_display": "6",
+                "fdesc": "The manufacturer",
+                "srchattridentifier": "_cat.ManufacturerName"
+            }
+        },
+        {
+            "value": "ads_f10101_ntk_cs",
+            "entry": [
+                {
+                    "label": "Brown",
+                    "value": "ads_f10101_ntk_cs%3A%22Brown%22",
+                    "count": "4",
+                    "extendedData": {
+                        "uniqueId": "1010166114111119110",
+                        "sequence": "2.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_brown.png"
+                },
+                {
+                    "label": "Gold",
+                    "value": "ads_f10101_ntk_cs%3A%22Gold%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010171111108100",
+                        "sequence": "10.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_gold.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_gold.png"
+                },
+                {
+                    "label": "Light Grey",
+                    "value": "ads_f10101_ntk_cs%3A%22Light+Grey%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "10101761051031041163271114101121",
+                        "sequence": "6.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_lightgrey.png"
+                },
+                {
+                    "label": "Warm Brown",
+                    "value": "ads_f10101_ntk_cs%3A%22Warm+Brown%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010187971141093266114111119110",
+                        "sequence": "4.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_warmbrown.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_warmbrown.png"
+                },
+                {
+                    "label": "Blonde",
+                    "value": "ads_f10101_ntk_cs%3A%22Blonde%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010166108111110100101",
+                        "sequence": "5.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blonde.png"
+                },
+                {
+                    "label": "Blue",
+                    "value": "ads_f10101_ntk_cs%3A%22Blue%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010166108117101",
+                        "sequence": "9.0",
+                        "image1": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    },
+                    "image": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/swatches/sw_blue.png"
+                }
+            ],
+            "name": "Color",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10101_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10101",
+                "attrname": "Color",
+                "srchattr_id": "10101",
+                "attrdesc": "Color",
+                "attr_id": "7000000000000000651",
+                "zero_display": "0",
+                "attrsequence": "1.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "1.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Color",
+                "srchattridentifier": "_cat.Color"
+            }
+        },
+        {
+            "value": "ads_f10102_ntk_cs",
+            "entry": [
+                {
+                    "label": "48\"x6\"x48\"",
+                    "value": "ads_f10102_ntk_cs%3A%2248%5C%22x6%5C%22x48%5C%22%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "101025256341205434120525634",
+                        "sequence": "1.0",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    }
+                },
+                {
+                    "label": "52\"x6\"x52\"",
+                    "value": "ads_f10102_ntk_cs%3A%2252%5C%22x6%5C%22x52%5C%22%22",
+                    "count": "3",
+                    "extendedData": {
+                        "uniqueId": "101025350341205434120535034",
+                        "sequence": "2.0",
+                        "unitID": "C62",
+                        "unitOfMeasure": "one"
+                    }
+                }
+            ],
+            "name": "Size",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10102_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10102",
+                "attrname": "Size",
+                "srchattr_id": "10102",
+                "attrdesc": "Size",
+                "attr_id": "7000000000000000652",
+                "zero_display": "0",
+                "attrsequence": "2.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "2.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Size",
+                "srchattridentifier": "_cat.Size"
+            }
+        },
+        {
+            "value": "ads_f10103_ntk_cs",
+            "entry": [
+                {
+                    "label": "Fabric and Wood",
+                    "value": "ads_f10103_ntk_cs%3A%22Fabric+and+Wood%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101037097981141059932971101003287111111100"
+                    }
+                },
+                {
+                    "label": "Maple",
+                    "value": "ads_f10103_ntk_cs%3A%22Maple%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101037797112108101"
+                    }
+                },
+                {
+                    "label": "Oak wood",
+                    "value": "ads_f10103_ntk_cs%3A%22Oak+wood%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "10103799710732119111111100"
+                    }
+                },
+                {
+                    "label": "Wood, Steel",
+                    "value": "ads_f10103_ntk_cs%3A%22Wood%2C+Steel%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010387111111100443283116101101108"
+                    }
+                }
+            ],
+            "name": "Material",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10103_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10103",
+                "attrname": "Material",
+                "srchattr_id": "10103",
+                "attrdesc": "Material",
+                "attr_id": "7000000000000000653",
+                "zero_display": "0",
+                "attrsequence": "3.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "3.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Materials",
+                "srchattridentifier": "_cat.Materials"
+            }
+        },
+        {
+            "value": "ads_f10104_ntk_cs",
+            "entry": [
+                {
+                    "label": "Modern",
+                    "value": "ads_f10104_ntk_cs%3A%22Modern%22",
+                    "count": "2",
+                    "extendedData": {
+                        "uniqueId": "1010477111100101114110"
+                    }
+                },
+                {
+                    "label": "Contemporary",
+                    "value": "ads_f10104_ntk_cs%3A%22Contemporary%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "101046711111011610110911211111497114121"
+                    }
+                },
+                {
+                    "label": "Simple",
+                    "value": "ads_f10104_ntk_cs%3A%22Simple%22",
+                    "count": "1",
+                    "extendedData": {
+                        "uniqueId": "1010483105109112108101"
+                    }
+                }
+            ],
+            "name": "Style",
+            "extendedData": {
+                "allowMultipleValueSelection": "false",
+                "maximumValuesToDisplay": "20",
+                "groupId": "0",
+                "allValuesReturned": true,
+                "keyword_search": "1",
+                "propertyname": "facet",
+                "propertyvalue": "ads_f10104_ntk_cs",
+                "displayable": "1",
+                "facet_id": "10104",
+                "attrname": "Style",
+                "srchattr_id": "10104",
+                "attrdesc": "Style",
+                "attr_id": "7000000000000000654",
+                "zero_display": "0",
+                "attrsequence": "4.0",
+                "selection": "0",
+                "group_id": "0",
+                "displaySequence": "4.0",
+                "storeent_id": "12901",
+                "sortorder": "0",
+                "max_display": "20",
+                "attridentifier": "Style",
+                "srchattridentifier": "_cat.Style"
+            }
+        }
+    ]
+}

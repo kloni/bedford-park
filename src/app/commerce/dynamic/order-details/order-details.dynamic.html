@@ -1,0 +1,151 @@
+<div class="grid-container grid-container-padded" *ngIf="order">
+    <h2 id="orderdetails_heading_{{id}}" translate [translateParams]="{value: this.orderId}">orderDetails.titleValue</h2>
+    <br>
+    <div class="grid-x grid-margin-x cell">
+        <div class="small-12 medium-6 large-6 cell">
+            <p>
+                <span class="bold">{{'orderDetails.Ordered' | translate}}</span><br>
+                <span id="orderdetails_orderdate_{{id}}">{{order.placedDate | date:'longDate'}}</span>
+            </p>
+        </div>
+        <div class="small-12 medium-6 large-6 cell">
+            <p>
+                <span class="bold">{{'orderDetails.Status' | translate}}</span><br>
+                <span id="orderdetails_orderstatus_{{id}}">{{getOrderStatusDescription(order.orderStatus)}}</span>
+            </p>
+        </div>
+        <div class="small-12 medium-6 large-6 cell">
+            <p>
+                <span class="bold">{{'orderDetails.ShippingAddress' | translate}}</span>
+                <br>
+
+                <span id="orderdetails_shippingaddress_{{id}}">{{order.orderItem[0].addressLine[0]}},
+                     {{order.orderItem[0].city}},
+                     {{order.orderItem[0].state}}
+                     {{order.orderItem[0].zipCode}},
+                     {{this.countryShippingDescription}}
+                    </span>
+            </p>
+        </div>
+        <div class="small-12 medium-6 large-6 cell">
+            <p><span class="bold">{{'orderDetails.BillingAddress' | translate}}</span>
+                <br>
+                <span id="orderdetails_billingaddress_{{id}}">{{order.paymentInstruction[0].addressLine[0]}},
+                    {{order.paymentInstruction[0].city}},
+                    {{order.paymentInstruction[0].state}}
+                    {{order.paymentInstruction[0].zipCode}},
+                    {{this.countryBillingDescription}}
+                </span>
+            </p>
+        </div>
+        <div class="small-12 medium-6 large-6 cell">
+            <p><span class="bold">{{'orderDetails.PaymentMethod' | translate}}</span><br><span id="orderdetails_paymentmethod_{{id}}"> {{order.paymentInstruction[0].piDescription}}</span></p>
+        </div>
+        <div class="small-12 medium-6 large-6 cell">
+            <p><span class="bold">{{'orderDetails.ShippingMethod' | translate}}</span><br><span id="orderdetails_shippingmethod_{{id}}">{{order.orderItem[0].shipModeDescription}}</span></p>
+        </div>
+    </div>
+    <p id="orderdetails_ordercount_{{id}}" *ngIf="quantity > 1" [innerHTML]="'orderDetails.multipleItems'| translate : {value: quantity}"></p>
+    <p id="orderdetails_ordercount_{{id}}" *ngIf="quantity == 1" [innerHTML]="'orderDetails.oneItem'| translate : {value: quantity}"></p>
+    <hr>
+
+    <!-- start product list -->
+
+    <div class="grid-x">
+        <ng-container *ngFor="let item of order.orderItem;">
+            <div id="orderdetails_orderitem_{{id}}" class="grid-x grid-padding-x animated fadeInUp account-order-detail small-12 medium-6 large-6 cell">
+                <div class="small-12 cell">
+                    <div class="grid-x grid-padding-x">
+                        <div class="grid-x grid-padding-x">
+                            <div class="small-4 medium-4 cell">
+                                <a *ngIf="item?.item?.thumbnail" [routerLink]="[item.item?.seoUrl]"><br>
+                                    <img src="{{item.item.thumbnail}}" />
+                                </a>
+                            </div>
+                            <div class="small-8 medium-8 cell"><br>
+                                <p *ngIf="item?.item?.name">
+                                    <a id="orderdetails_itemname_{{id}}"  [routerLink]="[item.item?.seoUrl]">
+                                        {{item.item.name}}</a>
+                                    <br>
+                                    <span id="orderdetails_itemsku_{{id}}">{{'orderDetails.SKU'| translate}} {{item.item.partNumber}}</span>
+                                    <br>
+                                    <ng-container *ngFor="let attr of item.item.attributes;let last = last">
+                                        <span id="orderdetails_itemattribute_{{id}}" *ngIf="attr.values[0].unitID == 'C62' || attr.identifier == 'fulfillmentFrequency' || attr.identifier == 'paymentFrequency' else elseAttr"
+                                        translate [translateParams]="{'0': attr.name, '1': attr.values[0].value}">order-items.pd_attr_{{attr.values[0].unitID}}</span>
+                                        <br id="orderdetails_br_{{id}}" *ngIf="attr.values[0].unitID == 'C62' || attr.identifier == 'fulfillmentFrequency' || attr.identifier == 'paymentFrequency' ">
+                                        <ng-template #elseAttr>
+                                        <span id="orderdetails_itemattribute_{{id}}" *ngIf="attr.values[0].unitOfMeasure != ''" translate [translateParams]="{'0': attr.name, '1': attr.values[0].identifier, '2': attr.values[0].unitOfMeasure}">order-items.pd_attr</span>
+                                        <br *ngIf="attr.values[0].unitOfMeasure != ''">
+                                        </ng-template>
+                                    </ng-container>
+                                    <span id="orderdetails_itemquantity_{{id}}">{{'orderDetails.Quantity'|translate}} {{item.quantity | number:'1.0'}}</span>
+                                    <br>
+                                    <span id="orderdetails_itemprice_{{id}}" class="bold" translate [translateParams]="{value: item.item.price[1].value | number: '1.2-2'}">currencyDisplay.{{order.totalProductPriceCurrency}}</span><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div><hr>
+
+    <!--end product list -->
+
+    <div class="grid-x grid-container orderdetails-div">
+        <div class="grid-y grid-container orderdetails-div small-12 medium-6 large-4 cell">
+            <div class="small-12 medium-6 large-4 cell orderdetails-div-1">
+                <div class="grid-x grid-padding-x">
+                    <div class="small-6">
+                        <p class="orderdetails-div-price">
+                            <span [class.VATSubtotal]="VATEnabled">{{'orderDetails.Subtotal' | translate}}</span><br>
+                            <span>{{'orderDetails.Discount' | translate}}</span><br>
+                            <span>{{'orderDetails.Shipping' | translate}}</span><br>
+                            <span *ngIf="!VATEnabled">
+                                <span>{{'orderDetails.Tax' | translate}}</span><br>
+                                <span>{{'orderDetails.ShippingTax' | translate}}</span>
+                            </span>
+                            <span *ngIf="VATEnabled">{{'orderDetails.VATincluded' | translate}}</span><br>
+
+                        </p>
+                    </div>
+                    <div class="small-6 text-right">
+                        <p class="orderdetails-div-price">
+                            <span id="orderdetails_productprice_{{id}}" translate [translateParams]="{value: order.totalProductPrice | number: '1.2-2'}">currencyDisplay.{{order.totalProductPriceCurrency}}</span>
+                            <span class="VATEnabled VATincl" *ngIf="VATEnabled" id="{{componentName}}_p_566_{{id}}" translate> order-total.VATincl</span><br>
+                            <span id="orderdetails_discount_{{id}}">
+                                <span translate>orderDetails.NegativeSymbol</span>
+                                <span translate [translateParams]="{value: adjustment | number: '1.2-2'}">currencyDisplay.{{order.totalAdjustmentCurrency}}</span>
+                                <br>
+                            </span>
+                            <span id="orderdetails_shippingcharge_{{id}}" translate [translateParams]="{value: order.totalShippingCharge | number: '1.2-2'}">currencyDisplay.{{order.totalShippingChargeCurrency}}</span><br>
+                            <span *ngIf="!VATEnabled">
+                                <span id="orderdetails_totalSalestax_{{id}}" translate [translateParams]="{value: order.totalSalesTax | number: '1.2-2'}">currencyDisplay.{{order.totalSalesTaxCurrency}}</span><br>
+                                <span id="orderdetails_totalShippingtax_{{id}}" translate [translateParams]="{value: order.totalShippingTax | number: '1.2-2'}">currencyDisplay.{{order.totalShippingTaxCurrency}}</span>
+                            </span>
+                            <span *ngIf="VATEnabled"id="orderdetails_totalVAT_{{id}}" translate [translateParams]="{value: VAT | number: '1.2-2'}">currencyDisplay.{{order.totalSalesTaxCurrency}}</span><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="grid-y small-12 medium-6 large-4 cell orderdetails-div-1">
+                <div class="grid-x grid-padding-x">
+
+                    <div class="small-6 summary-total">
+                        <p class="bold">{{'orderDetails.Total' | translate}}</p>
+                    </div>
+                    <div class="small-6 text-right summary-total">
+                        <p id="orderdetails_grandtotal_{{id}}" class="bold" translate [translateParams]="{value: order.grandTotal | number: '1.2-2'}">currencyDisplay.{{order.grandTotalCurrency}}</p>
+                    </div>
+                    <div class="small-12">
+                        <br><button id="orderdetails_btn_orderagain_{{id}}" class="button button-dark expanded" (click)="reOrder(this.orderId)">{{'orderDetails.OrderAgain' | translate}}</button><br>
+                    </div>
+                </div>
+            </div><br>
+            <a id="orderdetails_backtoorders_{{id}}" [routerLink]="['/order-history']">{{'orderDetails.BackToOrders' | translate}}</a>
+        </div>
+    </div>
+</div>
+<br><br>
+<!-- <app-order-comment-layout-component *ngIf="isCSR" [orderId]="orderId"></app-order-comment-layout-component> -->

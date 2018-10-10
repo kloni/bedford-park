@@ -1,0 +1,1 @@
+{"errors":[{"errorKey":"_ERR_VALUE_FOR_PARM_NOT_SUPPORTED","errorParameters":"testuser,email1","errorMessage":"This command does not support the value of \"testuser\" for parameter \"email1\".","errorCode":"CMN1539E"}]}

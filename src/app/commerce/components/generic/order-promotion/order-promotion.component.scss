@@ -1,0 +1,35 @@
+@import '../../../../theme_settings.scss';
+.cart-promo-code {
+    a{
+        display: flex;
+    }
+    .promo-code-apply{
+        margin-top:1rem;
+    }
+}
+.promotion-codes{
+    margin-top:1rem;
+
+    @media (max-width: 39.9375em) {
+        display: inline-flex;
+        &>a{
+            &:not(:last-child){
+                margin-bottom: 1rem;
+            }
+            .go-link{
+                margin-left:5rem;
+            }
+        }
+    }
+
+}
+@include go-link();
+.go-link{
+    margin-right:0rem;
+    margin-left:0.5rem;
+}
+.promotion-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

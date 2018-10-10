@@ -1,0 +1,11 @@
+{
+    "productFilter": {
+        "filterBy": "Filter by",
+        "showMore": "Show More",
+        "showLess": "Show Less",
+        "minPrice": "min",
+        "maxPrice": "max",
+        "selectedPriceRange": "{{minPrice}} - {{maxPrice}}",
+        "facetEntry": "{{facet}} ({{count}})"
+    }
+}

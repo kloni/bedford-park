@@ -1,0 +1,62 @@
+<!--
+  ~ checkout.dynamic.component.html
+  ~
+  ~ Copyright IBM Corp. 2018
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<div id="{{componentName}}_div_1_{{id}}" class="checkoutlayout" *ngIf="cartReady">
+
+  <h2 id="{{componentName}}_h2_1_{{id}}" wchEditable="title">{{ title }}</h2>
+  <ng-container *ngIf="cart?.orderItem?.length>0 else emptyCart">
+    <commerce-message *ngIf="errorMessage" [message]="errorMessage" [type]="'alert'" [close]="closeFunc"></commerce-message>
+    <div id="{{componentName}}_div_2_{{id}}" class="animated ">
+      <div id="{{componentName}}_div_13_{{id}}" class="cell fadeInUp">
+        <commerce-dynamic-checkout-store-locator (onSaveBOPIS)="onSaveBOPIS($event);" [pickUpInStoreShipModeId]="pickUpInStoreShipModeId" (onErrorMessage)="onErrorMessage($event);" [availableServices]="serviceTypes"></commerce-dynamic-checkout-store-locator>
+        <commerce-dynamic-checkout-address (onSelectAddress)="onSelectAddress($event);" [bopisOptionUpdate]="selectedBopisOption" (onErrorMessage)="onErrorMessage($event);">
+        </commerce-dynamic-checkout-address>
+        <commerce-dynamic-ship-payment [selectedAddress]="selectedAddress" [enablePromotionCode]="enablePromotionCode" [shipPaymentUpdate]="shipPaymentUpdateEnabled" [bopisOptionUpdate]="selectedBopisOption" (onPickUpInStoreShipMode)="onPickUpshipModeId($event)" [imageSrcContext]="deliveryUrl" [creditCardImage]="creditCardImage"
+          (onErrorMessage)="onErrorMessage($event);" (onSaveShipPayment)="onSaveShipPayment($event);"></commerce-dynamic-ship-payment>
+      </div>
+    </div>
+    <hr>
+
+    <div id="{{componentName}}_div_3_{{id}}">
+      <div id="{{componentName}}_div_4_{{id}}" class="cell">
+        <div id="{{componentName}}_div_5_{{id}}" class="checkout-cart">
+          <div id="{{componentName}}_div_6_{{id}}" class="checkout-product">
+            <commerce-order-items [isCheckout]="true"></commerce-order-items>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="{{componentName}}_div_7_{{id}}" class="grid-container full cell">
+      <div class="grid-x grid-margin-x">
+          <div id="{{componentName}}_div_8_{{id}}" class="checkout-costs small-12 medium-6 large-6 cell ">
+              <commerce-order-total [isCheckout]="true"></commerce-order-total>
+              <div id="{{componentName}}_div_9_{{id}}">
+                <div id="{{componentName}}_div_10_{{id}}" class="small-12 medium-6 large-6 cell">
+                  <br>
+                  <button id="{{componentName}}_button_10_{{id}}" class="button expanded" [ngClass]="{'button-dark': !shipPaymentUpdateEnabled && addressSaved, 'secondary': shipPaymentUpdateEnabled || !addressSaved }"
+                    [disabled]="shipPaymentUpdateEnabled || !addressSaved" id="paymentButton" (click)="submitOrder()" translate>checkoutLayout.checkout</button>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </ng-container>
+  <ng-template #emptyCart>
+    <p id="{{componentName}}_p_10_{{id}}" translate>checkoutLayout.empty</p>
+  </ng-template>
+</div>

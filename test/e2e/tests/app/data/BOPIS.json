@@ -1,0 +1,56 @@
+{
+    "css": {
+        "textField": {
+            "valid": [
+                "border-left",
+                "1px solid rgb(202, 202, 202)"
+            ],
+            "invalid": [
+                "border-left",
+                "5px solid rgb(204, 75, 55)"
+            ]
+        }
+    },
+    "user": {
+        "password": "passw0rd1"
+    },
+    "test01": {
+        "shippingMethond": "pickUpOption"
+    },
+    "test02": {
+        "searchLocation": "Miami,FL,USA",
+        "storeName" : "Miami Mall",
+        "expectedShppingMethod": "Pickup in store",
+        "shippingMethond": "pickUpOption",
+        "paymentMethod": "payInStoreOption",
+        "availability": "In Stock",
+        "shippingAddress": "2700 Tamiami Trail, Miami, Florida 33130,",
+        "expectedPaymentMethod": "Pay In Store"
+    },
+    "test03": {
+        "searchLocation": "Markham, ON, Canada",
+        "storeName" : "Warden Plaza",
+        "expectedShppingMethod": "Pickup in store",
+        "shippingMethond": "pickUpOption",
+        "paymentMethod": "payInStoreOption",
+        "availability": "In Stock"
+    },
+    "address": {
+        "firstName": "CaliGuestcheckoutfirst",
+        "lastName": "CaliGuestcheckoutlast",
+        "email": "CaliAddress@test.com",
+        "phoneNumber": "3334441111",
+        "addressLine1": "Los Angeles street address checkout",
+        "country": "United States",
+        "city": "Los Angeles guest checkout",
+        "state": "California",
+        "zipCode": "90001",
+        "orderDetailBillingAddress": "Los Angeles street address checkout, Los Angeles guest checkout, CA 90001, United States"
+    },
+    "test04": {
+        "searchLocation": "Miami,FL,USA",
+        "storeName": "Miami Mall",
+        "storePhone": "372-973-8724",
+        "storeServices": "Cafeteria, Click and Collect, Kitchen services, Financing, Assembly services"
+    }
+}

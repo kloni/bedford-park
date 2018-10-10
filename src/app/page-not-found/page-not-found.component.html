@@ -1,0 +1,9 @@
+<div class="grid-container grid-container-padded section" *ngIf="rc">
+	<div id="error_wrapper_{{id}}" class="error-wrapper">
+		<div id="error_code_msg_{{id}}" class="error-code-message">
+			<h2 id="errormsg_text_{{id}}" [innerHTML]="context?.elements?.errorMessage.value | formattedText:html"></h2>
+		</div>
+		<hr>
+		<wch-content *ngIf="context?.elements.productRecommendation" [id]="context.elements.productRecommendation.value.id"></wch-content>
+	</div>
+</div>

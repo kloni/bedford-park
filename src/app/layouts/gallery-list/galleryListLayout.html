@@ -1,0 +1,7 @@
+<div class="gallery-container">
+  <div [id]="rContext.id" class="item-selection grid-container grid-container-padded animated fadeInUp">
+    <h2 *ngIf="heading" wchEditable="heading">{{onHeading | async}}</h2>
+    <app-gallery [renderingContexts]="contextList"></app-gallery>
+    <app-view-all [renderingContext]="renderingContext"></app-view-all>
+  </div>
+</div>

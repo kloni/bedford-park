@@ -1,0 +1,12 @@
+{
+	"shoppingcart" : {
+		"beginCheckout": "Begin Checkout",
+		"empty": "Shopping cart is empty",
+		"lock" : "lock",
+        "unlock": "unlock",
+        "takeLockOver": "Take Over",
+        "csrLockErrorMessage":"The cart is currently locked by another customer service representative. {{errorUserName}} will not be able to make changes until it is unlocked.",
+        "customerLockErrorMessage":"Your cart is currently lockedby a customer service representative. You can make changes to the cart after it is unlocked.",
+        "takeLockOverMessage": "This order is locked by another administrator {{realLockOwner}}. If you want to work with this order or unlock it, click <b>Take Over</b>"
+	}
+}

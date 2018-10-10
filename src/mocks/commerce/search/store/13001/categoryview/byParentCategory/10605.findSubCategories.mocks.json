@@ -1,0 +1,55 @@
+{
+    "catalogGroupView": [
+        {
+            "identifier": "DiningTables",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/tables.jpg",
+            "storeID": "12901",
+            "name": "Tables",
+            "sequence": [
+                "11251_10605_1.00000",
+                "11301_10605_1.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10606",
+            "uniqueID": "10606",
+            "parentCatalogGroupID": [
+                "11251_10605",
+                "11301_10605"
+            ],
+            "shortDescription": "Find the perfect dining table for serving your guests in comfort and style"
+        },
+        {
+            "identifier": "DiningChairs",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/chairs.jpg",
+            "storeID": "12901",
+            "name": "Chairs",
+            "sequence": [
+                "11251_10605_2.00000",
+                "11301_10605_2.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10607",
+            "uniqueID": "10607",
+            "parentCatalogGroupID": [
+                "11251_10605",
+                "11301_10605"
+            ],
+            "shortDescription": "Sturdy seating that matches any dining room decor"
+        },
+        {
+            "identifier": "Buffets",
+            "thumbnail": "https://my4.digitalexperience.ibm.com/30817b50-78a2-4463-b5e2-2d7c39231327/dxdam/StockholmCAS/images/catalog/diningroom/category/buffets.jpg",
+            "storeID": "12901",
+            "name": "Buffets",
+            "sequence": [
+                "11251_10605_3.00000",
+                "11301_10605_3.00000"
+            ],
+            "resourceId": "https://abc123.watsoncommerce.ibm.com/search/resources/store/13001/categoryview/byId/10608",
+            "uniqueID": "10608",
+            "parentCatalogGroupID": [
+                "11251_10605",
+                "11301_10605"
+            ],
+            "shortDescription": "Add fully-functional drawer, cabinet, and counter space to any dining room in style"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "csrUserName1" : "csr@csr.com",
+    "csrPassword" : "wcs1admin",
+    "register" : {
+        "logonId": "shopper4csr@gmail.com",
+        "password": "diet4coke",
+        "firstName": "shopper4csrFirst",
+        "lastName": "shopper4csrLast",
+        "AddressBook" :
+            {
+                "firstName" : "shopper4csrFirstAB",
+                "lastName" : "shopper4csrLastAB",
+                "address" : "New Jersey st checkout",
+                "country" : "United States",
+                "countryShort" : "US",
+                "city" : "Newark",
+                "state" : "New Jersey",
+                "stateShort" : "NJ",
+                "zipCode" : "07001",
+                "phone":"111-222-3456"
+            }
+    },
+    "test01" : {
+        "fullNameWithoutTimeStamp" : "shopper4csrFirst shopper4csrLast",
+        "address" : "New Jersey st checkout\nNewark, New Jersey\n07001\nUnited States"
+    },
+    "test02" : {
+    },
+    "test03" : {
+        "lastName" : "shopper4csrLast"
+    },
+    "test04" : {
+    },
+    "test05" : {
+        "loginId": "csrCreated05@gmail.com",
+        "firstName" : "csrCreatedFirst05",
+        "lastName" : "csrCreatedLast05",
+        "phone" : "123-123-1205"
+    },
+    "test06" : {
+        "guestIdentifier" : "GUEST"
+    },
+    "test07" : {
+        "loginId": "csrCreated07@gmail.com",
+        "firstName" : "csrCreatedFirst07",
+        "lastName" : "csrCreatedLast07",
+        "phone" : "123-123-1207"
+    },
+    "test09" :{
+        "wishListDropDown" : "Default Wishlist (1 items)"
+    },
+    "test10" : {
+        "address" : "New Jersey st checkout\nNewark, New Jersey\n07001\nUnited States"
+    },
+    "test13" : {
+        "partialErrorMessage" : "Cart or order"
+    }
+
+}

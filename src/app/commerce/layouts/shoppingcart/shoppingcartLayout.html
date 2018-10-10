@@ -1,0 +1,45 @@
+<div id="shoppingcart_{{id}}" class="shopping-cart grid-container full">
+    <div class="grid-x">
+        <h2 class="small-12 medium-5 large-3" id="shoppingcart_h2_1_{{id}}" wchEditable="title">{{ title }}</h2>
+        <button id="shoppingcart_lockButton_{{id}}" *ngIf="isCSR && (!isLocked || (isLocked && !isLockOwner))" class="lock-button small-12 medium-2 large-1 button button-dark" (click)="lock()" translate>{{!isLocked?'shoppingcart.lock':'shoppingcart.takeLockOver'}}</button>
+        <button id="shoppingcart_unlockButton_{{id}}" *ngIf="isLocked && isCSR && isLockOwner" class="lock-button small-12 medium-2 large-1 button button-dark" (click)="unlock()" translate>shoppingcart.unlock</button>
+    </div>
+    <!-- Error dialog -->
+    <div *ngIf="errorMsg" class="medium-12 cell">
+        <div class="callout alert" translate data-closable>
+            <span id="shoppingcart_error_span_{{id}}">{{errorMsg}}</span>
+            <button id="shoppingcart_error_close_btn_{{id}}" class="close-button" aria-label="Dismiss Alert" type="button" (click)="clearError()"
+            data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+    <div class="callout notification-toast-info notification-toast-common" *ngIf="isLocked">
+        <div class="notification-message-info message-container grid-x grid-margin-x">
+            <div class="info-icon"></div>
+            <span class="small-11 medium-12" *ngIf="isLockOwner" [translateParams]="{errorUserName: errorUserName}" translate>shoppingcart.csrLockErrorMessage</span>
+            <span class="small-11 medium-12" *ngIf="!isLockOwner && !isCSR" translate>shoppingcart.customerLockErrorMessage</span>
+            <span class="small-11 medium-12" *ngIf="!isLockOwner && isCSR" [innerHTML]="'shoppingcart.takeLockOverMessage' | translate : {realLockOwner: lockOwner}"></span>
+        </div>
+    </div>
+    <p id="shoppingcart_p_2_{{id}}" *ngIf="!cart || !cart.orderItem || cart.orderItem.length == 0 else cartReady" translate>shoppingcart.empty</p>
+    <ng-template #cartReady>
+       <div id="shoppingcart_div_4_{{id}}" class="grid-container full animated fadeInUp">
+            <commerce-order-items [cartLocked]="isLocked" [isCSR]="isCSR && isLockOwner"></commerce-order-items>
+            <div id="shoppingcart_div_27_{{id}}" class="grid-container full">
+                <div id="shoppingcart_div_28_{{id}}" class="grid-x grid-padding-x cart-options">
+                    <div id="shoppingcart_div_29_{{id}}" class="small-12" [ngClass]="{'large-4': !!enablePromotionCode, 'large-6': !enablePromotionCode}">
+                        <commerce-cart-address [cartLocked]="isLocked" [isCSR]="isCSR && isLockOwner"></commerce-cart-address>
+                    </div>
+                    <div id="shoppingcart_div_36_{{id}}" class="small-12 large-4" *ngIf="enablePromotionCode">
+                        <commerce-order-promotion [cartLocked]="isLocked" [isCSR]="isCSR && isLockOwner"></commerce-order-promotion>
+                    </div>
+                    <div id="shoppingcart_div_50_{{id}}" class="small-12 cart-total-breakdown" [ngClass]="{'large-4': !!enablePromotionCode, 'large-6': !enablePromotionCode}">
+                        <commerce-order-total></commerce-order-total>
+                        <button id="shoppingcart_a_10_{{id}}" class="button button-dark expanded" [disabled]="isLocked && !isLockOwner" (click)="beginCheckout()" translate>shoppingcart.beginCheckout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</div>

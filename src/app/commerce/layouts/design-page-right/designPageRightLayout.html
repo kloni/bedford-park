@@ -1,0 +1,67 @@
+<div [ngSwitch]="layoutMode">
+  <div *ngSwitchCase="constants.SUMMARY">
+    <a class="read-more-link" href [routerLink]="navLink()">
+      <div class="summary-card">
+        <div *ngIf="leadImage" class="summary-card-image">
+          <!-- This sample shows the entire supplied image, so the correct aspect should be supplied by the user. -->
+          <div class="article-lead-image">
+            <div class="article-lead-image small-12 medium-4 cell">
+              <div class="image-container">
+                <img *ngIf="leadImage?.url" wchEditable="leadImage" [src]="utils.getImageUrl(rContext, LEAD_IMAGE_KEY, 'lead')" [alt]="utils.getImageName(rContext)"
+                     [title]="utils.getImageName(rContext)">
+              </div>
+            </div>
+            <div class="pub-info" >
+              <span *ngIf="date" wchEditable="date">{{ onDate | async | date:'MM/dd/yyyy'}}</span> <span *ngIf="author" wchEditable="author">, By {{onAuthor | async}} </span>
+            </div>
+            <p class="article-title" wchEditable="heading">{{onHeading | async}}</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div *ngSwitchCase="constants.DETAIL" class="grid-container section-small wch-page">
+    <div id="{{rContext.id}}" class="grid-x grid-padding-x">
+      <div class="medium-4 cell shrink">
+        <div *ngIf="relatedArticles" class="section">
+          <wch-contentref [wchEditable]="relatedArticles" [renderingContext]="onRelatedArticles | async">
+          </wch-contentref>
+        </div>
+      </div>
+      <div class="medium-8 cell auto">
+        <div class="designArticle section">
+          <div class="article-lead-image small-12 medium-4 cell">
+            <div class="image-container">
+              <img *ngIf="leadImage?.url" wchEditable="leadImage" [src]="utils.getImageUrl(rContext, LEAD_IMAGE_KEY, 'lead')" [alt]="utils.getImageName(rContext)"
+                   [title]="utils.getImageName(rContext)">
+            </div>
+            <div *ngIf="leadImageCaption && layoutMode === constants.DETAIL" class="caption" wchEditable="leadImageCaption">{{onLeadImageCaption | async}} <span wchEditable="leadImageCredit">{{(onLeadImageCredit | async)}}</span></div>
+          </div>
+          <h2 *ngIf="heading" wchEditable="heading" class="headline">{{onHeading | async}}</h2>
+          <div class="article-details">
+            <div class="byline-and-date">
+              <span *ngIf="date" wchEditable="date">{{ onDate | async | date:'MM/dd/yyyy'}}</span> <span *ngIf="author" wchEditable="author">, By {{onAuthor | async}} </span>
+            </div>
+            <app-share-social [renderingContext]="rContext"></app-share-social>
+          </div>
+          <ng-container *ngIf="body">
+            <div class="article-body" *ngFor="let item of onBody | async; let idx = index">
+              <div class="section" [wchEditable]="'body[' + idx + ']'" [innerHTML]="item | formattedText:html"></div>
+              <wch-contentref [renderingContext]="matchingBodyImages[idx]"></wch-contentref>
+            </div>
+          </ng-container>
+          <div class="article-medium-image" *ngFor="let item of leftoverBodyImages">
+            <app-article-body-image [renderingContext]="item"></app-article-body-image>
+          </div>
+          <wch-contentref *ngIf="authorBio" [wchEditable]="authorBio" [renderingContext]="onAuthorBio | async"></wch-contentref>
+        </div>
+      </div>
+      <div class="medium-12 cell">
+        <div *ngIf="recommendedProducts" class="section">
+          <wch-contentref [wchEditable]="recommendedProducts" [renderingContext]="onRecommendedProducts | async">
+          </wch-contentref>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

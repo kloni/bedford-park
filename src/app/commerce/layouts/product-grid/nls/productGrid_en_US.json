@@ -1,0 +1,14 @@
+{
+    "productGrid": {
+        "filteredBy": "Filtered by:",
+        "clearAll": "Clear All",
+        "productFoundSingle": "{{totalProducts}} product found for <b>{{keyword}}</b>",
+        "productFoundPlural": "{{totalProducts}} products found for <b>{{keyword}}</b>",
+        "noMatches": "0 matches for \"{{searchTerm}}\".",
+        "searchAgain": "Sorry, your search for \"{{searchTerm}}\" did not return any results. Please try another search.",
+        "suggestion": "Did you mean: ",
+        "noProductsFound": "Searching for <b>{{keyword}}</b> doesn't return any good matches. <br/>Try your search again with a different term or browse our recommendations",
+        "noProductsFoundForFilterTitle": "Sorry, no results found.",
+        "noProductsFoundForFilterText": "No results were found for the filter selected."
+    }
+}

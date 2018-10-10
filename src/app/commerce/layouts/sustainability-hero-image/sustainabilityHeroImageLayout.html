@@ -1,0 +1,13 @@
+<div [id]="rContext.id" class="wch-hero-image animated fadeIn">
+  <img wchEditable="image" [src]="utilsService.getImageUrl(rContext, IMAGE_KEY, 'banner')" [alt]="rContext.image.altText ? (onImage | async).altText : ''" [title]="rContext.image.altText ? (onImage | async).altText : ''" />
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="small-12 cell hero-message">
+        <div>
+          <h1 wchEditable="text" class="text-hero">{{(onText | async) ? text : ''}}</h1>
+          <p wchEditable="link">{{(onLink | async) ? link.linkText : ''}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

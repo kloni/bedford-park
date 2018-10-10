@@ -1,0 +1,82 @@
+<div id="wishlist_productCard_div_{{id}}" *ngIf="product.name" class="small-6 medium-3 cell text-center product-container">
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x wishlist-item-container">
+            <div class="cell">
+                <span class="relative inline-block">
+                    <i (click)="showItemDropdown()" class="wishlist-menu-icon hide-for-small-only" id="wishlist_productCard_action_button_{{id}}"></i>
+                    <a class="inline-block" [routerLink]="[product.seoUrl]">
+                        <img id="wishlist_productCard_fullImage_{{id}}" class="product-image" [src]="(product.thumbnail) | catImage">
+                    </a>
+                    <div tabindex=1 (blur)="hideItemDropdown()" #itemDropDown class="item-dropdown-menu hide-for-small-only" id="wishlist_productCard_menu_{{id}}">
+                        <div class="black-triangle"></div>
+                        <div class="black-top">
+                            {{ 'wishlist.MoveTo' | translate }}
+                            <button class="close-btn-drop-down close-button" aria-label="Close modal" type="button" id="wishlist_productCard_close_button_{{id}}">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="grid-container grid-x grid-margin-x dropdown-container">
+                            <ng-container *ngFor="let l of wishlists; let last = last">
+                                <div class="dropdown-row cell" *ngIf="l.uniqueID !== wishListId" >
+                                    <a (click)="moveToWishList(l.uniqueID)" id="wishlist_productCard_wishlist_name_{{id}}">
+                                        <ng-container *ngIf="l.descriptionName !== 'DefaultListName'; else defaultListOption ">
+                                            {{ l.descriptionName }}
+                                        </ng-container>
+                                        <ng-template #defaultListOption>
+                                            {{ 'wishlist.DefaultListName' | translate }}
+                                        </ng-template>
+                                    </a>
+                                </div>
+                                <hr class="no-margin" align="left" width="100%">
+                            </ng-container>
+                            <div class="dropdown-row cell">
+                                <a (click)="newWishList()" id="wishlist_productCard_newWishList_{{id}}">
+                                    <i class="new-wishlist-icon"></i>
+                                    {{ 'wishlist.CreateWishlist' | translate }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <p class="cell">
+                <a id="wishlist_productCard_name_{{id}}" [routerLink]="[product.seoUrl]">
+                    <strong>{{product.name}}</strong>
+                </a>
+            </p>
+            <ng-container *ngFor="let p of product.price">
+                <p class="cell" *ngIf="p.usage === 'Offer' && p.value !== ''">
+                    <span id="wishlist_productCard_price_{{id}}">
+                        <ng-container *ngIf="p.minimumValue && p.maximumValue && p.minimumValue.value !== p.maximumValue.value; else elseBlock">{{p.minimumValue.value | currency:p.currency:'symbol':'1.2-2'}} - {{p.maximumValue.value | currency:p.currency:'symbol':'1.2-2'}}</ng-container>
+                        <ng-template #elseBlock>{{p.value | currency:p.currency:'symbol':'1.2-2'}}</ng-template>
+                    </span>
+                    <span id="wishlist_productCard_price_{{id}}" *ngIf="p.value === null">{{ 'product.pricePending' | translate }}
+                    </span>
+                </p>
+            </ng-container>
+            <div class="cell small-6" align="right">
+                <div class="fit-content" align="center">
+                    <a class="button padding-10" [ngClass]="{'not-clickable': AddedToCart}" (click)="addToCart()" id="wishlist_productCard_addtocart_{{id}}">
+                        <span *ngIf="!AddedToCart">{{ 'product.addToCart' | translate }}</span>
+                        <span *ngIf="AddedToCart"><i class="check-icon"></i>{{ 'wishlist.Added' | translate }}</span>
+                    </a>
+                    <div *ngIf="numInCart > 0" class="grey-font">
+                        {{ 'wishlist.InCart' | translate : { numberOfItem: numInCart } }}
+                    </div>
+                </div>
+            </div>
+            <div class="cell small-6" align="left">
+                <a class="button" (click)="removeItem()" id="wishlist_productCard_remove_{{id}}">{{ 'order-items.remove' | translate }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="alert-modal animated slideInUp" id="confirmationModal_{{id}}" data-close-on-click="true" data-overlay="false" data-reveal>
+    <div class="notification notification-toast-error notification-toast-common">
+        <div id="pdpModalError_{{id}}" class="notification-message-error message-container">{{ 'wishlist.cartLocked' | translate }}</div>
+        <button class="close-button confirmation-modal-close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</div>

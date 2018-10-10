@@ -1,0 +1,43 @@
+<div id="{{componentName}}_small_{{id}}" class="cart-tax-shipping-mobile hide-for-large">
+  <ul id="{{componentName}}_ul_30_{{id}}" class="vertical menu accordion-menu no-bullet" data-accordion-menu>
+    <li id="{{componentName}}_li_31_{{id}}">
+      <a id="{{componentName}}_a_4_{{id}}" translate>cart-address.estimateShippingTax</a>
+      <ul id="{{componentName}}_ul_32_{{id}}" class="vertical nested no-bullet">
+        <li id="{{componentName}}_li_33_{{id}}">
+          <ng-container *ngTemplateOutlet="addressTemplate; context: {$implicit: 'mobile'}">
+          </ng-container>
+          <a id="{{componentName}}_a_5_{{id}}" class="mobile-apply bold" translate (click)="getQuote()" translate>cart-address.getQuote</a>
+          <br>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div id="{{componentName}}_div_34_{{id}}" class="grid-y grid-frame cart-tax-shipping show-for-large hide-for-small-only hide-for-medium-only">
+  <p id="{{componentName}}_p_35_{{id}}" class="bold cart-headers" translate>cart-address.estimateShippingTax</p>
+  <ng-container *ngTemplateOutlet="addressTemplate; context: {$implicit: 'notMobile'}">
+  </ng-container>
+  <a id="{{componentName}}_a_6_{{id}}" translate (click)="getQuote()" *ngIf="!cartLocked || isCSR" translate>cart-address.getQuote</a>
+</div>
+
+<ng-template #addressTemplate let-section>
+  <label>
+    <span id="{{componentName}}_{{section}}_span_80_{{id}}" translate>cart-address.shipTo</span>
+    <select id="{{componentName}}_{{section}}_select_1_{{id}}" name="countries" [(ngModel)]="country" *ngIf="!!addresses">
+      <ng-container *ngFor="let addr of addresses; first as isFirst">
+        <option #option [ngValue]="addr" [disabled]="addr.isSeparator" [selected]="isFirst">{{addr.displayName || addr.nickName}}</option>
+      </ng-container>
+    </select>
+    <!-- country could be a country or an address -->
+    <p id="{{componentName}}_{{section}}_p_19_{{id}}" *ngIf="country?.addressLine && !country.addressLine[1]" translate [translateParams]="{country: country.country, city: country.city || '', state: country.state || '', zip: country.zipCode||'', l1: country.addressLine[0] || ''}">cart-address.address</p>
+    <p id="{{componentName}}_{{section}}_p_20_{{id}}" *ngIf="country?.addressLine && country?.addressLine[1]" translate [translateParams]="{country: country.country, city: country.city || '', state: country.state || '', zip: country.zipCode||'', l1: country.addressLine[0] || '', l2: country.addressLine[1]||''}">cart-address.address2</p>
+  </label>
+  <ng-container *ngIf="!!addresses && !country.addressId">
+    <label>
+      <span id="{{componentName}}_{{section}}_span_81_{{id}}" translate>cart-address.zipCode</span>
+      <input id="{{componentName}}_{{section}}_input_1_{{id}}" [readonly]="cartLocked && !isCSR" type="text" name="zipCode"
+        [(ngModel)]="zip" pattern="{{zipPattern[country.code]}}"  #zipinput="ngModel" [ngClass]="{'is-invalid-input': zipinput.invalid && (zipinput.touched || zipinput.dirty)}"/>
+        <span *ngIf="zipinput.invalid && (zipinput.touched || zipinput.dirty)" class="form-error is-visible" id="{{componentName}}_{{section}}_span_91_{{id}}" translate>cart-address.invalidZip_{{country.code}}</span>
+    </label>
+  </ng-container>
+</ng-template>
