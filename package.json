@@ -90,7 +90,7 @@
     "json-loader": "^0.5.4",
     "minifier": "~0.8.1",
     "ng2-logger": "^2.0.35",
-    "ngx-infinite-scroll": "^6.0.1",
+    "ngx-infinite-scroll": "0.8.4",
     "node-sass": "4.7.2",
     "protractor-pretty-html-reporter": "0.0.16",
     "rxjs": "^5.5.10",
