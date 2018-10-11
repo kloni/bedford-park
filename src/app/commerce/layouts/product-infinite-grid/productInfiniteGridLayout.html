@@ -63,6 +63,7 @@
         <ul *ngIf="insertedContent">
             <li *ngFor="let v of insertedContent;trackBy: trackByComponentId;">
                 <wch-contentref [renderingContext]="v"></wch-contentref>
+                <!--v.elements.-->
             </li>
         </ul>
     </pre>
