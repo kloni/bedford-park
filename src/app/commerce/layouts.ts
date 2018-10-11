@@ -48,6 +48,7 @@ import { PrivacyPolicyModalLayoutComponent } from './layouts/privacy-policy-moda
 import { ProductCardLayoutComponent } from './layouts/product-card/productCardLayout';
 import { ProductDetailsImageLayoutComponent } from './layouts/product-details-image/productDetailsImageLayout';
 import { ProductFilterLayoutComponent } from './layouts/product-filter/productFilterLayout';
+import { ProductGridInsertedContentLayoutComponent } from './layouts/product-grid-inserted-content/productGridInsertedContentLayout';
 import { ProductGridLayoutComponent } from './layouts/product-grid/productGridLayout';
 import { ProductInfiniteGridLayoutComponent } from './layouts/product-infinite-grid/productInfiniteGridLayout';
 import { RegistrationLayoutComponent } from './layouts/registration/registrationLayout';
@@ -75,9 +76,8 @@ import { TitleLayoutComponent } from './layouts/title/titleLayout';
 import { TwoColumnsLeftFilterLayoutComponent } from './layouts/two-columns-left-filter/twoColumnsLeftFilterLayout';
 import { TwoColumnsLeftFilterWithTabLayoutComponent } from './layouts/two-columns-left-filter-with-tab/twoColumnsLeftFilterWithTabLayout';
 import { WishlistLayoutComponent } from './layouts/wishlist/wishlistLayout';
-import { WishlistCardLayoutComponent} from './layouts/wishlist/wishlist-card-layout/wishlist-card-layout';
+import { WishlistCardLayoutComponent} from'./layouts/wishlist/wishlist-card-layout/wishlist-card-layout';
 import { ProductGridWithContentComponent } from './components/generic/product-grid/product-grid-with-content.component';
-
 
 export const LAYOUTS = [
   AddressBookLayoutComponent,
@@ -127,6 +127,7 @@ export const LAYOUTS = [
   ProductCardLayoutComponent,
   ProductDetailsImageLayoutComponent,
   ProductFilterLayoutComponent,
+  ProductGridInsertedContentLayoutComponent,
   ProductGridLayoutComponent,
   ProductInfiniteGridLayoutComponent,
   RegistrationLayoutComponent,

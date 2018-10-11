@@ -1,0 +1,46 @@
+<!-- layout type -->
+<h1>ProductGridInsertedContentLayoutComponent</h1>
+<!-- show some metainformation -->
+<h2>Meta Information</h2>
+<dl>
+    <!-- more properties are available, consult https://www.npmjs.com/package/ibm-wch-sdk-ng for documentation -->
+    <dt>ID</dt>
+    <dd>{{ renderingContext.id }}</dd>
+    <dt>name</dt>
+    <dd>{{ renderingContext.name }}</dd>
+</dl>
+<a href="https://www.npmjs.com/package/ibm-wch-sdk-ng">more documentation</a>
+<!-- show the fields -->
+<h2>Property List</h2>
+  <dl>
+  <dt>
+    Property: *positionAfter
+| Key: positionAfter
+| Label: Position after
+  </dt>
+  <dd>
+<!-- number type, see https://angular.io/api/common/DecimalPipe -->
+    <div>{{ positionAfter | number}}</div>
+</dd>
+  <dt>
+    Property: *image
+| Key: image
+| Label: Image
+  </dt>
+  <dd>
+<!-- image -->
+    <img [src]="renderingContext.context.hub.deliveryUrl.origin + image.url" [alt]="image.altText" [title]="image.asset.fileName">
+</dd>
+  <dt>
+    Property: content
+| Key: content
+| Label: Content
+  </dt>
+  <dd>
+<!-- reference, see https://www.npmjs.com/package/ibm-wch-sdk-ng ContentrefComponent -->
+<!-- use the following markup to pull in the reference -->
+    <pre *ngIf="content">
+        &lt;wch-contentref [renderingContext]=&quot;content&quot;&gt;&lt;/wch-contentref&gt;
+    </pre>
+</dd>
+</dl>
