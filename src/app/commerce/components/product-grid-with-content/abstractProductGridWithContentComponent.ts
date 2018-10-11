@@ -4,7 +4,6 @@
 import {
     Observable
 } from 'rxjs/Observable';
-import { ProductGridInsertedContentType } from './../../elements/product-grid-inserted-content/productGridInsertedContentType';
 import { ProductGridWithContentRenderingContext, assertProductGridWithContentRenderingContext, isProductGridWithContentRenderingContext } from './productGridWithContentRenderingContext';
 import { AbstractRenderingComponent, RenderingContext, RenderingContextBinding } from 'ibm-wch-sdk-ng';
 
@@ -27,25 +26,26 @@ abstract class AbstractProductGridWithContentComponent extends AbstractRendering
     /*
      * {
      *   "allowMultipleValues": true,
-     *   "elementType": "group",
-     *   "fieldLabel": "Custom Element",
-     *   "key": "inserted",
-     *   "label": "Content to insert",
-     *   "minimumValues": 1,
-     *   "required": true,
-     *   "typeRef": {
-     *     "id": "7e7b2096-031b-4ad1-8886-b0be506086eb"
-     *   }
+     *   "elementType": "reference",
+     *   "fieldLabel": "Content item",
+     *   "key": "insertedContent",
+     *   "label": "Inserted Content",
+     *   "minimumValues": 0,
+     *   "restrictTypes": [
+     *     {
+     *       "id": "7e7b2096-031b-4ad1-8886-b0be506086eb"
+     *     }
+     *   ]
      * }
      */
-    @RenderingContextBinding('groups.inserted')
-    readonly onInserted: Observable<ProductGridInsertedContentType[]>;
+    @RenderingContextBinding('references.insertedContent', [])
+    readonly onInsertedContent: Observable<RenderingContext[]>;
 
     /*
-     * @see #onInserted
+     * @see #onInsertedContent
      */
     @RenderingContextBinding()
-    readonly inserted: ProductGridInsertedContentType[];
+    readonly insertedContent: RenderingContext[];
 
     protected constructor() {
         super();

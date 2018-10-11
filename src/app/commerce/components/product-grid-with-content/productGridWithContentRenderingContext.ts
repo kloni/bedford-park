@@ -7,8 +7,7 @@ import { map } from 'rxjs/operators/map';
 import {
     RenderingContext
 } from 'ibm-wch-sdk-ng';
-import { ProductGridInsertedContentType } from './../../elements/product-grid-inserted-content/productGridInsertedContentType';
-import { KEY_INSERTED, ProductGridWithContent, isProductGridWithContent } from './../../elements/product-grid-with-content/productGridWithContentType';
+import { KEY_INSERTED_CONTENT, ProductGridWithContent, isProductGridWithContent } from './../../elements/product-grid-with-content/productGridWithContentType';
 
 /*
  * @name Product grid with content
@@ -37,22 +36,23 @@ export interface ProductGridWithContentRenderingContext extends RenderingContext
      */
     elements: ProductGridWithContent;
 
-    groups: {
+    references: {
     /**
      * {
      *   "allowMultipleValues": true,
-     *   "elementType": "group",
-     *   "fieldLabel": "Custom Element",
-     *   "key": "inserted",
-     *   "label": "Content to insert",
-     *   "minimumValues": 1,
-     *   "required": true,
-     *   "typeRef": {
-     *     "id": "7e7b2096-031b-4ad1-8886-b0be506086eb"
-     *   }
+     *   "elementType": "reference",
+     *   "fieldLabel": "Content item",
+     *   "key": "insertedContent",
+     *   "label": "Inserted Content",
+     *   "minimumValues": 0,
+     *   "restrictTypes": [
+     *     {
+     *       "id": "7e7b2096-031b-4ad1-8886-b0be506086eb"
+     *     }
+     *   ]
      * }
     */
-    ['inserted']: ProductGridInsertedContentType[];
+    ['insertedContent']?: RenderingContext[];
     };
 
 }

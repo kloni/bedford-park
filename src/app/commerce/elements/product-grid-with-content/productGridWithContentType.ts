@@ -1,10 +1,9 @@
 /**
  * Do not modify this file, it is auto-generated.
  */
-import { MultiProductGridInsertedContentElement, ProductGridInsertedContentType, isMultiProductGridInsertedContentElement } from './../product-grid-inserted-content/productGridInsertedContentType';
-import { GroupElement, isMultiGroupElement, isSingleGroupElement } from 'ibm-wch-sdk-ng';
+import { GroupElement, MultiReferenceElement, RenderingContext, isMultiGroupElement, isMultiReferenceElement, isSingleGroupElement } from 'ibm-wch-sdk-ng';
 
-export const KEY_INSERTED = 'inserted';
+export const KEY_INSERTED_CONTENT = 'insertedContent';
 
 /*
  * @name Product grid with content
@@ -15,18 +14,19 @@ export interface ProductGridWithContent {
     /**
      * {
      *   "allowMultipleValues": true,
-     *   "elementType": "group",
-     *   "fieldLabel": "Custom Element",
-     *   "key": "inserted",
-     *   "label": "Content to insert",
-     *   "minimumValues": 1,
-     *   "required": true,
-     *   "typeRef": {
-     *     "id": "7e7b2096-031b-4ad1-8886-b0be506086eb"
-     *   }
+     *   "elementType": "reference",
+     *   "fieldLabel": "Content item",
+     *   "key": "insertedContent",
+     *   "label": "Inserted Content",
+     *   "minimumValues": 0,
+     *   "restrictTypes": [
+     *     {
+     *       "id": "7e7b2096-031b-4ad1-8886-b0be506086eb"
+     *     }
+     *   ]
      * }
     */
-    ['inserted']: MultiProductGridInsertedContentElement;
+    ['insertedContent']?: MultiReferenceElement;
 }
 
 export interface ProductGridWithContentElement extends GroupElement {
@@ -54,7 +54,7 @@ export interface MultiProductGridWithContentElement extends ProductGridWithConte
 */
 export function isProductGridWithContent(aValue: any): aValue is ProductGridWithContent {
     return !!aValue
-        && isMultiProductGridInsertedContentElement(aValue[KEY_INSERTED])
+        && (!aValue[KEY_INSERTED_CONTENT] || isMultiReferenceElement(aValue[KEY_INSERTED_CONTENT]))
         ;
 }
 
@@ -87,16 +87,17 @@ export interface ProductGridWithContentType {
     /**
      * {
      *   "allowMultipleValues": true,
-     *   "elementType": "group",
-     *   "fieldLabel": "Custom Element",
-     *   "key": "inserted",
-     *   "label": "Content to insert",
-     *   "minimumValues": 1,
-     *   "required": true,
-     *   "typeRef": {
-     *     "id": "7e7b2096-031b-4ad1-8886-b0be506086eb"
-     *   }
+     *   "elementType": "reference",
+     *   "fieldLabel": "Content item",
+     *   "key": "insertedContent",
+     *   "label": "Inserted Content",
+     *   "minimumValues": 0,
+     *   "restrictTypes": [
+     *     {
+     *       "id": "7e7b2096-031b-4ad1-8886-b0be506086eb"
+     *     }
+     *   ]
      * }
     */
-    ['inserted']: ProductGridInsertedContentType;
+    ['insertedContent']?: RenderingContext;
 }

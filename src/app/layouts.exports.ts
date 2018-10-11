@@ -24,3 +24,4 @@ export { StandardPageHero4BlocksLayoutComponent } from './layouts/standard-page-
 export { StandardPageLayoutComponent } from './layouts/standard-page/standardPageLayout';
 export { VerticalDynamicListLayoutComponent } from './layouts/vertical-dynamic-list/verticalDynamicListLayout';
 export { VerticalListLayoutComponent } from './layouts/vertical-list/verticalListLayout';
+

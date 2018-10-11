@@ -49,5 +49,5 @@ export const LAYOUTS = [
   StandardPageHero4BlocksLayoutComponent,
   StandardPageLayoutComponent,
   VerticalDynamicListLayoutComponent,
-  VerticalListLayoutComponent,
+  VerticalListLayoutComponent
 ];

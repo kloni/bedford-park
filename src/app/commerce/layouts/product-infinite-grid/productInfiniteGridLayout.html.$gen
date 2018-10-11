@@ -1,5 +1,5 @@
 <!-- layout type -->
-<h1>ProductGridLayoutComponent</h1>
+<h1>ProductInfiniteGridLayoutComponent</h1>
 <!-- show some metainformation -->
 <h2>Meta Information</h2>
 <dl>
