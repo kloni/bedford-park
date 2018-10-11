@@ -23,7 +23,7 @@ import { CommerceEnvironment } from 'app/commerce/commerce.environment';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TypeProductGridComponent } from './../../product-grid/typeProductGridComponent';
 import { BreadcrumbService } from 'app/commerce/common/util/breadcrumb.service';
-import { ProductListingTransactionService } from '../../../services/componentTransaction/productlist.service';
+import { ProductListingInfiniteTransactionService } from '../../../services/componentTransaction/productlist-infinite.service';
 import { Subscription } from 'rxjs/Subscription';
 import * as $ from 'jquery';
 import { Constants } from 'app/Constants';
@@ -67,7 +67,7 @@ export class ProductGridComponent extends TypeProductGridComponent implements On
     private readonly searchLink:string;
     private readonly plpLink:string;
     constructor(
-        private productListingSharedService: ProductListingTransactionService,
+        private productListingSharedService: ProductListingInfiniteTransactionService,
         private route: ActivatedRoute,
         private storefrontUtils: StorefrontUtils,
         private router: Router,
