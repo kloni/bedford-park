@@ -269,5 +269,3 @@ const pageRoutes: Routes = [
 	bootstrap: [AppComponent]
 } )
 export class AppModule { }
-
-platformBrowserDynamic().bootstrapModule(AppModule);
