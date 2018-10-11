@@ -76,6 +76,8 @@ import { TwoColumnsLeftFilterLayoutComponent } from './layouts/two-columns-left-
 import { TwoColumnsLeftFilterWithTabLayoutComponent } from './layouts/two-columns-left-filter-with-tab/twoColumnsLeftFilterWithTabLayout';
 import { WishlistLayoutComponent } from './layouts/wishlist/wishlistLayout';
 import { WishlistCardLayoutComponent} from './layouts/wishlist/wishlist-card-layout/wishlist-card-layout';
+import { ProductGridWithContentComponent } from './components/generic/product-grid/product-grid-with-content.component';
+
 
 export const LAYOUTS = [
   AddressBookLayoutComponent,
@@ -152,5 +154,6 @@ export const LAYOUTS = [
   TwoColumnsLeftFilterLayoutComponent,
   TwoColumnsLeftFilterWithTabLayoutComponent,
   WishlistLayoutComponent,
-  WishlistCardLayoutComponent
+  WishlistCardLayoutComponent,
+  ProductGridWithContentComponent
 ];

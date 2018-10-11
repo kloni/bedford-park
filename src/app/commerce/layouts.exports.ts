@@ -71,6 +71,7 @@ export { ProductFilterLayoutComponent } from './layouts/product-filter/productFi
 export { ProductGridComponent } from './components/generic/product-grid/product-grid.component';
 export { ProductGridLayoutComponent } from './layouts/product-grid/productGridLayout';
 export { TypeProductGridWithContentComponent } from './components/product-grid-with-content/typeProductGridWithContentComponent';
+export { ProductGridWithContentComponent } from './components/generic/product-grid/product-grid-with-content.component';
 export { ProductInfiniteGridLayoutComponent } from './layouts/product-infinite-grid/productInfiniteGridLayout';
 export { RegistrationLayoutComponent } from './layouts/registration/registrationLayout';
 export { SharedFormattedTextLayoutComponent } from './layouts/shared-formatted-text/sharedFormattedTextLayout';
