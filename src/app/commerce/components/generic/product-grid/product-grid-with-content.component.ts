@@ -42,7 +42,7 @@ const isEqual = require('lodash/isEqual');
     templateUrl: './product-grid.component.html',
     styleUrls: []
 })
-export class ProductGridComponent extends TypeProductGridComponent implements OnInit {
+export class ProductGridWithContentComponent extends TypeProductGridComponent implements OnInit {
     id: any;
     lists: any;
     totalProducts: number = 0;
