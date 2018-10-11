@@ -1,0 +1,49 @@
+@import '../../../theme_settings.scss';
+
+.search-results-header{
+    margin-bottom: 1rem;
+    .search-results-label{
+        display: flex;
+        align-items: flex-end;
+        .search-results-label{
+            margin: 0;
+        }
+    }
+    .search-results-options{
+        >select{
+            margin: 0;
+        }
+        @media(max-width: 39em){
+            margin-top: 1rem;
+        }
+    }
+}
+
+.suggested-keywords {
+    h4 {
+        margin-bottom: 0;
+    }
+
+    .suggestion-link {
+        margin-right: 4px;
+    }
+}
+
+@include facet-area();
+
+// overwrite products grid spacing
+/deep/{
+    .gallery{
+        .product-container{
+            .grid-container{
+                a.cell{
+                    margin: 0;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

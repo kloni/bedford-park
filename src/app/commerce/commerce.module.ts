@@ -18,6 +18,7 @@ import { AuthenticationTransactionService } from "./services/componentTransactio
 import { CartTransactionService } from "./services/componentTransaction/cart.transaction.service";
 import { OrderTransactionService } from "./services/componentTransaction/order.transaction.service";
 import { ProductListingTransactionService } from './services/componentTransaction/productlist.service';
+import { ProductListingInfiniteTransactionService } from './services/componentTransaction/productlist-infinite.service';
 
 import { CategoryService } from './services/category.service';
 import { CommerceService } from './services/commerce.service';
@@ -49,6 +50,7 @@ import { RestModule } from "./services/rest/rest.module";
 		FilterService,
 		OrderTransactionService,
 		ProductListingTransactionService,
+		ProductListingInfiniteTransactionService,
 		ProductService,
 		RecommendationService,
 		DatePipe

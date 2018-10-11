@@ -3,6 +3,14 @@ import {
 } from 'ibm-wch-sdk-ng';
 import { Component } from '@angular/core';
 import { TypeProductGridWithContentComponent } from './../../components/product-grid-with-content/typeProductGridWithContentComponent';
+import { ProductGridWithContentComponent } from './../../components/generic/product-grid/product-grid-with-content.component';
+import { ProductListingTransactionService } from '../../services/componentTransaction/productlist.service';
+import { ActivatedRoute, Router } from '@angular/router';
+import { StorefrontUtils } from 'app/commerce/common/storefrontUtils.service';
+import { BreadcrumbService } from 'app/commerce/common/util/breadcrumb.service';
+import { ProductListingInfiniteTransactionService } from 'app/commerce/services/componentTransaction/productlist-infinite.service';
+
+
 
 /** Useful imports */
 // import { map } from 'rxjs/operators/map';
@@ -31,15 +39,20 @@ import { TypeProductGridWithContentComponent } from './../../components/product-
   styleUrls: ['./productInfiniteGridLayout.scss'],
   preserveWhitespaces: false
 })
-export class ProductInfiniteGridLayoutComponent extends TypeProductGridWithContentComponent {
+export class ProductInfiniteGridLayoutComponent extends ProductGridWithContentComponent {
 
     /*
      * TODO add custom fields here. These fields should be those
      * specific to this layout.
      */
 
-    constructor() {
-        super();
+    constructor(
+        productListingTransactionService : ProductListingInfiniteTransactionService, 
+        route: ActivatedRoute,
+        storefrontUtils: StorefrontUtils, 
+        router: Router,
+        bcService: BreadcrumbService) {
+        super(productListingTransactionService, route, storefrontUtils, router, bcService);
         /*
          * TODO initialize your custom fields here, note that
          * you can refer to the values bound via @RenderingContextBinding from
