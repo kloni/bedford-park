@@ -76,6 +76,10 @@ import { CustomerServiceGuard } from './commerce/guard/customer-service-guard.gu
 import {SecureGuard} from './commerce/guard/secure-guard.guard';
 import { DynamicStoreLocatorModule } from 'app/commerce/dynamic/store-locator/store-locator.dynamic.module';
 
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+
+
 export function ConfigInitializer( cs: ConfigService, h: HttpXhrBackend, s: StorefrontUtils, i: Injector ) {
 	return () => Promise.all([cs.init(), s.init()]);
 }
@@ -190,7 +194,8 @@ const pageRoutes: Routes = [
 				deps: [HttpClient]
 			}
 		} ),
-		DynamicComponentLoaderModule.forRoot(manifests)
+		DynamicComponentLoaderModule.forRoot(manifests),
+        InfiniteScrollModule
 	],
 	declarations: [
 		AppComponent,
@@ -264,3 +269,5 @@ const pageRoutes: Routes = [
 	bootstrap: [AppComponent]
 } )
 export class AppModule { }
+
+platformBrowserDynamic().bootstrapModule(AppModule);

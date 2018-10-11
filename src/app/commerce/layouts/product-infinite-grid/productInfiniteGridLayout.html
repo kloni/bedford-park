@@ -1,23 +1,80 @@
-<!-- layout type -->
-<h1>ProductInfiniteGridLayoutComponent</h1>
-<!-- show some metainformation -->
-<h2>Meta Information</h2>
-<dl>
-    <!-- more properties are available, consult https://www.npmjs.com/package/ibm-wch-sdk-ng for documentation -->
-    <dt>ID</dt>
-    <dd>{{ renderingContext.id }}</dd>
-    <dt>name</dt>
-    <dd>{{ renderingContext.name }}</dd>
-</dl>
-<a href="https://www.npmjs.com/package/ibm-wch-sdk-ng">more documentation</a>
-<!-- show the fields -->
-<h2>Property List</h2>
-  <dl>
-  <dt>
-    Property: *inserted
-| Key: inserted
-| Label: Content to insert
-  </dt>
-  <dd>
-</dd>
-</dl>
+<div class="small-12 medium-8 cell product-listing-container" id="productGrid_div_1_{{id}}"
+     [attr.dataci_toolbar]="categoryId+'_productListing'"
+     infiniteScroll
+     [infiniteScrollDistance]="0"
+     [infiniteScrollUpDistance]="0"
+     [infiniteScrollThrottle]="300"
+     (scrolled)="onScrollDown()"
+     (scrolledUp)="onScrollUp()">
+    <!-- Keywords suggestion -->
+    <div *ngIf="suggestedKeywordUsed?.display" id="productGrid_div_18_{{id}}" class="suggested-keywords">
+        <h4 translate [translateParams]="{ searchTerm: suggestedKeywordUsed.searchTerm }" id="productGrid_p_19_{{id}}">productGrid.noMatches</h4>
+        <p translate [translateParams]="{ searchTerm: suggestedKeywordUsed.searchTerm }" id="productGrid_p_21_{{id}}">productGrid.searchAgain</p>
+        <p translate id="productGrid_p_20_{{id}}">productGrid.suggestion
+            <ng-container *ngFor="let suggestion of productListingSharedService.suggestedKeywords; let i  =index">
+                <a class="suggestion-link" (click)="goToSearchPageByKeyword(suggestion)" id="productGrid_a_22_{{i}}_{{id}}">{{suggestion}}</a>
+            </ng-container>
+        </p>
+    </div>
+    <!-- Total products return + sorting options -->
+    <div class="grid-x grid-margin-x search-results-header" id="productGrid_div_2_{{id}}" *ngIf="lists?.length > 0">
+        <div class="small-12 medium-12 large-8 cell search-results-label" id="productGrid_div_3_{{id}}">
+            <p id="productGrid_span_4_{{id}}" *ngIf="totalProducts === 1" [innerHTML]="'productGrid.productFoundSingle' | translate : {
+                totalProducts: totalProducts,
+                keyword: keyword }">
+            </p>
+            <p id="productGrid_span_4_{{id}}" *ngIf="totalProducts > 1" [innerHTML]="'productGrid.productFoundPlural' | translate : {
+                totalProducts: totalProducts,
+                keyword: keyword }">
+            </p>
+        </div>
+        <div class="small-12 medium-12 large-4 cell search-results-options" id="productGrid_div_5_{{id}}">
+            <select (change)="onSortDropdownSelect($event.target.value)" id="productGrid_select_6_{{id}}">
+                <ng-container *ngFor="let option of sortOptions; let i = index">
+                    <option value="{{option.value}}" id="productGrid_option_7_{{i}}_{{id}}">
+                        {{option.translationKey | translate}}
+                    </option>
+                </ng-container>
+            </select>
+        </div>
+    </div>
+    <!-- No Products Found -->
+    <div *ngIf="showNoProductsErrorMsg" id="productGrid_div_23_{{id}}">
+        <p [innerHTML]="'productGrid.noProductsFound' | translate : { keyword: keyword }" id="productGrid_p_24_{{id}}"></p>
+    </div>
+    <!-- Filtered By -->
+    <div class="grid-x grid-margin-x facet-area" *ngIf="facetLabels.length > 0" id="productGrid_div_8_{{id}}">
+        <div class="small-12 medium-12 cell more-actions" id="productGrid_div_9_{{id}}">
+            <span class="facet-title" id="productGrid_span_10_{{id}}">
+                {{ 'productGrid.filteredBy' | translate }}
+            </span>
+            <ng-container *ngFor="let label of facetLabels; let i = index">
+                <div class="filter-label" id="productGrid_div_11_{{i}}_{{id}}">
+                    <button class="go-link" (click)="removeFacet(label)" id="productGrid_a_12_{{i}}_{{id}}"></button>
+                    <span id="productGrid_span_13_{{i}}_{{id}}">{{label.text}}</span>
+                    <span *ngIf="facetLabels?.length > 1" class="facet-divider" id="productGrid_span_14_{{i}}_{{id}}">|</span>
+                </div>
+            </ng-container>
+            <button class="clear-all" *ngIf="facetLabels?.length > 1" (click)="clearAll()" id="productGrid_a_15_{{id}}">{{ 'productGrid.clearAll' | translate }}</button>
+        </div>
+    </div>
+    <!-- Grids -->
+    <app-gallery [renderingContexts]="lists" id="productGrid_appGallery_16_{{id}}" [twoColMobile]="true"></app-gallery>
+    <!-- Pagination -->
+    <pagination-layout-component class="grid-x grid-margin-x" (goPage)="goToPage($event)" (goNext)="onNext()" (goPrev)="onPrev()" [pagesToShow]="totalProducts / pageSize" [pageNumber]="pageNumber" [pageSize]="pageSize" [total]="totalProducts" id="productGrid_pagination_17_{{id}}">
+    </pagination-layout-component>
+</div>
+<!-- No Products for Filter Modal -->
+<div class="tiny reveal animated fadeIn noresults-modal" [id]="noProductModalId" data-reveal>
+    <div class="grid-container grid-container-padded" id="productGrid_div_25_{{id}}">
+        <div class="grid-x grid-margin-x" id="productGrid_div_26_{{id}}">
+            <div class="small-12 cell" id="productGrid_div_27_{{id}}">
+                <h4 id="productGrid_h4_28_{{id}}">{{ 'productGrid.noProductsFoundForFilterTitle' | translate }}</h4><hr>
+                <button class="close-button" data-close aria-label="Close reveal" type="button" id="productGrid_button_29_{{id}}">
+                    <span id="productGrid_span_30_{{id}}" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="small-12 medium-12 cell" id="productGrid_div_31_{{id}}">{{ 'productGrid.noProductsFoundForFilterText' | translate }}</div>
+        </div>
+    </div>
+</div>
